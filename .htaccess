@@ -11,7 +11,7 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 # Never serve repository internals, build tooling or dotfiles, even if a deploy leaves them behind.
 RewriteRule (^|/)\.(?!well-known/) - [F,L]
 RewriteRule ^(tools|test|docs|raw|node_modules)(/|$) - [F,L]
-<FilesMatch "\.(py|md|sh|bundle|log)$">
+<FilesMatch "\.(py|sh|bundle|log)$">
   Require all denied
 </FilesMatch>
 
