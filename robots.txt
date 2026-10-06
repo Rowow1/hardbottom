@@ -1,0 +1,6 @@
+# Pre-launch: keep search engines out until the owner unlocks the site.
+# At launch, replace the two lines below with:
+#   User-agent: *
+#   Allow: /
+User-agent: *
+Disallow: /
