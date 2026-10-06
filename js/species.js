@@ -2,7 +2,7 @@
    Same pattern as the legal encyclopedia in law.js: a fixed side panel, a filter box, one
    collapsible card per species. Data: data/species.json (window.__DATA.species in the standalone
    build). Citation chips come from window.FLLaw.cite and open the encyclopedia.
-   Wording rule: "allowed" is never shown as a green light. It reads "Spear is legal gear; limits
+   Wording rule: "allowed" is never shown as a green light. It reads "Spear not excluded as gear; limits
    apply", in neutral styling, because place closures apply regardless of species. */
 (function () {
   'use strict';
@@ -16,7 +16,7 @@
   var SPEAR = {
     prohibited: { cls: 'sp-no',   txt: 'Spear prohibited' },
     restricted: { cls: 'sp-warn', txt: 'Spear restricted: read the region rows' },
-    allowed:    { cls: 'sp-neu',  txt: 'Spear is legal gear; limits apply' }
+    allowed:    { cls: 'sp-neu',  txt: 'Spear not excluded as gear; limits and closures apply' }
   };
   var REGIONS = [['atlantic', 'Atlantic state waters'], ['gulf', 'Gulf state waters'], ['keys', 'Keys (Monroe)'],
                  ['eez_sa', 'South Atlantic federal waters'], ['eez_gulf', 'Gulf federal waters']];
@@ -136,7 +136,7 @@
       '<div class="sp-chips">' +
       '<button class="sp-chip" data-sp="prohibited" aria-pressed="false">Prohibited <em></em></button>' +
       '<button class="sp-chip" data-sp="restricted" aria-pressed="false">Restricted <em></em></button>' +
-      '<button class="sp-chip" data-sp="allowed" aria-pressed="false">Legal gear <em></em></button></div>' +
+      '<button class="sp-chip" data-sp="allowed" aria-pressed="false">Not excluded <em></em></button></div>' +
       '<div id="sp-list"></div>';
     document.body.appendChild(el);
     el.querySelector('#sp-x').onclick = close;

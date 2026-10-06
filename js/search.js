@@ -109,7 +109,7 @@
   }
   function speciesItems() {
     if (!window.FLSpecies || !window.FLSpecies.list) return [];
-    var SP = { prohibited: 'Spear prohibited', restricted: 'Spear restricted', allowed: 'Spear is legal gear; limits apply' };
+    var SP = { prohibited: 'Spear prohibited', restricted: 'Spear restricted', allowed: 'Spear not excluded as gear; limits and closures apply' };
     return window.FLSpecies.list().map(function (s) {
       return { g: 'species', id: s.id, n: s.name, a: (s.aka || []).join(' ') + ' ' + (s.sci || ''),
                sub: (s.sci ? s.sci + ' · ' : '') + (SP[s.spear] || s.spear) };

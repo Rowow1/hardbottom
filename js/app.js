@@ -112,7 +112,7 @@ const CATS = [
   { id: 'buoy',        grp: 'sites',  label: 'Keys sanctuary buoys (FKNMS)', col: COL.buoy, on: false, src: ['buoys'], z: 5 },
   { id: 'station',     grp: 'sites',  label: 'Tide, current & NDBC stations', col: COL.station, on: false, src: ['stations'], z: 5 },
   { id: 'closure',     grp: 'legal',  label: 'Statutory closed areas',  col: COL.closure,  on: true,  z: 4 },
-  { id: 'pier',        grp: 'legal',  label: 'Pier & jetty buffers, drawn at 125 yd', col: COL.pier, on: false, src: ['piers'], z: 4 },
+  { id: 'pier',        grp: 'legal',  label: 'Pier & jetty buffers, drawn at 125 yd', col: COL.pier, on: true, src: ['piers'], z: 4 },
   { id: 'refuge',      grp: 'legal',  label: 'Palm Beach refuge areas', col: COL.refuge,   on: true,  z: 4 },
   { id: 'buffer',      grp: 'legal',  label: 'Beach / pier / jetty buffers', col: COL.buffer, on: true, z: 4 },
   { id: 'park',        grp: 'legal',  label: 'State park waters',       col: COL.park,     on: true,  src: ['parkwaters'], z: 4 },
@@ -127,8 +127,8 @@ const CATS = [
   { id: 'fedfish',     grp: 'fedlegal', label: 'Federal fishery closures & SMZs', col: KIND_SW, on: true, src: ['zones-statewide'], z: 3 },
   { id: 'mil',         grp: 'fedlegal', label: 'Coast Guard & military zones', col: KIND_SW, on: true, src: ['zones-statewide'], z: 3 },
   { id: 'nwr',         grp: 'fedlegal', label: 'Wildlife refuges',        col: KIND_SW, on: true, src: ['zones-statewide'], z: 3 },
-  { id: 'bridgeConf',  grp: 'bridge', label: 'Confirmed fishing bridge, buffered', col: COL.bridgeConfirmed, on: false, src: ['bridges'], z: 4 },
-  { id: 'bridgePres',  grp: 'bridge', label: 'Unposted bridge, presume buffered', col: COL.bridgePresumed, on: false, src: ['bridges'], z: 4 },
+  { id: 'bridgeConf',  grp: 'bridge', label: 'Confirmed fishing bridge, buffered', col: COL.bridgeConfirmed, on: true, src: ['bridges'], z: 4 },
+  { id: 'bridgePres',  grp: 'bridge', label: 'Unposted bridge, presume buffered', col: COL.bridgePresumed, on: true, src: ['bridges'], z: 4 },
   { id: 'bridgeExcl',  grp: 'bridge', label: 'Limited access, bridge buffer not drawn', col: COL.bridgeExcluded, on: false, src: ['bridges'], z: 4 },
   { id: 'hardbottom',  grp: 'habitat',label: 'Natural hardbottom',      col: COL.hardbottom, on: false, src: ['hardbottom'], z: 1 },
   { id: 'hbsw',        grp: 'habitat',label: 'Hardbottom, Gulf & north Atlantic (FWC)', col: COL.hbsw, on: false, src: ['hardbottom-sw'], z: 1 },
@@ -290,6 +290,9 @@ function setNoticeDate() {
 
 function initMap() {
   map = L.map('map', { preferCanvas: true }).setView([27.2, -81.5], 7);
+  /* ODbL 4.3: reef-site distances, the Palm Beach zones and some local zones are derived from
+     OpenStreetMap, and all three are on by default. Same string as layers.js, so Leaflet shows it once. */
+  map.attributionControl.addAttribution('&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ODbL');
   /* base layers and raster overlays are owned by js/layers.js */
   sideEl = document.getElementById('side');
   /* clicks and wheel turns on the panels that float over the map stay out of the map */

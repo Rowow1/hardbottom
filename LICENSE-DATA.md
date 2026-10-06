@@ -10,7 +10,7 @@ These files hold the project's legal research, curation and classification:
 
 `law.json`, `regs.json`, `species.json`, `coverage.json`, `closures.json`, `zones-statewide.json`,
 `spots.json` (descriptions and curation), and the classification fields added to `bridges.json`
-(`st`, `iw`, `iwr`) and `piers.json` (`iw`).
+(`st`, `iw`, `iwr`) and `piers.json` (`iw`, `iwr`).
 
 They are licensed under the Creative Commons Attribution 4.0 International licence,
 <https://creativecommons.org/licenses/by/4.0/>. Attribution: **"Bottom Truth (Robert Karas),
@@ -51,7 +51,8 @@ restriction:
 | `contours.json`, `enc.json`, `enc-areas.json`, `enc-restricted.json`, `seabed.json` | NOAA Electronic Navigational Charts, CC0 1.0 |
 | `buoys.json`, `fknms.json`, `stations.json`, `mpa.json`, `jurisdiction.json` | United States government works (17 U.S.C. § 105) |
 | `bridges.json` (positions) | FHWA National Bridge Inventory, United States government work |
-| `cwa.json`, `parkwaters.json`, `piers.json` (records), `ramps.json`, `hardbottom-sw.json` (FWC statewide part) | Florida agency public records |
+| `cwa.json`, `parkwaters.json`, `piers.json` (records), `ramps.json` | Florida agency public records |
+| `hardbottom-sw.json` (FWC statewide part) | Public domain, per the FWC layer metadata |
 | `hardbottom.json`, `hardbottom-sw.json` (West Florida Shelf and worm reef parts) | FWC FWRI and partners; use constraints not located (see `DATA-SOURCES.md`) |
 
 ## Linked media

@@ -6,6 +6,7 @@ ErrorDocument 404 /404.html
 # Force HTTPS.
 RewriteEngine On
 RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Never serve repository internals, build tooling or dotfiles, even if a deploy leaves them behind.
