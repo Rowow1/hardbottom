@@ -1,0 +1,570 @@
+{
+ "version": "2026-09-30",
+ "coordinate_sources": [
+  {
+   "key": "dep-buoy",
+   "label": "official: FDEP Southeast Florida mooring buoy brochure (v. 19 Nov 2021), representative buoy for the site",
+   "url": "https://floridadep.gov/sites/default/files/SEFLMooringBuoys-DigtialPDF_v11192021.pdf"
+  },
+  {
+   "key": "dhr-trail",
+   "label": "official: Florida DHR Maritime Heritage Trail page",
+   "url": "http://info.flheritage.com/maritime-trail/shipwrecks/shipwreck.cfm?name=City_of_Washington"
+  },
+  {
+   "key": "ecfr-622-34",
+   "label": "derived: centre of the 50 C.F.R. 622.34(a) coordinate box; a label point for a large area, not a dive spot",
+   "url": "https://www.ecfr.gov/current/title-50/chapter-VI/part-622/subpart-B/section-622.34"
+  },
+  {
+   "key": "ecfr-622-74",
+   "label": "derived: centroid of the 50 C.F.R. 622.74(a) Florida Middle Grounds HAPC polygon (vertices A to E); a label point for a large area, not a dive spot",
+   "url": "https://www.ecfr.gov/current/title-50/chapter-VI/part-622/subpart-B/section-622.74"
+  },
+  {
+   "key": "enc",
+   "label": "map data: enc.json record (NOAA ENC wrecks, obstructions and fish havens)",
+   "url": "https://www.fisheries.noaa.gov/inport/item/39973"
+  },
+  {
+   "key": "fknms-buoy",
+   "label": "official: FKNMS mooring buoy list (NOAA, PDF dated 2014-02-28), first buoy listed for the site; values read through a summarising fetch, spot-checked against FWC positions for Duane (30 m), Bibb (10 m), Eagle (20 m) and Vandenberg (180 m)",
+   "url": "https://floridakeys.noaa.gov/mbuoy/allmbuoys.html"
+  },
+  {
+   "key": "fpan",
+   "label": "official: Florida Public Archaeology Network / Florida DHR Underwater Archaeological Preserve page",
+   "url": "https://museumsinthesea.fpan.us/preserves/urca-de-lima"
+  },
+  {
+   "key": "fpan-regina",
+   "label": "official: Florida DHR Regina underwater guide PDF (the Regina web page prints 30 28.135 N, an evident typo)",
+   "url": "https://museumsinthesea.com/_docs/Regina_guide.pdf"
+  },
+  {
+   "key": "fpst",
+   "label": "official: Florida Panhandle Shipwreck Trail page",
+   "url": "https://floridapanhandledivetrail.com/Ships/EmpireMica"
+  },
+  {
+   "key": "fwc-sites",
+   "label": "map data: sites.json record (FWC artificial reef inventory)",
+   "url": "https://myfwc.com/fishing/saltwater/artificial-reefs/locate/"
+  },
+  {
+   "key": "lee",
+   "label": "official: Lee County artificial reefs page",
+   "url": "https://www.leegov.com/naturalresources/marine/ArtificialReefs"
+  },
+  {
+   "key": "mdc-buoy",
+   "label": "official: Miami-Dade County mooring buoy coordinates PDF (buoy HM-1); the FPAN Half Moon page prints 24 43.654 N, an evident typo",
+   "url": "https://www.miamidade.gov/resources/environment/documents/buoy-coordinates.pdf"
+  },
+  {
+   "key": "nps-bisc",
+   "label": "official: National Park Service, Biscayne NP Maritime Heritage Trail page",
+   "url": "https://www.nps.gov/bisc/learn/historyculture/fowey-rocks-lighthouse.htm"
+  },
+  {
+   "key": "nps-drto",
+   "label": "official: National Park Service, Dry Tortugas mooring buoy list",
+   "url": "https://www.nps.gov/drto/planyourvisit/drtomooringbuoys.htm"
+  },
+  {
+   "key": "pbc-sites",
+   "label": "map data: sites.json record (Palm Beach County ERM reef inventory)",
+   "url": "https://discover.pbcgov.org/erm/Pages/Reefs.aspx"
+  },
+  {
+   "key": "piers",
+   "label": "map data: piers.json record (FWC fishing piers, jetties and bridges inventory)",
+   "url": "https://geodata.myfwc.com/datasets"
+  },
+  {
+   "key": "pinellas",
+   "label": "official: Pinellas County artificial reef GPS coordinates page",
+   "url": "https://pinellas.gov/artificial-reef-gps-coordinates/"
+  }
+ ],
+ "media_publishers": [
+  {
+   "publisher": "Amy Renee Adventures",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Ande Warren",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Andrew Davis",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "BigYingAdventurestoo",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "BonaFideWorldGuide",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Brandon The Broker",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Broward County Marine Resources",
+   "hosts": [
+    "https://www.broward.org"
+   ]
+  },
+  {
+   "publisher": "CMOR Mapping",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Calvin Wen",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Chris Miami Diver",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "City of Hollywood",
+   "hosts": [
+    "https://www.hollywoodfl.org"
+   ]
+  },
+  {
+   "publisher": "Cultural Arts Alliance of Walton County",
+   "hosts": [
+    "https://www.umafl.org"
+   ]
+  },
+  {
+   "publisher": "Debbie Gorzycki",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Discover The Palm Beaches (county tourism)",
+   "hosts": [
+    "https://www.thepalmbeaches.com"
+   ]
+  },
+  {
+   "publisher": "Dive SoFlo",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Down to 60",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Escambia County",
+   "hosts": [
+    "https://myescambia.com"
+   ]
+  },
+  {
+   "publisher": "FCIM",
+   "hosts": [
+    "https://vimeo.com"
+   ]
+  },
+  {
+   "publisher": "FWC (myfwcmedia)",
+   "hosts": [
+    "https://www.flickr.com"
+   ]
+  },
+  {
+   "publisher": "FWC Saltwater Fishing",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Florida DHR",
+   "hosts": [
+    "https://museumsinthesea.com",
+    "https://museumsinthesea.fpan.us",
+    "https://vimeo.com"
+   ]
+  },
+  {
+   "publisher": "Florida Department of Environmental Protection",
+   "hosts": [
+    "https://floridadep.gov"
+   ]
+  },
+  {
+   "publisher": "Florida Fish and Wildlife Conservation Commission",
+   "hosts": [
+    "https://myfwc.com"
+   ]
+  },
+  {
+   "publisher": "Florida Keys & Key West (Monroe County TDC)",
+   "hosts": [
+    "https://visitfloridakeys.com"
+   ]
+  },
+  {
+   "publisher": "Florida Panhandle Shipwreck Trail",
+   "hosts": [
+    "https://floridapanhandledivetrail.com"
+   ]
+  },
+  {
+   "publisher": "Florida Public Archaeology Network",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Florida Public Archaeology Network / Florida DHR",
+   "hosts": [
+    "https://museumsinthesea.fpan.us"
+   ]
+  },
+  {
+   "publisher": "Florida's Coral Reef (FDEP)",
+   "hosts": [
+    "https://floridascoralreef.org"
+   ]
+  },
+  {
+   "publisher": "FloridaKeysTV",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Fully Submerged",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Get The Coast",
+   "hosts": [
+    "https://getthecoast.com"
+   ]
+  },
+  {
+   "publisher": "Joe Marrero",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Key Largo Dude",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Lance Stehling",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Lee County Natural Resources",
+   "hosts": [
+    "https://www.leegov.com"
+   ]
+  },
+  {
+   "publisher": "Lost World Excavations",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Martin County",
+   "hosts": [
+    "https://www.martin.fl.us"
+   ]
+  },
+  {
+   "publisher": "MartinCountyFL",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Miami-Dade County",
+   "hosts": [
+    "https://www.miamidade.gov"
+   ]
+  },
+  {
+   "publisher": "Michael C. Barnette",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "NOAA FKNMS",
+   "hosts": [
+    "https://floridakeys.noaa.gov"
+   ]
+  },
+  {
+   "publisher": "NOAA FKNMS Shipwreck Trail",
+   "hosts": [
+    "https://floridakeys.noaa.gov"
+   ]
+  },
+  {
+   "publisher": "NOAA Florida Keys National Marine Sanctuary",
+   "hosts": [
+    "https://floridakeys.noaa.gov"
+   ]
+  },
+  {
+   "publisher": "NOAA Office of National Marine Sanctuaries",
+   "hosts": [
+    "https://sanctuaries.noaa.gov"
+   ]
+  },
+  {
+   "publisher": "National Park Service",
+   "hosts": [
+    "https://www.nps.gov"
+   ]
+  },
+  {
+   "publisher": "Never2old-SD",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "OceanWide Explorers",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Palm Beach County ERM",
+   "hosts": [
+    "https://experience.arcgis.com"
+   ]
+  },
+  {
+   "publisher": "Palm Beach County Environmental Resources Management",
+   "hosts": [
+    "https://discover.pbcgov.org"
+   ]
+  },
+  {
+   "publisher": "Pangea Travel Blog",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Pinellas County",
+   "hosts": [
+    "https://pinellas.gov",
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Pursuit of Leisure",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "REEF",
+   "hosts": [
+    "https://www.reef.org"
+   ]
+  },
+  {
+   "publisher": "Reefball | South Florida Scuba Diving",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Rob",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "SFloridaoutdoorsport",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "SQUALUS MARINE DIVERS",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Sailfish Scuba (dive shop)",
+   "hosts": [
+    "https://sailfishscuba.com"
+   ]
+  },
+  {
+   "publisher": "Sarasota County Parks",
+   "hosts": [
+    "https://www.sarasotacountyparks.com"
+   ]
+  },
+  {
+   "publisher": "Scuba Max",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Shadi Alzaeem",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Shane Reynolds",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Sketchfab (FKNMS)",
+   "hosts": [
+    "https://sketchfab.com"
+   ]
+  },
+  {
+   "publisher": "Sketchfab (FPAN)",
+   "hosts": [
+    "https://sketchfab.com"
+   ]
+  },
+  {
+   "publisher": "St. Lucie County",
+   "hosts": [
+    "https://www.stlucieco.gov"
+   ]
+  },
+  {
+   "publisher": "TISIRI",
+   "hosts": [
+    "https://tisiri.org"
+   ]
+  },
+  {
+   "publisher": "Tate Ellison",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Town of Lauderdale-by-the-Sea (tourism)",
+   "hosts": [
+    "https://www.discoverlbts.com"
+   ]
+  },
+  {
+   "publisher": "Underwater Museum of Art",
+   "hosts": [
+    "https://www.umafl.org"
+   ]
+  },
+  {
+   "publisher": "VISIT FLORIDA",
+   "hosts": [
+    "https://www.visitflorida.com",
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "Volusia County",
+   "hosts": [
+    "https://www.volusia.org"
+   ]
+  },
+  {
+   "publisher": "WaterTrek 360",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "beachhunter.net (secondary)",
+   "hosts": [
+    "http://www.beachhunter.net"
+   ]
+  },
+  {
+   "publisher": "eCFR",
+   "hosts": [
+    "https://www.ecfr.gov"
+   ]
+  },
+  {
+   "publisher": "edwin.everywhere",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "fjmesqme",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "linked from the FPAN Half Moon page (channel not confirmed)",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "scubabrit",
+   "hosts": [
+    "https://www.youtube.com"
+   ]
+  },
+  {
+   "publisher": "ussmohawkreef.com",
+   "hosts": [
+    "http://ussmohawkreef.com"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,315 @@
+{
+ "state_no_entry": [
+  {
+   "fwc_objectid": 25,
+   "county": "BREVARD",
+   "rule": "68C-22.006(2)(a)1. & (2)(d)5.",
+   "dates": "Nov 15 - Mar 31",
+   "place": "Reliant Corp Delespine Power Plant discharge canal and Indian River",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 26,
+   "county": "BREVARD",
+   "rule": "68C-22.006(2)(a)2. & (2)(d)5.",
+   "dates": "Nov 15 - Mar 31",
+   "place": "Indian River, vicinity of FPL Frontenac Power Plant",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 588,
+   "county": "BREVARD",
+   "rule": "68C-22.029",
+   "dates": "Nov 15 - Mar 31",
+   "place": "FPL Cape Canaveral Energy Center interim warm-water refuge (coordinates in rule, NAD83(2011))",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 34,
+   "county": "BROWARD",
+   "rule": "68C-22.010(2)(a)2.",
+   "dates": "All year",
+   "place": "FPL Lauderdale Power Plant cooling canal system",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 564,
+   "county": "BROWARD",
+   "rule": "68C-22.010(2)(a)1.",
+   "dates": "All year",
+   "place": "FPL Port Everglades Power Plant discharge canal",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 66,
+   "county": "INDIAN RIVER",
+   "rule": "68C-22.007(1)(e)",
+   "dates": "Nov 15 - Mar 31 (PROBABLY REPEALED 30 Jun 2026: proposed rule converts (1)(e) to Idle Speed all year; notice of change left (e) unchanged from the proposal)",
+   "place": "Vero Beach Municipal Power Plant canals",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 126,
+   "county": "MIAMI-DADE",
+   "rule": "68C-22.025(1)(f)1.",
+   "dates": "Nov 15 - Apr 30",
+   "place": "Biscayne Canal southeast of S-28",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 128,
+   "county": "MIAMI-DADE",
+   "rule": "68C-22.025(1)(f)2.",
+   "dates": "Nov 15 - Apr 30",
+   "place": "Little River west of US 1 / Biscayne Blvd, south of S-27",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 146,
+   "county": "MIAMI-DADE",
+   "rule": "68C-22.025(1)(f)3.",
+   "dates": "Nov 15 - Apr 30",
+   "place": "Coral Gables Canal",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 142,
+   "county": "MIAMI-DADE",
+   "rule": "68C-22.025(1)(e)1.",
+   "dates": "All year",
+   "place": "Biscayne Bay west of Virginia Key, north of the Marine Stadium peninsula (2.46 km2)",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 147,
+   "county": "MIAMI-DADE",
+   "rule": "68C-22.025(1)(e)2.",
+   "dates": "All year",
+   "place": "Black Creek Canal and Black Point Marina Basin south of S-21",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 202,
+   "county": "ST LUCIE",
+   "rule": "68C-22.008(2)(a)",
+   "dates": "All year",
+   "place": "Harbor Branch waterway",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 371,
+   "county": "HILLSBOROUGH",
+   "rule": "68C-22.013(2)(a)",
+   "dates": "Nov 15 - Mar 31",
+   "place": "TECO Big Bend Station discharge canal, Apollo Beach",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 434,
+   "county": "SARASOTA",
+   "rule": "68C-22.026(2)(c)",
+   "dates": "All year (residents excepted)",
+   "place": "Pansy Bayou, north and west of St. Armands Key",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 449,
+   "county": "SARASOTA",
+   "rule": "68C-22.026(3)(b)",
+   "dates": "Nov 15 - Mar 15",
+   "place": "Warm Mineral Springs / Salt Creek",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 467,
+   "county": "LEE",
+   "rule": "68C-22.005(2)(a)",
+   "dates": "Nov 15 - Mar 31",
+   "place": "FPL Tice (Fort Myers) plant discharge canal north of Orange River",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 468,
+   "county": "LEE",
+   "rule": "68C-22.005(2)(a)",
+   "dates": "Nov 15 - Mar 31",
+   "place": "FPL Fort Myers plant intake canal south of Caloosahatchee River",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 519,
+   "county": "COLLIER",
+   "rule": "68C-22.023(2)(a)1.",
+   "dates": "All year",
+   "place": "Henderson Creek, basin and canal at Enchanting Shores",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 541,
+   "county": "COLLIER",
+   "rule": "68C-22.023(2)(a)2.",
+   "dates": "All year",
+   "place": "Faka Union Canal warm-water refugium basins",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 616,
+   "county": "CITRUS",
+   "rule": "68C-22.011(1)(l)1.",
+   "dates": "Nov 15 - Mar 31",
+   "place": "Blue Waters, Homosassa River headwaters",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  },
+  {
+   "fwc_objectid": 618,
+   "county": "CITRUS",
+   "rule": "68C-22.011(1)(l)2.",
+   "dates": "Nov 15 - Mar 31",
+   "place": "Blue Waters, Homosassa River headwaters",
+   "effect": "All vessels and all persons, including swimming, diving, wading or fishing, barred (r. 68C-22.002(11)); bank/bridge cane-pole fishing excepted."
+  }
+ ],
+ "state_motorboats_prohibited": [
+  {
+   "fwc_objectid": 20,
+   "county": "BREVARD",
+   "rule": "68C-22.006(2)(b)2.",
+   "dates": "All year",
+   "place": "C-54 Canal east of the spillway",
+   "effect": "Motorised vessels barred unless motor off and raised (r. 68C-22.002(3)). Does NOT bar swimmers or divers."
+  },
+  {
+   "fwc_objectid": 24,
+   "county": "BREVARD",
+   "rule": "68C-22.006(2)(b)1.",
+   "dates": "Nov 15 - Mar 31",
+   "place": "Indian River near Delespine plant",
+   "effect": "Motorised vessels barred unless motor off and raised (r. 68C-22.002(3)). Does NOT bar swimmers or divers."
+  },
+  {
+   "fwc_objectid": 144,
+   "county": "MIAMI-DADE",
+   "rule": "68C-22.025(1)(d)",
+   "dates": "All year",
+   "place": "Atlantic within 400 ft of SE Fisher Island shoreline",
+   "effect": "Motorised vessels barred unless motor off and raised (r. 68C-22.002(3)). Does NOT bar swimmers or divers."
+  },
+  {
+   "fwc_objectid": 175,
+   "county": "PALM BEACH",
+   "rule": "68C-22.009(1)(e)",
+   "dates": "Nov 15 - Mar 31",
+   "place": "Lake Worth at Riviera Beach power plant discharge",
+   "effect": "Motorised vessels barred unless motor off and raised (r. 68C-22.002(3)). Does NOT bar swimmers or divers."
+  },
+  {
+   "fwc_objectid": 205,
+   "county": "ST LUCIE",
+   "rule": "68C-22.008(2)(b)",
+   "dates": "Nov 15 - Mar 31",
+   "place": "Moore's Creek",
+   "effect": "Motorised vessels barred unless motor off and raised (r. 68C-22.002(3)). Does NOT bar swimmers or divers."
+  },
+  {
+   "fwc_objectid": 304,
+   "county": "VOLUSIA",
+   "rule": "68C-22.012(2)(d)",
+   "dates": "Oct 15 - Apr 15",
+   "place": "Blue Spring Run",
+   "effect": "Motorised vessels barred unless motor off and raised (r. 68C-22.002(3)). Does NOT bar swimmers or divers."
+  }
+ ],
+ "federal_sanctuaries_50cfr17_108a": [
+  {
+   "para": "(a)(1)",
+   "name": "Banana Island Sanctuary",
+   "where": "Kings Bay, Crystal River, Citrus",
+   "area": "3.41 ac",
+   "boundary_form": "State plane coordinates (N-/E-, apparently NAD27 West zone feet)",
+   "effect": "All waterborne activities prohibited 15 Nov to 31 Mar; adjoining property owners excepted (b)."
+  },
+  {
+   "para": "(a)(2)",
+   "name": "Sunset Shores Sanctuary",
+   "where": "Kings Bay, Crystal River, Citrus",
+   "area": "5.62 ac",
+   "boundary_form": "State plane coordinates",
+   "effect": "All waterborne activities prohibited 15 Nov to 31 Mar; adjoining property owners excepted (b)."
+  },
+  {
+   "para": "(a)(3)",
+   "name": "Magnolia Springs Manatee Sanctuary",
+   "where": "Kings Bay, Citrus",
+   "area": "3.4 ac",
+   "boundary_form": "Metes and bounds from monuments",
+   "effect": "All waterborne activities prohibited 15 Nov to 31 Mar; adjoining property owners excepted (b)."
+  },
+  {
+   "para": "(a)(4)",
+   "name": "Buzzard Island Manatee Sanctuary",
+   "where": "Kings Bay, Citrus",
+   "area": "18.0 ac",
+   "boundary_form": "Monuments",
+   "effect": "All waterborne activities prohibited 15 Nov to 31 Mar; adjoining property owners excepted (b)."
+  },
+  {
+   "para": "(a)(5)",
+   "name": "Tarpon Springs Manatee Sanctuary",
+   "where": "Kings Bay, Citrus (a spring in Kings Bay, not the city)",
+   "area": "4.6 ac",
+   "boundary_form": "Monuments",
+   "effect": "All waterborne activities prohibited 15 Nov to 31 Mar; adjoining property owners excepted (b)."
+  },
+  {
+   "para": "(a)(6)",
+   "name": "Warden Key Manatee Sanctuary",
+   "where": "Kings Bay, Citrus",
+   "area": "4.0 ac",
+   "boundary_form": "Bearings",
+   "effect": "All waterborne activities prohibited 15 Nov to 31 Mar; adjoining property owners excepted (b)."
+  },
+  {
+   "para": "(a)(7)",
+   "name": "Three Sisters Spring Sanctuary",
+   "where": "Kings Bay, Citrus",
+   "area": "",
+   "boundary_form": "State plane, Florida West zone NAD83/90, US survey feet, e.g. POB N-1656009.01 E-467449.35",
+   "effect": "All waterborne activities prohibited 15 Nov to 31 Mar; adjoining property owners excepted (b)."
+  },
+  {
+   "para": "(a)(8)",
+   "name": "Blue Waters Manatee Sanctuary",
+   "where": "Homosassa River headwaters, Citrus",
+   "area": "1.66 ac",
+   "boundary_form": "Words only (Sec. 28, T19S, R17E)",
+   "effect": "All waterborne activities prohibited 15 Nov to 31 Mar; adjoining property owners excepted (b)."
+  },
+  {
+   "para": "(a)(9)",
+   "name": "Bartow Electric Generating Plant Manatee Sanctuary",
+   "where": "Weedon Island, Old Tampa Bay, Pinellas",
+   "area": "29.82 ac",
+   "boundary_form": "Words, Secs. 16 and 21, T30S, R17E",
+   "effect": "All waterborne activities prohibited 15 Nov to 31 Mar; adjoining property owners excepted (b)."
+  },
+  {
+   "para": "(a)(10)",
+   "name": "Tampa Electric Company Big Bend Manatee Sanctuary",
+   "where": "Apollo Beach, Hillsborough",
+   "area": "29.85 ac",
+   "boundary_form": "Words, Secs. 10 and 15, T31S, R19E",
+   "effect": "All waterborne activities prohibited 15 Nov to 31 Mar; adjoining property owners excepted (b)."
+  },
+  {
+   "para": "(a)(11)",
+   "name": "Port Sutton Manatee Sanctuary",
+   "where": "Port Sutton, Tampa, Hillsborough",
+   "area": "2.7 ac",
+   "boundary_form": "Words, Sec. 4, T30S, R19E",
+   "effect": "All waterborne activities prohibited 15 Nov to 31 Mar; adjoining property owners excepted (b)."
+  }
+ ],
+ "federal_refuges_50cfr17_108c": "(c)(1) Barge Canal, (2) Sykes Creek, (3) TECO Big Bend, (4) Port Sutton, (5) Little Sarasota Bay, (6) Lemon Bay, (7) Peace River, (8) Shell Island, (9) Haulover Canal, (10) Caloosahatchee River-San Carlos Bay, (11) Lower St. Johns River, (12) Halifax and Tomoka Rivers, (13) Pine Island-Estero Bay, (14) Kings Bay. (1) to (13) are vessel-speed only. (14) Kings Bay adds year-round manatee-contact prohibitions and, in the Three Sisters Springs area, (ii)(A)(1) all waterborne activities sunset to sunrise 15 Nov to 31 Mar and (ii)(A)(2) scuba diving and fishing including by spear 15 Nov to 31 Mar.",
+ "source": "FWC layer attributes (gis-endpoints.json) read 30 Sep 2026; each rule paragraph cross-read on the Justia FAC mirror (current through 24 Jun 2025); 50 C.F.R. § 17.108 read on eCFR (up to date as of 28 Sep 2026).",
+ "summary": "20 No Entry rule paragraphs (21 polygons; Lee's discharge and intake canals share one paragraph, FWC MASTER_CL='NE') in Brevard, Broward, Indian River, Miami-Dade, St. Lucie, Hillsborough, Sarasota, Lee, Collier and Citrus; 6 Motorboats Prohibited polygons (MASTER_CL='MP'); 11 federal sanctuaries; 14 federal refuges."
+}

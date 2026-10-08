@@ -1,0 +1,63 @@
+[
+ {
+  "name": "FWC State Manatee Protection Zones in Florida",
+  "url": "https://gis.myfwc.com/hosting/rest/services/Open_Data/State_Manatee_Protection_Zones_in_Florida/MapServer/9",
+  "layer_id": 9,
+  "geometry": "polygon",
+  "features": 633,
+  "maxRecordCount": 2000,
+  "spatial_reference": "WKID 102967 (Florida GDL Albers, NAD83 HARN/2011); request outSR=4326",
+  "zone_type_fields": {
+   "MASTER_CL": "summary class; 'NE' = No Entry (21 features), 'MP' = Motorboats Prohibited (6 features); other values are speed classes",
+   "CLASS1_68C/DATE1_68C": "primary class and its dates, e.g. 'NE' 'NOV 15 - MAR 31', 'NEAY' 'JAN 1 - DEC 31' (No Entry all year)",
+   "CLASS2_68C/DATE2_68C": "class for the rest of the year",
+   "SECT_68C": "rule paragraph, e.g. '68C-22.025(1)(e)1.'",
+   "TEXT_68C": "human-readable zone text",
+   "COUNTY": "county"
+  },
+  "queries": {
+   "no_entry": "query?where=MASTER_CL%3D%27NE%27&outFields=*&outSR=4326&f=geojson",
+   "motorboats_prohibited": "query?where=MASTER_CL%3D%27MP%27&outFields=*&outSR=4326&f=geojson"
+  },
+  "currency": "last_edited_date on all features read = 1747151947000 (13 May 2025). Predates the 30 Jun 2026 amendment of r. 68C-22.007 (Indian River County), so OBJECTID 66 (Vero Beach power plant No Entry) is probably stale.",
+  "metadata": "https://gis.myfwc.com/Data/metadata/SDE_Current/state_ManateeProtectionZones_fl_poly.htm",
+  "hub": "https://geodata.myfwc.com/datasets/myfwc::state-manatee-protection-zones-in-florida/about",
+  "checked": "30 Sep 2026 via WebFetch (count and attribute queries answered)"
+ },
+ {
+  "name": "FWC Spiny Lobster Sanctuary Biscayne Bay Florida",
+  "url": "https://gis.myfwc.com/hosting/rest/services/Open_Data/Spiny_Lobster_Sanctuary_Biscayne_Bay_Florida/MapServer/6",
+  "layer_id": 6,
+  "geometry": "polygon",
+  "spatial_reference": "WKID 102967",
+  "note": "Service description: digitized sanctuary following Fla. Admin. Code ch. 68B-11. This is FWC's digitisation of a word-only boundary; use as a named public dataset, not as the legal line. Fields and feature count not read.",
+  "checked": "30 Sep 2026 (service root only)"
+ },
+ {
+  "name": "FWC Critical Wildlife Areas (two services)",
+  "url": "https://gis.myfwc.com/hosting/rest/services/Open_Data/Critical_Wildlife_Areas_in_Florida/MapServer",
+  "note": "Also Open_Data/Critical_Wildlife_Areas_Florida. Listed for completeness; project already has cwa.json (37).",
+  "checked": "folder listing only"
+ },
+ {
+  "name": "NOAA Marine Protected Areas Inventory (v2024, service name 2023)",
+  "url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/arcgis/rest/services/NOAA_MPA_Inventory_2023/FeatureServer/0",
+  "item": "https://noaa.maps.arcgis.com/home/item.html?id=eb2b36aecb004f14ac29cf0260624291",
+  "geometry": "polygon",
+  "maxRecordCount": 2000,
+  "fields": "Site_ID, Site_Name, Gov_Level, State, Prot_Lvl, Mgmt_Agen, Fish_Rstr, Constancy, Anchor, Vessel, URL, AreaKm, AreaMar, AreaNT, Latitude, Longitude, Design, Category",
+  "florida_filter": "State='FL' (215) or State LIKE '%FL%' (216, adds Gulf Islands NS 'FL, MS')",
+  "downloads": [
+   "https://marineprotectedareas.noaa.gov/media/data/NOAA_Marine_Protected_Areas_Inventory_2023.zip",
+   "https://marineprotectedareas.noaa.gov/media/data/NOAA_Marine_Protected_Areas_Inventory_2023.xlsx"
+  ],
+  "metadata": "https://www.fisheries.noaa.gov/inport/item/69506",
+  "caveat": "FKNMS rows reflect the 1997 zoning (e.g. French Reef SPA, Looe Key Research Only Area), not the 2025 Restoration Blueprint. Use for gap-finding, not as legal geometry.",
+  "checked": "30 Sep 2026"
+ },
+ {
+  "name": "Dead endpoint",
+  "url": "https://atoll.floridamarine.org/arcgis/rest/services/FWC_GIS/OpenData_Boating/MapServer/14",
+  "note": "Returned 'Service FWC_GIS/OpenData_Boating/MapServer not found' (HTTP 500) on 30 Sep 2026. Search engines still index it. Do not use."
+ }
+]

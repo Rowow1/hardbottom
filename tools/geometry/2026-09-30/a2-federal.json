@@ -1,0 +1,952 @@
+[
+ {
+  "id": "sa-warsaw-ssmz",
+  "name": "Warsaw Hole / 50 Fathom Hole Spawning SMZ",
+  "law": [
+   "cfr-622-183-a2"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     24.37128,
+     -82.34028
+    ],
+    [
+     24.37128,
+     -82.30358
+    ],
+    [
+     24.34887,
+     -82.30358
+    ],
+    [
+     24.34887,
+     -82.34028
+    ],
+    [
+     24.37128,
+     -82.34028
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.183(a)(2)(vi), eCFR current text read 29 Sep 2026",
+  "note": "DMS as printed: A 24°22.277′N 82°20.417′W; B 24°22.277′N 82°18.215′W; C 24°20.932′N 82°18.215′W; D 24°20.932′N 82°20.417′W; back to A. Closed to fishing for or harvesting snapper-grouper by any gear (spear included) year-round; anchoring prohibited. Pelagic species are not covered. Sunset: effective until August 2, 2027 per § 622.183(a)(2)(i); SAFMC Regulatory Amendment 39 on the sunset is in development."
+ },
+ {
+  "id": "sa-mpa-northfl",
+  "name": "North Florida MPA",
+  "law": [
+   "cfr-622-183"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     30.48333,
+     -80.23333
+    ],
+    [
+     30.48333,
+     -80.03333
+    ],
+    [
+     30.31667,
+     -80.03333
+    ],
+    [
+     30.31667,
+     -80.23333
+    ],
+    [
+     30.48333,
+     -80.23333
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.183(a)(1)(i)(F)",
+  "note": "Bounded N 30°29′N, S 30°19′N, E 80°02′W, W 80°14′W. No fishing for or possession of South Atlantic snapper-grouper; possession allowed only in transit with gear stowed per (a)(1)(ii)."
+ },
+ {
+  "id": "sa-mpa-stlucie",
+  "name": "St. Lucie Hump MPA",
+  "law": [
+   "cfr-622-183"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     27.13333,
+     -80.0
+    ],
+    [
+     27.13333,
+     -79.96667
+    ],
+    [
+     27.06667,
+     -79.96667
+    ],
+    [
+     27.06667,
+     -80.0
+    ],
+    [
+     27.13333,
+     -80.0
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.183(a)(1)(i)(G)",
+  "note": "Bounded N 27°08′N, S 27°04′N, E 79°58′W, W 80°00′W. Snapper-grouper fishing and possession prohibited."
+ },
+ {
+  "id": "sa-mpa-easthump",
+  "name": "East Hump MPA",
+  "law": [
+   "cfr-622-183"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     24.60833,
+     -80.75833
+    ],
+    [
+     24.53333,
+     -80.6
+    ],
+    [
+     24.45833,
+     -80.64167
+    ],
+    [
+     24.54167,
+     -80.8
+    ],
+    [
+     24.60833,
+     -80.75833
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.183(a)(1)(i)(H)",
+  "note": "DMS as printed: A 24°36.5′N 80°45.5′W; B 24°32′N 80°36′W; C 24°27.5′N 80°38.5′W; D 24°32.5′N 80°48′W; back to A. Snapper-grouper fishing and possession prohibited."
+ },
+ {
+  "id": "sa-smz-ftpierce-in",
+  "name": "Ft. Pierce Inshore Reef SMZ (spearfishing prohibited)",
+  "law": [
+   "cfr-622-182"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     27.44667,
+     -80.17267
+    ],
+    [
+     27.44667,
+     -80.154
+    ],
+    [
+     27.43,
+     -80.154
+    ],
+    [
+     27.43,
+     -80.17267
+    ],
+    [
+     27.44667,
+     -80.17267
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.182(a)(1)(xix); restrictions from table 2 to § 622.182(a)(2)",
+  "note": "Bounded N 27°26.8′N, S 27°25.8′N, E 80°09.24′W, W 80°10.36′W. Table 2 rows for (a)(1)(xix): 'Use of spearfishing gear is prohibited.'; hydraulic or electric reel permanently affixed prohibited for snapper-grouper; sea bass pot and bottom longline prohibited. The spearfishing row is not limited to snapper-grouper on its face; drawn as closed to all spearfishing (conservative reading)."
+ },
+ {
+  "id": "sa-smz-ftpierce-off",
+  "name": "Ft. Pierce Offshore Reef SMZ: reel, pot and longline limits",
+  "law": [
+   "cfr-622-182"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     27.39467,
+     -80.06583
+    ],
+    [
+     27.38,
+     -80.06
+    ],
+    [
+     27.399,
+     -80.00033
+    ],
+    [
+     27.41417,
+     -80.0055
+    ],
+    [
+     27.39467,
+     -80.06583
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.182(a)(1)(xx); restrictions from table 2 to § 622.182(a)(2)",
+  "note": "DMS as printed: A 27°23.68′N 80°03.95′W; B 27°22.80′N 80°03.60′W; C 27°23.94′N 80°00.02′W; D 27°24.85′N 80°00.33′W; back to A. Only restrictions: no permanently affixed hydraulic or electric reel for snapper-grouper, no sea bass pot or bottom longline. The table row for this SMZ contains no spearfishing or powerhead restriction."
+ },
+ {
+  "id": "sa-smz-kb-arh",
+  "name": "Key Biscayne / Artificial Reef H SMZ (spearfishing prohibited)",
+  "law": [
+   "cfr-622-182"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     25.71367,
+     -80.09217
+    ],
+    [
+     25.71367,
+     -80.07033
+    ],
+    [
+     25.68867,
+     -80.07033
+    ],
+    [
+     25.68867,
+     -80.09217
+    ],
+    [
+     25.71367,
+     -80.09217
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.182(a)(1)(xxi); restrictions from table 2 to § 622.182(a)(2)",
+  "note": "Bounded N 25°42.82′N, S 25°41.32′N, E 80°04.22′W, W 80°05.53′W. Table 2 row for (a)(1)(xxi): 'Use of spearfishing gear is prohibited.' Drawn as closed to all spearfishing (conservative reading). The west edge sits roughly 3.3 nm off the Key Biscayne shore, close to the state/federal line; not checked against the state waters boundary layer."
+ },
+ {
+  "id": "sa-smz-kby",
+  "name": "Artificial Reef KBY SMZ (off Georgia, near the Florida line)",
+  "law": [
+   "cfr-622-182"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.81,
+     -81.29
+    ],
+    [
+     30.81,
+     -81.25
+    ],
+    [
+     30.77667,
+     -81.25
+    ],
+    [
+     30.77667,
+     -81.29
+    ],
+    [
+     30.81,
+     -81.29
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.182(a)(1)(xlvi)",
+  "note": "Bounded N 30°48.6′N, S 30°46.6′N, E 81°15.0′W, W 81°17.4′W. North of a line due east of the Florida/Georgia border, so off Georgia; included because Nassau County boats reach it. Rules: only handline, rod and reel and spearfishing gear; snapper-grouper taken with a powerhead limited to the bag limit; no sea bass pot or bottom longline."
+ },
+ {
+  "id": "sa-smz-mry",
+  "name": "Artificial Reef MRY SMZ (off Georgia, near the Florida line)",
+  "law": [
+   "cfr-622-182"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.79167,
+     -81.13
+    ],
+    [
+     30.79167,
+     -81.09167
+    ],
+    [
+     30.75833,
+     -81.09167
+    ],
+    [
+     30.75833,
+     -81.13
+    ],
+    [
+     30.79167,
+     -81.13
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.182(a)(1)(xlviii)",
+  "note": "Bounded N 30°47.5′N, S 30°45.5′N, E 81°05.5′W, W 81°07.8′W. Off Georgia (see KBY note). Same rule set as KBY."
+ },
+ {
+  "id": "sa-oculina-hapc",
+  "name": "Oculina Bank HAPC (bottom gear and anchoring ban)",
+  "law": [
+   "cfr-622-224"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     29.72495,
+     -80.24668
+    ],
+    [
+     29.725,
+     -80.2634
+    ],
+    [
+     29.58102,
+     -80.25022
+    ],
+    [
+     29.56872,
+     -80.26435
+    ],
+    [
+     29.49025,
+     -80.25438
+    ],
+    [
+     29.15903,
+     -80.20478
+    ],
+    [
+     29.07922,
+     -80.17
+    ],
+    [
+     28.93385,
+     -80.14823
+    ],
+    [
+     28.879,
+     -80.14807
+    ],
+    [
+     28.79127,
+     -80.11873
+    ],
+    [
+     28.77047,
+     -80.12108
+    ],
+    [
+     28.68787,
+     -80.09965
+    ],
+    [
+     28.58493,
+     -80.0873
+    ],
+    [
+     28.56415,
+     -80.09017
+    ],
+    [
+     28.51427,
+     -80.07332
+    ],
+    [
+     28.5,
+     -80.06592
+    ],
+    [
+     28.5,
+     -80.05
+    ],
+    [
+     28.26667,
+     -80.05
+    ],
+    [
+     28.075,
+     -80.01947
+    ],
+    [
+     28.075,
+     -80.0
+    ],
+    [
+     27.5,
+     -80.0
+    ],
+    [
+     27.5,
+     -79.9
+    ],
+    [
+     28.5,
+     -79.94889
+    ],
+    [
+     28.5,
+     -80.01278
+    ],
+    [
+     28.7669,
+     -80.05792
+    ],
+    [
+     28.81032,
+     -80.06577
+    ],
+    [
+     28.88843,
+     -80.08023
+    ],
+    [
+     29.18878,
+     -80.14358
+    ],
+    [
+     29.29277,
+     -80.16858
+    ],
+    [
+     29.39315,
+     -80.19168
+    ],
+    [
+     29.50437,
+     -80.2108
+    ],
+    [
+     29.59885,
+     -80.22807
+    ],
+    [
+     29.72495,
+     -80.24869
+    ],
+    [
+     29.72495,
+     -80.24668
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.224(b)(1), table of 31 points plus origin; points 7 and 8 as corrected at 80 FR 61486 (7 Oct 2015)",
+  "note": "Rhumb lines in printed order. Two transcription problems in the CFR text itself: (1) point 21 longitude is printed '79°54″' (a seconds mark, which would put it near 79°00′54″W, far outside the area); read as 79°54′00″W, which matches the 100-fathom contour note in the 2015 rule; (2) the table opens with Origin 29°43′29.82″N 80°14′48.06″W but closes with Origin 29°43′29.82″N 80°14′55.27″W. Both origin rows are kept, so the ring closes through both (about 190 m apart; the larger outline). Not a spearfishing closure: bottom longline, trawl, dredge, pot, trap prohibited; a fishing vessel may not anchor or use anchor and chain or grapple and chain."
+ },
+ {
+  "id": "sa-oculina-eca",
+  "name": "Oculina experimental closed area (no snapper-grouper)",
+  "law": [
+   "cfr-622-224-b2",
+   "cfr-622-224"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     27.88333,
+     -80.0
+    ],
+    [
+     27.88333,
+     -79.93333
+    ],
+    [
+     27.5,
+     -79.93333
+    ],
+    [
+     27.5,
+     -80.0
+    ],
+    [
+     27.88333,
+     -80.0
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.224(b)(2)",
+  "note": "Bounded N 27°53′N, S 27°30′N, E 79°56′W, W 80°00′W. No person may fish for South Atlantic snapper-grouper here and none may be retained in or from the area: this IS a spearfishing closure for snapper-grouper. Lies inside the Oculina Bank HAPC, so the anchoring ban also applies."
+ },
+ {
+  "id": "gulf-madison",
+  "name": "Madison and Swanson sites (all fishing prohibited)",
+  "law": [
+   "cfr-622-34"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     29.28333,
+     -85.83333
+    ],
+    [
+     29.28333,
+     -85.63333
+    ],
+    [
+     29.1,
+     -85.63333
+    ],
+    [
+     29.1,
+     -85.83333
+    ],
+    [
+     29.28333,
+     -85.83333
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.34(a)(1)(i)",
+  "note": "DMS as printed: A 29°17′N 85°50′W; B 29°17′N 85°38′W; C 29°06′N 85°38′W; D 29°06′N 85°50′W; back to A. Fishing prohibited year-round (a)(2); spearfishing included."
+ },
+ {
+  "id": "gulf-steamboat",
+  "name": "Steamboat Lumps (all fishing prohibited)",
+  "law": [
+   "cfr-622-34"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     28.23333,
+     -84.61667
+    ],
+    [
+     28.05,
+     -84.61667
+    ],
+    [
+     28.05,
+     -84.8
+    ],
+    [
+     28.23333,
+     -84.8
+    ],
+    [
+     28.23333,
+     -84.61667
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.34(a)(1)(ii)",
+  "note": "Printed order B 28°14′N 84°37′W; C 28°03′N 84°37′W; D 28°03′N 84°48′W; A 28°14′N 84°48′W; closed back to B. Fishing prohibited year-round (a)(2)."
+ },
+ {
+  "id": "gulf-edges",
+  "name": "The Edges (all fishing prohibited January through April)",
+  "law": [
+   "cfr-622-34"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     28.85,
+     -85.26667
+    ],
+    [
+     28.85,
+     -85.06667
+    ],
+    [
+     28.23333,
+     -84.7
+    ],
+    [
+     28.23333,
+     -84.9
+    ],
+    [
+     28.85,
+     -85.26667
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.34(a)(1)(iii)",
+  "note": "DMS as printed: A 28°51′N 85°16′W; B 28°51′N 85°04′W; C 28°14′N 84°42′W; D 28°14′N 84°54′W; back to A. Seasonal: all fishing and possession of any fish prohibited January through April (a)(3). Drawn warn because it is seasonal; treat as closed in those months."
+ },
+ {
+  "id": "gulf-tortugas-s",
+  "name": "Tortugas South marine reserve (all fishing prohibited)",
+  "law": [
+   "cfr-622-410",
+   "cfr-622-74"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     24.55,
+     -83.15
+    ],
+    [
+     24.55,
+     -83.08333
+    ],
+    [
+     24.3,
+     -83.08333
+    ],
+    [
+     24.3,
+     -83.15
+    ],
+    [
+     24.55,
+     -83.15
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.410(b); same points at § 622.74(b)(2)",
+  "note": "A 24°33′00″N 83°09′00″W; B 24°33′00″N 83°05′00″W; C 24°18′00″N 83°05′00″W; D 24°18′00″N 83°09′00″W. Fishing for any species and anchoring by fishing vessels prohibited. Also a FKNMS ecological reserve; check for a duplicate polygon in fknms.json before adding."
+ },
+ {
+  "id": "gulf-tortugas-n",
+  "name": "Tortugas North marine reserve, EEZ portion (partial outline)",
+  "law": [
+   "cfr-622-410",
+   "cfr-622-74"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "source": "50 C.F.R. § 622.410(a); § 622.74(b)(1)",
+  "note": "Only three CFR points: A 24°40′N 83°06′W; B 24°46′N 83°06′W; C 24°46′N 83°00′W; the fourth side follows 'the seaward limit of Florida's waters' on NOAA chart 11438 (§ 622.410) or chart 11434 (§ 622.74(b)(1)), which no dataset in hand carries. Drawn as a polyline only; the FKNMS layer (Tortugas Ecological Reserve North) likely already carries the full outline.",
+  "line": [
+   [
+    [
+     24.66667,
+     -83.1
+    ],
+    [
+     24.76667,
+     -83.1
+    ],
+    [
+     24.76667,
+     -83.0
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "gulf-fmg-hapc",
+  "name": "Florida Middle Grounds HAPC (bottom gear only)",
+  "law": [
+   "cfr-622-74"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     28.70833,
+     -84.41333
+    ],
+    [
+     28.70833,
+     -84.27167
+    ],
+    [
+     28.18333,
+     -84.0
+    ],
+    [
+     28.18333,
+     -84.11667
+    ],
+    [
+     28.44333,
+     -84.41333
+    ],
+    [
+     28.70833,
+     -84.41333
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.74(a)",
+  "note": "A 28°42.500′N 84°24.800′W; B 28°42.500′N 84°16.300′W; C 28°11.000′N 84°00.000′W; D 28°11.000′N 84°07.000′W; E 28°26.600′N 84°24.800′W; back to A. Only deployment of bottom longline, bottom trawl, dredge, pot or trap is prohibited. No anchoring ban and no diver or spear restriction here."
+ },
+ {
+  "id": "gulf-pulley-s",
+  "name": "Pulley Ridge South HAPC (no anchoring by fishing vessels)",
+  "law": [
+   "cfr-622-74"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     24.97167,
+     -83.6425
+    ],
+    [
+     24.97167,
+     -83.61667
+    ],
+    [
+     24.68638,
+     -83.61667
+    ],
+    [
+     24.66667,
+     -83.68945
+    ],
+    [
+     24.73195,
+     -83.7875
+    ],
+    [
+     24.97167,
+     -83.6425
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.74(c)",
+  "note": "A 24°58.300′N 83°38.550′W; B 24°58.300′N 83°37.000′W; C 24°41.183′N 83°37.000′W; D 24°40.000′N 83°41.367′W; E 24°43.917′N 83°47.250′W; back to A. Bottom longline, bottom trawl, buoy gear, dredge, pot, trap and bottom anchoring by fishing vessels prohibited. Spearfishing not restricted."
+ },
+ {
+  "id": "gulf-pulley-a",
+  "name": "Pulley Ridge South Portion A HAPC (no anchoring by fishing vessels)",
+  "law": [
+   "cfr-622-74"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     24.66667,
+     -83.68943
+    ],
+    [
+     24.6611,
+     -83.7108
+    ],
+    [
+     24.79258,
+     -83.92067
+    ],
+    [
+     24.95108,
+     -83.80675
+    ],
+    [
+     24.88098,
+     -83.69735
+    ],
+    [
+     24.73195,
+     -83.7875
+    ],
+    [
+     24.66667,
+     -83.68943
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.74(d)",
+  "note": "A 24°40.000′N 83°41.366′W; B 24°39.666′N 83°42.648′W; C 24°47.555′N 83°55.240′W; D 24°57.065′N 83°48.405′W; E 24°52.859′N 83°41.841′W; F 24°43.917′N 83°47.250′W; back to A. Ring checked for self-intersection in printed order: none. F coincides with Pulley Ridge South point E, so the two HAPCs share an edge. Bottom trawl, buoy gear, dredge, pot, trap and bottom anchoring by fishing vessels prohibited."
+ },
+ {
+  "id": "gulf-wfw-hapc",
+  "name": "West Florida Wall HAPC (no anchoring by fishing vessels)",
+  "law": [
+   "cfr-622-74"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     26.48058,
+     -84.79925
+    ],
+    [
+     26.48027,
+     -84.77923
+    ],
+    [
+     26.17452,
+     -84.70127
+    ],
+    [
+     26.17547,
+     -84.74295
+    ],
+    [
+     26.41713,
+     -84.79977
+    ],
+    [
+     26.41833,
+     -84.79967
+    ],
+    [
+     26.48058,
+     -84.79925
+    ]
+   ]
+  ],
+  "source": "50 C.F.R. § 622.74(e)",
+  "note": "A 26°28.835′N 84°47.955′W; B 26°28.816′N 84°46.754′W; C 26°10.471′N 84°42.076′W; D 26°10.528′N 84°44.577′W; E 26°25.028′N 84°47.986′W; F 26°25.100′N 84°47.980′W; back to A. Deep water; listed for completeness."
+ },
+ {
+  "id": "gulf-stressed",
+  "name": "Gulf reef fish stressed area, seaward line (powerheads prohibited shoreward)",
+  "law": [
+   "cfr-622-35-a"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "source": "50 C.F.R. § 622.35(a) and table 2 of appendix B to part 622 (points 1 to 15, Dry Tortugas to south of the Florida/Alabama border)",
+  "note": "Points as printed (N lat, W long): 1 24°45.5′ 82°41.5′; 2 24°48.0′ 82°06.5′; 3 25°15.0′ 82°02.0′; 4 26°26.0′ 82°29.0′; 5 26°26.0′ 82°59.0′; 6 27°30.0′ 83°21.5′; 7 28°10.0′ 83°45.0′; 8 28°10.0′ 83°14.0′; 9 29°38.0′ 84°00.0′; 10 29°35.5′ 84°38.6′; 11 29°32.2′ 85°27.1′; 12 29°30.5′ 85°52.0′; 13 29°53.0′ 86°10.0′; 14 30°06.0′ 86°55.0′; 15 29°34.5′ 87°38.0′. The stressed area is the part of the Gulf EEZ SHOREWARD of this line, i.e. between the state waters boundary and the line. No landward edge is given, so it is drawn as a line only. Restriction: a powerhead may not be used to take Gulf reef fish; roller trawls prohibited. Spearguns without a powerhead are not restricted. Points 16 to 33 continue west to Texas and are omitted.",
+  "line": [
+   [
+    [
+     24.75833,
+     -82.69167
+    ],
+    [
+     24.8,
+     -82.10833
+    ],
+    [
+     25.25,
+     -82.03333
+    ],
+    [
+     26.43333,
+     -82.48333
+    ],
+    [
+     26.43333,
+     -82.98333
+    ],
+    [
+     27.5,
+     -83.35833
+    ],
+    [
+     28.16667,
+     -83.75
+    ],
+    [
+     28.16667,
+     -83.23333
+    ],
+    [
+     29.63333,
+     -84.0
+    ],
+    [
+     29.59167,
+     -84.64333
+    ],
+    [
+     29.53667,
+     -85.45167
+    ],
+    [
+     29.50833,
+     -85.86667
+    ],
+    [
+     29.88333,
+     -86.16667
+    ],
+    [
+     30.1,
+     -86.91667
+    ],
+    [
+     29.575,
+     -87.63333
+    ]
+   ]
+  ]
+ },
+ {
+  "id": "bnp-legare",
+  "name": "Biscayne NP: Legare Anchorage (no diving, snorkeling or swimming)",
+  "law": [
+   "bnp-compendium-dive",
+   "bnp-status"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     25.5,
+     -80.13333
+    ],
+    [
+     25.5,
+     -80.11667
+    ],
+    [
+     25.48333,
+     -80.11667
+    ],
+    [
+     25.48333,
+     -80.13333
+    ],
+    [
+     25.5,
+     -80.13333
+    ]
+   ]
+  ],
+  "source": "Biscayne National Park Superintendent's Compendium, approved 17 Sep 2025, 36 CFR 2.1 and 3.16/3.18 entries",
+  "note": "Printed as 'latitude 25°30 N and 25°29 N and longitude 80°08 W and 80°07 W' (minute marks missing in the original; read as minutes). Closed to scuba diving, snorkeling, swimming, floating, underwater viewing devices and anchoring. Hook and line drift fishing allowed. Replaces the flag on zone npsbisc that says the coordinates were not obtained."
+ },
+ {
+  "id": "drto-rna",
+  "name": "Dry Tortugas NP: Research Natural Area (partial outline)",
+  "law": [
+   "cfr-36-7-27-rna",
+   "cfr-36-7-27"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "source": "36 C.F.R. § 7.27(a)(14)",
+  "note": "The CFR gives only two points, 24°36′N 82°51′W and 24°36′N 82°58′W, connected and run 'west to the park boundary', in the northwest portion of the park, excluding the designated anchorage, Garden, Bush and Long Keys and central Loggerhead Key. The eastern side is not described in words. Drawn as the southern line only. The whole park already bans spearfishing, so this adds the all-fishing and anchoring closure, not a new spearfishing closure. NPS publishes a boundary map PDF; see needs-browser.",
+  "line": [
+   [
+    [
+     24.6,
+     -82.85
+    ],
+    [
+     24.6,
+     -82.96667
+    ]
+   ]
+  ]
+ }
+]

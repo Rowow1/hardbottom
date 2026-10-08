@@ -1,0 +1,299 @@
+{
+ "generated": "2026-09-30",
+ "note": "Research-coverage layer. This describes HOW MUCH OF THE LAW HAS BEEN READ AND DRAWN in each region. It is not a legal boundary and it says nothing about whether any particular water is open or closed. Since 30 Sep 2026 the federal, state and military layers are drawn statewide and county and municipal codes have been searched along most of the coast, so the tiers now describe mainly whether the feature-relative R. 68B-20.003(2) buffers and the local rules have been drawn. Region outlines are deliberately coarse. Where a covered region's outline is uncertain it is drawn SMALLER than the true extent, so the error always falls toward 'not inventoried' rather than toward a false claim of coverage.",
+ "tiers": {
+  "none": {
+   "label": "Local buffers not inventoried",
+   "col": "#94a3b8",
+   "fill": 0.22,
+   "on": true,
+   "head": "Statewide layers drawn; local buffers not inventoried.",
+   "body": "Federal, state and military rules are drawn statewide from primary sources: the statutory closed areas, state park waters, federal fishery areas, Coast Guard and military zones, national parks and wildlife refuges, state manatee No Entry zones and the FWC area rules, together with the BOEM state/federal line, FWC's inventoried fishing structures, the classified bridges and every rule as text.<br><br><b>Local codes:</b> county and municipal codes in 141 coastal jurisdictions were keyword-searched on 30 Sep 2026, and the rules found are drawn where their words allow, often as a whole city outline, a structure buffer or a marker, each flagged where it differs from the law. 26 jurisdictions still need a browser read and some bay-side towns were not checked.<br><br><b>Not drawn here:</b> the R. 68B-20.003(2) buffers around public bathing beaches, jetties, and fishing piers and bridges that are not in FWC's inventory. They are feature-relative and no local inventory exists yet.<br><br>This layer describes coverage, not the law. Absence of a line on this map is <b>not</b> evidence that water is open. Assume the statewide buffers apply wherever there is a beach, a pier, a fishing bridge or a jetty."
+  },
+  "partial": {
+   "label": "Partly inventoried",
+   "col": "#facc15",
+   "fill": 0.0,
+   "on": true,
+   "head": "Statewide and sanctuary layers drawn; local layer incomplete.",
+   "body": "The statutory closures, the sanctuary zoning, the federal fishery reserves, the state seasonal closures, the military areas and the park rules are drawn here from primary sources. <b>The county and municipal layer is incomplete</b>: the Monroe County manmade-canal ban is drawn from OpenStreetMap canal centrelines with acknowledged partial coverage, and a reported county 300 ft lobster-season diving rule has not been read. The R. 68B-20.003(2) beach, pier, bridge and jetty buffers are drawn only around FWC-inventoried structures.<br><br>This layer describes coverage, not the law. Treat un-shaded water here the same way you would anywhere else: absence of a line is not evidence that water is open."
+  },
+  "full": {
+   "label": "Fully inventoried",
+   "col": "#30a46c",
+   "fill": 0.0,
+   "on": true,
+   "head": "All four buffer layers and the local rules read and drawn.",
+   "body": "State rules, the county special act, municipal codes and all four R. 68B-20.003(2) buffers have been read against primary sources and drawn, on top of the statewide federal, state and military layers. This is the only region where an un-shaded area reflects an actual search for the buffers rather than an absence of one. The browser pass of 30 Sep 2026 read the remaining towns' codes and found a Town of Palm Beach rule barring spearfishing gear on five named beaches (§ 74-161), which is not drawn, and posted signage is independently enforceable under PBC Code § 21-35(e) and is not knowable from any dataset.<br><br>This layer describes coverage, not the law."
+  }
+ },
+ "regions": [
+  {
+   "id": "cov-none-fl",
+   "tier": "none",
+   "n": "Florida: local buffers not inventoried",
+   "outer": [
+    [
+     30.4,
+     -87.62
+    ],
+    [
+     30.15,
+     -87.2
+    ],
+    [
+     30.2,
+     -86.6
+    ],
+    [
+     30.25,
+     -86.0
+    ],
+    [
+     30.0,
+     -85.6
+    ],
+    [
+     29.9,
+     -85.3
+    ],
+    [
+     29.55,
+     -84.9
+    ],
+    [
+     29.55,
+     -84.3
+    ],
+    [
+     29.85,
+     -83.9
+    ],
+    [
+     29.4,
+     -83.4
+    ],
+    [
+     29.0,
+     -83.2
+    ],
+    [
+     28.6,
+     -83.0
+    ],
+    [
+     28.2,
+     -82.92
+    ],
+    [
+     27.8,
+     -82.92
+    ],
+    [
+     27.4,
+     -82.88
+    ],
+    [
+     26.9,
+     -82.55
+    ],
+    [
+     26.4,
+     -82.32
+    ],
+    [
+     25.95,
+     -81.98
+    ],
+    [
+     25.6,
+     -81.62
+    ],
+    [
+     25.2,
+     -81.32
+    ],
+    [
+     24.95,
+     -81.2
+    ],
+    [
+     24.6,
+     -81.95
+    ],
+    [
+     24.38,
+     -81.9
+    ],
+    [
+     24.38,
+     -81.0
+    ],
+    [
+     24.55,
+     -80.35
+    ],
+    [
+     25.0,
+     -80.02
+    ],
+    [
+     25.4,
+     -79.92
+    ],
+    [
+     26.0,
+     -79.88
+    ],
+    [
+     26.5,
+     -79.88
+    ],
+    [
+     27.0,
+     -79.92
+    ],
+    [
+     27.5,
+     -80.08
+    ],
+    [
+     28.0,
+     -80.32
+    ],
+    [
+     28.5,
+     -80.32
+    ],
+    [
+     29.0,
+     -80.72
+    ],
+    [
+     29.5,
+     -80.88
+    ],
+    [
+     30.0,
+     -81.08
+    ],
+    [
+     30.5,
+     -81.18
+    ],
+    [
+     30.75,
+     -81.44
+    ],
+    [
+     30.75,
+     -82.2
+    ],
+    [
+     30.6,
+     -83.0
+    ],
+    [
+     30.65,
+     -84.0
+    ],
+    [
+     31.02,
+     -85.0
+    ],
+    [
+     31.02,
+     -87.62
+    ]
+   ],
+   "holes": [
+    [
+     [
+      26.34,
+      -80.9
+     ],
+     [
+      26.96,
+      -80.9
+     ],
+     [
+      26.96,
+      -79.95
+     ],
+     [
+      26.34,
+      -79.95
+     ]
+    ],
+    [
+     [
+      24.42,
+      -82.05
+     ],
+     [
+      25.28,
+      -82.05
+     ],
+     [
+      25.28,
+      -80.12
+     ],
+     [
+      24.42,
+      -80.12
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "cov-full-pbc",
+   "tier": "full",
+   "n": "Palm Beach County",
+   "outer": [
+    [
+     26.34,
+     -80.9
+    ],
+    [
+     26.96,
+     -80.9
+    ],
+    [
+     26.96,
+     -79.95
+    ],
+    [
+     26.34,
+     -79.95
+    ]
+   ],
+   "holes": [],
+   "detail": "Refuge Areas 1 and 2 (§ 13-55 latitudes, exact), the § 13-33 inlet ban in both readings, all four R. 68B-20.003(2) buffers, the §§ 13-37 and 13-38 diver-flag zones, the COLREGS demarcation line, the manatee idle zones and the 3 nm line (22 Aug 2026). Added 30 Sep 2026: the Mar-a-Lago security zones (East zone no-entry since 5 Sep 2025), Lake Worth Beach's 500 ft pier zones, Lantana's beach speargun ban, Delray Beach's scuba ban, the Boca Raton Inlet closure, and the Juno Beach and Lake Park rules. Municipal codes searched 30 Sep 2026: Boca Raton, Highland Beach, Delray Beach, Gulf Stream, Ocean Ridge, Boynton Beach, Hypoluxo, Lantana, Lake Worth Beach, Palm Beach Shores, Lake Park, North Palm Beach, Palm Beach Gardens, Juno Beach, Jupiter and Jupiter Inlet Colony; West Palm Beach and Riviera Beach were checked in August. Outline drawn inside the true county line. Browser pass 30 Sep 2026: Town of Palm Beach § 74-161 (no spearfishing gear on Phipps, Midtown and three other named beaches; guns carried uncocked elsewhere) and § 74-200 (diving off guarded beaches) found; not drawn. South Palm Beach, Manalapan and Tequesta: no spear rule."
+  },
+  {
+   "id": "cov-part-monroe",
+   "tier": "partial",
+   "n": "Monroe County & the Keys",
+   "outer": [
+    [
+     24.42,
+     -82.05
+    ],
+    [
+     25.28,
+     -82.05
+    ],
+    [
+     25.28,
+     -80.12
+    ],
+    [
+     24.42,
+     -80.12
+    ]
+   ],
+   "holes": [],
+   "detail": "Drawn: the Fla. Stat. § 379.2425 Upper Keys closure and John Pennekamp; 50 of 76 FKNMS zones with a state/federal flag per zone; state park waters; Western Dry Rocks (closed 1 Apr to 31 Jul); Warsaw Hole and the Tortugas reserves; the Dry Tortugas Research Natural Area (partial outline); Pennekamp's seven lobster zones; the Key West naval areas, Sector Key West and the Marquesas targets; the Key West and Great White Heron refuges (status disputed, drawn as a warning). Codes read 30 Sep 2026: Key West (negative), Key Colony Beach, Islamorada and Marathon (§ 18-27, canal speargun ban); Monroe § 26-5 and Layton carried from August. Incomplete: the manmade-canal ban (OSM centrelines, Lower Keys only), the county's reported 300 ft lobster-season diving rule, and Key Colony Beach's 300 ft shoreline buffer. Outline is a coarse box drawn inside the county, so mainland Monroe in the Everglades falls outside it and takes the statewide tier."
+  }
+ ]
+}

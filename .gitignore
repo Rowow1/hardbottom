@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+*.log
+raw/
+__pycache__/
+.staging/
+# built by build-standalone.py; published by the deploy workflow, never committed
+bottom-truth-offline*.html
+florida-spearfishing-map-standalone*.html
+dist/

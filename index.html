@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bottom Truth: Florida spearfishing closures</title>
+<meta name="description" content="Bottom Truth: a statewide Florida spearfishing reference map of areas researched as closed or restricted, with the citation for each, plus reef and wreck sites, hardbottom and boat ramps. Not legal advice and not for navigation.">
+<meta property="og:title" content="Bottom Truth: Florida spearfishing closures">
+<meta property="og:description" content="Areas researched as closed or restricted to spearfishing in Florida, each linked to the statute, rule or ordinance behind it. Not legal advice. Not for navigation.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://bottomtruth.com/">
+<link rel="canonical" href="https://bottomtruth.com/">
+<meta name="theme-color" content="#0b0e13">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="css/app.css">
+</head><body><div id="wrap">
+<header>
+ <h1>Bottom Truth<small>Florida spearfishing closures, with the law behind each one</small></h1>
+ <div class="srch" id="srch" role="search">
+  <input id="q" type="search" placeholder="Search spots, wrecks, rules, species, or coordinates" autocomplete="off"
+   spellcheck="false" aria-label="Search the map" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="q-res">
+  <div id="q-res" role="listbox" hidden></div>
+ </div>
+ <select id="ramp" title="Launch point: all distances and bearings are measured from here"></select>
+ <div class="modes" id="modes">
+  <button data-mode="scuba" class="on">On scuba</button><button data-mode="free">Freediving</button>
+ </div>
+ <span class="grow"></span>
+ <label class="inland-tog" id="inland-tog" title="Florida prohibits spearfishing in all fresh water, so inland structures are hidden by default">
+  <input type="checkbox" id="inland-cb"><span>Inland waters</span></label>
+ <button class="hbtn" id="whbtn" title="Click this, then click the map, to list every drawn legal layer at that point. Right-click or long-press the map does the same.">What&#8217;s here?</button>
+ <button class="hbtn" id="lawbtn" title="Open the legal encyclopedia: every citation behind every zone on this map">Law</button>
+ <button class="hbtn" id="spbtn" title="Species: spear status, size, bag and season by region, with citations">Species</button>
+ <a class="hbtn" id="aboutbtn" href="about.html" title="What this map is, what it is not, sources, licences and how to report an error">About</a>
+ <button class="hbtn" id="gpx">GPX</button>
+ <button class="hbtn" id="csv">CSV</button>
+</header>
+<div id="main">
+ <div id="map">
+  <div class="base" id="base">
+   <button data-b="chart" class="on">Chart</button>
+  </div>
+  <div id="notice" role="note" aria-label="Important notice">
+   <div class="nt-bar"><b>Not legal advice &middot; Not for navigation &middot; Unshaded water is not shown as open</b><span class="nt-date nt-date-bar"></span>
+    <button id="nt-tog" type="button" aria-expanded="true" aria-controls="nt-body">Less</button></div>
+   <div class="nt-body" id="nt-body">
+    <p>Informational reference. Not legal advice, not official, and not a substitute for the advice of an
+    attorney. This map shows areas researched as closed or restricted. Unshaded water is not shown as open:
+    most of Florida's shore-adjacent buffers are not drawn yet. Regulations change. Verify with FWC, NOAA and
+    the local county before you dive, and obey posted signs.</p>
+    <p class="nt-meta"><span class="nt-date">Rules current as of: loading</span><br>
+    <b>Boundaries are approximate. NOT FOR NAVIGATION.</b></p>
+   </div>
+  </div>
+  <div id="legend"></div>
+  <div id="load">Loading map data…</div>
+ </div>
+ <div id="side"></div>
+</div></div>
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="js/law.js"></script>
+<script src="js/app.js"></script>
+<script src="js/coverage.js"></script>
+<script src="js/layers.js"></script>
+<script src="js/search.js"></script>
+<script src="js/species.js"></script>
+</body></html>

@@ -1,0 +1,566 @@
+{
+ "generated": "2026-09-30",
+ "agent": "d3-browser",
+ "device_copy": "Kept by the author outside the repository (data-raw/2026-09-30/).",
+ "files": {
+  "enc-contours.json": {
+   "bytes": 3505393,
+   "sha256": "840e92017d9d7656010ef39c0d72926f3786ee2f3afa14426b17b7b9002a4fec",
+   "meta": {
+    "source": "NOAA ENC Direct (encdirect.noaa.gov), S-57 DEPCNT",
+    "pulled": "2026-09-30T03:48:46.428Z",
+    "bbox_wsen": "-87.7,24.3,-79.8,31.1",
+    "coord_order": "[lat,lon] WGS84, 5 dp; g = array of paths",
+    "simplify": "maxAllowableOffset=0.0002 deg (~22 m), geometryPrecision=5, outSR=4326",
+    "layers": [
+     "enc_coastal/MapServer/82 Coastal.Depth_Contour_line",
+     "enc_approach/MapServer/108 Approach.Depth_Contour_line"
+    ],
+    "where": "VALDCO in metres, matched within +/-0.05 of 3.6, 5.4, 9.1, 18.2, 30.4, 36.5",
+    "units": "VALDCO is metres (S-57). ft = round(VALDCO/0.3048). US charts are fathom/foot based: 3.6 m = 12 ft (2 fm), 5.4 m = 18 ft (3 fm), 9.1 m = 30 ft (5 fm), 18.2 m = 60 ft (10 fm), 30.4 m = 100 ft, 36.5 m = 120 ft (20 fm).",
+    "finding": "Requested 10 ft (3.0 m) and 20 ft (6.1 m) contours do not exist in the Florida ENC data (no VALDCO 3.0 or 6.1 in coastal, approach or harbour). 100 ft (30.4 m) exists only as 20 approach-band segments, so 120 ft (36.5 m) is included as the nearest statewide deep contour. VALDCO values observed in coastal band: 0,1.8,5.4,9.1,18.2,36.5,54.8,73.1,91.4,182.8 and deeper; approach adds 0.9,2,3.6,5,7.3,10,10.9,15,20,27.4,30.4,60.9 etc.",
+    "harbour_band": "not included (mostly inshore 0.9 to 9.1 m); enc_harbour/104 has 25,090 contour lines in the bbox",
+    "note": "Not for navigation."
+   },
+   "record_counts": {
+    "contours": 6415
+   }
+  },
+  "enc-misc.json": {
+   "bytes": 10387082,
+   "sha256": "631a91585f89a9ff137e244df3719b0748d31e00d4b1e2c2c677a4821c780ddd",
+   "meta": {
+    "source": "NOAA ENC Direct (encdirect.noaa.gov)",
+    "pulled": "2026-09-30T03:47:23.340Z",
+    "bbox_wsen": "-87.7,24.3,-79.8,31.1",
+    "coord_order": "[lat,lon] WGS84, 5 dp; polygon/line g = array of rings/paths",
+    "simplify": "maxAllowableOffset=0.0001 deg for all except sea_area_named (0.0005 deg); geometryPrecision=5; outSR=4326",
+    "layers": {
+     "fishing_facility_areas": "FSHFAC area enc_approach/160, enc_harbour/155 (enc_coastal/117 empty in bbox)",
+     "fishing_facility_lines": "FSHFAC line enc_approach/102, enc_harbour/98",
+     "fish_havens": "NOT here: fish havens in US ENCs are OBSTRN with CATOBS=\"fish haven\"; they are in enc-rocks.json obstructions/obstruction_areas",
+     "cable_areas": "CBLARE enc_coastal/126, enc_approach/169, enc_harbour/164",
+     "pipeline_areas": "PIPARE enc_approach/172, enc_harbour/167 (enc_coastal/127 empty in bbox)",
+     "caution_areas": "CTNARE enc_coastal/116, enc_approach/159, enc_harbour/154",
+     "dumping_grounds": "DMPGRD enc_coastal/136, enc_approach/196",
+     "anchorage_areas": "ACHARE enc_coastal/132, enc_approach/191, enc_harbour/186",
+     "marine_farm_areas": "MARCUL enc_approach/201, enc_harbour/196",
+     "sea_area_named": "SEAARE enc_coastal/175, enc_approach/242, enc_harbour/237; label = vertex average of the largest ring (may fall outside concave polygons)"
+    },
+    "note": "Attribute values served as decoded text. Not for navigation."
+   },
+   "record_counts": {
+    "fishing_facility_areas": 2,
+    "fishing_facility_lines": 2,
+    "cable_areas": 860,
+    "pipeline_areas": 192,
+    "caution_areas": 1814,
+    "dumping_grounds": 554,
+    "anchorage_areas": 79,
+    "marine_farm_areas": 94,
+    "sea_area_named": 5334
+   }
+  },
+  "enc-restricted.json": {
+   "bytes": 6305557,
+   "sha256": "25bcfaa57e8aa53371fc5b68beaf7e6ed13a1da5dc0bf8d34b31997e20ffae75",
+   "meta": {
+    "source": "NOAA ENC Direct (encdirect.noaa.gov)",
+    "pulled": "2026-09-30T03:46:14.173Z",
+    "bbox_wsen": "-87.7,24.3,-79.8,31.1",
+    "coord_order": "[lat,lon] WGS84, 5 dp; polygon g = array of rings",
+    "simplify": "maxAllowableOffset=0.0001 deg (~11 m), geometryPrecision=5, outSR=4326",
+    "layers": {
+     "restricted": "RESARE: enc_coastal/141 Coastal.Restricted_Area, enc_approach/202 Approach.Restricted_Area_area, enc_harbour/197 Harbor.Restricted_Area_area",
+     "military": "MIPARE: enc_coastal/124, enc_approach/167, enc_harbour/162 Military_Practice_Area"
+    },
+    "fields_served": {
+     "restricted": "CATREA,OBJNAM,INFORM (RESTRN and NINFOM are NOT exposed by the service)",
+     "military": "CATMPA,OBJNAM,INFORM"
+    },
+    "raw_counts": {
+     "C_res": 201,
+     "A_res": 490,
+     "H_res": 1077,
+     "C_mil": 29,
+     "A_mil": 75,
+     "H_mil": 41
+    },
+    "dedupe": "only exact duplicates (same attributes and same simplified geometry) merged; the same real-world area usually appears once per band with different vertex density",
+    "catrea_counts": {
+     "ecological reserve": 548,
+     "(blank)": 739,
+     "nature reserve": 77,
+     "fish sanctuary": 6,
+     "offshore safety zone": 202,
+     "navigational aid safety zone": 45,
+     "swimming area": 3,
+     "military area": 105,
+     "degaussing range": 1,
+     "no wake area": 1
+    },
+    "note": "CATREA served as decoded text. Not for navigation."
+   },
+   "record_counts": {
+    "restricted": 1727,
+    "military": 144
+   }
+  },
+  "enc-rocks.json": {
+   "bytes": 2153547,
+   "sha256": "7938eed441cc47503733af83bc5cf5e824806d4819d15a6d87ce2fc56784ebd9",
+   "meta": {
+    "source": "NOAA ENC Direct (encdirect.noaa.gov)",
+    "pulled": "2026-09-30T03:44:58.022Z",
+    "bbox_wsen": "-87.7,24.3,-79.8,31.1",
+    "coord_order": "[lat,lon] WGS84, 5 dp",
+    "simplify": "maxAllowableOffset=0.00005 deg, geometryPrecision=5, outSR=4326",
+    "layers": {
+     "rocks": "UWTROC: enc_coastal/31, enc_approach/37, enc_harbour/34 (Underwater_Awash_Rock_point)",
+     "wrecks": "WRECKS point: enc_coastal/33, enc_approach/39, enc_harbour/36",
+     "wreck_areas": "WRECKS area: enc_coastal/120, enc_approach/163, enc_harbour/158",
+     "obstructions": "OBSTRN point: enc_coastal/30, enc_approach/36, enc_harbour/33",
+     "obstruction_areas": "OBSTRN area: enc_coastal/118, enc_approach/161, enc_harbour/156"
+    },
+    "dedupe": "identical attributes (excluding DSNM,SORDAT,OBJECTID) and identical geometry merged; band = most detailed (H>A>C)",
+    "units": "VALSOU and HEIGHT in metres (S-57); WATLEV 1 partly submerged at HW, 2 always dry, 3 always under water/submerged, 4 covers and uncovers, 5 awash, 6 subject to inundation or flooding, 7 floating; EXPSOU 1 within range of depth of surrounding depth area, 2 shoaler than range, 3 deeper than range; QUASOU 1 depth known, 2 depth unknown, 6 least depth known, 7 least depth unknown but safe clearance at value shown",
+    "note": "Not for navigation."
+   },
+   "record_counts": {
+    "rocks": 2499,
+    "wrecks": 2219,
+    "wreck_areas": 34,
+    "obstructions": 6052,
+    "obstruction_areas": 1851
+   }
+  },
+  "enc-seabed.json": {
+   "bytes": 1791476,
+   "sha256": "470863ecd885c4418836fe136c997d5ce0d695cd07a1d39ead7648944536a52f",
+   "meta": {
+    "source": "NOAA ENC Direct (encdirect.noaa.gov), S-57 SBDARE",
+    "pulled": "2026-09-30T03:43:36.879Z",
+    "bbox_wsen": "-87.7,24.3,-79.8,31.1",
+    "coord_order": "[lat,lon] WGS84, 5 dp",
+    "simplify": "maxAllowableOffset=0.00005 deg, geometryPrecision=5, outSR=4326",
+    "layers": {
+     "points": [
+      "enc_coastal/MapServer/56 Coastal.Seabed_Area_point",
+      "enc_approach/MapServer/75 Approach.Seabed_Area_point",
+      "enc_harbour/MapServer/71 Harbor.Seabed_Area_point"
+     ],
+     "areas": [
+      "enc_coastal/MapServer/144 Coastal.Seabed_Area",
+      "enc_approach/MapServer/205 Approach.Seabed_Area",
+      "enc_harbour/MapServer/200 Harbor.Seabed_Area"
+     ]
+    },
+    "raw_counts": {
+     "C_pt": 2176,
+     "A_pt": 8407,
+     "H_pt": 6647,
+     "C_ar": 40,
+     "A_ar": 90,
+     "H_ar": 156
+    },
+    "dedupe": "identical attributes (excluding DSNM,SORDAT,OBJECTID) and identical geometry merged; band = most detailed (H>A>C); bands lists all",
+    "band_codes": {
+     "C": "coastal 1:150,001-1:600,000",
+     "A": "approach",
+     "H": "harbour"
+    },
+    "note": "NATSUR/NATQUA are served as decoded text (e.g. \"sand,shells\"), not S-57 integer codes. Not for navigation."
+   },
+   "record_counts": {
+    "points": 14038,
+    "areas": 266
+   }
+  },
+  "fknms-buoys.json": {
+   "bytes": 272869,
+   "sha256": "ad7aaa18b6c03b29b8f2223c625528df4ad87fd02feeeb8fd1c66efbd13f68c0",
+   "meta": {
+    "source": "NOAA NOS Florida Keys National Marine Sanctuary, \"Florida Keys National Marine Sanctuary Buoys Public (2025)\"",
+    "service": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/arcgis/rest/services/PubFKNMSBuoy2025/FeatureServer/0",
+    "query": "where=1=1; outFields=*; outSR=4326; geometryPrecision=6; single page (807 < maxRecordCount 2000)",
+    "pulled": "2026-09-30T03:57:22.350Z",
+    "count": 807,
+    "copyright": "National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Florida Keys National Marine Sanctuary (FKNMS)",
+    "service_description": "Discover and learn about artificial reefs and mooring buoys managed by Florida Keys National Marine Sanctuary. Ideal for fishing and diving, locate sites easily on the map for short-term, first-come mooring use. Residents and visitors can explore details by clicking on points of interest. 07/09/25",
+    "layer_last_edit": "2025-09-11T20:06:15.769Z",
+    "units": "Depth__ft_ in feet",
+    "coord_order": "g = [lat,lon] from service geometry, 5 dp; Latitude_Y/Longitude_X are attribute values; DDM and LO_DDM_ are degrees.minutes.thousandths strings as published",
+    "type_counts": {
+     "Mooring/Natural Resource": 444,
+     "Mooring-LV/Natural Resource": 7,
+     "SPA Boundary/Natural Resource": 105,
+     "I Beam/i-beam": 3,
+     "Spar/": 2,
+     "Spar/SPAR - Cheeca Rocks": 1,
+     "Spar/Natural Resource": 150,
+     "Spar/i-Beam": 1,
+     "Spar/i-beam": 1,
+     "Mooring-LV/LV": 1,
+     "Mooring Wreck/Shipwreck": 34,
+     "Spar/Shipwreck": 2,
+     "Mooring/wellwood mooring": 1,
+     "Mooring-LV/Molassas LV Buoy": 1,
+     "Spar/Spar - Molasses 1": 1,
+     "Spar/Spar - Molasses 2": 1,
+     "Research Only SPA Boundary/Natural Resource": 17,
+     "Spar/San Pedro Wreck Information Spar": 1,
+     "Mooring Wreck/Ship wreck": 7,
+     "Spar/Ship wreck": 3,
+     "Spar/SPAR - Rocks": 1,
+     "Spar/Spar - Carysfort 4": 1,
+     "Spar/Spar - Carysfort 3": 1,
+     "Spar/SPAR - Maitland": 1,
+     "Mooring Wreck/Natural Resource": 7,
+     "Buoy Closure/Closure": 6,
+     "Mooring/": 5,
+     "Mooring-LV/": 2
+    },
+    "region_counts": {
+     "Upper Region": 467,
+     "undefined": 7,
+     "Lower Region": 294,
+     "Tortugas North Ecological Reserve": 39
+    },
+    "also_available": "FKNMSMaster_Mooring_MooringWreckBuoys/FeatureServer/0 (496 records, older master layer with Inspection_Dive_Notes) and Pub_FKNMS_Master_Buoy_table_2025 (table, no geometry) on the same host; not pulled",
+    "note": "Not for navigation."
+   },
+   "record_counts": {
+    "buoys": 807
+   }
+  },
+  "fwc-hardbottom.json": {
+   "bytes": 4440074,
+   "sha256": "4cf335f48182f2bf3cd5e4247f290c2d335fc889c8d4029c72a4436046998907",
+   "meta": {
+    "pulled": "2026-09-30T03:53:32.308Z",
+    "coord_order": "[lat,lon] WGS84, 5 dp; g = array of rings",
+    "statewide": {
+     "service": "https://gis.myfwc.com/hosting/rest/services/Open_Data/Coral_and_Hard_Bottom_Habitats_Statewide/MapServer/18",
+     "query": "where=METADATA IN ('bottomtype_swcoast_fl','FWC Florida Bay','sediment_gulfofmexico','middle_ground_1979_reef','SEAMAP: CA02','SEAMAP: CEXX','SEAMAP: SC01','SEAMAP: FL08','hardbottom_springscoast'); geometry=Florida bbox -87.7,24.3,-79.8,31.1 (intersects); outSR=4326; geometryPrecision=5; maxAllowableOffset=0.00005",
+     "fields": "METADATA (source dataset), SOURCEDATE, DESCRIPT (Hardbottom | Hardbottom with Seagrass | Probable Hardbottom | Coral Reef)",
+     "layer_total": 15138,
+     "excluded_sources": "Sources lying inside the Unified Florida Reef Tract Benthic Habitat extent (-83.179,24.364 to -79.968,27.318), which the project already holds: benthic_fl_keys_usgs, benthic_south_fl, coral_patchreef_keys_poly, benthic_SEFL_2013_poly, benthic_biscayne_2005, benthic_marquesas_2006_poly, benthic_tortugas_2006/2010, benthic_fl_keys_2006_2011_poly, Biscayne East NPS, Biscayne_NPS. Note SEAMAP: CEXX (Broward/Palm Beach, 713 polys) and FWC Florida Bay overlap the URM extent but were kept because they are distinct sources.",
+     "service_description": "This GIS data set represents a compilation of coral and other hard bottom type data available to FWRI as of July, 2013. The extent, time frame and/or resolution of source data sets vary.",
+     "caution": "sediment_gulfofmexico is a coarse Gulf-wide sediment compilation (extent reaches Texas); treat as indicative only."
+    },
+    "wfs": {
+     "service": "https://gis.myfwc.com/hosting/rest/services/Open_Data/West_Florida_Shelf_Benthic_Habitats/MapServer/13",
+     "query": "where=ClassLv2 LIKE 'Pavement%' (Pavement/Live Coral and Pavement - High Cover/Live Coral); outSR=4326; geometryPrecision=5; maxAllowableOffset=0.00005",
+     "layer_total": 8811,
+     "extent": "-83.042,27.159 to -82.609,28.336 (Pinellas to Sarasota nearshore shelf)",
+     "copyright": "Brian Walker, NOVA Southeastern University & Florida Fish and Wildlife Conservation Commission: Fish & Wildlife Research Institute",
+     "excluded": "Sand classes (Sand, Sand - Cyanobacteria, Sand - Caulerpa, Sand - Continuous/Discontinuous Seagrass) not pulled"
+    },
+    "worm": {
+     "service": "https://gis.myfwc.com/hosting/rest/services/Open_Data/Worm_Reef_Habitats_Florida_East_Coast/MapServer/14",
+     "query": "where=1=1; maxAllowableOffset=0.00002",
+     "fields": "ID only",
+     "copyright": "The Nature Conservancy provided the original worm reefs shapefile. FWRI added reefs in Broward County."
+    },
+    "note": "Habitat maps are indicative, not surveyed boundaries. Not for navigation."
+   },
+   "record_counts": {
+    "statewide": 1144,
+    "wfs": 4958,
+    "worm": 20
+   }
+  },
+  "fwc-manatee-noentry.json": {
+   "bytes": 58156,
+   "sha256": "c7160291cb0d77caa3f80779f5a3db69494a34bcb7a48bad2282020b7c138643",
+   "meta": {
+    "source": "FWC Division of Habitat & Species Conservation, Imperiled Species Management Section",
+    "service": "https://gis.myfwc.com/hosting/rest/services/Open_Data/State_Manatee_Protection_Zones_in_Florida/MapServer/9",
+    "query": "where=MASTER_CL IN ('NE','MP') OR CLASS1_68C LIKE 'NE%' OR CLASS1_68C LIKE 'MP%' OR CLASS2_68C LIKE 'NE%' OR CLASS2_68C LIKE 'MP%'; outFields=*; outSR=4326; geometryPrecision=5; maxAllowableOffset=0.00002",
+    "pulled": "2026-09-30T03:51:27.033Z",
+    "count": 27,
+    "total_layer_count": 633,
+    "class_breakdown_full_layer": "SS/SSAY 322, IS/ISAY 64, 25 MPH 88, 30 MPH 28, 35 MPH 4, 20 MPH 7, 25/30 and 25/35 day-night 17, SS/SS 61, SS WKND 1, SSAY_25CH 6, NE/NE 13, NE/NEAY 8, MP/MP 4, MP/MPAY 2",
+    "codes": "NE = No Entry (seasonal), NEAY = No Entry all year, MP = Motorboats Prohibited (seasonal), MPAY = Motorboats Prohibited all year; see DATE1_68C/DATE2_68C for seasons and SECT_68C for the Fla. Admin. Code r. 68C-22 citation",
+    "disclaimer_from_service": "This GIS data set was developed to spatially represent the manatee protection areas for general reference only. In the event of conflict between this data set and the zones as described in the FAC, the descriptions in the FAC shall prevail. These state of Florida manatee protection zones may differ from manatee protections zones created by City or County authorities and/or the U.S. Fish and Wildlife Service.",
+    "scope_note": "State (68C-22) zones only. Federal USFWS manatee refuges/sanctuaries (50 CFR 17.108) and local zones are not in this layer."
+   },
+   "record_counts": {
+    "zones": 27
+   }
+  },
+  "fwc-reefs.json": {
+   "bytes": 2105799,
+   "sha256": "c5e0fe482dbe33d7d8d9d2b1e3e76f534ba004ce6a8b8305c6d115c496fd410b",
+   "meta": {
+    "source": "FWC Division of Marine Fisheries Management, Artificial Reef Program",
+    "service": "https://gis.myfwc.com/mapping/rest/services/Open_Data/Artificial_Reef_Locations_in_Florida/MapServer/12",
+    "query": "where=1=1, outFields as listed, outSR=4326, geometryPrecision=5, resultRecordCount=2000 paged by OBJECTID",
+    "pulled": "2026-09-30T03:51:26.990Z",
+    "count": 4548,
+    "max_last_edited_date": "2026-05-13T18:16:57.000Z",
+    "copyright": "FWC Division of Marine Fisheries Management",
+    "units": "Depth and Relief in feet (field aliases \"Depth (ft)\", \"Relief (ft)\"); Tonnage in tons; DDate integer YYYYMMDD",
+    "coord_order": "g = [lat,lon] from service geometry, 5 dp; Lat_DD/Long_DD are the attribute values (checked: geometry and DD attributes agree within 0.0002 deg for all records)",
+    "note": "Not for navigation."
+   },
+   "record_counts": {
+    "reefs": 4548
+   }
+  },
+  "fwc-seagrass-north.json": {
+   "bytes": 15587415,
+   "sha256": "2080d1536daf9e56073e163d46435b8340b7ca0858845d6f0cb19782d251da41",
+   "meta": {
+    "source": "FWC Fish and Wildlife Research Institute, Seagrass Habitat in Florida (statewide compilation)",
+    "service": "https://gis.myfwc.com/hosting/rest/services/Open_Data/Seagrass_Statewide/MapServer/15",
+    "query": "where=1=1; outFields=OBJECTID,SEAGRASS,METADATA,SOURCEDATE; outSR=4326; geometryPrecision=5; maxAllowableOffset=0.0005 deg (~50 m; small patches keep at least a triangle); paged 2000 by OBJECTID",
+    "pulled": "2026-09-30T03:57:47.892Z",
+    "layer_total": 86173,
+    "class_counts": {
+     "Continuous": 39251,
+     "Discontinuous": 46922
+    },
+    "copyright": "(blank in service)",
+    "service_description": "This polygon GIS data set represents a compilation of statewide seagrass data from various source agencies and scales. The data were mapped from sources ranging in date from 1987 to 2025. This dataset is complete as of data available to FWRI in August 2026. Not all data in this compilation are mapped from photography; some are the results of field measurements. See the \"Sources\" section for more information. The original source data sets were not all classified in the same manner; some used the Florida Land Use Cover and Forms Classification System (FLUCCS) codes 9113 for discontinuous seagrass and 9116 for continuous seagrass; some defined only presence and absence of seagrass, and some defined varying degrees of seagrass percent cover. In order to merge all of these data sources into one compilation data set, FWRI reclassified the various source data attribute schemes into two categories: \"Continuous Seagrass\" and \"Patchy (Discontinuous) Seagrass\". In areas where studies overlap, the most recent study where a given area has been interpreted is represented in this data set. This data set is not comparable to previous statewide data sets for time series studies - not all areas have been updated since the previous statewide compilation and some areas previously not mapped are now included. Please contact GIS Librarian to request the source data if you need to do a time series comparison. This data set has been updated in several areas from the previous compilation, including N",
+    "row_format": "[OBJECTID, SEAGRASS (C=Continuous, D=Discontinuous), source index into meta.sources (METADATA field), SOURCEDATE, rings as [[[lat,lon],...],...]]",
+    "split": "Two files by latitude of first vertex: fwc-seagrass.json holds south (<27.0 N: Keys, Florida Bay, SE coast, SW to Charlotte Harbor south edge); fwc-seagrass-north.json holds >=27.0 N (Tampa Bay, Big Bend, Panhandle, IRL, NE coast)",
+    "sources": [
+     "UnifiedFloridaReefTract",
+     "seagrass_swcoast_fl_1987",
+     "seagrass_FLBay_2010_ENP",
+     "seagrass_flbay_2016_ENP",
+     "benthic_flbay_2004",
+     "benthic_Rookery_Bay_RBNERR_2014",
+     "seagrass_naples_2007",
+     "seagrass_collier",
+     "benthic_SoFLEstuaries_USACE_2011",
+     "seagrass_SWFWMD_2024_poly",
+     "seagrass_west_coast_fl_sfwmd_2021",
+     "benthic_palmbeach_2007",
+     "seagrass_Indian_River_Lagoon_2017",
+     "seagrass_broward",
+     "seagrass_Lake_Worth_Lagoon_PBC_2018_poly",
+     "seagrass_Indian_River_Lagoon_2021",
+     "seagrass_Indian_River_Lagoon_2023",
+     "seagrass_Lake_Worth_Lagoon_PBC_2023_poly",
+     "seagrass_Indian_River_Lagoon_2025",
+     "seagrass_panhandle_2010",
+     "seagrass_nw_fl_1992",
+     "seagrass_Gulf_Islands_National_Seashore_NPS_2011",
+     "seagrass_santarosa_2003",
+     "seagrass_choctawhatchee_2007",
+     "seagrass_BigBend_FWRI_2011",
+     "seagrass_BigBend_FWRI/QuantumSpatialInc_2015",
+     "seagrass_BigBend_FWRI_2019",
+     "seagrass_BigBend_FWRI_2022",
+     "seagrass_PensacolaBay_FWRI/Dewberry_2015",
+     "seagrass_PensacolaBay_FWRI/QuantumSpatialInc_2017",
+     "seagrass_ChoctawhatcheeBay_FWRI/Dewberry_2015",
+     "seagrass_ChoctawhatcheeBay_FWRI/QuantumSpatialInc_2017",
+     "seagrass_PerdidoBay_FWRI/Dewberry_2015",
+     "seagrass_PerdidoBay_FWRI/QuantumSpatialInc_2017",
+     "seagrass_StAndrewBay_FWRI/Dewberry_2015",
+     "seagrass_StAndrewBay_FWRI/QuantumSpatialInc_2017",
+     "seagrass_StJosephBay_FWRI_2023",
+     "seagrass_StJosephStAndrewBay_FDEP_2024",
+     "seagrass_SpringsCoast_2024_SWFWMD_poly",
+     "seagrass_sunken_island_2023",
+     "benthic_srwmd_2001",
+     "seagrass_PensacolaPerdidoBay_USMGCGC_2025"
+    ],
+    "note": "Seagrass maps compile surveys from 1987 to 2025 at mixed scales. Indicative only.",
+    "part": "north (>=27.0 N)",
+    "count": 69558
+   },
+   "record_counts": {
+    "rows": 69558
+   }
+  },
+  "fwc-seagrass.json": {
+   "bytes": 5499960,
+   "sha256": "356a65d658ecb84929026db82513cfbe8529fca63998613d9e81c2a9dc9e4d97",
+   "meta": {
+    "source": "FWC Fish and Wildlife Research Institute, Seagrass Habitat in Florida (statewide compilation)",
+    "service": "https://gis.myfwc.com/hosting/rest/services/Open_Data/Seagrass_Statewide/MapServer/15",
+    "query": "where=1=1; outFields=OBJECTID,SEAGRASS,METADATA,SOURCEDATE; outSR=4326; geometryPrecision=5; maxAllowableOffset=0.0005 deg (~50 m; small patches keep at least a triangle); paged 2000 by OBJECTID",
+    "pulled": "2026-09-30T03:57:47.892Z",
+    "layer_total": 86173,
+    "class_counts": {
+     "Continuous": 39251,
+     "Discontinuous": 46922
+    },
+    "copyright": "(blank in service)",
+    "service_description": "This polygon GIS data set represents a compilation of statewide seagrass data from various source agencies and scales. The data were mapped from sources ranging in date from 1987 to 2025. This dataset is complete as of data available to FWRI in August 2026. Not all data in this compilation are mapped from photography; some are the results of field measurements. See the \"Sources\" section for more information. The original source data sets were not all classified in the same manner; some used the Florida Land Use Cover and Forms Classification System (FLUCCS) codes 9113 for discontinuous seagrass and 9116 for continuous seagrass; some defined only presence and absence of seagrass, and some defined varying degrees of seagrass percent cover. In order to merge all of these data sources into one compilation data set, FWRI reclassified the various source data attribute schemes into two categories: \"Continuous Seagrass\" and \"Patchy (Discontinuous) Seagrass\". In areas where studies overlap, the most recent study where a given area has been interpreted is represented in this data set. This data set is not comparable to previous statewide data sets for time series studies - not all areas have been updated since the previous statewide compilation and some areas previously not mapped are now included. Please contact GIS Librarian to request the source data if you need to do a time series comparison. This data set has been updated in several areas from the previous compilation, including N",
+    "row_format": "[OBJECTID, SEAGRASS (C=Continuous, D=Discontinuous), source index into meta.sources (METADATA field), SOURCEDATE, rings as [[[lat,lon],...],...]]",
+    "split": "Two files by latitude of first vertex: fwc-seagrass.json holds south (<27.0 N: Keys, Florida Bay, SE coast, SW to Charlotte Harbor south edge); fwc-seagrass-north.json holds >=27.0 N (Tampa Bay, Big Bend, Panhandle, IRL, NE coast)",
+    "sources": [
+     "UnifiedFloridaReefTract",
+     "seagrass_swcoast_fl_1987",
+     "seagrass_FLBay_2010_ENP",
+     "seagrass_flbay_2016_ENP",
+     "benthic_flbay_2004",
+     "benthic_Rookery_Bay_RBNERR_2014",
+     "seagrass_naples_2007",
+     "seagrass_collier",
+     "benthic_SoFLEstuaries_USACE_2011",
+     "seagrass_SWFWMD_2024_poly",
+     "seagrass_west_coast_fl_sfwmd_2021",
+     "benthic_palmbeach_2007",
+     "seagrass_Indian_River_Lagoon_2017",
+     "seagrass_broward",
+     "seagrass_Lake_Worth_Lagoon_PBC_2018_poly",
+     "seagrass_Indian_River_Lagoon_2021",
+     "seagrass_Indian_River_Lagoon_2023",
+     "seagrass_Lake_Worth_Lagoon_PBC_2023_poly",
+     "seagrass_Indian_River_Lagoon_2025",
+     "seagrass_panhandle_2010",
+     "seagrass_nw_fl_1992",
+     "seagrass_Gulf_Islands_National_Seashore_NPS_2011",
+     "seagrass_santarosa_2003",
+     "seagrass_choctawhatchee_2007",
+     "seagrass_BigBend_FWRI_2011",
+     "seagrass_BigBend_FWRI/QuantumSpatialInc_2015",
+     "seagrass_BigBend_FWRI_2019",
+     "seagrass_BigBend_FWRI_2022",
+     "seagrass_PensacolaBay_FWRI/Dewberry_2015",
+     "seagrass_PensacolaBay_FWRI/QuantumSpatialInc_2017",
+     "seagrass_ChoctawhatcheeBay_FWRI/Dewberry_2015",
+     "seagrass_ChoctawhatcheeBay_FWRI/QuantumSpatialInc_2017",
+     "seagrass_PerdidoBay_FWRI/Dewberry_2015",
+     "seagrass_PerdidoBay_FWRI/QuantumSpatialInc_2017",
+     "seagrass_StAndrewBay_FWRI/Dewberry_2015",
+     "seagrass_StAndrewBay_FWRI/QuantumSpatialInc_2017",
+     "seagrass_StJosephBay_FWRI_2023",
+     "seagrass_StJosephStAndrewBay_FDEP_2024",
+     "seagrass_SpringsCoast_2024_SWFWMD_poly",
+     "seagrass_sunken_island_2023",
+     "benthic_srwmd_2001",
+     "seagrass_PensacolaPerdidoBay_USMGCGC_2025"
+    ],
+    "note": "Seagrass maps compile surveys from 1987 to 2025 at mixed scales. Indicative only.",
+    "part": "south (<27.0 N)",
+    "count": 16615
+   },
+   "record_counts": {
+    "rows": 16615
+   }
+  },
+  "fws-refuges-fl.json": {
+   "bytes": 944854,
+   "sha256": "9e48ad41e42e092528a30fad4538f3815869f0a5d3bd451c4c247fc31cb8d112",
+   "meta": {
+    "source": "U.S. Fish and Wildlife Service, National Wildlife Refuge System, Division of Realty: FWS Interest boundaries (\"National Wildlife Refuges\", ArcGIS Online owner Federal_User_Community, access information \"U.S. Fish and Wildlife Service (FWS)\")",
+    "service": "https://services.arcgis.com/QVENGdaPbd4LUkLV/arcgis/rest/services/National_Wildlife_Refuge_System_Boundaries/FeatureServer/0",
+    "query": "where=1=1; geometry=Florida bbox -87.7,24.3,-79.8,31.1 intersects; outSR=4326; geometryPrecision=5; maxAllowableOffset=0.0001 deg (~11 m)",
+    "pulled": "2026-09-30T04:00:23.595Z",
+    "count": 36,
+    "layer_total": 1085,
+    "layer_last_edit": "2026-08-24T15:56:22.196Z",
+    "copyright": "U.S. Fish and Wildlife Service, National Wildlife Refuge System, Division of Realty",
+    "service_description": "This data set depicts the external boundary of lands and waters administered by the U.S. Fish and Wildlife Service including National Wildlife Refuges, National Fish Hatcheries, FWS administrative sites, and other conservation areas.",
+    "license": "To learn more about data use and constraints, please contact the U.S. Fish and Wildlife Service's Contact Us page. (item licenseInfo)",
+    "fields": "ORGNAME, ORGCODE, LIT (3-letter unit code), RSL_TYPE (NWR = refuge, NFH = hatchery, etc.), CostCenter, FWSREGION",
+    "scope_note": "All FWS interest units intersecting the bbox, coastal and inland; filter by name for coastal refuges. Boundary = FWS interest (administered lands and waters), not the acquisition boundary. Some units include open water; refuge-specific regulations (50 CFR 32) decide fishing/spearfishing, not this layer.",
+    "coord_order": "g = array of rings [[lat,lon],...]"
+   },
+   "record_counts": {
+    "refuges": 36
+   }
+  },
+  "mpa-inventory-fl.json": {
+   "bytes": 17392933,
+   "sha256": "cfdfee776a836160a0664c762a9b3f2f5caeb91aaecd7b1b966c9da3d1d08067",
+   "meta": {
+    "source": "NOAA National Ocean Service, Office of National Marine Sanctuaries, Marine Protected Areas Center: \"NOAA Marine Protected Areas Inventory 2024\" (ArcGIS Online owner MPA_noaa)",
+    "service": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/arcgis/rest/services/NOAA_MPA_Inventory_2023/FeatureServer/0",
+    "item_id": "eb2b36aecb004f14ac29cf0260624291",
+    "item_modified": "2026-04-14T21:24:18.000Z",
+    "query": "Union of (a) where=1=1 with geometry=Florida bbox -87.7,24.3,-79.8,31.1 intersects (219) and (b) where=State LIKE '%FL%' (216); merged on Site_ID+Site_Name; outSR=4326; geometryPrecision=5; maxAllowableOffset=0.0002 deg (~22 m)",
+    "pulled": "2026-09-30T03:59:34.763Z",
+    "count": 219,
+    "layer_total": 981,
+    "fields": [
+     "Site_ID",
+     "Site_Name",
+     "Gov_Level",
+     "State",
+     "Prot_Lvl",
+     "Mgmt_Agen",
+     "Mgmt_Plan",
+     "Pri_Con_Fo",
+     "Cons_Focus",
+     "Fish_Rstr",
+     "Prot_Focus",
+     "Permanence",
+     "Constancy",
+     "Estab_Yr",
+     "Anchor",
+     "Vessel",
+     "IUCN_MPA",
+     "IUCNcat",
+     "Category",
+     "Marine",
+     "URL",
+     "WDPA_Cd",
+     "ProSeasID",
+     "Design",
+     "AreaKm",
+     "AreaMar",
+     "MarPercent",
+     "AreaNT",
+     "Longitude",
+     "Latitude"
+    ],
+    "license": "Data are not to be used for navigation. For more details on data use and limitations, please review the metadata. The MPA Center shall not be held liable for improper or incorrect use of the data described and/or contained in this database. These data and related graphics are not legal documents and are not intended to be used as such. The information contained in these data is dynamic and may change over time. The data are not better than the original sources from which they were derived. It is the responsibility of the data user to use the data appropriately and within the limitations of geospatial data in general, and these data in particular.",
+    "access_information": "NOAA, National Ocean Service, Office of National Marine Sanctuaries, Marine Protected Areas Center",
+    "includes_non_FL": "3 Georgia sites intersect the bbox: Satilla River Marsh Island Natural Area, Crooked River State Park, Cumberland Island National Seashore",
+    "field_notes": "Fish_Rstr = fishing restriction summary; Prot_Lvl = protection level; Anchor/Vessel = anchoring and vessel restrictions; AreaKm/AreaMar in km2; Longitude/Latitude are a representative point",
+    "coord_order": "g = array of rings [[lat,lon],...]",
+    "note": "Inventory attributes are summaries, not legal text. Not for navigation."
+   },
+   "record_counts": {
+    "sites": 219
+   }
+  },
+  "stations.json": {
+   "bytes": 133366,
+   "sha256": "103c102b61bfb14b65dcd44eaf6e6d4d37c61cbfb8d8b6e996870e9d856d8a53",
+   "meta": {
+    "pulled": "2026-09-30T04:01:39.509Z",
+    "bbox_wsen": "-87.7,24.3,-79.8,31.1 (includes some GA and AL stations near the border)",
+    "coord_order": "g = [lat,lon], 5 dp",
+    "coops": {
+     "source": "NOAA CO-OPS Metadata API (mdapi)",
+     "urls": [
+      "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=tidepredictions",
+      "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=currentpredictions",
+      "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=waterlevels"
+     ],
+     "counts": {
+      "tide_prediction_stations": 625,
+      "current_prediction_stations": 324,
+      "water_level_stations": 24
+     },
+     "codes": "tide type R = reference (harmonic) station, S = subordinate (offsets from ref). current type H = harmonic, S = subordinate, W = weak/variable; bin = current bin, depth in feet with depthType (B = below surface / bottom per CO-OPS convention); the same current station id appears once per bin (324 rows, 178 unique ids)"
+    },
+    "ndbc": {
+     "source": "NOAA National Data Buoy Center active stations list",
+     "url": "https://www.ndbc.noaa.gov/activestations.xml",
+     "created": "2026-09-30T03:55:02UTC",
+     "count_all": 1354,
+     "count_bbox": 110,
+     "fields": "id, name, owner, pgm (program), type (buoy/fixed/dart/other), met/currents/waterquality/dart flags (y/n), elev"
+    },
+    "licence": "U.S. Government work (NOAA); no copyright statement exposed by either API.",
+    "note": "Not for navigation."
+   },
+   "record_counts": {
+    "tide_prediction_stations": 625,
+    "current_prediction_stations": 324,
+    "water_level_stations": 24,
+    "ndbc_active": 110
+   }
+  }
+ }
+}

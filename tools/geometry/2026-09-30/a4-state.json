@@ -1,0 +1,491 @@
+[
+ {
+  "id": "penncpz-turtlerocks",
+  "name": "John Pennekamp: Coral Formation Protection Zone, Turtle Rocks (no lobster harvest or traps)",
+  "law": [
+   "fac-68b-24-0065",
+   "fs-379-2425",
+   "fac-62d-2-014"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     25.31417,
+     -80.21717
+    ],
+    [
+     25.304,
+     -80.21067
+    ],
+    [
+     25.28417,
+     -80.22517
+    ],
+    [
+     25.27617,
+     -80.23583
+    ],
+    [
+     25.28233,
+     -80.24267
+    ],
+    [
+     25.31417,
+     -80.21717
+    ]
+   ]
+  ],
+  "source": "Fla. Admin. Code r. 68B-24.0065(2)(a), table of seven zones as amended effective 1 Jul 2026. Coordinates transcribed from the proposed rule text in Fla. Admin. Register Vol. 51 No. 161 (19 Aug 2025), adopted without change per the notice of change in Vol. 51 No. 184 (22 Sep 2025): '(1) through (2) No change.' Plot corners joined in rule order.",
+  "note": "Original (decimal minutes, rule order): Corner 1 25° 18.85' N, 80° 13.03' W; Corner 2 25° 18.24' N, 80° 12.64' W; Corner 3 25° 17.05' N, 80° 13.51' W; Corner 4 25° 16.57' N, 80° 14.15' W; Corner 5 25° 16.94' N, 80° 14.56' W. SECONDARY TRANSCRIPTION: the numbers came through a PDF summariser (the struck-through ten-zone table and the new seven-zone table are interleaved in the FAR text); confirm every corner against the flrules .doc (tid 30968625) before publishing. Datum not stated. Ring self-intersection check: simple polygon. Lobster-only closure (Panulirus, Scyllarides, traps); the whole park is already closed to spearfishing by Fla. Stat. s. 379.2425 and r. 62D-2.014(9)(d). Replaces the ten 1995 zones (Turtle Rocks, Basin Hill N./E./S., Higdon's Reef, Cannon Patch, Mosquito Bank N./S.E., Three Sisters N./S.) from 1 Jul 2026."
+ },
+ {
+  "id": "penncpz-basinhill",
+  "name": "John Pennekamp: Coral Formation Protection Zone, Basin Hill (no lobster harvest or traps)",
+  "law": [
+   "fac-68b-24-0065",
+   "fs-379-2425",
+   "fac-62d-2-014"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     25.20733,
+     -80.28017
+    ],
+    [
+     25.2215,
+     -80.26817
+    ],
+    [
+     25.2315,
+     -80.259
+    ],
+    [
+     25.23583,
+     -80.25617
+    ],
+    [
+     25.245,
+     -80.26667
+    ],
+    [
+     25.24017,
+     -80.27
+    ],
+    [
+     25.22883,
+     -80.26917
+    ],
+    [
+     25.22483,
+     -80.2835
+    ],
+    [
+     25.21333,
+     -80.29183
+    ],
+    [
+     25.20733,
+     -80.28017
+    ]
+   ]
+  ],
+  "source": "Fla. Admin. Code r. 68B-24.0065(2)(a), table of seven zones as amended effective 1 Jul 2026. Coordinates transcribed from the proposed rule text in Fla. Admin. Register Vol. 51 No. 161 (19 Aug 2025), adopted without change per the notice of change in Vol. 51 No. 184 (22 Sep 2025): '(1) through (2) No change.' Plot corners joined in rule order.",
+  "note": "Original (decimal minutes, rule order): Corner 1 25° 12.44' N, 80° 16.81' W; Corner 2 25° 13.29' N, 80° 16.09' W; Corner 3 25° 13.89' N, 80° 15.54' W; Corner 4 25° 14.15' N, 80° 15.37' W; Corner 5 25° 14.7' N, 80° 16.00' W; Corner 6 25° 14.41' N, 80° 16.2' W; Corner 7 25° 13.73' N, 80° 16.15' W; Corner 8 25° 13.49' N, 80° 17.01' W; Corner 9 25° 12.8' N, 80° 17.51' W. SECONDARY TRANSCRIPTION: the numbers came through a PDF summariser (the struck-through ten-zone table and the new seven-zone table are interleaved in the FAR text); confirm every corner against the flrules .doc (tid 30968625) before publishing. Datum not stated. Ring self-intersection check: simple polygon. Lobster-only closure (Panulirus, Scyllarides, traps); the whole park is already closed to spearfishing by Fla. Stat. s. 379.2425 and r. 62D-2.014(9)(d). Replaces the ten 1995 zones (Turtle Rocks, Basin Hill N./E./S., Higdon's Reef, Cannon Patch, Mosquito Bank N./S.E., Three Sisters N./S.) from 1 Jul 2026."
+ },
+ {
+  "id": "penncpz-higdonsreef",
+  "name": "John Pennekamp: Coral Formation Protection Zone, Higdon's Reef (no lobster harvest or traps)",
+  "law": [
+   "fac-68b-24-0065",
+   "fs-379-2425",
+   "fac-62d-2-014"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     25.14433,
+     -80.31333
+    ],
+    [
+     25.13417,
+     -80.32133
+    ],
+    [
+     25.132,
+     -80.318
+    ],
+    [
+     25.1425,
+     -80.31033
+    ],
+    [
+     25.14433,
+     -80.31333
+    ]
+   ]
+  ],
+  "source": "Fla. Admin. Code r. 68B-24.0065(2)(a), table of seven zones as amended effective 1 Jul 2026. Coordinates transcribed from the proposed rule text in Fla. Admin. Register Vol. 51 No. 161 (19 Aug 2025), adopted without change per the notice of change in Vol. 51 No. 184 (22 Sep 2025): '(1) through (2) No change.' Plot corners joined in rule order.",
+  "note": "Original (decimal minutes, rule order): Corner 1 25° 8.66' N, 80° 18.8' W; Corner 2 25° 8.05' N, 80° 19.28' W; Corner 3 25° 7.92' N, 80° 19.08' W; Corner 4 25° 8.55' N, 80° 18.62' W. SECONDARY TRANSCRIPTION: the numbers came through a PDF summariser (the struck-through ten-zone table and the new seven-zone table are interleaved in the FAR text); confirm every corner against the flrules .doc (tid 30968625) before publishing. Datum not stated. Ring self-intersection check: simple polygon. Lobster-only closure (Panulirus, Scyllarides, traps); the whole park is already closed to spearfishing by Fla. Stat. s. 379.2425 and r. 62D-2.014(9)(d). Replaces the ten 1995 zones (Turtle Rocks, Basin Hill N./E./S., Higdon's Reef, Cannon Patch, Mosquito Bank N./S.E., Three Sisters N./S.) from 1 Jul 2026."
+ },
+ {
+  "id": "penncpz-cannonpatch",
+  "name": "John Pennekamp: Coral Formation Protection Zone, Cannon Patch (no lobster harvest or traps)",
+  "law": [
+   "fac-68b-24-0065",
+   "fs-379-2425",
+   "fac-62d-2-014"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     25.09917,
+     -80.34483
+    ],
+    [
+     25.10917,
+     -80.33567
+    ],
+    [
+     25.11383,
+     -80.341
+    ],
+    [
+     25.1125,
+     -80.34267
+    ],
+    [
+     25.10167,
+     -80.34833
+    ],
+    [
+     25.09917,
+     -80.34483
+    ]
+   ]
+  ],
+  "source": "Fla. Admin. Code r. 68B-24.0065(2)(a), table of seven zones as amended effective 1 Jul 2026. Coordinates transcribed from the proposed rule text in Fla. Admin. Register Vol. 51 No. 161 (19 Aug 2025), adopted without change per the notice of change in Vol. 51 No. 184 (22 Sep 2025): '(1) through (2) No change.' Plot corners joined in rule order.",
+  "note": "Original (decimal minutes, rule order): Corner 1 25° 5.95' N, 80° 20.69' W; Corner 2 25° 6.55' N, 80° 20.14' W; Corner 3 25° 6.83' N, 80° 20.46' W; Corner 4 25° 6.75' N, 80° 20.56' W; Corner 5 25° 6.1' N, 80° 20.9' W. SECONDARY TRANSCRIPTION: the numbers came through a PDF summariser (the struck-through ten-zone table and the new seven-zone table are interleaved in the FAR text); confirm every corner against the flrules .doc (tid 30968625) before publishing. Datum not stated. Ring self-intersection check: simple polygon. Lobster-only closure (Panulirus, Scyllarides, traps); the whole park is already closed to spearfishing by Fla. Stat. s. 379.2425 and r. 62D-2.014(9)(d). Replaces the ten 1995 zones (Turtle Rocks, Basin Hill N./E./S., Higdon's Reef, Cannon Patch, Mosquito Bank N./S.E., Three Sisters N./S.) from 1 Jul 2026."
+ },
+ {
+  "id": "penncpz-mosquitobankn",
+  "name": "John Pennekamp: Coral Formation Protection Zone, Mosquito Bank N. (no lobster harvest or traps)",
+  "law": [
+   "fac-68b-24-0065",
+   "fs-379-2425",
+   "fac-62d-2-014"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     25.0785,
+     -80.37133
+    ],
+    [
+     25.0815,
+     -80.37933
+    ],
+    [
+     25.06783,
+     -80.391
+    ],
+    [
+     25.06383,
+     -80.3825
+    ],
+    [
+     25.0785,
+     -80.37133
+    ]
+   ]
+  ],
+  "source": "Fla. Admin. Code r. 68B-24.0065(2)(a), table of seven zones as amended effective 1 Jul 2026. Coordinates transcribed from the proposed rule text in Fla. Admin. Register Vol. 51 No. 161 (19 Aug 2025), adopted without change per the notice of change in Vol. 51 No. 184 (22 Sep 2025): '(1) through (2) No change.' Plot corners joined in rule order.",
+  "note": "Original (decimal minutes, rule order): Corner 1 25° 4.71' N, 80° 22.28' W; Corner 2 25° 4.89' N, 80° 22.76' W; Corner 3 25° 4.07' N, 80° 23.46' W; Corner 4 25° 3.83' N, 80° 22.95' W. SECONDARY TRANSCRIPTION: the numbers came through a PDF summariser (the struck-through ten-zone table and the new seven-zone table are interleaved in the FAR text); confirm every corner against the flrules .doc (tid 30968625) before publishing. Datum not stated. Ring self-intersection check: simple polygon. Lobster-only closure (Panulirus, Scyllarides, traps); the whole park is already closed to spearfishing by Fla. Stat. s. 379.2425 and r. 62D-2.014(9)(d). Replaces the ten 1995 zones (Turtle Rocks, Basin Hill N./E./S., Higdon's Reef, Cannon Patch, Mosquito Bank N./S.E., Three Sisters N./S.) from 1 Jul 2026."
+ },
+ {
+  "id": "penncpz-mosquitobankse",
+  "name": "John Pennekamp: Coral Formation Protection Zone, Mosquito Bank S.E. (no lobster harvest or traps)",
+  "law": [
+   "fac-68b-24-0065",
+   "fs-379-2425",
+   "fac-62d-2-014"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     25.0565,
+     -80.38233
+    ],
+    [
+     25.06967,
+     -80.36767
+    ],
+    [
+     25.07217,
+     -80.37067
+    ],
+    [
+     25.05783,
+     -80.38433
+    ],
+    [
+     25.0565,
+     -80.38233
+    ]
+   ]
+  ],
+  "source": "Fla. Admin. Code r. 68B-24.0065(2)(a), table of seven zones as amended effective 1 Jul 2026. Coordinates transcribed from the proposed rule text in Fla. Admin. Register Vol. 51 No. 161 (19 Aug 2025), adopted without change per the notice of change in Vol. 51 No. 184 (22 Sep 2025): '(1) through (2) No change.' Plot corners joined in rule order.",
+  "note": "Original (decimal minutes, rule order): Corner 1 25° 3.39' N, 80° 22.94' W; Corner 2 25° 4.18' N, 80° 22.06' W; Corner 3 25° 4.33' N, 80° 22.24' W; Corner 4 25° 3.47' N, 80° 23.06' W. SECONDARY TRANSCRIPTION: the numbers came through a PDF summariser (the struck-through ten-zone table and the new seven-zone table are interleaved in the FAR text); confirm every corner against the flrules .doc (tid 30968625) before publishing. Datum not stated. Ring self-intersection check: simple polygon. Lobster-only closure (Panulirus, Scyllarides, traps); the whole park is already closed to spearfishing by Fla. Stat. s. 379.2425 and r. 62D-2.014(9)(d). Replaces the ten 1995 zones (Turtle Rocks, Basin Hill N./E./S., Higdon's Reef, Cannon Patch, Mosquito Bank N./S.E., Three Sisters N./S.) from 1 Jul 2026."
+ },
+ {
+  "id": "penncpz-threesisters",
+  "name": "John Pennekamp: Coral Formation Protection Zone, Three Sisters (no lobster harvest or traps)",
+  "law": [
+   "fac-68b-24-0065",
+   "fs-379-2425",
+   "fac-62d-2-014"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     25.04733,
+     -80.39533
+    ],
+    [
+     25.03933,
+     -80.40267
+    ],
+    [
+     25.03483,
+     -80.395
+    ],
+    [
+     25.04217,
+     -80.389
+    ],
+    [
+     25.04733,
+     -80.39533
+    ]
+   ]
+  ],
+  "source": "Fla. Admin. Code r. 68B-24.0065(2)(a), table of seven zones as amended effective 1 Jul 2026. Coordinates transcribed from the proposed rule text in Fla. Admin. Register Vol. 51 No. 161 (19 Aug 2025), adopted without change per the notice of change in Vol. 51 No. 184 (22 Sep 2025): '(1) through (2) No change.' Plot corners joined in rule order.",
+  "note": "Original (decimal minutes, rule order): Corner 1 25° 2.84' N, 80° 23.72' W; Corner 2 25° 2.36' N, 80° 24.16' W; Corner 3 25° 2.09' N, 80° 23.7' W; Corner 4 25° 2.53' N, 80° 23.34' W. SECONDARY TRANSCRIPTION: the numbers came through a PDF summariser (the struck-through ten-zone table and the new seven-zone table are interleaved in the FAR text); confirm every corner against the flrules .doc (tid 30968625) before publishing. Datum not stated. Ring self-intersection check: simple polygon. Lobster-only closure (Panulirus, Scyllarides, traps); the whole park is already closed to spearfishing by Fla. Stat. s. 379.2425 and r. 62D-2.014(9)(d). Replaces the ten 1995 zones (Turtle Rocks, Basin Hill N./E./S., Higdon's Reef, Cannon Patch, Mosquito Bank N./S.E., Three Sisters N./S.) from 1 Jul 2026."
+ },
+ {
+  "id": "bisccrpa-foweyrockslighthouse",
+  "name": "Biscayne NP: Fowey Rocks Lighthouse CRPA (no lobster harvest, possession or traps)",
+  "law": [
+   "fac-68b-7-008-1",
+   "bnp-status"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     25.5936,
+     -80.09703
+    ],
+    [
+     25.59278,
+     -80.0932
+    ],
+    [
+     25.57372,
+     -80.0977
+    ],
+    [
+     25.57447,
+     -80.10155
+    ],
+    [
+     25.5936,
+     -80.09703
+    ]
+   ]
+  ],
+  "source": "Fla. Admin. Code r. 68B-7.008(1)(c), Points 1 to 4 in rule order (text read from the Justia mirror current through Reg. 51 No. 122, 24 Jun 2025; identical coordinates published on myfwc.com/fishing/saltwater/recreational/bnp/). Rule amended 4 Nov 2025 for the bonefish area only.",
+  "note": "Original: Point 1 25° 35.616' N, 80° 5.822' W; Point 2 25° 35.567' N, 80° 5.592' W; Point 3 25° 34.423' N, 80° 5.862' W; Point 4 25° 34.468' N, 80° 6.093' W. Ring self-intersection check: simple polygon. Lobster-only (Palinuridae, Scyllaridae, Synaxidae) and trap closure; spearfishing for finfish is not restricted by this paragraph. 'Bouy' is the rule's own spelling."
+ },
+ {
+  "id": "bisccrpa-alinasreef",
+  "name": "Biscayne NP: Alina's Reef CRPA (no lobster harvest, possession or traps)",
+  "law": [
+   "fac-68b-7-008-1",
+   "bnp-status"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     25.39335,
+     -80.16875
+    ],
+    [
+     25.38807,
+     -80.15938
+    ],
+    [
+     25.38128,
+     -80.16402
+    ],
+    [
+     25.38657,
+     -80.17337
+    ],
+    [
+     25.39335,
+     -80.16875
+    ]
+   ]
+  ],
+  "source": "Fla. Admin. Code r. 68B-7.008(1)(c), Points 1 to 4 in rule order (text read from the Justia mirror current through Reg. 51 No. 122, 24 Jun 2025; identical coordinates published on myfwc.com/fishing/saltwater/recreational/bnp/). Rule amended 4 Nov 2025 for the bonefish area only.",
+  "note": "Original: Point 1 25° 23.601' N, 80° 10.125' W; Point 2 25° 23.284' N, 80° 9.563' W; Point 3 25° 22.877' N, 80° 9.841' W; Point 4 25° 23.194' N, 80° 10.402' W. Ring self-intersection check: simple polygon. Lobster-only (Palinuridae, Scyllaridae, Synaxidae) and trap closure; spearfishing for finfish is not restricted by this paragraph. 'Bouy' is the rule's own spelling."
+ },
+ {
+  "id": "bisccrpa-marker3reef",
+  "name": "Biscayne NP: Marker 3 Reef CRPA (no lobster harvest, possession or traps)",
+  "law": [
+   "fac-68b-7-008-1",
+   "bnp-status"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     25.37557,
+     -80.16132
+    ],
+    [
+     25.37408,
+     -80.15738
+    ],
+    [
+     25.36608,
+     -80.16105
+    ],
+    [
+     25.36758,
+     -80.165
+    ],
+    [
+     25.37557,
+     -80.16132
+    ]
+   ]
+  ],
+  "source": "Fla. Admin. Code r. 68B-7.008(1)(c), Points 1 to 4 in rule order (text read from the Justia mirror current through Reg. 51 No. 122, 24 Jun 2025; identical coordinates published on myfwc.com/fishing/saltwater/recreational/bnp/). Rule amended 4 Nov 2025 for the bonefish area only.",
+  "note": "Original: Point 1 25° 22.534' N, 80° 9.679' W; Point 2 25° 22.445' N, 80° 9.443' W; Point 3 25° 21.965' N, 80° 9.663' W; Point 4 25° 22.055' N, 80° 9.900' W. Ring self-intersection check: simple polygon. Lobster-only (Palinuridae, Scyllaridae, Synaxidae) and trap closure; spearfishing for finfish is not restricted by this paragraph. 'Bouy' is the rule's own spelling."
+ },
+ {
+  "id": "bisccrpa-lob120reef",
+  "name": "Biscayne NP: Lob120 Reef CRPA (no lobster harvest, possession or traps)",
+  "law": [
+   "fac-68b-7-008-1",
+   "bnp-status"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     25.36145,
+     -80.18852
+    ],
+    [
+     25.36118,
+     -80.18372
+    ],
+    [
+     25.35428,
+     -80.18413
+    ],
+    [
+     25.3545,
+     -80.18897
+    ],
+    [
+     25.36145,
+     -80.18852
+    ]
+   ]
+  ],
+  "source": "Fla. Admin. Code r. 68B-7.008(1)(c), Points 1 to 4 in rule order (text read from the Justia mirror current through Reg. 51 No. 122, 24 Jun 2025; identical coordinates published on myfwc.com/fishing/saltwater/recreational/bnp/). Rule amended 4 Nov 2025 for the bonefish area only.",
+  "note": "Original: Point 1 25° 21.687' N, 80° 11.311' W; Point 2 25° 21.671' N, 80° 11.023' W; Point 3 25° 21.257' N, 80° 11.048' W; Point 4 25° 21.270' N, 80° 11.338' W. Ring self-intersection check: simple polygon. Lobster-only (Palinuridae, Scyllaridae, Synaxidae) and trap closure; spearfishing for finfish is not restricted by this paragraph. 'Bouy' is the rule's own spelling."
+ },
+ {
+  "id": "bisccrpa-ballbouy",
+  "name": "Biscayne NP: Ball Bouy CRPA (no lobster harvest, possession or traps)",
+  "law": [
+   "fac-68b-7-008-1",
+   "bnp-status"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     25.32298,
+     -80.18517
+    ],
+    [
+     25.3174,
+     -80.17958
+    ],
+    [
+     25.3122,
+     -80.18592
+    ],
+    [
+     25.31778,
+     -80.19148
+    ],
+    [
+     25.32298,
+     -80.18517
+    ]
+   ]
+  ],
+  "source": "Fla. Admin. Code r. 68B-7.008(1)(c), Points 1 to 4 in rule order (text read from the Justia mirror current through Reg. 51 No. 122, 24 Jun 2025; identical coordinates published on myfwc.com/fishing/saltwater/recreational/bnp/). Rule amended 4 Nov 2025 for the bonefish area only.",
+  "note": "Original: Point 1 25° 19.379' N, 80° 11.110' W; Point 2 25° 19.044' N, 80° 10.775' W; Point 3 25° 18.732' N, 80° 11.155' W; Point 4 25° 19.067' N, 80° 11.489' W. Ring self-intersection check: simple polygon. Lobster-only (Palinuridae, Scyllaridae, Synaxidae) and trap closure; spearfishing for finfish is not restricted by this paragraph. 'Bouy' is the rule's own spelling."
+ },
+ {
+  "id": "wdrseasonal",
+  "name": "Western Dry Rocks: no fishing of any kind 1 Apr to 31 Jul (state waters)",
+  "law": [
+   "fac-68b-6-004"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     24.43695,
+     -81.95012
+    ],
+    [
+     24.42793,
+     -81.95003
+    ],
+    [
+     24.4281,
+     -81.92482
+    ],
+    [
+     24.43712,
+     -81.92488
+    ],
+    [
+     24.43695,
+     -81.95012
+    ]
+   ]
+  ],
+  "source": "Fla. Admin. Code r. 68B-6.004(1), Points 1 to 4 in rule order (Justia mirror current through Reg. 51 No. 122; same coordinates returned by the Cornell LII copy).",
+  "note": "Original: Point 1 24° 26.217'N, 81° 57.007'W; Point 2 24° 25.676'N, 81° 57.002'W; Point 3 24° 25.686'N, 81° 55.489'W; Point 4 24° 26.227'N, 81° 55.493'W. Ring self-intersection check: simple polygon. The rule reaches only the STATE waters inside this box; if part of the box lies seaward of the state line, that part is not closed by this rule (check against jurisdiction.json; conservative reading draws the whole box). Seasonal: 1 Apr to 31 Jul. Sunsets after 31 Mar 2028 unless renewed."
+ }
+]

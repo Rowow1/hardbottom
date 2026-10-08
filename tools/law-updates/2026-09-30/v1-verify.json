@@ -1,0 +1,276 @@
+[
+ {
+  "id": "marathon-18-27",
+  "cite": "City of Marathon Code \u00a7 18-27",
+  "title": "Marathon: no speargun use in any manmade canal",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://marathon.municipalcodeonline.com/book?type=ordinances#name=Sec_18-27_Spearguns",
+  "effect": "Inside the City of Marathon it is unlawful to use, fire or discharge a speargun on or below the surface of any manmade canal; the speargun is forfeited on conviction.",
+  "excerpt": "Prohibited activity. It is unlawful for any person to use, fire or discharge any speargun, as defined above, on or below the surface of any manmade canal.",
+  "full": "Definition. A speargun is any device, whether commercially manufactured or handmade, which is so designed and constructed so as to be capable of forcefully discharging at great velocity any spear or any similar projectile in a direction determined by the user thereof for a distance greater than two (2) feet (24 inches), whether or not such spear or projectile is tethered to the firing apparatus or otherwise limited in its range. No distinction shall be made as to the mechanical construction or physical means utilized in such devices to create the potential energy necessary to eject or fire such spear or similar projectiles. Prohibited activity. It is unlawful for any person to use, fire or discharge any speargun, as defined above, on or below the surface of any manmade canal. Penalties. Any person convicted of a violation of this section shall be penalized in accordance with Section 1-7. In addition, any person convicted of a violation of this section shall forfeit the speargun used by such person in committing such offense to the City for destruction in the same manner as forfeited firearms are disposed of by the Sheriff. (Code 1999, \u00a7 13-5)",
+  "verified": "verbatim",
+  "scope": "All manmade canals within the City of Marathon city limits (Monroe County). The section names no canal list or map.",
+  "note": "Checked 30 Sep 2026: read in Chrome on the city's own code site (Marathon has left Municode; library.municode.com/fl/marathon redirects to marathon.municipalcodeonline.com). Supersedes the secondary entry marathon-canal (keyssao.org flyer) as the authority for the Marathon canal closure; keep marathon-canal only if the unincorporated Monroe County half of the flyer still needs it (see monroe-26-art4). Geometry: no canal layer is named in the law; draw from a canal dataset only with a flag, or mark as a text-only rule.",
+  "geom": null,
+  "axes": {
+   "in_force": "Current code as published on the city's official code site on 30 Sep 2026; history note (Code 1999, \u00a7 13-5); no repeal or amendment note shown. Supplement date not displayed on the section.",
+   "subsection": "The prohibition is the 'Prohibited activity' paragraph of \u00a7 18-27; definition and penalty paragraphs are in the same section.",
+   "verbatim": "All four paragraphs string-matched against the rendered page text after whitespace normalisation (true/true/true/true).",
+   "url": "Resolves in a browser to the section (the site is a JavaScript app; a plain HTTP fetch of the content endpoint returns 'Unauthorized Access'). The hash URL opens the section directly."
+  }
+ },
+ {
+  "id": "pbtown-74-161",
+  "cite": "Town of Palm Beach Code \u00a7 74-161(b), (c)",
+  "title": "Town of Palm Beach: no spearfishing gear on five named public beaches",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/palm_beach/codes/code_of_ordinances?nodeId=PTIICOOR_CH74PARE_ARTIIBEAQAC_DIV2FI_S74-161POSPEQPUBE",
+  "effect": "Possession of spearfishing equipment is banned on Phipps Ocean Park, Midtown Beach, the Clarke Avenue beach, the Kreusler Park beach and the Palm Beach Inlet dock; on other Town beaches a speargun must be carried uncocked and unloaded.",
+  "excerpt": "The possession of spearfishing equipment is prohibited and declared to be unlawful on those areas of the public beach within the town specifically designated by the town for public use described as follows:",
+  "full": "(b) Prohibited. The possession of spearfishing equipment is prohibited and declared to be unlawful on those areas of the public beach within the town specifically designated by the town for public use described as follows: (1) Phipps Ocean Park, consisting of approximately 1,200 linear feet adjacent to the waters of the Atlantic Ocean. (2) Midtown Beach, beginning at an area 150 feet north of Royal Palm Way, south to Gulfstream Road. (3) The Clarke Avenue Beach area from Barton Avenue on the north to Sea Breeze Avenue on the south. (4) The public beach known as Kreusler Park running north of the City of Lake Worth casino property extending approximately 500 feet northerly therefrom. (5) The Inlet Dock facility located at the Palm Beach Inlet (Lake Worth Inlet). (c) Regulated. On those areas of the public beach not described above, spearfishing equipment shall be carried in a manner so as to keep the equipment from being accidentally or intentionally discharged and shall be carried in a manner so as not to be cocked, loaded, engaged or aimed. Definitions in (a): 'Beaches means that area abutting the Atlantic Ocean or Lake Worth consisting of predominately sand, whether below or above the mean high water mark. Spearfishing equipment means any spear, gig or lance intended for use of spearfishing and which is propelled by rubber bands, metal springs, or the explosion or expansion of powder, gas, or similar substance.' (Code 1982, \u00a7 14-33; Ord. No. 15-95, \u00a7 2, 9-12-95)",
+  "verified": "verbatim",
+  "scope": "Town of Palm Beach public beaches listed in (b)(1) to (5); (c) applies on all other Town public beach. 'Beaches' includes sand below mean high water.",
+  "note": "Checked 30 Sep 2026: NEW, found by whole-code Municode search (client 9332). A possession rule on the beach, not a water closure, but it blocks shore entry with a speargun at the named beaches. Distinct from the Palm Beach County refuges (pbc-13-55). Geometry: beach segments are described by street names; do not draw without a street/parcel source.",
+  "geom": null,
+  "axes": {
+   "in_force": "Current Municode version MAY 27, 2026 as displayed on the section page on 30 Sep 2026; no repeal note in the section.",
+   "subsection": "Prohibition is subsection (b); carry rule is (c); definitions (a).",
+   "verbatim": "Excerpt re-matched string for string against the rendered page text on 30 Sep 2026 (hash check, strict).",
+   "url": "Resolves in Chrome to the section (Municode is a JavaScript app; plain HTTP fetch does not render the text)."
+  }
+ },
+ {
+  "id": "pbtown-74-200",
+  "cite": "Town of Palm Beach Code \u00a7 74-200",
+  "title": "Town of Palm Beach: diving off guarded beaches needs a buddy, cert card, BC and flag",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/palm_beach/codes/code_of_ordinances?nodeId=PTIICOOR_CH74PARE_ARTIIBEAQAC_DIV3REUSPUBE_S74-200SKSCDI",
+  "effect": "Skin or scuba diving off lifeguarded Town beaches is unlawful unless divers use the buddy system, scuba divers carry a certification card, each diver has a BC, and each dive unit flies a dive flag.",
+  "excerpt": "It shall be unlawful to skin or scuba dive off public beaches operated and patrolled and guarded by lifeguards of the town unless adequate safety precautions are taken.",
+  "full": "It shall be unlawful to skin or scuba dive off public beaches operated and patrolled and guarded by lifeguards of the town unless adequate safety precautions are taken. (1) The \"buddy\" system must be used, making it necessary to have two or more people diving. It shall be unlawful to dive alone. (2) If scuba diving, each member must have a current nationally recognized open water certification card. (3) Each diver must have a buoyancy compensator capable of supporting the head of an unconscious diver above the water. (4) Each dive unit must have a diver's down flag. This flag must be free flying and clearly visible to boaters from a minimum of 100 feet in all directions. The flag must be a minimum of 12 inches by 12 inches and must have a red diagonal background with a white stripe. An international alpha flag may be used in lieu of the above flag. (Code 1982, \u00a7 14-64)",
+  "verified": "verbatim",
+  "scope": "Off Town of Palm Beach public beaches that are lifeguarded.",
+  "note": "Checked 30 Sep 2026: NEW. A condition, not a closure; render as a text note on the guarded beaches.",
+  "geom": null,
+  "axes": {
+   "in_force": "Current Municode version MAY 27, 2026 as displayed on the section page on 30 Sep 2026; no repeal note in the section.",
+   "subsection": "Whole section.",
+   "verbatim": "Excerpt re-matched string for string against the rendered page text on 30 Sep 2026 (hash check, strict).",
+   "url": "Resolves in Chrome to the section (Municode is a JavaScript app; plain HTTP fetch does not render the text)."
+  }
+ },
+ {
+  "id": "tampa-16-76",
+  "cite": "City of Tampa Code \u00a7 16-76",
+  "title": "Tampa: no spear or harpoon in city marinas and mooring fields",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/tampa/codes/code_of_ordinances?nodeId=COOR_CH16PARE_ARTIVCIMAMOFIJUWA_S16-76USSPHA",
+  "effect": "Using a spear or harpoon is unlawful in any City of Tampa marina or mooring field and on any adjacent pier.",
+  "excerpt": "It is unlawful for any person to use any spear or harpoon in any city marina or mooring field or upon any pier adjacent thereto.",
+  "full": "(Ord. No. 2009-125, \u00a7 116, 8-20-09)",
+  "verified": "verbatim",
+  "scope": "City of Tampa marinas, mooring fields and adjacent piers.",
+  "note": "Checked 30 Sep 2026: NEW, Municode whole-code search (client 4583).",
+  "geom": null,
+  "axes": {
+   "in_force": "Current Municode version MAY 27, 2026 as displayed on the section page on 30 Sep 2026; no repeal note in the section.",
+   "subsection": "Whole section.",
+   "verbatim": "Excerpt re-matched string for string against the rendered page text on 30 Sep 2026 (hash check, strict).",
+   "url": "Resolves in Chrome to the section (Municode is a JavaScript app; plain HTTP fetch does not render the text)."
+  }
+ },
+ {
+  "id": "tampa-16-41",
+  "cite": "City of Tampa Code \u00a7 16-41(a)",
+  "title": "Tampa: no fishing, spear included, off Parks department land except where designated",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/tampa/codes/code_of_ordinances?nodeId=COOR_CH16PARE_ARTIIIFAAC_S16-41FICR",
+  "effect": "Fishing by any device, spear and harpoon included, in waters adjacent to Tampa Parks and Recreation Department managed land is prohibited except in designated places.",
+  "excerpt": "No person shall fish or crab in waters adjacent to department managed land property, either freshwater or saltwater, including boat ramps and docks, by use of hook and line, seine, net, trap, spear, harpoon, gig, or other device except at such places and in such areas designated by the department for such use or purpose.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Waters adjacent to City of Tampa Parks and Recreation Department managed land, including boat ramps and docks.",
+  "note": "Checked 30 Sep 2026: NEW. Same pattern as hillsborough-38-25 (county parks).",
+  "geom": null,
+  "axes": {
+   "in_force": "Current Municode version MAY 27, 2026 as displayed on the section page on 30 Sep 2026; no repeal note in the section.",
+   "subsection": "Subsection (a).",
+   "verbatim": "Excerpt re-matched string for string against the rendered page text on 30 Sep 2026 (hash check, strict).",
+   "url": "Resolves in Chrome to the section (Municode is a JavaScript app; plain HTTP fetch does not render the text)."
+  }
+ },
+ {
+  "id": "redshores-77-2",
+  "cite": "Town of Redington Shores Code \u00a7 77-2",
+  "title": "Redington Shores: 200 ft speargun standoff from swimmers and from anglers on piers, docks, seawalls",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/redington_shores/codes/code_of_ordinances?nodeId=PTIIGELE_CH77FIFIAR_S77-2USSPGURE",
+  "effect": "Within town limits, firing a speargun is unlawful within 200 feet of any swimmer or bather, or within 200 feet of a pier, dock or seawall being fished from.",
+  "excerpt": "It shall be unlawful for any person to use, discharge or cause to be discharged or to shoot or cause to be shot any spear or harpoon by or with a spear gun, mechanical gun, power gun or any mechanical device whatsoever within 200 feet of any swimmer or bather in the corporate limits of the town or within 200 feet of any pier, dock or seawall then being used by any person fishing therefrom within the corporate limits of the town.",
+  "full": "B. It shall be unlawful for any parent, guardian or adult responsible for the welfare of any minor under the age of 17 years to knowingly permit such minor to use any spear gun, mechanical gun, power gun or any mechanical device whatsoever in violation of the provisions of subsection A above.",
+  "verified": "verbatim",
+  "scope": "Town of Redington Shores corporate limits; moving buffers.",
+  "note": "Checked 30 Sep 2026: NEW, Municode client 9471. Moving buffer, not drawable as a fixed zone; add a town-limits warn polygon only from an official town boundary layer.",
+  "geom": null,
+  "axes": {
+   "in_force": "Current Municode version MAR 27, 2026 as displayed on the section page on 30 Sep 2026; no repeal note in the section.",
+   "subsection": "Subsection A (B is the parental-liability clause).",
+   "verbatim": "Excerpt re-matched string for string against the rendered page text on 30 Sep 2026 (hash check, strict).",
+   "url": "Resolves in Chrome to the section (Municode is a JavaScript app; plain HTTP fetch does not render the text)."
+  }
+ },
+ {
+  "id": "naples-42-52",
+  "cite": "City of Naples Code \u00a7 42-52",
+  "title": "Naples: no spearfishing or gigging within 100 ft of the city pier",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/naples/codes/code_of_ordinances?nodeId=PTIICOOR_CH42WA_ARTIIREAR_DIV2CIPI_S42-52SPGIFI",
+  "effect": "Spearfishing or gigging within 100 feet of the Naples city pier is unlawful; the statewide 100-yard pier buffer in r. 68B-20.003(2) is wider and also applies.",
+  "excerpt": "It shall be unlawful for any person to engage in spearfishing or gigging fish within the radius of 100 feet from the city pier.",
+  "full": "(Code 1957, \u00a7 7-6; Code 1994, \u00a7 78-57)",
+  "verified": "verbatim",
+  "scope": "100 ft radius around the Naples Pier.",
+  "note": "Checked 30 Sep 2026: NEW, Municode client 3471. Covered geometrically by the state 100-yard pier buffer; add as a second citation on that buffer.",
+  "geom": null,
+  "axes": {
+   "in_force": "Current Municode version SEP 2, 2026 as displayed on the section page on 30 Sep 2026; no repeal note in the section.",
+   "subsection": "Whole section.",
+   "verbatim": "Excerpt re-matched string for string against the rendered page text on 30 Sep 2026 (hash check, strict).",
+   "url": "Resolves in Chrome to the section (Municode is a JavaScript app; plain HTTP fetch does not render the text)."
+  }
+ },
+ {
+  "id": "ormond-15-6",
+  "cite": "City of Ormond Beach Code \u00a7 15-6(c)(3), (g)",
+  "title": "Ormond Beach: no spear guns in park waters; no skin or scuba diving in parks except designated areas",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/ormond_beach/codes/code_of_ordinances?nodeId=PTIICOOR_CH15PARE_ARTIOPPARECUARFA_S15-6REAC",
+  "effect": "Spear guns are prohibited for taking fish in Ormond Beach city park waters, and skin or scuba diving in city parks is prohibited except where the director designates.",
+  "excerpt": "The possession and use of poisons, electrical charges, explosives, spear guns and similar methods for the taking or killing of fish are prohibited in park waters. ... Skin or scuba diving is prohibited, except in areas designated by the director for that purpose.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "City of Ormond Beach parks and park waters.",
+  "note": "Checked 30 Sep 2026: NEW, Municode client 3713. Scope is park waters only.",
+  "geom": null,
+  "axes": {
+   "in_force": "Current Municode version AUG 11, 2026 as displayed on the section page on 30 Sep 2026; no repeal note in the section.",
+   "subsection": "(c)(3) and (g).",
+   "verbatim": "Excerpt re-matched string for string against the rendered page text on 30 Sep 2026 (hash check, strict).",
+   "url": "Resolves in Chrome to the section (Municode is a JavaScript app; plain HTTP fetch does not render the text)."
+  }
+ },
+ {
+  "id": "volusia-82-51",
+  "cite": "Volusia County Code \u00a7 82-51",
+  "title": "Volusia County conservation lands: no spear guns",
+  "juris": "county",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/volusia_county/codes/code_of_ordinances?nodeId=COORCOVOVOII_CH82PARE_ARTIIIRURECOLA_S82-51MEPR",
+  "effect": "Possessing or using a spear gun on Volusia County conservation lands is prohibited except for authorized hunting or by special use authorization.",
+  "excerpt": "The possession or use of air guns, gas guns, blow guns, bows, crossbows, spear guns, paintball guns, or other devices capable of mechanically propelling an arrow, spear, or other projectile is prohibited, except for authorized hunting purposes or as may be allowed by granting of a special use authorization.",
+  "full": "(Ord. No. 2006-01, \u00a7 13, 1-5-06; Ord. No. 2011-08, \u00a7 I, 3-17-11)",
+  "verified": "verbatim",
+  "scope": "County conservation lands under ch. 82 art. III (see \u00a7 82-41 Applicability, not read).",
+  "note": "Checked 30 Sep 2026: NEW, Municode client 10989. Read \u00a7 82-41 before mapping to confirm which lands and waters are covered.",
+  "geom": null,
+  "axes": {
+   "in_force": "Current Municode version JUL 30, 2026 as displayed on the section page on 30 Sep 2026; no repeal note in the section.",
+   "subsection": "Whole section; applicability in \u00a7 82-41 not yet read.",
+   "verbatim": "Excerpt re-matched string for string against the rendered page text on 30 Sep 2026 (hash check, strict).",
+   "url": "Resolves in Chrome to the section (Municode is a JavaScript app; plain HTTP fetch does not render the text)."
+  }
+ },
+ {
+  "id": "wakulla-23-005",
+  "cite": "Wakulla County Code \u00a7 23.005(a)(5)",
+  "title": "Wakulla County parks and facilities: no spear gun discharge",
+  "juris": "county",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/wakulla_county/codes/code_of_ordinances?nodeId=PTIICOOR_CH23PARE_S23.005PRACCOPACOFA",
+  "effect": "Discharging a spear gun in a Wakulla County park or county facility is unlawful unless authorized by the parks director or a use permit.",
+  "excerpt": "Discharge an air gun, slingshot, bow and arrow, or spear gun in a county park or county facility unless such instrument or device is required for participation in an activity which is authorized by the parks and facilities director.",
+  "full": "(a) Except for activities of a governmental agency within the scope of its governmental authority, or unless specifically permitted to do so by a use permit issued pursuant to this chapter, it shall be unlawful for any person to do any one or more of the following in a county park or county facility: ... (5) [as excerpt]",
+  "verified": "verbatim",
+  "scope": "Wakulla County parks and county facilities.",
+  "note": "Checked 30 Sep 2026: NEW, Municode client 11002.",
+  "geom": null,
+  "axes": {
+   "in_force": "Current Municode version JUL 24, 2026 as displayed on the section page on 30 Sep 2026; no repeal note in the section.",
+   "subsection": "(a)(5), with the (a) lead-in.",
+   "verbatim": "Excerpt re-matched string for string against the rendered page text on 30 Sep 2026 (hash check, strict).",
+   "url": "Resolves in Chrome to the section (Municode is a JavaScript app; plain HTTP fetch does not render the text)."
+  }
+ },
+ {
+  "id": "santarosa-14-52",
+  "cite": "Santa Rosa County Code \u00a7 14-52",
+  "title": "Navarre Beach: spearfishing may be barred in posted bathing areas, 1 Mar to 31 Oct",
+  "juris": "county",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/santa_rosa_county/codes/code_of_ordinances?nodeId=COCO_CH14OFMIPR_ARTIIINABE_DIV1GE_S14-52FIPRCEAR",
+  "effect": "From 1 March to 31 October, fishing with a spear may be prohibited in public bathing areas at Navarre Beach that the county designates and posts.",
+  "excerpt": "Between March 1 and October 31 of each year, fishing with a spear, hook or barb may be prohibited within any public bathing area at Navarre Beach as may be specifically designated by Santa Rosa County.",
+  "full": "The county shall post one or more signs in such designated areas advising the public that fishing is not permitted in such waters or areas. Bow and crossbow fishing from Navarre Causeway Bridges are prohibited. (Ord. No. 94-19, \u00a7 2, 7-28-94; Ord. No. 2019-25, \u00a7 1, 10-24-19)",
+  "verified": "verbatim",
+  "scope": "Designated and posted public bathing areas at Navarre Beach, seasonal.",
+  "note": "Checked 30 Sep 2026: NEW, Municode client 7626. Binds where posted; render as a warn note, not a polygon.",
+  "geom": null,
+  "axes": {
+   "in_force": "Current Municode version AUG 6, 2026 as displayed on the section page on 30 Sep 2026; no repeal note in the section.",
+   "subsection": "Whole section.",
+   "verbatim": "Excerpt re-matched string for string against the rendered page text on 30 Sep 2026 (hash check, strict).",
+   "url": "Resolves in Chrome to the section (Municode is a JavaScript app; plain HTTP fetch does not render the text)."
+  }
+ },
+ {
+  "id": "escambia-74-36-18",
+  "cite": "Escambia County Code \u00a7 74-36(18)",
+  "title": "Escambia beaches: lifeguards may order spearfishers away from bathers",
+  "juris": "county",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/escambia_county/codes/code_of_ordinances?nodeId=PTICOOR_CH74PARE_ARTIIPAREARAC_S74-36RURE",
+  "effect": "On Escambia County beaches, disobeying a lifeguard's reasonable command to stop spear fishing too close to bathers is unlawful.",
+  "excerpt": "To cease fishing (including shark fishing and spear fishing) too close to bathers;",
+  "full": "(18) No person may deliberately disobey a reasonable command made while such person is using the beach or any structure thereon owned or operated by Escambia County. ... e. A reasonable command shall include, but not be limited to, the following commands: 1. To cease fishing (including shark fishing and spear fishing) too close to bathers;",
+  "verified": "verbatim",
+  "scope": "Beaches and beach structures owned or operated by Escambia County.",
+  "note": "Checked 30 Sep 2026: NEW. Not a closure; popup note for Pensacola Beach and Perdido Key. The excerpt is an item in the list of reasonable commands under (18)e.",
+  "geom": null,
+  "axes": {
+   "in_force": "Current Municode version AUG 18, 2026 as displayed on the section page on 30 Sep 2026; no repeal note in the section.",
+   "subsection": "(18) e.1; read with (18) a to d.",
+   "verbatim": "Excerpt re-matched string for string against the rendered page text on 30 Sep 2026 (hash check, strict).",
+   "url": "Resolves in Chrome to the section (Municode is a JavaScript app; plain HTTP fetch does not render the text)."
+  }
+ },
+ {
+  "id": "pompano-91-22",
+  "update_of_existing_id": true,
+  "cite": "City of Pompano Beach Code \u00a7 91.22",
+  "title": "Pompano Beach: no swimming or diving in the Hillsboro Inlet area",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://codelibrary.amlegal.com/codes/pompanobeach/latest/pompanobeach_fl/0-0-0-81781",
+  "effect": "Swimming or diving of any kind is unlawful in city waters of the Hillsboro Inlet area described in \u00a7 91.22(A), except commercial or governmental diving authorised in writing by the City Manager.",
+  "excerpt": "(A) It shall be unlawful for any person to swim or in any manner dive in any waters of the city located within the following area.",
+  "full": "(A) ... Beginning at the intersection of the Hillsboro Inlet and the easterly boundary of the State of Florida; then northwesterly along the center line of Hillsboro Inlet and the center line of Hillsboro Bay, to an intersection with the center line of the Intracoastal Waterway from Jacksonville, Florida, to Miami, Florida; then southwesterly along the center line of the Intracoastal Waterway, to a point of intersection with a projection of the westerly boundary of lot 19, block 20, Hillsboro Shores, section B, according to the plat thereof recorded in plat book 2, page 39, of the public record of Broward County, Florida; then southerly along the projection of the westerly lot line of the aforesaid lot 19 to a point of intersection with the north lot line of lot 19; then easterly and northeasterly along the north line of block 20, section B, Hillsboro Shores, to a point of intersection with the north boundary of Section 29, Township 48 South, Range 43 east; then easterly along the aforesaid section line to a point of intersection with the easterly lot line of lot 27, block 20, Hillsboro Shores, section B; then southeasterly along the easterly lot line to the northerly right-of-way line of State Road A-l-A; then southeasterly to a point of intersection with the southerly right-of-way line of State Road A-1-A and the easterly lot line of lot 33, block 10, Hillsboro Shores, section A, according to the plat thereof recorded in plat book 21, page 14, of the public records of Broward County, Florida; then southerly along the easterly lot line to the southerly boundary of the aforesaid block 10; then southwesterly and southerly along the southeasterly and easterly boundary of the aforesaid block 10 to a point of intersection with the south lot line of lot 20, block 10, Hillsboro Shores, section A; then easterly to the point of beginning; the lands situate, lying, and being in the City of Pompano Beach, Broward County, Florida. (B) The City Manager may authorize skindiving, scuba diving, or other similar commercial diving or swimming, not for sport, leisure, or recreation, when it is connected with a bona-fide governmental or similar project in the waters covered hereby. Permission shall be obtained in writing prior to such swimming or diving. ('58 Code, \u00a7 6A.12) (Ord. 772, passed 7-10-62) Penalty, see \u00a7 10.99",
+  "verified": "verbatim",
+  "scope": "Hillsboro Inlet and Hillsboro Bay centreline from the state's easterly boundary to the ICW, plus Hillsboro Shores sections A and B lots named in the text (City of Pompano Beach). Described in words and plat references only.",
+  "note": "Checked 30 Sep 2026: boundary read in full in Chrome and string-matched against the page; upgrades the entry from secondary to verbatim. No coordinates in the law; drawing needs Broward parcel GIS for the named lots. The starting point 'the easterly boundary of the State of Florida' is ambiguous (state boundary is 3 nm offshore); conservative reading draws the inlet centreline seaward to it. Hillsboro Inlet also carries the 100 ft jetty buffer in r. 68B-20.003(2)(d).",
+  "geom": null,
+  "axes": {
+   "in_force": "American Legal 'latest' edition read 30 Sep 2026; history ('58 Code, \u00a7 6A.12) (Ord. 772, passed 7-10-62); no repeal note.",
+   "subsection": "(A) prohibition with boundary; (B) City Manager exception.",
+   "verbatim": "Boundary paragraph and (B) string-matched against page text (true/true).",
+   "url": "Resolves in Chrome (American Legal is a JavaScript app)."
+  }
+ }
+]

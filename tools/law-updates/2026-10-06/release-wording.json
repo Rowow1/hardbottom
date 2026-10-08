@@ -1,0 +1,66 @@
+{
+ "date": "2026-10-06",
+ "purpose": "Release wording: titles and effects in the registry's own voice state what the law closes or restricts, never that water or gear is lawful; em and en dashes removed from titles, effects, scope and citation labels. Excerpts, full text and quoted notes are untouched.",
+ "entries": {
+  "bnp-status": {
+   "title": "Biscayne National Park: no park-wide spearfishing ban; closures at Legare Anchorage, the bonefish area, marked channels and harbors",
+   "effect": "No park-specific federal fishing rule bans spearfishing, so 36 C.F.R. § 2.3(e) applies state law (ch. 68B-20 and FWC's park chapter 68B-7). Closures researched: Legare Anchorage (no in-water activity at all); from 1 March to 31 May, the r. 68B-7.008(5) bonefish area (no fishing of any kind); the Superintendent's Compendium closure of swimming, snorkeling and diving within 100 feet of every marked navigational channel; and the harbor and Convoy Point closures listed in the scope. The 100 ft channel closure is not drawn on the map."
+  },
+  "fac-68b-20-003-1": {
+   "title": "Statewide spearing rule: closures are the exceptions, and Collier County is restored",
+   "effect": "In its own words the rule makes spearing \"lawful in all salt waters and salt tributaries\" of Florida except where § 379.2425 or Division 68B closes it, and it lifts the statutory Collier County closure. Federal rules, local ordinances and posted signs close more water, so this rule alone never shows that a particular place is open.",
+   "note": "This subsection is often missed. Collier County is not closed by statute, because this rule lifts the closure the statute names. Browser check 30 Sep 2026: excerpt matched word for word at the source."
+  },
+  "fs-316-1305": {
+   "effect": "Fishing from a bridge is not prohibited by this statute UNLESS FDOT investigates, finds it dangerous, and posts signs. All three steps are required, so an unposted bridge is presumed to carry the r. 68B-20.003(2)(c) buffer."
+  },
+  "fac-68b-14-005": {
+   "title": "Reef fish gear: spear not excluded as gear; goliath grouper hook and line only",
+   "effect": "The reef fish gear rule does not exclude spears in state waters (powerheads are prohibited for snapper and grouper). Goliath grouper may be taken only by hook and line, so spearing a goliath is prohibited even under a harvest permit."
+  },
+  "fac-68b-19-003": {
+   "effect": "Cobia must be 36 in fork length; 1 per person per day and 2 per vessel. Chapter 68B-19 has no gear rule, so it does not exclude spear as gear."
+  },
+  "fac-68b-59-003": {
+   "title": "Sheepshead: 12 in TL, 8 per person; spear not excluded as gear"
+  },
+  "fac-68b-48-003": {
+   "title": "Flounder: 14 in TL, 5 per person, closed Oct 15 to Nov 30; spear not excluded as gear"
+  },
+  "fac-68b-36-003": {
+   "effect": "Black drum slot 14 to 24 in total length with one over 24 in per person, 5 per person. The gear rule bans multiple hooks with natural bait and snagging only, so it does not exclude spear as gear."
+  },
+  "fac-68b-5-006": {
+   "title": "Lionfish: no bag limit; licence exemption for spears and nets; rebreather ban exception",
+   "effect": "Lionfish have no bag or size limit. A diver using a hand net, pole spear, Hawaiian sling or lionfish-specific spear is exempt from the licence requirement. The rebreather harvest ban does not apply to lionfish."
+  },
+  "fac-68b-41-004": {
+   "title": "Dolphin: bag and vessel limits; spear not excluded as gear",
+   "effect": "Dolphin 10 per person and 60 per vessel in the Gulf, 5 per person and 30 per vessel in the Atlantic. The rule lists hook and line and spearing as gear, within or without Florida waters."
+  },
+  "fac-68b-23-004": {
+   "title": "Spanish mackerel: 15 per person; spear not excluded as gear in state waters"
+  },
+  "cfr-622-272": {
+   "effect": "For dolphin (mahi) and wahoo in Atlantic federal waters, the gear rule does not exclude spears, and it expressly lists powerheads for these two species."
+  },
+  "cfr-635-19": {
+   "title": "Atlantic HMS: speargun gear limited to recreational BAYS tunas"
+  },
+  "neg-species-gear": {
+   "effect": "These chapters set sizes and bags but contain no gear rule that excludes spearing. The place-based spearing closures still apply."
+  },
+  "fac-68b-45-004-1": {
+   "title": "Blue crab: only the listed gear may be used, and a spear is not on the list"
+  },
+  "fac-68b-42-007": {
+   "title": "Marine life fish, including every triggerfish except gray and ocean: spears are not on the gear list"
+  },
+  "hillsborough-38-25": {
+   "note": "Checked 30 Sep 2026. NEW. A designation-based rule: spearing is prohibited except where the Department designates spear fishing, which is effectively never. Special act 30829 (1955) 'Saltwater spearfishing' is listed as repealed and made administrative rule by ch. 83-134. Text read 30 Sep 2026 through api.municode.com (Municode's own JSON API behind library.municode.com); the library URL is the browser deep link to the same node. Browser check 30 Sep 2026: excerpt matched word for word at the source."
+  },
+  "cfr-622-182": {
+   "effect": "Two federal artificial-reef SMZs off Florida ban spearfishing gear outright (Ft. Pierce Inshore Reef, Key Biscayne/Artificial Reef H). A third, Ft. Pierce Offshore Reef, restricts reels, sea bass pots and bottom longlines, and its table row contains no spearfishing restriction."
+  }
+ }
+}

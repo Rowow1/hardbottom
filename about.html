@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About Bottom Truth</title>
+<meta name="description" content="What Bottom Truth is, what it is not, where its data comes from, its licences, and how to report an error.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+:root{--bg:#0b0e13;--panel:#141920;--line:#2a3139;--txt:#e6edf3;--dim:#94a3b1;--acc:#5aa9e6;--warn:#facc15}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:28px 16px 64px}
+a{color:var(--acc)}
+h1{font-size:28px;margin:0 0 4px}
+h1+p{color:var(--dim);margin-top:0}
+h2{font-size:19px;margin:34px 0 8px;border-top:1px solid var(--line);padding-top:22px}
+.notice{background:var(--panel);border:1px solid var(--warn);border-radius:8px;padding:14px 16px;margin:20px 0}
+.notice b{color:var(--warn)}
+ul{padding-left:22px}
+li{margin:4px 0}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{border-bottom:1px solid var(--line);text-align:left;padding:6px 8px;vertical-align:top}
+th{color:var(--dim);font-weight:600}
+.back{display:inline-block;margin-bottom:18px}
+footer{color:var(--dim);font-size:13px;margin-top:40px;border-top:1px solid var(--line);padding-top:16px}
+</style>
+</head><body><main>
+<a class="back" href="./">&larr; Back to the map</a>
+<h1>About Bottom Truth</h1>
+<p>A map of Florida waters researched as closed or restricted to spearfishing, with the law behind each closure.</p>
+
+<div class="notice" role="note">
+<p><b>Not legal advice. Not official. Not for navigation.</b></p>
+<p>This map is an informational reference and is not a substitute for the advice of an attorney. It
+shows areas researched as closed or restricted. Unshaded water is not shown as open: many rules,
+including most of the 100 yd and 100 ft buffers around beaches, piers, bridges and jetties outside
+Palm Beach County, are not drawn. Boundaries are approximate drawings of rules written in words, not
+surveyed legal lines. Regulations change. Verify with FWC, NOAA and the local county before you dive,
+and obey posted signs.</p>
+</div>
+
+<h2>What the map shows</h2>
+<ul>
+<li><b>Closures and restrictions</b> drawn from state statutes and rules, federal regulations, Coast
+Guard and military zones, the Florida Keys National Marine Sanctuary, national parks and wildlife
+refuges, manatee protection zones and county and city ordinances.</li>
+<li><b>The citation behind every zone.</b> The Law button opens each rule with its verbatim text,
+whether that text was checked word for word at the official source, and a link to the source.</li>
+<li><b>Structure</b> for planning: artificial reefs, charted wrecks and obstructions, natural
+hardbottom, depth contours, charted bottom type, curated dive spots and boat ramps.</li>
+<li><b>Research coverage.</b> A layer shows how thoroughly each area has been researched, so that a
+blank area is not mistaken for open water.</li>
+</ul>
+
+<h2>How boundaries are drawn</h2>
+<p>Where a rule gives coordinates, they are drawn as written. Where a rule defines a boundary only in
+words, it is drawn from the nearest published geometry that contains it and flagged, or it is shown
+as a marker. Buffers are drawn wider than the rule (125 yd for a 100 yd rule, 150 ft for a 100 ft
+rule), and where a rule is ambiguous the reading that closes more water is drawn. Open questions,
+including every zone that could not be drawn exactly, are listed in the
+<a href="https://github.com/Rowow1/hardbottom/blob/main/OPEN-QUESTIONS.md">open questions file</a>.</p>
+
+<h2>Report an error or a sign</h2>
+<p>If the map disagrees with a posted sign or the law, please report it with the location, what the
+map shows, what the sign or law says, and a photo or link if you have one:</p>
+<ul>
+<li><a href="https://github.com/Rowow1/hardbottom/issues/new/choose">Open an issue on GitHub</a> (a free GitHub account is needed).</li>
+</ul>
+<p>Reports are public. Each one is checked against the primary source before the map changes, and
+every correction is listed in the <a href="https://github.com/Rowow1/hardbottom/blob/main/CHANGELOG.md">changelog</a>.</p>
+
+<h2>Data sources</h2>
+<p>All legal text comes from primary sources: Online Sunshine for Florida statutes, FLRules for the
+Florida Administrative Code, eCFR for federal regulations, and Municode or the county or city's own
+code site for local ordinances. Map data comes from NOAA, FWC, FDEP, USFWS, the National Park
+Service, BOEM, the Census Bureau, the Federal Highway Administration and OpenStreetMap. The full list,
+with record counts and terms, is in
+<a href="https://github.com/Rowow1/hardbottom/blob/main/DATA-SOURCES.md">DATA-SOURCES.md</a>.</p>
+<p>Agency names are listed as sources only. Bottom Truth is not affiliated with or endorsed by any
+government agency.</p>
+
+<h2>Licences</h2>
+<table>
+<tr><th>What</th><th>Licence</th></tr>
+<tr><td>Code</td><td>MIT</td></tr>
+<tr><td>The project's legal research and curation</td><td>CC BY 4.0, credit "Bottom Truth (Robert Karas)"</td></tr>
+<tr><td>Files derived from OpenStreetMap</td><td>ODbL 1.0, map data &copy; OpenStreetMap contributors</td></tr>
+<tr><td>Agency data</td><td>Public domain or public record, as published by the agency</td></tr>
+<tr><td>Leaflet map library</td><td>BSD 2-Clause</td></tr>
+</table>
+<p>Details are in <a href="https://github.com/Rowow1/hardbottom/blob/main/LICENSE-DATA.md">LICENSE-DATA.md</a>.</p>
+
+<h2>Offline copies</h2>
+<p>Single-file copies of the map that open without a web server are attached to each
+<a href="https://github.com/Rowow1/hardbottom/releases">release</a>. Base maps still need a
+connection; the legal layers do not.</p>
+
+<h2>Privacy</h2>
+<p>This site uses no cookies, analytics or tracking. Map tiles are loaded from the providers listed
+in the data sources, which receive the usual request information (your IP address and the tiles
+requested) when the map loads.</p>
+
+<footer>&copy; 2026 Robert Karas. Bottom Truth is a free, non-commercial reference.</footer>
+</main></body></html>

@@ -1,0 +1,116 @@
+{
+ "version": "2026-09-30",
+ "status": "UNVERIFIED candidates. Not in spots.json because licence, author and thumbnail could not be read: commons.wikimedia.org, its API and en.wikipedia.org were blocked or cache-only from this session. Verify each on Commons, keep only CC BY, CC BY-SA, CC0, PD or US-government files, then add licence, credit and a 320px thumb.",
+ "candidates": [
+  {
+   "spot": "uss-oriskany",
+   "kind": "photo",
+   "title": "USS Oriskany ship wreck artificial reef dive underwater",
+   "url": "https://commons.wikimedia.org/wiki/File:USS_Oriskany_Ship_Wreck_Artificial_Reef_Dive_Underwater.jpg",
+   "source": "Wikimedia Commons",
+   "licence": null,
+   "credit": null,
+   "thumb": null,
+   "checked": "URL returned by web search; Commons page and API unreachable from this session"
+  },
+  {
+   "spot": "uss-oriskany",
+   "kind": "gallery",
+   "title": "Commons category: Shipwreck of the USS Oriskany",
+   "url": "https://commons.wikimedia.org/wiki/Category:Shipwreck_of_the_USS_Oriskany_(CV-34)",
+   "source": "Wikimedia Commons",
+   "licence": null,
+   "credit": null,
+   "thumb": null,
+   "checked": "URL returned by web search; Commons page and API unreachable from this session"
+  },
+  {
+   "spot": "spiegel-grove",
+   "kind": "photo",
+   "title": "USS Spiegel Grove LSD-32 (ship in service)",
+   "url": "https://commons.wikimedia.org/wiki/File:USS_Spiegel_Grove_LSD-32.jpg",
+   "source": "Wikimedia Commons",
+   "licence": null,
+   "credit": null,
+   "thumb": null,
+   "checked": "URL returned by web search; Commons page and API unreachable from this session"
+  },
+  {
+   "spot": "spiegel-grove",
+   "kind": "gallery",
+   "title": "Commons category: USS Spiegel Grove (LSD-32)",
+   "url": "https://commons.wikimedia.org/wiki/Category:USS_Spiegel_Grove_(LSD-32)",
+   "source": "Wikimedia Commons",
+   "licence": null,
+   "credit": null,
+   "thumb": null,
+   "checked": "URL returned by web search; Commons page and API unreachable from this session"
+  },
+  {
+   "spot": "vandenberg",
+   "kind": "photo",
+   "title": "Diver at USNS General Hoyt S. Vandenberg wreck, January 2015",
+   "url": "https://commons.wikimedia.org/wiki/File:Diver_at_USNS_General_Hoyt_S._Vandenberg_(T-AGM-10)_wreck_off_Key_West_in_January_2015.JPG",
+   "source": "Wikimedia Commons",
+   "licence": null,
+   "credit": null,
+   "thumb": null,
+   "checked": "URL returned by web search; Commons page and API unreachable from this session"
+  },
+  {
+   "spot": "key-largo-dry-rocks",
+   "kind": "photo",
+   "title": "Scuba diver looking at the Christ of the Abyss bronze sculpture",
+   "url": "https://commons.wikimedia.org/wiki/File:Scuba_diver_looking_at_the_%22Christ_of_the_Abyss%22_bronze_sculpture_at_John_Pennekamp_Coral_Reef_State_Park-_Key_Largo,_Florida_(3247324917).jpg",
+   "source": "Wikimedia Commons",
+   "licence": null,
+   "credit": null,
+   "thumb": null,
+   "checked": "URL returned by web search; Commons page and API unreachable from this session"
+  },
+  {
+   "spot": "key-largo-dry-rocks",
+   "kind": "gallery",
+   "title": "Commons category: Christ of the Abyss (Florida)",
+   "url": "https://commons.wikimedia.org/wiki/Category:Christ_of_the_Abyss_(Florida)",
+   "source": "Wikimedia Commons",
+   "licence": null,
+   "credit": null,
+   "thumb": null,
+   "checked": "URL returned by web search; Commons page and API unreachable from this session"
+  },
+  {
+   "spot": "molasses-reef",
+   "kind": "photo",
+   "title": "MV Wellwood aground on Molasses Reef, 1984",
+   "url": "https://commons.wikimedia.org/wiki/File:MV_Wellwood_aground_Molasses_Reef_1984.png",
+   "source": "Wikimedia Commons",
+   "licence": null,
+   "credit": null,
+   "thumb": null,
+   "checked": "URL returned by web search; Commons page and API unreachable from this session"
+  },
+  {
+   "spot": "looe-key",
+   "kind": "photo",
+   "title": "Elkhorn coral, Looe Key, 2010",
+   "url": "https://commons.wikimedia.org/wiki/File:Elkhorn_01_Looe_Key_2010.jpg",
+   "source": "Wikimedia Commons",
+   "licence": null,
+   "credit": null,
+   "thumb": null,
+   "checked": "URL returned by web search; Commons page and API unreachable from this session"
+  },
+  {
+   "spot": "blue-heron-bridge",
+   "kind": "photo",
+   "title": "Blue Heron Bridge (above water)",
+   "url": "https://commons.wikimedia.org/wiki/File:Blue_Heron_Bridge_(2699446615).jpg",
+   "source": "Wikimedia Commons",
+   "licence": null,
+   "credit": null,
+   "thumb": null,
+   "checked": "URL returned by web search; Commons page and API unreachable from this session"
+  }
+ ]
+}

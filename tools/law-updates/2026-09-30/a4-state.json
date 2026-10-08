@@ -1,0 +1,402 @@
+[
+ {
+  "id": "fac-68b-25-003",
+  "cite": "Fla. Admin. Code r. 68B-25.003(2)",
+  "title": "Old Tampa Bay north of the Gandy Bridge: spears are not on the allowed gear list",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://flrules.org/gateway/ruleNo.asp?id=68B-25.003",
+  "effect": "In Old Tampa Bay north of the Gandy Bridge, and every creek and bayou that empties into it, fish may be taken only with hook and line, landing or dip net, cast net, or a lawful crab or shrimp trap, so spearfishing and gigging are prohibited there.",
+  "excerpt": "No person shall harvest any fish in and on the waters of Old Tampa Bay north of the Gandy Bridge, including any creek or bayou emptying into such waters, except with the following gear: (a) Hook and line gear. (b) Landing or dip net. (c) Cast net. (d) A crab trap specifically allowed by Rule 68B-13.002, F.A.C., or Section 379.366, F.S. (e) A shrimp trap specifically allowed by Rule 68B-31.006, F.A.C.",
+  "full": "(1) repeals Chapter 15379, Laws of Florida (1931), as amended by Chapter 18740 (1937), a Pinellas and Hillsborough County local act, and readopts its substance as this rule. History: New 1-1-90, Formerly 46-25.003, Amended 3-1-05, 2-1-17, 8-14-24.",
+  "verified": "verbatim",
+  "scope": "All waters of Old Tampa Bay north of the Gandy Bridge (US 92, Tampa to St. Petersburg), Pinellas and Hillsborough Counties, including every creek and bayou emptying into those waters. Includes the Courtney Campbell and Howard Frankland bridge areas and Safety Harbor.",
+  "note": "Checked 30 Sep 2026: NEW. Not in the registry and not drawn. This is a gear-list rule, not a spearfishing rule by name, which is how it was missed: the prohibition works by omission. Conservative reading: closed to spearfishing and gigging for all fish. Boundary is described in words (a named bridge); no coordinates in the rule. The Gandy Bridge alignment can be taken from a named public road or bridge dataset and the closure drawn as all Old Tampa Bay water north of it. It also overlaps the Bartow manatee sanctuary at Weedon Island (50 C.F.R. § 17.108(a)(9)). The 2024 amendment only updated the chapter 68B-31 cross-reference in (e) (flrules notice summary).",
+  "axes": {
+   "in_force": "flrules.org rule page: effective 8/14/2024, history ends 8-14-24, no later notice. Checked 30 Sep 2026.",
+   "subsection": "(2) holds the gear list; (1) is the repeal of the 1931 local act.",
+   "verbatim": "Read from two mirrors (Justia, current through 24 Jun 2025, and Cornell LII, which carries the 8/14/2024 history) and they agree word for word on (2). Not read from the flrules .doc (binary through the fetch tool).",
+   "url": "flrules.org ruleNo page resolves; text itself is a .doc."
+  }
+ },
+ {
+  "id": "fac-68b-3-009",
+  "cite": "Fla. Admin. Code r. 68B-3.009(1)-(2)",
+  "title": "Brevard County, Turkey Creek and Crane Creek: spears are not on the allowed gear list",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://flrules.org/gateway/ruleNo.asp?id=68B-3.009",
+  "effect": "In Turkey Creek and Crane Creek (Palm Bay and Melbourne) and their tributaries, fish may be taken only with hook and line, landing or dip net, cast net, or a lawful crab trap, so spearfishing and gigging are prohibited.",
+  "excerpt": "(1) No person shall harvest or attempt to harvest any fish in or from the waters of Turkey Creek or Crane Creek, except with the following gear: (a) Hook and line gear. (b) Landing or dip net. (c) Cast net. (d) A crab trap specifically allowed by Rule 68B-13.002, F.A.C., or Section 379.366, F.S. (2) The phrase \"waters of Turkey Creek or Crane Creek\" means all waters of those two creeks in Brevard County, including any tributary emptying into said creeks, westward of a line drawn between the two easternmost points of land at the respective mouths of the creeks.",
+  "full": "(3) repeals Brevard County Special Acts ch. 28927 (1953), ch. 30601 (1955) and ch. 63-910 (1963). History: New 4-18-90, Formerly 46-3.009, Amended 2-1-17.",
+  "verified": "verbatim",
+  "scope": "Turkey Creek (Palm Bay) and Crane Creek (Melbourne), Brevard County, west of a line across each creek mouth at the Indian River Lagoon.",
+  "note": "Checked 30 Sep 2026: NEW. Gear-list rule; prohibition works by omission. Mostly brackish creek water classed tidal or inland on this map. Boundary is a headland-to-headland line at each mouth, in words only.",
+  "axes": {
+   "in_force": "flrules chapter 68B-3 page lists effective 2/1/2017, no later version. Checked 30 Sep 2026.",
+   "subsection": "(1) gear list; (2) definition of the waters.",
+   "verbatim": "Justia mirror (current through 24 Jun 2025) read as full text; Cornell LII returned the same gear list for (1).",
+   "url": "flrules.org ruleNo page resolves."
+  }
+ },
+ {
+  "id": "fac-68c-22-002-11",
+  "cite": "Fla. Admin. Code r. 68C-22.002(11); ch. 68C-22 No Entry zones",
+  "title": "Manatee No Entry zones: closed to swimmers, divers and waders, not only boats",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://flrules.org/gateway/ChapterHome.asp?Chapter=68C-22",
+  "effect": "Inside a state manatee No Entry zone nobody may enter, by boat or by swimming, diving, wading or fishing, for the dates the zone is in force; the FWC layer shows 20 No Entry rule paragraphs (21 polygons) in 10 counties, one of which (Vero Beach) was probably converted to Idle Speed on 30 Jun 2026.",
+  "excerpt": "(11) \"No Entry Zone\" or \"No Entry Area\" means a controlled area where all vessels and all persons, either in vessels or swimming, diving, wading, or fishing (except from an adjacent bank or bridge when using poles or lines which are not equipped with a fishing line retrieval mechanism, e.g., a cane pole) are prohibited from entering.",
+  "full": "Zones (FWC layer SECT_68C, cross-read on the rule text): Brevard r. 68C-22.006(2)(a)1. Delespine plant canal and (2)(a)2. Frontenac plant, 15 Nov to 31 Mar; r. 68C-22.029 Cape Canaveral Energy Center interim warm-water refuge, 15 Nov to 31 Mar. Broward r. 68C-22.010(2)(a)1. Port Everglades plant discharge canal and (2)(a)2. Lauderdale plant cooling canals, all year. Indian River r. 68C-22.007(1)(e) Vero Beach plant canals, 15 Nov to 31 Mar (see note). Miami-Dade r. 68C-22.025(1)(e)1. Biscayne Bay west of Virginia Key and (1)(e)2. Black Creek Canal and Black Point Marina basin, all year; (1)(f)1. to 3. Biscayne Canal, Little River, Coral Gables Canal, 15 Nov to 30 Apr. St. Lucie r. 68C-22.008(2)(a) Harbor Branch waterway, all year. Hillsborough r. 68C-22.013(2)(a) TECO Big Bend discharge canal, 15 Nov to 31 Mar. Sarasota r. 68C-22.026(2)(c) Pansy Bayou, all year (residents excepted) and (3)(b) Warm Mineral Springs and Salt Creek, 15 Nov to 15 Mar. Lee r. 68C-22.005(2)(a) Fort Myers plant discharge and intake canals, 15 Nov to 31 Mar. Collier r. 68C-22.023(2)(a)1. Henderson Creek at Enchanting Shores and (2)(a)2. Faka Union refugium, all year. Citrus r. 68C-22.011(1)(l) Blue Waters, Homosassa River, 15 Nov to 31 Mar. Virginia Key text, r. 68C-22.025(1)(e)1.: \"Those waters of Biscayne Bay westerly of the westerly shoreline of Virginia Key, northerly of the northerly shoreline of the peninsula of land on the northerly side of the Marine Stadium, southeasterly of a line bearing North 33° 00' 00\" East (True) from the northwesternmost tip of the shoreline of said peninsula (approximate latitude 25° 45' 03\" North, approximate longitude 80° 10' 23\" West) and southerly of a line bearing North 56° 00' 00\" West (True) from a point on the northwestern shoreline of Virginia Key (approximate latitude 25° 45' 24\" North, approximate longitude 80° 09' 02\" West)\".",
+  "verified": "verbatim",
+  "scope": "21 polygons in FWC layer State_Manatee_Protection_Zones_in_Florida/MapServer/9 where MASTER_CL = 'NE'. Most are power-plant warm-water canals; the largest diver-relevant one is Biscayne Bay west of Virginia Key (about 2.46 km2, all year).",
+  "note": "Checked 30 Sep 2026: NEW. Overturns the registry's claim that ch. 68C-22 is vessel-speed only (see proposed correction to fac-68c-22). Motorboats Prohibited zones (6 polygons, MASTER_CL = 'MP', r. 68C-22.002(3)) bar only motorised vessels and do NOT bar swimmers or divers. Indian River r. 68C-22.007 was amended effective 30 Jun 2026; the proposed rule (FAR notice 30603420) changes (1)(e) 'from seasonal No Entry (November 15 through March 31) to Idle Speed (All Year)' and the notice of change left (e) as proposed, so the Vero Beach zone is probably no longer No Entry; the FWC layer (last edited 13 May 2025) still shows it. Open question: whether each zone binds only once posted (r. 68C-22.001 or .004 not read); treat as binding.",
+  "axes": {
+   "in_force": "r. 68C-22.002 last amended 12-23-03 (flrules chapter page). Zone rules: .005 (9/20/2005), .006 (6/24/2002), .007 (6/30/2026), .008 (8/16/1994), .010 (11/14/2011), .011 (4/27/2025), .013 (1/5/2005), .023 (2/19/2018), .025 (12/25/1991), .026 (6/24/2010), .029 (1/24/2023). Checked 30 Sep 2026.",
+   "subsection": "Definition at (11); zones at the paragraphs listed in full.",
+   "verbatim": "(11) read word for word from Justia and from Cornell LII; the two agree exactly. Virginia Key text agrees across Justia and Cornell.",
+   "url": "flrules chapter page resolves; rule text in .doc files."
+  }
+ },
+ {
+  "id": "cfr-50-17-108-a",
+  "cite": "50 C.F.R. § 17.108(a)(1)-(11)",
+  "title": "Federal manatee sanctuaries: all waterborne activity banned 15 Nov to 31 Mar at eleven sites",
+  "juris": "federal",
+  "kind": "cfr",
+  "url": "https://www.ecfr.gov/current/title-50/section-17.108",
+  "effect": "At eleven small federal manatee sanctuaries (seven in Kings Bay, Blue Waters on the Homosassa, and three Tampa Bay power-plant outfalls) you may not swim, dive, snorkel, fish or boat at all from 15 November through 31 March.",
+  "excerpt": "The following areas are designated as manatee sanctuaries. All waterborne activities are prohibited in these areas during the period November 15-March 31 of each year.",
+  "full": "(a)(1) Banana Island Sanctuary, 3.41 ac; (a)(2) Sunset Shores Sanctuary, 5.62 ac; (a)(3) Magnolia Springs, 3.4 ac; (a)(4) Buzzard Island, 18.0 ac; (a)(5) Tarpon Springs (a spring in Kings Bay, not the city), 4.6 ac; (a)(6) Warden Key, 4.0 ac; (a)(7) Three Sisters Spring Sanctuary: all Kings Bay, Crystal River, Citrus County. (a)(8) Blue Waters Manatee Sanctuary, Homosassa River headwaters, 1.66 ac. (a)(9) Bartow Electric Generating Plant, Weedon Island, Pinellas, 29.82 ac. (a)(10) TECO Big Bend, Apollo Beach, Hillsborough, 29.85 ac. (a)(11) Port Sutton, Tampa, 2.7 ac. (b) excepts adjoining property owners, guests, employees and designees for watercraft access and property maintenance at idle or no-wake speed. Separately (c)(14)(ii)(A)(1): in the Three Sisters Springs area \"All waterborne activities in this specific area are prohibited from sunset to sunrise from November 15 through March 31\"; (A)(2) adds scuba diving and fishing including by spear (already cfr-50-17-108). Refuges (c)(1) to (c)(13) are vessel-speed only.",
+  "verified": "verbatim",
+  "scope": "Eleven sanctuaries listed in full. Boundaries: (a)(1), (a)(2) and (a)(7) in Florida state plane coordinates (feet); (a)(3) to (a)(6) by monuments and bearings; (a)(8) to (a)(11) in words by section, township and range. No latitude and longitude in the text.",
+  "note": "Checked 30 Sep 2026: NEW. Corrects the registry, which says the federal manatee rule bans diving and spearing 'only at Three Sisters Springs'. Every sanctuary bans all waterborne activity in season, which includes diving and spearfishing. No USFWS GIS layer found; geometry would need state-plane conversion (a)(1), (a)(2), (a)(7) or the posted buoy lines. regs.json sidebar text for this rule is already correct.",
+  "axes": {
+   "in_force": "eCFR 'up to date as of 9/28/2026'. Paragraph list (a)(1) to (a)(11) and (c)(1) to (c)(14) read 30 Sep 2026.",
+   "subsection": "(a) introductory text; names at (a)(1) to (a)(11); exception at (b).",
+   "verbatim": "Second sentence read identically from eCFR and Cornell LII. First sentence from eCFR only. Sanctuary descriptions summarised, not quoted.",
+   "url": "ecfr.gov section page resolves (the eCFR API is blocked by robots for the fetch tool)."
+  }
+ },
+ {
+  "id": "fac-68b-11-003",
+  "cite": "Fla. Admin. Code rr. 68B-11.001, 68B-11.003, 68B-11.004",
+  "title": "Biscayne Bay-Card Sound Spiny Lobster Sanctuary: no lobster, ever, and no lobster aboard while anyone is in the water",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://flrules.org/gateway/ChapterHome.asp?Chapter=68B-11",
+  "effect": "Year-round, nobody may take or disturb spiny lobster anywhere in Biscayne Bay, Card Sound and Little Card Sound west of the keys, and a boat with lobster aboard may not have anyone overboard inside the sanctuary.",
+  "excerpt": "It is unlawful for any person to molest, take or trap any spiny lobster, for any purpose, within the boundaries of the sanctuary, unless such person holds a special permit issued by the Fish and Wildlife Conservation Commission.",
+  "full": "r. 68B-11.001(1): \"The waters of Biscayne Bay, Card Sound, and Little Card Sound hereinafter described are declared to be a nursery sanctuary for the purpose of protecting the spiny lobster.\" Boundary begins \"at the intersection of the northern right-of-way of State Road 905A and the western mean high water line of Little Card Sound\", runs north along the mainland shore to the canal at the northern boundary of Matheson Hammock Park, then by straight lines and eastern mean high water lines to Cape Florida, Soldier Key, the Ragged Keys, Boca Chita, Sands, Elliott, Old Rhodes, Swan, Palo Alto and Angelfish Keys and Key Largo, closing along SR 905A. \"The western boundary of the sanctuary from the point of beginning to the northern boundary of Matheson Hammock Park, includes all natural and artificial waterways tidally connected to Little Card Sound, Card Sound, and Biscayne Bay.\" r. 68B-11.004: \"The presence of spiny lobster aboard a vessel within the boundaries of the sanctuary, while one or more persons from such vessel are overboard, is prohibited and constitutes a violation of this chapter by all persons aboard and overboard from such vessel\", with exceptions for passage and temporary safe refuge while nobody is overboard. Penalty: second-degree misdemeanour (r. 68B-11.003).",
+  "verified": "verbatim",
+  "scope": "Biscayne Bay south of a line from the Matheson Hammock Park canal to Cape Florida, Card Sound and Little Card Sound, west of the keys, plus every tidally connected mainland waterway. Boundary is WORDS ONLY (mean high water lines, headland-to-headland lines, one section-township-range tie point); the rule gives no coordinates, so no geometry is produced here. FWC publishes a digitised polygon: gis.myfwc.com Open_Data/Spiny_Lobster_Sanctuary_Biscayne_Bay_Florida/MapServer/6.",
+  "note": "Checked 30 Sep 2026: NEW. Lobster-only; spearfishing for finfish is unaffected. It overlaps the west half of Biscayne National Park (drawn as open). The 68B-11.004 rule bites a diver who carries lobster from outside onto a boat that then stops inside the sanctuary for a dive. Rules dated 1984 and 1996, never amended since.",
+  "axes": {
+   "in_force": "flrules chapter page: .001 to .003 effective 7/3/1984, .004 7/15/1996. Checked 30 Sep 2026.",
+   "subsection": "Prohibition in 68B-11.003; boundary 68B-11.001(1); vessel rule 68B-11.004.",
+   "verbatim": "68B-11.003 first sentence identical on Justia and Cornell. 68B-11.001 first sentence, opening clause and western-boundary sentence identical on Justia and Cornell. 68B-11.004 read word for word on Justia; Cornell returned a summary with matching quoted phrases.",
+   "url": "flrules chapter page resolves; rule text in .doc files."
+  }
+ },
+ {
+  "id": "fac-68b-24-005-2",
+  "cite": "Fla. Admin. Code r. 68B-24.005(2)",
+  "title": "Lobster sport (mini) season: dive or net only; in Monroe County no night diving and no Pennekamp",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://flrules.org/gateway/ruleNo.asp?id=68B-24.005",
+  "effect": "During the two-day sport season (last Wednesday and Thursday of July; 29 to 30 July in 2026), lobster may be taken only by diving or with a bully or hoop net, and in Monroe County not at night and not in John Pennekamp Coral Reef State Park.",
+  "excerpt": "(2) There shall be a sport season for recreational harvesters of spiny lobster, which season shall occur during the last Wednesday and successive Thursday of July each year. During this sport season, the following special restrictions shall apply: (a) No person shall harvest spiny lobster by any means other than by diving or with the use of a bully net or hoop net. (b) In Monroe County only, no person shall harvest spiny lobster: 1. By diving at night (from 1 hour after official sunset until 1 hour before official sunrise). 2. In or from the waters of John Pennekamp Coral Reef State Park, pursuant to rule 68B-24.0065, F.A.C.",
+  "full": "(1): regular season 6 August through 31 March. History: New 7-2-87, Amended 7-2-90, 3-1-92, 7-1-92, 6-1-94, Formerly 46-24.005, Amended 11-1-18.",
+  "verified": "verbatim",
+  "scope": "Statewide for (a); Monroe County only for (b).",
+  "note": "Checked 30 Sep 2026: NEW. There is no state 300-foot shoreline or canal rule. The 300-ft sport-season diving and snorkeling bans near improved shoreline, man-made canals and marinas are LOCAL ordinances: Monroe County Code ch. 26 art. IV (unincorporated Monroe, and reportedly applied in Layton and Key West), Marathon ch. 36 art. VII, Key Colony Beach ch. 5 art. I (registry kcb-5-11), Islamorada ch. 66 art. I, per a Monroe County flyer (secondary; see proposed monroe-26-art4). Monroe also moved in 2024 toward a 300-ft diving ban at bridges for the same window (news only; adoption not confirmed).",
+  "axes": {
+   "in_force": "flrules chapter page: 68B-24.005 effective 11/1/2018, no later version. Checked 30 Sep 2026.",
+   "subsection": "(2)(a) and (2)(b)1. and 2.",
+   "verbatim": "Justia (full text) and Cornell LII (subsection (2) on request) agree word for word.",
+   "url": "flrules ruleNo page resolves."
+  }
+ },
+ {
+  "id": "fac-68b-24-0065",
+  "cite": "Fla. Admin. Code r. 68B-24.0065 (as amended eff. 1 Jul 2026)",
+  "title": "John Pennekamp: no lobster in the sport season; seven Coral Formation Protection Zones closed to lobster all regular season",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://flrules.org/gateway/ruleNo.asp?id=68B-24.0065",
+  "effect": "In John Pennekamp Coral Reef State Park nobody may take lobster during the two-day sport season, and during the regular season lobster harvest and traps are banned in seven buoyed Coral Formation Protection Zones and on any patch reef.",
+  "excerpt": "(1) During the two-day sport season established in subsection 68B-24.005(2), F.A.C., there shall be no harvest of spiny lobster in John Pennekamp Coral Reef State Park. Except for persons transiting park waters in a vessel, no person shall possess any spiny lobster in or on the waters of the park during this period. Possession of spiny lobster during this period aboard any vessel from which a person is diving, within the boundaries of the park, is prohibited.",
+  "full": "(2)(a): during the regular season \"no person shall harvest or attempt to harvest any species of the Genera Panulirus or Scyllarides, or deploy any trap, in the following described areas of John Pennekamp Coral Reef State Park, each of which is a polygon bounded by the lines connecting the coordinates as expressed by latitude and longitude\". (2)(b) no possession in those areas; (2)(c) no lobster harvest or traps \"from or within any patch reef\", defined as \"any coral formation, consisting of a roughly circular area of hard corals, soft corals, and a mixture of other benthic invertebrates.\" The 1 Jul 2026 amendment replaced the ten 1995 zones with seven: Turtle Rocks, Basin Hill, Higdon's Reef, Cannon Patch, Mosquito Bank N., Mosquito Bank S.E., Three Sisters (geometry.json, ids penncpz-*). History: New 6-1-94, Amended 10-4-95, Formerly 46-24.0065, Amended 7-1-26.",
+  "verified": "verbatim",
+  "scope": "John Pennekamp Coral Reef State Park. Seven CPZ polygons in geometry.json (coordinates SECONDARY, see note).",
+  "note": "Checked 30 Sep 2026: NEW. Lobster-only; the whole park is already closed to spearfishing (fs-379-2425, fac-62d-2-014). Every web mirror (Justia, Cornell) still shows the 1995 ten-zone table; the seven-zone coordinates were transcribed from the proposed rule in FAR Vol. 51 No. 161 (19 Aug 2025), adopted unchanged per FAR Vol. 51 No. 184 ('(1) through (2) No change'). The ten-zone table in that FAR text is the struck-through old text (it matches the 1995 rule exactly). Confirm every corner against the flrules .doc, tid 30968625, before publishing the CPZ polygons.",
+  "axes": {
+   "in_force": "flrules rule page: effective 7/1/2026, history 'Amended 7-1-26'; notices 29898133 (proposed), 30010653 (change), 30968625 (final). FWC news release pennekamp-coral-825 confirms seven zones effective 1 Jul 2026.",
+   "subsection": "(1) sport-season closure (unchanged in 2026: proposed rule says '(1) No change'); (2)(a) zone table (replaced).",
+   "verbatim": "(1) identical on Justia and Cornell, and unchanged by the 2026 amendment. (2)(a) lead-in read from the FAR PDF through a summariser; the seven-zone coordinates are secondary.",
+   "url": "flrules ruleNo page resolves; 2026 text only as .doc (binary to the fetch tool)."
+  }
+ },
+ {
+  "id": "fac-68b-24-006-10",
+  "cite": "Fla. Admin. Code r. 68B-24.006(10)",
+  "title": "Spiny lobster may never be speared",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://flrules.org/gateway/ruleNo.asp?id=68B-24.006",
+  "effect": "Any spear, hook or other device that could puncture or crush a lobster is banned for taking lobster, everywhere and in every season.",
+  "excerpt": "No person shall harvest or attempt to harvest spiny lobster using any device which will or could puncture, penetrate, or crush the exoskeleton (shell) or the flesh of the lobster, and the use of such devices as part of, or in conjunction with, any trap is also prohibited.",
+  "full": "(11), next paragraph: \"No person shall harvest or attempt to harvest spiny lobster using or with the aid of bleach or any other chemical solution. The simultaneous possession of spiny lobster and any plastic or other container capable of ejecting liquid, by any person engaged in diving, is prohibited.\" History: New 7-2-87, Amended 7-2-90, 3-1-92, 7-1-92, 6-1-94, 10-4-95, 9-30-96, 6-1-99, Formerly 46-24.006, Amended 7-1-01, 7-9-02, 7-7-03, 4-1-04, 7-1-08, 6-19-13, 5-1-17.",
+  "verified": "verbatim",
+  "scope": "Statewide, all seasons.",
+  "note": "Checked 30 Sep 2026: NEW as its own id. Currently mentioned only inside the note of fac-68b-20-005; lobster is NOT in r. 68B-20.005's species list, so the chip should cite this rule. Agent a1 found regs.json attributes crab and lobster bans to r. 68B-20.005; sweep that.",
+  "axes": {
+   "in_force": "flrules chapter page: 68B-24.006 effective 5/1/2017, no later version.",
+   "subsection": "(10).",
+   "verbatim": "Justia and Cornell LII agree word for word.",
+   "url": "flrules ruleNo page resolves."
+  }
+ },
+ {
+  "id": "fac-68b-24-007-4",
+  "cite": "Fla. Admin. Code r. 68B-24.007(4)",
+  "title": "Night lobster diving: bag limit applies",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://flrules.org/gateway/ruleNo.asp?id=68B-24.007",
+  "effect": "Statewide, year-round, lobster taken by diving at night may not exceed the recreational bag limit.",
+  "excerpt": "No person shall harvest spiny lobster by diving at night (from 1 hour after official sunset until 1 hour before official sunrise) in excess of the bag limit prescribed in rule 68B-24.004, F.A.C.",
+  "full": "(3): \"No spiny lobster traps shall be set, placed, or caused to be set or placed at, on, or below the waters of the state within 100 feet of the intracoastal waterway or within 100 feet of any bridge or sea wall.\" History: New 7-2-87, Amended 7-2-90, 10-4-95, Formerly 46-24.007, Amended 7-1-08, 5-1-17.",
+  "verified": "verbatim",
+  "scope": "Statewide.",
+  "note": "Checked 30 Sep 2026: NEW, low priority. Not an area closure; sidebar material. The Monroe sport-season night ban is fac-68b-24-005-2.",
+  "axes": {
+   "in_force": "Effective 5/1/2017, no later version.",
+   "subsection": "(4); (3) for the trap setback.",
+   "verbatim": "Cornell LII word for word; Justia returned the same sentence in quotation marks.",
+   "url": "flrules ruleNo page resolves."
+  }
+ },
+ {
+  "id": "fac-68b-7-008-1",
+  "cite": "Fla. Admin. Code r. 68B-7.008(1)",
+  "title": "Biscayne National Park Coral Reef Protection Areas: no lobster, no traps",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://flrules.org/gateway/ruleNo.asp?id=68B-7.008",
+  "effect": "At five small reefs in Biscayne National Park (Fowey Rocks Lighthouse, Alina's Reef, Marker 3, Lob120, Ball Bouy) nobody may take or possess any lobster, and no traps, year-round; spearfishing for finfish is not restricted.",
+  "excerpt": "(a) A person may not harvest or attempt to harvest any species of the families Palinuridae (spiny lobsters), Scyllaridae (slipper lobsters), or Synaxidae (furry lobsters) from the Coral Reef Protection Areas. Except for persons in continuous transit through a Coral Protection Area aboard a vessel, no person shall possess any species of the families Palinuridae, Scyllaridae, or Synaxidae in or on the waters of the Coral Reef Protection Areas. (b) A person may not deploy a trap within the waters of the Coral Reef Protection Areas or harvest any marine organism from a trap within the waters of the Coral Reef Protection Areas.",
+  "full": "(1)(c) gives four points for each area (geometry.json, ids bisccrpa-*). Mirrored by r. 68B-24.0067: \"As provided in Rule 68B-7.008, F.A.C., no person shall harvest or attempt to harvest any species of the families Palinuridae (spiny or furry lobsters) or Scyllaridae (slipper lobsters), or deploy any trap, in the Coral Reef Protection Areas of Biscayne National Park.\" (New 7-1-20).",
+  "verified": "verbatim",
+  "scope": "Five quadrilaterals in Biscayne National Park; coordinates in the rule (geometry.json).",
+  "note": "Checked 30 Sep 2026: NEW. Complements agent a1's fac-68b-7-008-5 (bonefish area) and bnp-legare. The existing bnp-status entry should cite ch. 68B-7 closures in its effect line.",
+  "axes": {
+   "in_force": "flrules rule page: current version effective 11/4/2025 (bonefish amendment); (1) text unchanged since 7/1/2020 on the mirrors read. Checked 30 Sep 2026.",
+   "subsection": "(1)(a), (1)(b); coordinates (1)(c).",
+   "verbatim": "(1)(a) and (1)(b) identical on Justia and Cornell LII. Coordinates identical on Justia and myfwc.com BNP page.",
+   "url": "flrules ruleNo page resolves."
+  }
+ },
+ {
+  "id": "fac-68b-6-004",
+  "cite": "Fla. Admin. Code r. 68B-6.004",
+  "title": "Western Dry Rocks: no fishing of any kind, 1 April to 31 July",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://flrules.org/gateway/ruleNo.asp?id=68B-6.004",
+  "effect": "Every spring, 1 April through 31 July, all fishing including spearfishing, and possession of fish, is prohibited in the state waters of a box at Western Dry Rocks off Key West; the rule sunsets after 31 March 2028 unless renewed.",
+  "excerpt": "Fishing and possession of fish are prohibited within Western Dry Rocks, described in subsection (1), from April 1 through July 31. However, fish may be possessed aboard a vessel, provided such vessel is in continuous transit through Western Dry Rocks, fishing gear is appropriately stowed, and such resources are stowed in a cabin, locker, or similar storage area prior to entering and during transit through Western Dry Rocks. For the purpose of this subsection, appropriately stowed means hooks cannot be baited, and spear shafts shall not be inserted into any spearing device. All hook-and-line gear, spearing equipment, nets, and other harvesting equipment must be secured in a manner that makes their immediate use impracticable. This closure shall only remain in effect through March 31, 2028. However, the Commission shall review the closure prior to that date and determine whether repeal is appropriate or if the closure should be renewed or expanded.",
+  "full": "(1): \"For purposes of the restrictions specified in subsection (2) below, Western Dry Rocks shall consist of all state waters located within the following geographic boundary coordinates\": Point 1 24°26.217'N 81°57.007'W; Point 2 24°25.676'N 81°57.002'W; Point 3 24°25.686'N 81°55.489'W; Point 4 24°26.227'N 81°55.493'W. History: New 4-1-21.",
+  "verified": "verbatim",
+  "scope": "Quadrilateral about 1 km by 2.5 km, 24.428 to 24.437 N, 81.925 to 81.950 W (geometry.json id wdrseasonal). State waters inside the box only.",
+  "note": "Checked 30 Sep 2026: NEW. Not in the registry and not in fknms.json (the point-in-polygon test finds only the Area to be Avoided, which allows fishing). Seasonal spawning-aggregation closure for mutton snapper and others. FKNMS federal waters around it may carry a Blueprint zone; not checked.",
+  "axes": {
+   "in_force": "flrules rule page: effective 4/1/2021, no 2025 or 2026 notices. Sunset 31 Mar 2028 written into (2).",
+   "subsection": "(2) prohibition; (1) box.",
+   "verbatim": "(2) identical on Justia and Cornell LII.",
+   "url": "flrules ruleNo page resolves."
+  }
+ },
+ {
+  "id": "fac-68b-6-003",
+  "cite": "Fla. Admin. Code rr. 68B-6.002, 68B-6.003(1)(b)",
+  "title": "Florida Keys: the state's own no-fishing rule for the state-water SPAs and Ecological Reserves",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://flrules.org/gateway/ChapterHome.asp?Chapter=68B-6",
+  "effect": "Florida law itself bans fishing by any means, including spearfishing, in Western Sambo, Tortugas North, and the Cheeca Rocks, Eastern Dry Rocks, Hens and Chickens, Newfound Harbor Key, Rock Key and Sand Key SPAs, independently of the federal sanctuary rules.",
+  "excerpt": "The following activities are prohibited within the Western Sambos Ecological Reserve, Tortugas North Ecological Reserve, and the Cheeca Rocks, Eastern Dry Rocks, Hens and Chickens, Newfound Harbor Key, Rock Key, and Sand Key Sanctuary Preservation Areas ... (b) Except as provided in subparagraphs 1. and 2., below, fishing by any means. However, gear capable of harvesting fish may be aboard a vessel in an Ecological Reserve or Sanctuary Preservation Area (other than Sand Key), provided such gear is not available for immediate use when entering and during transit through such Ecological Reserve or Sanctuary Preservation Area.",
+  "full": "Exceptions: \"1. Catch and release fishing by trolling is allowed in the Sand Key Sanctuary Preservation Area.\" 2. baitfish (ballyhoo, balao, halfbeaks, herring) under conditions. Eastern Sambos Special-Use Area: research only. Boundaries of all nine areas are in r. 68B-6.002 as coordinates (not read in full). History: New 7-1-97, Amended 11-16-98, Formerly 46-6.003, Amended 12-2-99, 7-1-01.",
+  "verified": "verbatim",
+  "scope": "State waters of the listed FKNMS zones.",
+  "note": "Checked 30 Sep 2026: NEW. This is the state-law basis for the 1997 zoning that still governs FKNMS state waters. It should be joined to the 25 state-water zones in fknms.json alongside cfr-922-164-d, so the state-water chip does not depend on eCFR text that the Blueprint has overtaken. Sand Key trolling exception survives in state waters under this rule.",
+  "axes": {
+   "in_force": "flrules chapter page: 68B-6.003 effective 7/1/2001; ch. 68B-6 unchanged in 2025 and 2026 (also agent a1).",
+   "subsection": "(1) lead-in and (1)(b).",
+   "verbatim": "Lead-in and (1)(b) with the transit sentence identical on Justia and Cornell LII. The '...' marks omitted paragraph (1)(a) (coral) text.",
+   "url": "flrules chapter page resolves."
+  }
+ },
+ {
+  "id": "fs-403-93345",
+  "cite": "Fla. Stat. § 403.93345",
+  "title": "Coral Reef Protection Act: anchoring on reef is penalised; NOT a fishing rule",
+  "juris": "state",
+  "kind": "statute",
+  "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0403/Sections/0403.93345.html",
+  "effect": "Anchoring on or grounding on coral or colonised hard bottom off Martin, Palm Beach, Broward, Miami-Dade and Monroe counties carries civil penalties from $225 (a first warning letter for a registered recreational boat) up to $375,000; it does not restrict fishing or spearfishing.",
+  "excerpt": "(2) This act applies to the sovereign submerged lands that contain coral reefs as defined in this act off the coasts of Broward, Martin, Miami-Dade, Monroe, and Palm Beach Counties. ... (8)(a) For any anchoring of a vessel on a coral reef or for any other damage to a coral reef totaling less than or equal to an area of 1 square meter, $225, provided that a responsible party who has anchored a recreational vessel as defined in s. 327.02 which is lawfully registered or exempt from registration pursuant to chapter 328 is issued, at least once, a warning letter in lieu of penalty; with aggravating circumstances, an additional $225; occurring within a state park or aquatic preserve, an additional $225.",
+  "full": "(3)(c) \"Coral reefs\" means \"Limestone structures composed wholly or partially of living corals, their skeletal remains, or both, and hosting other coral, associated benthic invertebrates, and plants\" or \"Hard-bottom communities, also known as live bottom habitat or colonized pavement, characterized by the presence of coral and associated reef organisms or worm reefs created by the Phragmatopoma species.\" (5): the responsible party \"must notify the department of such an event within 24 hours\" and remove the vessel \"within 72 hours\". Higher bands: 1 to 10 m2 $450 per m2; over 10 m2 $1,500 per m2; repeat violations doubled, tripled, quadrupled; cap $375,000 per occurrence. History: s. 57, ch. 2009-86; s. 86, ch. 2010-5; s. 76, ch. 2015-229; s. 24, ch. 2020-158.",
+  "verified": "verbatim",
+  "scope": "Sovereign submerged lands containing coral reefs off Broward, Martin, Miami-Dade, Monroe and Palm Beach Counties. The definition includes colonised pavement and Phragmatopoma worm reef, so it reaches nearshore hard bottom, not only coral reef.",
+  "note": "Checked 30 Sep 2026: NEW. Popup and sidebar material, not a closure. The 'aquatic preserve' surcharge now applies across the whole Kristin Jacobs Coral Aquatic Preserve (St. Lucie Inlet to Biscayne NP) because that area became an aquatic preserve in 2024. Map layer: the project's hardbottom.json (FWRI Unified Reef Map) is the practical proxy for 'coral reefs' here.",
+  "axes": {
+   "in_force": "Online Sunshine 2026 statutes; last amended ch. 2020-158.",
+   "subsection": "(2) scope; (3)(c) definition; (5) duties; (8)(a) penalty.",
+   "verbatim": "(2), (3)(c), (5) and (8)(a) returned in quotation marks on two separate reads of leg.state.fl.us, matching each other; read through a summariser, so a browser check of punctuation is advisable.",
+   "url": "leg.state.fl.us statute page resolves."
+  }
+ },
+ {
+  "id": "neg-kristinjacobs",
+  "cite": "Fla. Stat. §§ 258.39(33), 258.43(1); Fla. Admin. Code r. 18-20.012 (NEGATIVE)",
+  "title": "Kristin Jacobs Coral Aquatic Preserve does NOT close fishing or spearfishing",
+  "juris": "state",
+  "kind": "negative",
+  "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0200-0299/0258/Sections/0258.39.html",
+  "effect": "The 105-mile reef-tract preserve from St. Lucie Inlet to Biscayne National Park is an ordinary aquatic preserve: it adds anchoring-damage surcharges but no fishing or spearfishing restriction.",
+  "excerpt": "(33) Kristin Jacobs Coral Reef Ecosystem Conservation Area, as designated by chapter 2021-107, Laws of Florida, the boundaries of which consist of the sovereignty submerged lands and waters of the state offshore of Broward, Martin, Miami-Dade, and Palm Beach Counties from the St. Lucie Inlet to the northern boundary of the Biscayne National Park.",
+  "full": "s. 258.43(1): \"The Board of Trustees of the Internal Improvement Trust Fund has authority to adopt rules pursuant to ss. 120.536(1) and 120.54 to implement the provisions of this act and specifically to provide regulation of human activity within the preserve in such a manner as not to unreasonably interfere with lawful and traditional public uses of the preserve, such as sport and commercial fishing, boating, and swimming.\" r. 18-20.012: \"Members of the public may exercise their rights to fish, so long as not contrary to other statutory and regulatory provisions controlling such activities.\" s. 258.39 history ends 's. 2, ch. 2024-180' (the act that made the area an aquatic preserve, effective 1 Jul 2024 per FDEP).",
+  "verified": "verbatim",
+  "scope": "State waters off Martin, Palm Beach, Broward and Miami-Dade from St. Lucie Inlet to the north boundary of Biscayne National Park.",
+  "note": "Checked 30 Sep 2026: NEW negative. Follows the same rule as every other aquatic preserve (neg-aquatic, fac-18-20-012). The statute number is s. 258.39(33), not s. 258.3991. FDEP's preserve page lists fishing, diving and snorkeling as allowed activities under FWC rules. Management-plan zoning (draft plan exists) creates no fishing rule unless adopted into ch. 18-20; none found.",
+  "axes": {
+   "in_force": "Online Sunshine 2026 statutes; s. 258.39 amended by ch. 2024-180.",
+   "subsection": "s. 258.39(33) confirmed as the Kristin Jacobs paragraph ((31) Rookery Bay, (32) Rainbow Springs, no (34)).",
+   "verbatim": "(33) and s. 258.43(1) returned in quotation marks from leg.state.fl.us; r. 18-20.012 read word for word on Cornell LII (matches registry).",
+   "url": "leg.state.fl.us pages resolve."
+  }
+ },
+ {
+  "id": "neg-nerr",
+  "cite": "15 C.F.R. § 921.1(c); Fla. Admin. Code ch. 18-20 (NEGATIVE)",
+  "title": "National Estuarine Research Reserves (Rookery Bay, GTM, Apalachicola) do not close fishing or spearfishing",
+  "juris": "state",
+  "kind": "negative",
+  "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-IX/subchapter-B/part-921",
+  "effect": "No federal or state rule found that restricts fishing or spearfishing because water lies inside Rookery Bay, Guana Tolomato Matanzas or Apalachicola NERR; ordinary FWC rules, aquatic preserve rules and any overlapping CWA or state park apply.",
+  "excerpt": "Use levels are set by the state where the Reserve is located and analyzed in the management plan.",
+  "full": "15 C.F.R. § 921.1(c) (read through a summariser): the management plan \"shall identify uses requiring a state permit, as well as areas where uses are encouraged or prohibited\". Florida has no reserve-specific fishing rule in chs. 18-18, 18-20, 18-21 or 18-23 (chapter lists checked). Rookery Bay reserve site: \"Fishing is permitted throughout the Reserve as long as all activities comply with state laws as governed by the Florida Fish and Wildlife Conservation Commission.\" GTM reserve site: fishing \"generally allowed throughout the NERR\". Rookery Bay's seasonal Second Chance closure (1 Mar to 31 Aug) is an FWC Critical Wildlife Area already in cwa.json.",
+  "verified": "secondary",
+  "scope": "Rookery Bay NERR (Collier), Guana Tolomato Matanzas NERR (St. Johns, Flagler), Apalachicola NERR (Franklin).",
+  "note": "Checked 30 Sep 2026: NEW negative. Secondary because the negative rests on chapter lists and reserve websites, not on a rule that says so. The NOAA MPA Inventory codes GTM 'Commercial Fishing Prohibited' and Apalachicola 'Commercial and Recreational Fishing Restricted'; no primary rule behind either was found. Not checked: FWC rules for Guana River WMA (ch. 68A-15), which overlaps GTM, and the reserves' management plans. State park waters inside a reserve are closed by r. 62D-2.014(9)(d) as usual.",
+  "axes": {
+   "in_force": "15 C.F.R. pt. 921 current eCFR. Florida chapters checked on flrules 30 Sep 2026.",
+   "subsection": "15 C.F.R. § 921.1(c).",
+   "verbatim": "CFR sentence came through a summariser; unconfirmed word for word.",
+   "url": "ecfr.gov part 921 resolves."
+  }
+ },
+ {
+  "id": "neg-bufferpreserve",
+  "cite": "Fla. Admin. Code rr. 18-23.002(1), 18-23.007 (NEGATIVE)",
+  "title": "State buffer preserves are land, not water: no fishing closure",
+  "juris": "state",
+  "kind": "negative",
+  "url": "https://flrules.org/gateway/ChapterHome.asp?Chapter=18-23",
+  "effect": "Buffer preserve rules (including the ban on removing any animal) apply only above mean high water and on natural islands, so they do not close any water to fishing or spearfishing.",
+  "excerpt": "This chapter applies to all lands managed by the Office of Coastal and Aquatic Managed Areas that are on mainlands above the mean or ordinary high water line adjacent to aquatic preserves",
+  "full": "r. 18-23.007(a) prohibited activities include \"2. Hunting, harassing, possessing or trapping wildlife.\" and \"6. Transplantation or removal of any plant or animal, or parts of plants or animals (living or dead), except as provided herein.\" The same chapter also covers natural islands within aquatic preserves owned by the state (not spoil islands). History of both rules: New 8-7-94, Amended 5-8-96, 7-1-03.",
+  "verified": "verbatim",
+  "scope": "All state buffer preserves, e.g. St. Joseph Bay State Buffer Preserve.",
+  "note": "Checked 30 Sep 2026: NEW negative. The NOAA MPA Inventory lists St. Joseph Bay State Buffer Preserve as 'No Take / Commercial and Recreational Fishing Prohibited' with 1.8 km2 of 'marine' area; that reflects the upland rule and tidal marsh, not a closure of St. Joseph Bay. Do not map it as a water closure.",
+  "axes": {
+   "in_force": "flrules chapter 18-23: .002 and .007 effective 7/1/2003.",
+   "subsection": "18-23.002(1) scope; 18-23.007(a)2. and 6.",
+   "verbatim": "18-23.002(1) sentence returned in quotation marks from Cornell LII; .007 items from Cornell. Single mirror.",
+   "url": "flrules chapter page resolves."
+  }
+ },
+ {
+  "id": "neg-68b-areas",
+  "cite": "Fla. Admin. Code chs. 68B-3, 68B-4, 68B-5, 68B-25, 68B-42 (listed rules) (NEGATIVE)",
+  "title": "Other FWC area rules checked: no further spearfishing or diving closures",
+  "juris": "state",
+  "kind": "negative",
+  "url": "https://flrules.org/gateway/Division.asp?DivID=348",
+  "effect": "Apart from the rules now proposed (Old Tampa Bay, Turkey and Crane Creeks, Western Dry Rocks, the Keys state-water zones, lobster areas), the FWC marine area rules checked do not close water to spearfishing or diving.",
+  "excerpt": "[Negative finding. No operative text.]",
+  "full": "Checked, no spear or diving restriction: 68B-3.001 Charlotte and 68B-3.002 Collier (repeals only); 68B-3.006 St. Johns (nets); 68B-3.011 Okaloosa (shrimp trawling); 68B-3.028 Escambia and Santa Rosa (nets); 68B-3.029 Hernando (nets); 68B-3.031 Manatee (nets); 68B-4.0083 (no spear mention); 68B-4.010 Lake Avoca (no motorised fishing boats); 68B-4.018 Boca Grande Pass (hook weights, lines, breakaway gear; no spear rule); 68B-25.001 Tampa Bay Park and 68B-25.002 E. G. Simmons Park (nets only); 68B-5.002 Pennekamp (species list and 8-inch minimum; park already closed); 68B-5.005 (\"No diver shall engage in the practice of fish feeding.\"); 68B-5.006 lionfish (licence exemption and no bag limit, but NO exemption from any area closure). 68B-42.0036: 'Special Marine Life Area' appears only in (3) (Blue Heron Bridge), so the registry's 'only Special Marine Life Area' claim holds; the rule also closes Biscayne NP to ornamental marine life collection without a park permit ((1)) and octocoral harvest in the EEZ north of 28°35.1'N and in the Stetson-Miami Terrace and Pourtales Terrace deepwater coral HAPCs ((4) to (6)). Not checked: the remaining ch. 68B-3 repeal-only rules (.003 to .005, .032 to .050), 68B-4.011 Faka Union, 68B-4.015 and .017 net rules.",
+  "verified": "secondary",
+  "scope": "Statewide.",
+  "note": "Checked 30 Sep 2026: NEW negative. Secondary: most reads were summaries of the rule text, which reliably report whether spears are mentioned but are not quotations.",
+  "axes": {
+   "in_force": "Chapter pages for 68B-3, 68B-4, 68B-5, 68B-25, 68B-42 read on flrules 30 Sep 2026 with effective dates.",
+   "subsection": "n/a",
+   "verbatim": "n/a (negative); the fish-feeding sentence was returned in quotation marks from Justia.",
+   "url": "flrules division page resolves."
+  }
+ },
+ {
+  "id": "monroe-26-art4",
+  "cite": "Monroe County Code ch. 26 art. IV (section numbers not located)",
+  "title": "Keys lobster season: no diving or snorkeling within 300 ft of improved shoreline, canals and marinas",
+  "juris": "county",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/monroe_county/codes/code_of_ordinances",
+  "effect": "In unincorporated Monroe County (and reportedly Layton and Key West), diving and snorkeling are banned within 300 feet of improved residential or commercial shoreline, any man-made or private canal, and any marina from 3 days before the sport season through the first 5 days of the regular season.",
+  "excerpt": "[Not read from the ordinance. Flyer wording, secondary:] 300 feet of improved residential or commercial shoreline, any manmade or private canal, any public or private marina.",
+  "full": "Same flyer: Marathon ch. 36 art. VII (sport season only); Key Colony Beach ch. 5 art. I (4 days before the sport season through 10 days after the regular season opens; registry kcb-5-11); Islamorada ch. 66 art. I and Monroe ch. 26 art. IV (3 days before the sport season, the sport season, and the first 5 days of the regular season). Exception reported: \"diving and snorkeling is allowed in front of his or her property to the center line of the canal or 100 feet of open water.\"",
+  "verified": "unverified",
+  "scope": "Florida Keys, lobster season windows only.",
+  "note": "Checked 30 Sep 2026: LEAD, not a rule yet. Source: Monroe County lobster flyer hosted at thebluepaper.com/wp-content/uploads/mc_lobster-1.pdf (secondary). Keys News (Aug 2024) reports the county attorney saying the county 'has enacted restrictions on prohibiting diving in canals and within 300 feet of shorelines' and planning a 300-ft bridge ban; adoption not confirmed. Municode needs a browser. Coordinate with the existing mon26 and kcb5 zones.",
+  "axes": {
+   "in_force": "Not checked.",
+   "subsection": "Article only; sections unknown.",
+   "verbatim": "No.",
+   "url": "Municode base URL only; needs-browser."
+  }
+ },
+ {
+  "id": "cfr-50-32-28-g4",
+  "cite": "50 C.F.R. § 32.28(g)(4)",
+  "title": "Hobe Sound NWR: rod and reel or pole and line only, so no spearfishing on refuge waters",
+  "juris": "federal",
+  "kind": "cfr",
+  "url": "https://www.ecfr.gov/current/title-50/section-32.28",
+  "effect": "Hobe Sound National Wildlife Refuge (Jupiter Island and the Indian River Lagoon shore, Martin County) opens salt-water fishing only by rod and reel or pole and line, in daylight, so spearfishing is not allowed wherever the refuge's jurisdiction reaches.",
+  "excerpt": "(4) Sport fishing. We allow fishing on designated areas of the refuge subject to the following conditions: (i) We allow fishing only from legal sunrise to legal sunset. (ii) We allow salt-water fishing along the Atlantic Ocean and Indian River Lagoon year-round as governed by State recreational fishing regulations. (iii) We allow the use of only rods and reels and poles and lines, and anglers must attend them at all times.",
+  "full": "(iv) We allow only two poles per angler, and anglers must attend those poles at all times in conjunction with the Martin County, Florida, two-pole ordinance.",
+  "verified": "secondary",
+  "scope": "Hobe Sound NWR, Martin County. Whether the refuge boundary reaches below mean high water (and so covers the nearshore water a shore diver uses) is not established; the NOAA MPA Inventory polygon (NWR52) shows some marine area.",
+  "note": "Checked 30 Sep 2026: NEW. Found through the MPA cross-check. Not in the registry (cfr-50-32-28 mentions only Ten Thousand Islands and Ding Darling). Conservative reading: treat refuge waters as closed to spearfishing. Likely agent a2's territory; passed on for merging.",
+  "axes": {
+   "in_force": "eCFR § 32.28 up to date as of 20 Aug 2026.",
+   "subsection": "(g)(4)(i) to (iv).",
+   "verbatim": "Returned in quotation marks from one eCFR read through a summariser; confirm word for word.",
+   "url": "ecfr.gov section page resolves."
+  }
+ },
+ {
+  "id": "cfr-50-32-28-m4",
+  "cite": "50 C.F.R. § 32.28(m)(4)",
+  "title": "Pinellas NWR: fishing only from vessels around Tarpon Key",
+  "juris": "federal",
+  "kind": "cfr",
+  "url": "https://www.ecfr.gov/current/title-50/section-32.28",
+  "effect": "At Pinellas National Wildlife Refuge (mangrove islands in lower Tampa Bay) fishing is allowed only from vessels in the waters around Tarpon Key, so entering the water to spearfish is not allowed there and the other refuge islands are not open to fishing at all.",
+  "excerpt": "(4) Sport fishing. We allow sport fishing year-round on designated areas of the refuge subject to the following condition: We allow fishing only from vessels in the waters surrounding Tarpon Key.",
+  "full": null,
+  "verified": "secondary",
+  "scope": "Pinellas NWR, Pinellas County (Tarpon, Mule, Listen, Whiskey Stump and other keys). MPA Inventory codes it No Access (NWR89).",
+  "note": "Checked 30 Sep 2026: NEW. Found through the MPA cross-check. Conservative reading: a swimmer or diver is not 'fishing from a vessel', so spearfishing is closed. Likely agent a2's territory.",
+  "axes": {
+   "in_force": "eCFR § 32.28 up to date as of 20 Aug 2026.",
+   "subsection": "(m)(4).",
+   "verbatim": "Returned in quotation marks from one eCFR read through a summariser; confirm.",
+   "url": "ecfr.gov section page resolves."
+  }
+ }
+]

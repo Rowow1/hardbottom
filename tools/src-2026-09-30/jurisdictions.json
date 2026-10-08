@@ -1,0 +1,2112 @@
+[
+ {
+  "name": "Escambia County",
+  "type": "county",
+  "county": "Escambia",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/escambia_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 5813. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: only § 74-36 lifeguard 'reasonable command' to cease spear fishing too close to bathers (Pensacola Beach), not a standing closure. Existing neg-misc (ch. 102) stands."
+ },
+ {
+  "name": "Pensacola",
+  "type": "city",
+  "county": "Escambia",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/pensacola/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 3825. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: zoning and parade hits only."
+ },
+ {
+  "name": "Santa Rosa Island Authority (Pensacola Beach)",
+  "type": "authority",
+  "county": "Escambia",
+  "coast": "gulf",
+  "host": "sria-fla.com (own rules)",
+  "code_url": "https://www.sria-fla.com/",
+  "status": "needs-browser",
+  "notes": "Authority, not a city. Its rules were not reached; Escambia § 74-36 lifeguard-command clause applies on Pensacola Beach. Check SRIA land-use/beach rules for spearfishing."
+ },
+ {
+  "name": "Santa Rosa County",
+  "type": "county",
+  "county": "Santa Rosa",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/santa_rosa_county/codes/code_of_ordinances",
+  "status": "needs-browser",
+  "notes": "Municode client id not resolved via API name lookup (404). Search terms: spear, speargun, spearfishing, scuba, snorkel, skin diving. Navarre Beach pier rules likely here."
+ },
+ {
+  "name": "Gulf Breeze",
+  "type": "city",
+  "county": "Santa Rosa",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/gulf_breeze/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 2477. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Milton",
+  "type": "city",
+  "county": "Santa Rosa",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/milton",
+  "status": "not-checked",
+  "notes": "Blackwater River/bay; low priority."
+ },
+ {
+  "name": "Okaloosa County",
+  "type": "county",
+  "county": "Okaloosa",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/okaloosa_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 7124. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 16-43(i)(3)(a) no swim/dive within 150 ft of Okaloosa Island Pier (not spear-specific; diving near the pier is barred). No spearfishing provision."
+ },
+ {
+  "name": "Destin",
+  "type": "city",
+  "county": "Okaloosa",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/destin/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 1929. spear*/scuba/snorkel*/harpoon* 30 Sep 2026: comp-plan and LDC definitions only. Reconfirms neg-misc (Destin ch. 5)."
+ },
+ {
+  "name": "Fort Walton Beach",
+  "type": "city",
+  "county": "Okaloosa",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/fort_walton_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 2263. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Cinco Bayou",
+  "type": "town",
+  "county": "Okaloosa",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/cinco_bayou/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 8329. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Mary Esther",
+  "type": "city",
+  "county": "Okaloosa",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/mary_esther",
+  "status": "not-checked",
+  "notes": "Santa Rosa Sound; client id not resolved."
+ },
+ {
+  "name": "Niceville",
+  "type": "city",
+  "county": "Okaloosa",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/niceville",
+  "status": "not-checked",
+  "notes": "Choctawhatchee Bay; client id not resolved."
+ },
+ {
+  "name": "Valparaiso",
+  "type": "city",
+  "county": "Okaloosa",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/valparaiso",
+  "status": "not-checked",
+  "notes": "Boggy Bayou; client id not resolved."
+ },
+ {
+  "name": "Walton County",
+  "type": "county",
+  "county": "Walton",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/walton_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 11018. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: beach-vehicle dive-guide and permit definitions only."
+ },
+ {
+  "name": "Freeport",
+  "type": "city",
+  "county": "Walton",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/freeport/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 2286. spear*/scuba/snorkel*/harpoon* 30 Sep 2026: 0 hits."
+ },
+ {
+  "name": "Bay County",
+  "type": "county",
+  "county": "Bay",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/bay_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 190. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 15-48 no jump/dive from Porter and SR 20 bridges; § 5-84 no diving from dock or pier into Gulf. No spear provision."
+ },
+ {
+  "name": "Panama City Beach",
+  "type": "city",
+  "county": "Bay",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/panama_city_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 3773. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 7-1 no diving/jumping into Gulf from any dock or pier; § 7-4 lifeguard equipment definition. No spear provision. Open item from last sweep (ch. 7) closed as negative. Russell-Fields Pier rules (§ 4-55) mention shark fishing; spear not found."
+ },
+ {
+  "name": "Panama City",
+  "type": "city",
+  "county": "Bay",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/panama_city/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 3772. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Callaway",
+  "type": "city",
+  "county": "Bay",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/callaway/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 1495. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 10.5-18 no dive/jump from public bridge, ramp or dock only."
+ },
+ {
+  "name": "Lynn Haven",
+  "type": "city",
+  "county": "Bay",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/lynn_haven/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 3118. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 42-20 bridge diving only."
+ },
+ {
+  "name": "Mexico Beach",
+  "type": "city",
+  "county": "Bay",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/mexico_beach",
+  "status": "needs-browser",
+  "notes": "Client id not resolved (name lookup 404). Search: spear, scuba, snorkel, pier."
+ },
+ {
+  "name": "Parker",
+  "type": "city",
+  "county": "Bay",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/parker",
+  "status": "not-checked",
+  "notes": "St. Andrew Bay; not resolved."
+ },
+ {
+  "name": "Springfield",
+  "type": "city",
+  "county": "Bay",
+  "coast": "bay",
+  "host": "unknown",
+  "code_url": "",
+  "status": "not-checked",
+  "notes": "St. Andrew Bay (North Bay)."
+ },
+ {
+  "name": "Gulf County",
+  "type": "county",
+  "county": "Gulf",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/gulf_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 6112. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Port St. Joe",
+  "type": "city",
+  "county": "Gulf",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/port_st._joe",
+  "status": "not-checked",
+  "notes": "St. Joseph Bay; client id not resolved."
+ },
+ {
+  "name": "Franklin County",
+  "type": "county",
+  "county": "Franklin",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/franklin_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 11395. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: only App. A special-act entry 'Markers for diving Gulf and Franklin Counties'."
+ },
+ {
+  "name": "Apalachicola",
+  "type": "city",
+  "county": "Franklin",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/apalachicola/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 1051. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Carrabelle",
+  "type": "city",
+  "county": "Franklin",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/carrabelle/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 1540. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Wakulla County",
+  "type": "county",
+  "county": "Wakulla",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/wakulla_county",
+  "status": "needs-browser",
+  "notes": "Client id not resolved. Search: spear, scuba, snorkel (Wakulla Springs is a state park, not county)."
+ },
+ {
+  "name": "St. Marks",
+  "type": "city",
+  "county": "Wakulla",
+  "coast": "gulf",
+  "host": "unknown",
+  "code_url": "",
+  "status": "not-checked",
+  "notes": "Small city on the St. Marks River."
+ },
+ {
+  "name": "Jefferson County",
+  "type": "county",
+  "county": "Jefferson",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/jefferson_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 11624. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 40-4 county parks, no discharging spear gun (park property). No water closure."
+ },
+ {
+  "name": "Taylor County",
+  "type": "county",
+  "county": "Taylor",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/taylor_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 12621. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 relevant hits."
+ },
+ {
+  "name": "Perry",
+  "type": "city",
+  "county": "Taylor",
+  "coast": "gulf",
+  "host": "unknown",
+  "code_url": "",
+  "status": "not-checked",
+  "notes": "Inland of the coast; low priority."
+ },
+ {
+  "name": "Dixie County",
+  "type": "county",
+  "county": "Dixie",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/dixie_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 5698. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 24-13 county swim areas, SCUBA prohibited without written county permission; App. B sponge-diving act repealed (83-134). No spear rule."
+ },
+ {
+  "name": "Horseshoe Beach",
+  "type": "town",
+  "county": "Dixie",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/horseshoe_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 15337. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Levy County",
+  "type": "county",
+  "county": "Levy",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/levy_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 6597. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Cedar Key",
+  "type": "city",
+  "county": "Levy",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/cedar_key/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 13301. § 2-4.02.00 prohibits spearing fish or other sea life by spear gun, spear, arrow or gig from docks, boats, rafts or with any diving equipment anywhere within city limits. Read verbatim 30 Sep 2026."
+ },
+ {
+  "name": "Inglis",
+  "type": "town",
+  "county": "Levy",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/inglis/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 8824. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Yankeetown",
+  "type": "town",
+  "county": "Levy",
+  "coast": "gulf",
+  "host": "unknown",
+  "code_url": "",
+  "status": "not-checked",
+  "notes": "Withlacoochee River mouth."
+ },
+ {
+  "name": "Citrus County",
+  "type": "county",
+  "county": "Citrus",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/citrus_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 932. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 26-78 Homosassa Springs headwaters diving restriction (special act, spring headwaters east of a surveyed line); § 10-33 permissive 1927 special act; spearfishing-in-Chassahowitzka act repealed to admin rule 83-134. No saltwater spear closure."
+ },
+ {
+  "name": "Crystal River",
+  "type": "city",
+  "county": "Citrus",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/crystal_river/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 1829. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 5-12 bridge jumping; ch. 12.2 swim areas. No spear rule."
+ },
+ {
+  "name": "Hernando County",
+  "type": "county",
+  "county": "Hernando",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/hernando_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 6224. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 7-1 Weeki Wachee Springs/River water activity restriction (spring run); §§ 22-20, 22-21 no spear guns in county parks. No saltwater closure."
+ },
+ {
+  "name": "Pasco County",
+  "type": "county",
+  "county": "Pasco",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/pasco_county",
+  "status": "needs-browser",
+  "notes": "Client id not resolved. Search: spear, scuba, snorkel."
+ },
+ {
+  "name": "New Port Richey",
+  "type": "city",
+  "county": "Pasco",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/new_port_richey",
+  "status": "not-checked",
+  "notes": "Pithlachascotee River; not resolved."
+ },
+ {
+  "name": "Port Richey",
+  "type": "city",
+  "county": "Pasco",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/port_richey",
+  "status": "not-checked",
+  "notes": "Not resolved."
+ },
+ {
+  "name": "Pinellas County",
+  "type": "county",
+  "county": "Pinellas",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/pinellas_county",
+  "status": "needs-browser",
+  "notes": "Client id not resolved (name lookup 404). County park rules (Fort De Soto piers) likely relevant. Search: spear, speargun, spearfishing, scuba, snorkel."
+ },
+ {
+  "name": "Tarpon Springs",
+  "type": "city",
+  "county": "Pinellas",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/tarpon_springs",
+  "status": "needs-browser",
+  "notes": "Client id not resolved. Sponge Docks / Anclote; search spear, sponge, diving."
+ },
+ {
+  "name": "Dunedin",
+  "type": "city",
+  "county": "Pinellas",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/dunedin/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 1981. § 86-108 no harpoons or spears from Dunedin Marina docks, walkways and seawalls, no swimming in marina; § 50-9 posted no-fishing areas include spears. Read 30 Sep 2026."
+ },
+ {
+  "name": "Clearwater",
+  "type": "city",
+  "county": "Pinellas",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/clearwater/codes/code_of_ordinances",
+  "status": "not-checked",
+  "notes": "Existing neg-misc (ch. 33). Not re-searched this pass (client id not resolved)."
+ },
+ {
+  "name": "Safety Harbor",
+  "type": "city",
+  "county": "Pinellas",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/safety_harbor/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 4172. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 16.07.1 no swimming or diving at municipal pier."
+ },
+ {
+  "name": "Belleair",
+  "type": "town",
+  "county": "Pinellas",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/belleair/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 8090. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Belleair Beach",
+  "type": "city",
+  "county": "Pinellas",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/belleair_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 1226. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 30-1 no diving from Causeway Blvd bridge; §§ 30-190, 30-195 no swimming/diving in or from the marina. No spear rule."
+ },
+ {
+  "name": "Belleair Shore",
+  "type": "town",
+  "county": "Pinellas",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/belleair_shore/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 12715. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Indian Rocks Beach",
+  "type": "city",
+  "county": "Pinellas",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/indian_rocks_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 2718. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: pool standards only."
+ },
+ {
+  "name": "Indian Shores",
+  "type": "town",
+  "county": "Pinellas",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/indian_shores/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 8822. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Redington Shores",
+  "type": "town",
+  "county": "Pinellas",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/redington_shores",
+  "status": "needs-browser",
+  "notes": "Client id not resolved. Search spear, snorkel, pier."
+ },
+ {
+  "name": "North Redington Beach",
+  "type": "town",
+  "county": "Pinellas",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/north_redington_beach",
+  "status": "needs-browser",
+  "notes": "Client id not resolved."
+ },
+ {
+  "name": "Redington Beach",
+  "type": "town",
+  "county": "Pinellas",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/redington_beach",
+  "status": "needs-browser",
+  "notes": "Client id not resolved."
+ },
+ {
+  "name": "Madeira Beach",
+  "type": "city",
+  "county": "Pinellas",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/madeira_beach/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 3129. § 78-3 bans swimming, diving, floating, spearfishing and skin diving in John's Pass between the 128th Avenue lines. Read verbatim 30 Sep 2026. Closes open question 4."
+ },
+ {
+  "name": "Treasure Island",
+  "type": "city",
+  "county": "Pinellas",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/treasure_island/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 4655 (product 13104). § 58-34 now read VERBATIM (upgrade ti-58-34 to verbatim). NEW § 22-2: discharge of any spring, gas or mechanically powered projectile weapon unlawful citywide; spearfishing excepted only where designated as permissible."
+ },
+ {
+  "name": "St. Pete Beach",
+  "type": "city",
+  "county": "Pinellas",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/st._pete_beach/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Existing entries spb-54-4, spb-94-1. Not re-searched (client id not resolved)."
+ },
+ {
+  "name": "Gulfport",
+  "type": "city",
+  "county": "Pinellas",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/gulfport/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 2479. § 17-22(b) posted 'no fishing' areas, fishing defined to include spear and gig; § 6-13.3 casino dock no swimming/diving/fishing; § 17-23 no diving from park structures. Warn-level."
+ },
+ {
+  "name": "St. Petersburg",
+  "type": "city",
+  "county": "Pinellas",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/st._petersburg",
+  "status": "needs-browser",
+  "notes": "Client id not resolved. St. Pete Pier rules. Search: spear, speargun, scuba, snorkel."
+ },
+ {
+  "name": "Kenneth City",
+  "type": "town",
+  "county": "Pinellas",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/kenneth_city/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 8861. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits (inland)."
+ },
+ {
+  "name": "Pinellas Park",
+  "type": "city",
+  "county": "Pinellas",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/pinellas_park/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 3867. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 2-1007 park waters fishing by spear only where designated (park rule). § 16-110 is nudity regulation, NOT a spear rule; the old lead was a false positive. Largely inland."
+ },
+ {
+  "name": "Largo",
+  "type": "city",
+  "county": "Pinellas",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/largo/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 2957. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 17-12 parks fishing (spear) where prohibited; mostly inland."
+ },
+ {
+  "name": "Oldsmar",
+  "type": "city",
+  "county": "Pinellas",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/oldsmar",
+  "status": "not-checked",
+  "notes": "Old Tampa Bay; not resolved."
+ },
+ {
+  "name": "South Pasadena",
+  "type": "city",
+  "county": "Pinellas",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/south_pasadena",
+  "status": "not-checked",
+  "notes": "Boca Ciega Bay; not resolved."
+ },
+ {
+  "name": "Seminole",
+  "type": "city",
+  "county": "Pinellas",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/seminole",
+  "status": "not-checked",
+  "notes": "Boca Ciega Bay/Lake Seminole; not resolved."
+ },
+ {
+  "name": "Hillsborough County",
+  "type": "county",
+  "county": "Hillsborough",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/hillsborough_county/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 6247 (Part A product 14861). § 38-25(i)(1) no fishing in county park waters, fresh or salt, by spear or gig except in designated places. Special act 30829 (1955) saltwater spearfishing repealed to admin rule 83-134."
+ },
+ {
+  "name": "Tampa",
+  "type": "city",
+  "county": "Hillsborough",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/tampa",
+  "status": "needs-browser",
+  "notes": "Client id not resolved. Search: spear, speargun, scuba, snorkel."
+ },
+ {
+  "name": "Manatee County",
+  "type": "county",
+  "county": "Manatee",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/manatee_county/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 6717. § 2-24-6(3)(c) no fishing in park areas where swimming is permitted, no SCUBA in marked swim areas; § 2-24-26 no entering, diving from or swimming under the three groins or any pier. Ch. 2-32 cross-reference to 'spear fishing prohibited in certain areas, § 2-21-3' is STALE: §§ 2-21-3 to 2-21-30 are Reserved."
+ },
+ {
+  "name": "Anna Maria",
+  "type": "city",
+  "county": "Manatee",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/anna_maria/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 1039. § 110-122(3) no gigging, spearing or snatch-hooking fish from or under the City Pier and within 50 yards. Read verbatim 30 Sep 2026."
+ },
+ {
+  "name": "Holmes Beach",
+  "type": "city",
+  "county": "Manatee",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/holmes_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 2651. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 62-2 traffic engineer may prohibit fishing and diving from the Key Royale Bridge. No spear rule."
+ },
+ {
+  "name": "Bradenton Beach",
+  "type": "city",
+  "county": "Manatee",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/bradenton_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 1373. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 66-44 no diving off groins, piers, jetties; § 66-1 pier. No spear rule."
+ },
+ {
+  "name": "Bradenton",
+  "type": "city",
+  "county": "Manatee",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/bradenton/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 1372. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: dive-rescue reference only."
+ },
+ {
+  "name": "Longboat Key",
+  "type": "town",
+  "county": "Manatee/Sarasota",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/longboat_key/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 8987 (American Legal style numbering). Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 93.13(C) general no-endangering rule for skin divers. No spear rule."
+ },
+ {
+  "name": "Palmetto",
+  "type": "city",
+  "county": "Manatee",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/palmetto/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 3764. spear*/scuba/snorkel*/harpoon* 30 Sep 2026: 0 hits."
+ },
+ {
+  "name": "Sarasota County",
+  "type": "county",
+  "county": "Sarasota",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/sarasota_county/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Existing entry sarasota-130-33. Not re-searched."
+ },
+ {
+  "name": "Sarasota",
+  "type": "city",
+  "county": "Sarasota",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/sarasota/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 4241 (product 11553). Ch. 10 art. III 'Skin and Scuba Diving and Spear Fishing': § 10-66 no spear fishing within 100 yards of any city dock, bridge, pier, wharf or jetty in a recreational area or public bathing beach; § 10-64 marked navigable channels; § 10-65 200 ft of anglers or anchored boats; § 10-62 diver-down flag. Read verbatim 30 Sep 2026."
+ },
+ {
+  "name": "Venice",
+  "type": "city",
+  "county": "Sarasota",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/venice/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 4737 (product 11650). § 46-114 prohibits spear fishing 'within or near the territorial waters of the city'. Read verbatim 30 Sep 2026. Also Div. 3 skin and scuba diving rules (§§ 46-132, 46-134, 46-135) and § 46-64 Venice Fishing Pier 150 ft."
+ },
+ {
+  "name": "North Port",
+  "type": "city",
+  "county": "Sarasota",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/north_port",
+  "status": "not-checked",
+  "notes": "Myakka River estuary; not resolved."
+ },
+ {
+  "name": "Charlotte County",
+  "type": "county",
+  "county": "Charlotte",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/charlotte_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 878. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: zoning uses, § 3-1-26 careful boat operation near divers; App. A special-acts table row 'Spear fishing' (not read, presumed repealed special act)."
+ },
+ {
+  "name": "Punta Gorda",
+  "type": "city",
+  "county": "Charlotte",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/punta_gorda/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 3990. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Lee County",
+  "type": "county",
+  "county": "Lee",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/lee_county/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 11749 (product 10131). § 20-25(b) 'Fishing with nets, spears, bow and arrow, snatch hooks and gigs is prohibited at all times' in county park waters; parks defined to include beaches, piers and adjacent littoral waters. § 20-31(5) Lynn Hall Park Pier no spear fishing. CONFLICTS with neg-misc (Lee ch. 30)."
+ },
+ {
+  "name": "Fort Myers Beach",
+  "type": "town",
+  "county": "Lee",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/fort_myers_beach/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 8595. § 18-24(k)(1) 'Fishing with nets, spears, snatch hooks and gigs is prohibited at all times' in town parks. Read verbatim."
+ },
+ {
+  "name": "Sanibel",
+  "type": "city",
+  "county": "Lee",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/sanibel/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 4225. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 74-162 golf-ball diving; §§ 74-51, 74-54 designated regulated areas; § 74-98 boat ramp 50 ft. No spear rule."
+ },
+ {
+  "name": "Cape Coral",
+  "type": "city",
+  "county": "Lee",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/cape_coral/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 1521. spear*/scuba/snorkel*/harpoon* 30 Sep 2026: 0 hits. Reconfirms neg-misc."
+ },
+ {
+  "name": "Fort Myers",
+  "type": "city",
+  "county": "Lee",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/fort_myers/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 2253. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: §§ 46-61, 46-153 yacht basin no swimming/diving/fishing/gigging from docks. No spear rule."
+ },
+ {
+  "name": "Bonita Springs",
+  "type": "city",
+  "county": "Lee",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/bonita_springs/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 12773. § 28-31(b) 'Fishing with nets, spears, snatch hooks and gigs is prohibited at all times' in city parks."
+ },
+ {
+  "name": "Estero",
+  "type": "village",
+  "county": "Lee",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/estero/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 19290. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: §§ 22-6, 22-20 no diving from village docks or Estero River Park structures."
+ },
+ {
+  "name": "Collier County",
+  "type": "county",
+  "county": "Collier",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/collier_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 5149. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: LDC parking definitions only."
+ },
+ {
+  "name": "Naples",
+  "type": "city",
+  "county": "Collier",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/naples/codes/code_of_ordinances",
+  "status": "needs-browser",
+  "notes": "Name lookup returned 404; client id not resolved. Naples Pier rules. Search: spear, scuba, snorkel, pier."
+ },
+ {
+  "name": "Marco Island",
+  "type": "city",
+  "county": "Collier",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/marco_island/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 3175. § 54-173(1) no swimming, snorkeling or scuba diving within 50 ft of any bridge in the city. Not a spear rule; diver-access restriction."
+ },
+ {
+  "name": "Everglades City",
+  "type": "city",
+  "county": "Collier",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/everglades_city",
+  "status": "not-checked",
+  "notes": "Not resolved."
+ },
+ {
+  "name": "Monroe County",
+  "type": "county",
+  "county": "Monroe",
+  "coast": "keys",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/monroe_county/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Existing entry monroe-26-5. Not re-searched."
+ },
+ {
+  "name": "Key West",
+  "type": "city",
+  "county": "Monroe",
+  "coast": "keys",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/key_west/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 2837. spear*/scuba/snorkel*/harpoon* 30 Sep 2026: only 'spearhead' in comp plan. Reconfirms neg-keywest."
+ },
+ {
+  "name": "Marathon",
+  "type": "city",
+  "county": "Monroe",
+  "coast": "keys",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/marathon/codes/code_of_ordinances",
+  "status": "needs-browser",
+  "notes": "Client id not resolved through the API (name lookup 404, id probe 500s). Section number still outstanding. Search Municode: speargun, spear gun, canal, 'manmade'."
+ },
+ {
+  "name": "Key Colony Beach",
+  "type": "city",
+  "county": "Monroe",
+  "coast": "keys",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/key_colony_beach/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 2836. Existing kcb-5-11. NEW: § 12-9 swimming and snorkeling prohibited on city park property waters (crocodiles, currents), Ord. 2025-503."
+ },
+ {
+  "name": "Layton",
+  "type": "city",
+  "county": "Monroe",
+  "coast": "keys",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/layton/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Existing layton-50-1. Not re-searched."
+ },
+ {
+  "name": "Islamorada",
+  "type": "village",
+  "county": "Monroe",
+  "coast": "keys",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/islamorada/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 10520. § 66-1 diving and snorkeling banned in canals, marinas and within 300 ft of improved shoreline around lobster mini-season. Not a spearfishing rule; Islamorada is inside the § 379.2425 closure regardless. No spear provision found. Open item closed."
+ },
+ {
+  "name": "Miami-Dade County",
+  "type": "county",
+  "county": "Miami-Dade",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/miami_-_dade_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Existing neg-miamidade. Not re-searched (client id not resolved)."
+ },
+ {
+  "name": "Miami",
+  "type": "city",
+  "county": "Miami-Dade",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/miami/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 3288. spear*/scuba/snorkel*/harpoon* 30 Sep 2026: 0 hits. § 61-35 lead not found; closes open item as negative."
+ },
+ {
+  "name": "Miami Beach",
+  "type": "city",
+  "county": "Miami-Dade",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/miami_beach/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 3289. § 82-441 no fishing by spear or gig from viaducts or bridges, in the jetty area between 29th and 33rd Streets, and in restricted swim areas (§ 82-467: 400 ft either side of each lifeguard tower, 300 ft out, buoyed). Upgrades the 'probable negative' in neg-misc."
+ },
+ {
+  "name": "Hialeah",
+  "type": "city",
+  "county": "Miami-Dade",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/hialeah/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 2601. spear*/scuba/snorkel*/harpoon* 30 Sep 2026: 0 hits. Open item closed."
+ },
+ {
+  "name": "Key Biscayne",
+  "type": "village",
+  "county": "Miami-Dade",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/key_biscayne/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 10536. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: zoning setback reference only."
+ },
+ {
+  "name": "Bal Harbour",
+  "type": "village",
+  "county": "Miami-Dade",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/bal_harbour/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 10212. § 12-7 no discharging CO2 guns or any spear, lance or arrow launched by compressed air, springs or bands in the waters within the Village, over or under the surface."
+ },
+ {
+  "name": "Bay Harbor Islands",
+  "type": "town",
+  "county": "Miami-Dade",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/bay_harbor_islands/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 8073. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Surfside",
+  "type": "town",
+  "county": "Miami-Dade",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/surfside/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 9764. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Sunny Isles Beach",
+  "type": "city",
+  "county": "Miami-Dade",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/sunny_isles_beach/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 4542. § 108-4 last sentence: except in designated areas, no fishing in the Atlantic Ocean by hook and line, seine, trap, spear gig or other device. Read verbatim; history note not shown."
+ },
+ {
+  "name": "Golden Beach",
+  "type": "town",
+  "county": "Miami-Dade",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/golden_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 8656. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 22-61 park water activities only where designated."
+ },
+ {
+  "name": "North Bay Village",
+  "type": "city",
+  "county": "Miami-Dade",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/north_bay_village/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 3575. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Aventura",
+  "type": "city",
+  "county": "Miami-Dade",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/aventura/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 1117. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Indian Creek Village",
+  "type": "village",
+  "county": "Miami-Dade",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/indian_creek_village/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 10514. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 5-8 no pleasure swimming or diving in artificial waterways; § 12-36 park water activity."
+ },
+ {
+  "name": "Palmetto Bay",
+  "type": "village",
+  "county": "Miami-Dade",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/palmetto_bay/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 13409. spear*/scuba/snorkel*/harpoon* 30 Sep 2026: § 20-62 village park property waters, fresh or salt, no fishing by spear gig or other device except where prescribed (Thalatta/Deering-type bayfront parks). Park-waters rule only."
+ },
+ {
+  "name": "Homestead",
+  "type": "city",
+  "county": "Miami-Dade",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/homestead/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 2658. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: business tax and zoning only."
+ },
+ {
+  "name": "Cutler Bay",
+  "type": "town",
+  "county": "Miami-Dade",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/cutler_bay/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 16193. spear*/scuba/snorkel*/harpoon* 30 Sep 2026: § 22-109 park waters, fresh or salt, no fishing by spear or gig except where prescribed. Park-waters rule only."
+ },
+ {
+  "name": "North Miami",
+  "type": "city",
+  "county": "Miami-Dade",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/north_miami",
+  "status": "not-checked",
+  "notes": "Not resolved."
+ },
+ {
+  "name": "North Miami Beach",
+  "type": "city",
+  "county": "Miami-Dade",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/north_miami_beach",
+  "status": "not-checked",
+  "notes": "Not resolved."
+ },
+ {
+  "name": "Miami Shores",
+  "type": "village",
+  "county": "Miami-Dade",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/miami_shores",
+  "status": "not-checked",
+  "notes": "Not resolved."
+ },
+ {
+  "name": "Coral Gables",
+  "type": "city",
+  "county": "Miami-Dade",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/coral_gables/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 1763. spear*/scuba/snorkel*/harpoon* 30 Sep 2026: 0 hits."
+ },
+ {
+  "name": "El Portal",
+  "type": "village",
+  "county": "Miami-Dade",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/el_portal/codes/code_of_ordinances",
+  "status": "not-checked",
+  "notes": "Municode client 10394; inland-ish."
+ },
+ {
+  "name": "Biscayne Park",
+  "type": "village",
+  "county": "Miami-Dade",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/biscayne_park/codes/code_of_ordinances",
+  "status": "not-checked",
+  "notes": "Municode client 10247; inland-ish."
+ },
+ {
+  "name": "Florida City",
+  "type": "city",
+  "county": "Miami-Dade",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/florida_city/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 2214. spear*/scuba/snorkel*/harpoon* 30 Sep 2026: 0 hits."
+ },
+ {
+  "name": "Broward County",
+  "type": "county",
+  "county": "Broward",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/broward_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 713. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 13-6 Port Everglades manatee sanctuary diving/swimming ban; Port Everglades tariff item 280 dive operations need Harbormaster approval. No spear rule."
+ },
+ {
+  "name": "Hallandale Beach",
+  "type": "city",
+  "county": "Broward",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/hallandale_beach/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 2495. § 16-23: unlawful to spear fish or scuba dive except within a designated area on the public beach (public beach = land seaward of the erosion control line). Read verbatim 30 Sep 2026."
+ },
+ {
+  "name": "Hollywood",
+  "type": "city",
+  "county": "Broward",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/hollywood",
+  "status": "needs-browser",
+  "notes": "Client id not resolved. Broadwalk beach rules. Search: spear, scuba, snorkel."
+ },
+ {
+  "name": "Dania Beach",
+  "type": "city",
+  "county": "Broward",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/dania_beach/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 1861. § 6-12(c): spearfishing guns, gigs, slings, bows and pole spears prohibited on the beach and in the water; snorkel limit 50 yds; scuba confined to designated area at south end of Ocean Park. § 6-12(b): no swimming, scuba or skin diving within 100 yds of the Ocean Park fishing pier. Read verbatim."
+ },
+ {
+  "name": "Fort Lauderdale",
+  "type": "city",
+  "county": "Broward",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/fort_lauderdale/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 2247. spear*/scuba/snorkel*/harpoon* 30 Sep 2026: zoning uses only. Reconfirms neg-misc."
+ },
+ {
+  "name": "Lauderdale-By-The-Sea",
+  "type": "town",
+  "county": "Broward",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/lauderdale-by-the-sea/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 8922. § 5-4 unlawful to load a spear gun within the Town; § 5-5 no surface, scuba or skin diving within 300 ft of the fishermen's pier; § 5-7(a) no spearfishing on the public beach. Read verbatim."
+ },
+ {
+  "name": "Pompano Beach",
+  "type": "city",
+  "county": "Broward",
+  "coast": "atlantic",
+  "host": "amlegal",
+  "code_url": "https://codelibrary.amlegal.com/codes/pompanobeach/latest/overview",
+  "status": "hit",
+  "notes": "American Legal. § 98.12 no spear fishing, underwater fishing or swimming in, under or about the municipal pier or within 100 ft. § 91.22 no swimming or diving of any kind in a described Hillsboro Inlet / Hillsboro Bay / ICW area (boundary text needs browser)."
+ },
+ {
+  "name": "Lighthouse Point",
+  "type": "city",
+  "county": "Broward",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/lighthouse_point",
+  "status": "needs-browser",
+  "notes": "Client id not resolved. ICW / Hillsboro Inlet shoreline."
+ },
+ {
+  "name": "Hillsboro Beach",
+  "type": "town",
+  "county": "Broward",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/hillsboro_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 8770. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Deerfield Beach",
+  "type": "city",
+  "county": "Broward",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/deerfield_beach/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 1891. § 50-112(d) no swimming or snorkeling within 50 yds of the city fishing pier; § 46-3 no diving from the pier; § 74-31 buoyed 'No Entry Area' bars swimmers and divers. Not a spear-specific rule."
+ },
+ {
+  "name": "Palm Beach County",
+  "type": "county",
+  "county": "Palm Beach",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/palm_beach_county/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Existing entry pbc-13-55. Not re-searched."
+ },
+ {
+  "name": "Boca Raton",
+  "type": "city",
+  "county": "Palm Beach",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/boca_raton/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 1331. § 9-3 no swimming, diving or scuba in Boca Raton Inlet (jetty tips to 200 yds north of bridge); § 9-4 no swimming, diving or scuba 100 ft north to 1,200 ft south of Palmetto Park Road Bridge, full ICW width; § 11-85 no spear guns on park property; § 11-81 park waters. Read verbatim."
+ },
+ {
+  "name": "Highland Beach",
+  "type": "town",
+  "county": "Palm Beach",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/highland_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 8764. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Delray Beach",
+  "type": "city",
+  "county": "Palm Beach",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/delray_beach/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 1907. § 101.34(B) 'Scuba diving and jet skis are prohibited from all areas of the municipal beach', which is defined to include ocean waters within city boundaries. Not spear-specific; bars scuba spearfishing from the beach zone."
+ },
+ {
+  "name": "Gulf Stream",
+  "type": "town",
+  "county": "Palm Beach",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/gulf_stream/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 8705. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: dock standards only."
+ },
+ {
+  "name": "Ocean Ridge",
+  "type": "town",
+  "county": "Palm Beach",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/ocean_ridge/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 9283. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Boynton Beach",
+  "type": "city",
+  "county": "Palm Beach",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/boynton_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 1369. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 16-7 Boynton Canal SFWMD property no fishing/swimming/diving (inland canal)."
+ },
+ {
+  "name": "Hypoluxo",
+  "type": "town",
+  "county": "Palm Beach",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/hypoluxo/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 8817. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Lantana",
+  "type": "town",
+  "county": "Palm Beach",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/lantana/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 8918. § 5-18: 'Spearguns, slings, harpoons, and similar equipment are prohibited on the beach and in the waters' of the Lantana municipal beach. Read verbatim."
+ },
+ {
+  "name": "South Palm Beach",
+  "type": "town",
+  "county": "Palm Beach",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/south_palm_beach",
+  "status": "needs-browser",
+  "notes": "Client id not resolved."
+ },
+ {
+  "name": "Manalapan",
+  "type": "town",
+  "county": "Palm Beach",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/manalapan",
+  "status": "needs-browser",
+  "notes": "Client id not resolved."
+ },
+ {
+  "name": "Lake Worth Beach",
+  "type": "city",
+  "county": "Palm Beach",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/lake_worth_beach/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 2936. § 7-33(e) no skin diving or spear fishing within 500 ft of the Lake Worth Municipal Ocean Pier, Snook Island Pier or Bryant Park Fishing Pier; § 7-78(b) scuba prohibited from all areas of the municipal beach. Read verbatim."
+ },
+ {
+  "name": "Palm Beach",
+  "type": "town",
+  "county": "Palm Beach",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/palm_beach/codes/code_of_ordinances",
+  "status": "needs-browser",
+  "notes": "Client id not resolved. Ch. 74 art. III still unread (search found the node PTIICOOR_CH74PARE_ARTIIIBOBO). Previously checked per brief; spear search pending."
+ },
+ {
+  "name": "West Palm Beach",
+  "type": "city",
+  "county": "Palm Beach",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/west_palm_beach",
+  "status": "not-checked",
+  "notes": "Checked in the last sweep (per brief); not re-searched."
+ },
+ {
+  "name": "Riviera Beach",
+  "type": "city",
+  "county": "Palm Beach",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/riviera_beach",
+  "status": "not-checked",
+  "notes": "Checked in the last sweep (per brief); not re-searched."
+ },
+ {
+  "name": "Palm Beach Shores",
+  "type": "town",
+  "county": "Palm Beach",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/palm_beach_shores/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 9333. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Lake Park",
+  "type": "town",
+  "county": "Palm Beach",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/lake_park/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 8906. § 76-89 swimming, diving and fishing forbidden within the Lake Park Harbor Marina area (cast nets and angling excepted). Warn-level."
+ },
+ {
+  "name": "North Palm Beach",
+  "type": "village",
+  "county": "Palm Beach",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/north_palm_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 10702. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: pool deck only."
+ },
+ {
+  "name": "Palm Beach Gardens",
+  "type": "city",
+  "county": "Palm Beach",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/palm_beach_gardens/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 3759. spear*/scuba/snorkel*/harpoon* 30 Sep 2026: only § 46-37 no spear guns carried in parks (park land)."
+ },
+ {
+  "name": "Juno Beach",
+  "type": "town",
+  "county": "Palm Beach",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/juno_beach/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 8849. § 16-4 unlawful to possess a LOADED spear gun on any public street, beach or public place or on any pier, jetty or dock where people gather. Read verbatim."
+ },
+ {
+  "name": "Jupiter",
+  "type": "town",
+  "county": "Palm Beach",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/jupiter/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 8850. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: sign and parking definitions only."
+ },
+ {
+  "name": "Jupiter Inlet Colony",
+  "type": "town",
+  "county": "Palm Beach",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/jupiter_inlet_colony/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 8851. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: former § 10-3 on spear guns REPEALED."
+ },
+ {
+  "name": "Tequesta",
+  "type": "village",
+  "county": "Palm Beach",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/tequesta/codes/code_of_ordinances",
+  "status": "needs-browser",
+  "notes": "Client id not resolved."
+ },
+ {
+  "name": "Martin County",
+  "type": "county",
+  "county": "Martin",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/martin_county/codes/code_of_ordinances",
+  "status": "needs-browser",
+  "notes": "Client id not resolved via API. Ch. 83 still unread. Search: spear, speargun, scuba, snorkel, 'Bathtub Reef'."
+ },
+ {
+  "name": "Jupiter Island",
+  "type": "town",
+  "county": "Martin",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/jupiter_island/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 8852. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Stuart",
+  "type": "city",
+  "county": "Martin",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/stuart/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 4520. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 30-4 no diving/jumping from city piers and riverwalks only. Open item (ch. 30) closed as negative for spearfishing."
+ },
+ {
+  "name": "Sewall's Point",
+  "type": "town",
+  "county": "Martin",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/sewall's_point/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 11588. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 38-4 no swimming, diving, fishing or netting from public bridges."
+ },
+ {
+  "name": "Ocean Breeze",
+  "type": "town",
+  "county": "Martin",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/ocean_breeze/codes/code_of_ordinances",
+  "status": "not-checked",
+  "notes": "Not resolved."
+ },
+ {
+  "name": "Indiantown",
+  "type": "village",
+  "county": "Martin",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/indiantown/codes/code_of_ordinances",
+  "status": "not-checked",
+  "notes": "Municode client 20232; inland (St. Lucie Canal)."
+ },
+ {
+  "name": "St. Lucie County",
+  "type": "county",
+  "county": "St. Lucie",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/st._lucie_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 7802. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: only App. A special act 57-1791 'Spearfishing regulated', repealed and continued as administrative rule (FWC later repealed it outright per regs.json)."
+ },
+ {
+  "name": "Fort Pierce",
+  "type": "city",
+  "county": "St. Lucie",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/fort_pierce/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 2257. § 28-4 fishing prohibited (fishing defined in § 28-1 to include spear gun, spear, lance, gig) from 8 listed places, several 'in, on, upon or under the waters' (Moore's Creek, city marina); § 28-31(18) no propelling a spear in any park area (park area includes waterways, canals, beaches). Warn-level."
+ },
+ {
+  "name": "Port St. Lucie",
+  "type": "city",
+  "county": "St. Lucie",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/port_st._lucie",
+  "status": "not-checked",
+  "notes": "St. Lucie River (North Fork); client id not resolved."
+ },
+ {
+  "name": "St. Lucie Village",
+  "type": "town",
+  "county": "St. Lucie",
+  "coast": "bay",
+  "host": "unknown",
+  "code_url": "",
+  "status": "not-checked",
+  "notes": "Indian River Lagoon."
+ },
+ {
+  "name": "Indian River County",
+  "type": "county",
+  "county": "Indian River",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/indian_river_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 6329. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 205.03 county parks water activity only where designated. Reconfirms existing neg-misc."
+ },
+ {
+  "name": "Vero Beach",
+  "type": "city",
+  "county": "Indian River",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/vero_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 4742. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 46-67 marina swimming/diving/fishing prohibited only."
+ },
+ {
+  "name": "Indian River Shores",
+  "type": "town",
+  "county": "Indian River",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/indian_river_shores/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 8821. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: pool standards only."
+ },
+ {
+  "name": "Orchid",
+  "type": "town",
+  "county": "Indian River",
+  "coast": "atlantic",
+  "host": "unknown",
+  "code_url": "",
+  "status": "not-checked",
+  "notes": "Small barrier-island town."
+ },
+ {
+  "name": "Sebastian",
+  "type": "city",
+  "county": "Indian River",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/sebastian/codes/code_of_ordinances",
+  "status": "not-checked",
+  "notes": "Not resolved."
+ },
+ {
+  "name": "Fellsmere",
+  "type": "city",
+  "county": "Indian River",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/fellsmere/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 2186. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits (inland)."
+ },
+ {
+  "name": "Brevard County",
+  "type": "county",
+  "county": "Brevard",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/brevard_county/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 683 (product 10473). § 78-112 no swimming, diving, scuba or fishing in any park, recreational facility or department-managed land unless designated. Special acts 65-1281 (skin diving and spearfishing) and 61-1913 (spearfishing) were repealed and continued as administrative rule by 83-134. Warn-level park rule."
+ },
+ {
+  "name": "Melbourne",
+  "type": "city",
+  "county": "Brevard",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/melbourne/codes/code_of_ordinances",
+  "status": "hit",
+  "notes": "Municode client 3257. § 40-2 'No person shall skin dive, swim or use spears or bow and arrow within 100 feet of any public bridge or pier in the city.' Read verbatim."
+ },
+ {
+  "name": "Melbourne Beach",
+  "type": "town",
+  "county": "Brevard",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/melbourne_beach",
+  "status": "needs-browser",
+  "notes": "Client id not resolved."
+ },
+ {
+  "name": "Indialantic",
+  "type": "town",
+  "county": "Brevard",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/indialantic/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 8818. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Indian Harbour Beach",
+  "type": "city",
+  "county": "Brevard",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/indian_harbour_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 2717. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 95.03 park water activity only where designated."
+ },
+ {
+  "name": "Satellite Beach",
+  "type": "city",
+  "county": "Brevard",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/satellite_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 4247. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Cocoa Beach",
+  "type": "city",
+  "county": "Brevard",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/cocoa_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 1701. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: former § 5-28 on skin diving repealed 1980 (Ord. 626); § 5-34 no swimming under or diving off the pier."
+ },
+ {
+  "name": "Cape Canaveral",
+  "type": "city",
+  "county": "Brevard",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/cape_canaveral/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 1520. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: fire dive-team reference only."
+ },
+ {
+  "name": "Cocoa",
+  "type": "city",
+  "county": "Brevard",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/cocoa/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 1700. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Rockledge",
+  "type": "city",
+  "county": "Brevard",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/rockledge",
+  "status": "not-checked",
+  "notes": "Not resolved."
+ },
+ {
+  "name": "Titusville",
+  "type": "city",
+  "county": "Brevard",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/titusville",
+  "status": "not-checked",
+  "notes": "Not resolved."
+ },
+ {
+  "name": "Palm Bay",
+  "type": "city",
+  "county": "Brevard",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/palm_bay",
+  "status": "not-checked",
+  "notes": "Not resolved."
+ },
+ {
+  "name": "Malabar",
+  "type": "town",
+  "county": "Brevard",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/malabar",
+  "status": "not-checked",
+  "notes": "Not resolved."
+ },
+ {
+  "name": "Grant-Valkaria",
+  "type": "town",
+  "county": "Brevard",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/grant-valkaria",
+  "status": "not-checked",
+  "notes": "Not resolved."
+ },
+ {
+  "name": "Volusia County",
+  "type": "county",
+  "county": "Volusia",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/volusia_county",
+  "status": "needs-browser",
+  "notes": "Client id not resolved. Beach code ch. 34/pier rules. Search: spear, scuba, snorkel."
+ },
+ {
+  "name": "New Smyrna Beach",
+  "type": "city",
+  "county": "Volusia",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/new_smyrna_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 3531. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: LDC definitions only."
+ },
+ {
+  "name": "Ponce Inlet",
+  "type": "town",
+  "county": "Volusia",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/ponce_inlet/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 9419. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: zoning uses only."
+ },
+ {
+  "name": "Daytona Beach Shores",
+  "type": "city",
+  "county": "Volusia",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/daytona_beach_shores/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 1878. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: concession item list only."
+ },
+ {
+  "name": "Daytona Beach",
+  "type": "city",
+  "county": "Volusia",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/daytona_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 1877. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Port Orange",
+  "type": "city",
+  "county": "Volusia",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/port_orange/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 3932. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Holly Hill",
+  "type": "city",
+  "county": "Volusia",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/holly_hill/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 2647. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Ormond Beach",
+  "type": "city",
+  "county": "Volusia",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/ormond_beach",
+  "status": "needs-browser",
+  "notes": "Client id not resolved."
+ },
+ {
+  "name": "Edgewater",
+  "type": "city",
+  "county": "Volusia",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/edgewater/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 12127. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 relevant hits."
+ },
+ {
+  "name": "Oak Hill",
+  "type": "city",
+  "county": "Volusia",
+  "coast": "bay",
+  "host": "unknown",
+  "code_url": "",
+  "status": "not-checked",
+  "notes": "Mosquito Lagoon."
+ },
+ {
+  "name": "Flagler County",
+  "type": "county",
+  "county": "Flagler",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/flagler_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 5872. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Flagler Beach",
+  "type": "city",
+  "county": "Flagler",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/flagler_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 2203. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Beverly Beach",
+  "type": "town",
+  "county": "Flagler",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/beverly_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 12718. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Palm Coast",
+  "type": "city",
+  "county": "Flagler",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/palm_coast",
+  "status": "not-checked",
+  "notes": "Not resolved."
+ },
+ {
+  "name": "St. Johns County",
+  "type": "county",
+  "county": "St. Johns",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/st._johns_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 7795. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "St. Augustine Beach",
+  "type": "city",
+  "county": "St. Johns",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/st._augustine_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 4447. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 5-4 county ocean pier, no diving or jumping from the pier."
+ },
+ {
+  "name": "St. Augustine",
+  "type": "city",
+  "county": "St. Johns",
+  "coast": "bay",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/st._augustine/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 4446. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: parking definitions only."
+ },
+ {
+  "name": "Jacksonville (consolidated Duval)",
+  "type": "city",
+  "county": "Duval",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/jacksonville/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 11845. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 28.723 no diving from a City dock; ch. 162 pools. No spear, scuba or snorkel text anywhere in the code. Ch. 388 lead: no spear text found in the whole code; closes the open item as negative."
+ },
+ {
+  "name": "Jacksonville Beach",
+  "type": "city",
+  "county": "Duval",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/jacksonville_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 2757. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 6-45 no diving or entering the ocean from the Pier; § 20-13 no propelling a spear in parks."
+ },
+ {
+  "name": "Atlantic Beach",
+  "type": "city",
+  "county": "Duval",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/atlantic_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 1095. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: 0 hits."
+ },
+ {
+  "name": "Neptune Beach",
+  "type": "city",
+  "county": "Duval",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/neptune_beach",
+  "status": "needs-browser",
+  "notes": "Client id not resolved."
+ },
+ {
+  "name": "Nassau County",
+  "type": "county",
+  "county": "Nassau",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/nassau_county",
+  "status": "needs-browser",
+  "notes": "Client id not resolved."
+ },
+ {
+  "name": "Fernandina Beach",
+  "type": "city",
+  "county": "Nassau",
+  "coast": "atlantic",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/fernandina_beach/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 2192. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: animal and zoning definitions only."
+ },
+ {
+  "name": "Leon County",
+  "type": "county",
+  "county": "Leon",
+  "coast": "gulf",
+  "host": "municode",
+  "code_url": "https://library.municode.com/fl/leon_county/codes/code_of_ordinances",
+  "status": "negative",
+  "notes": "Municode client 11247. Municode API search 30 Sep 2026 for spear* OR scuba OR snorkel* OR diving OR harpoon*: § 13-55 park waters (inland)."
+ }
+]

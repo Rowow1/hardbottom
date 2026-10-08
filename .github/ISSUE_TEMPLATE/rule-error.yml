@@ -1,0 +1,32 @@
+name: Wrong or missing rule
+description: The map shows a closure that is wrong, or misses one that exists.
+labels: ["legal-layer", "needs-verification"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Each report is checked against the primary source (statute, rule, regulation or ordinance) before the map changes. Reports are public, so leave out personal details.
+  - type: input
+    id: where
+    attributes:
+      label: Location
+      description: Coordinates, a place name, or the zone name shown in the map popup.
+    validations:
+      required: true
+  - type: textarea
+    id: map
+    attributes:
+      label: What the map shows
+    validations:
+      required: true
+  - type: textarea
+    id: law
+    attributes:
+      label: What the law or sign says
+      description: Quote the rule if you can, and give its citation or a link to the official text (Online Sunshine, FLRules, eCFR, Municode or the city or county code site).
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date you checked

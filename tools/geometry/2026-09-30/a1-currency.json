@@ -1,0 +1,72 @@
+[
+ {
+  "id": "bisclegare",
+  "name": "Biscayne NP: Legare Anchorage, no diving, snorkeling or swimming",
+  "law": [
+   "bnp-legare",
+   "bnp-status"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     25.5,
+     -80.13333
+    ],
+    [
+     25.5,
+     -80.11667
+    ],
+    [
+     25.48333,
+     -80.11667
+    ],
+    [
+     25.48333,
+     -80.13333
+    ],
+    [
+     25.5,
+     -80.13333
+    ]
+   ]
+  ],
+  "source": "Biscayne National Park Superintendent's Compendium (approved 17 Sep 2025), Legare Anchorage paragraph: 'bounded by latitude 25°30 N and 25°29 N' and 'longitude 80°08 W and 80°07 W'; same box in Fla. Admin. Code r. 68B-7.008(4) (trap-free zone).",
+  "note": "Original: latitude 25°29'00\" N to 25°30'00\" N, longitude 80°07'00\" W to 80°08'00\" W. R. 68B-7.008(4) lists the corners in the order 25° 30.000' N 80° 7.000' W; 25° 30.000' N 80° 8.000' W; 25° 29.000' N 80° 7.000' W; 25° 29.000' N 80° 8.000' W, which joined in that order would cross itself; the compendium calls it a rectangular area bounded by the two parallels and two meridians, which is what is drawn. Datum not stated. Hook-and-line drift fishing is the only fishing allowed."
+ },
+ {
+  "id": "biscbonefish",
+  "name": "Biscayne NP: bonefish seasonal closed area, no fishing 1 Mar to 31 May",
+  "law": [
+   "fac-68b-7-008-5",
+   "bnp-status"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     25.46492,
+     -80.14667
+    ],
+    [
+     25.4598,
+     -80.12325
+    ],
+    [
+     25.44367,
+     -80.12812
+    ],
+    [
+     25.4487,
+     -80.15167
+    ],
+    [
+     25.46492,
+     -80.14667
+    ]
+   ]
+  ],
+  "source": "Fla. Admin. Code r. 68B-7.008(5)(a), coordinate table (Points 1 to 4, in rule order), version effective 4 Nov 2025.",
+  "note": "Original degrees and decimal minutes: P1 25° 27.895' N, 80° 8.800' W; P2 25° 27.588' N, 80° 7.395' W; P3 25° 26.620' N, 80° 7.687' W; P4 25° 26.922' N, 80° 9.100' W. Seasonal: all fishing and possession of fish prohibited 1 March through 31 May, through 28 Feb 2031; outside the season it is open. Drawn as 'warn' because it is seasonal; render as closed in March to May if the app supports dates. The rule applies to state waters inside the box; part may lie beyond the 3 nm line, and the whole box is drawn (conservative). Datum not stated."
+ }
+]

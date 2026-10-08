@@ -1,0 +1,128 @@
+{
+ "spb54": {
+  "n": "St. Pete Beach: speargun discharge banned citywide",
+  "s": "Discharging any spear or harpoon from a spring gun, mechanic gun, power gun or any mechanic device is unlawful <b>anywhere in the corporate limits</b>, land or water. Pole spears and Hawaiian slings arguably fall outside \"mechanic device\"; that has never been tested.",
+  "src": "Boundary: US Census TIGER 2025 Incorporated Places, layer 4.",
+  "flag": "The city limits shown are the TIGER municipal boundary, which includes the water parcels the city claims. How far St. Pete Beach’s police power actually reaches into the Gulf is unresolved: Florida municipalities generally have jurisdiction only to their charter boundary, and sovereign submerged lands beyond it are state water. Treat the offshore edge of this polygon as soft.",
+  "kind": "closed"
+ },
+ "spb94": {
+  "n": "St. Pete Beach: Blind Pass, no swimming or skin diving",
+  "s": "No person shall swim, skin dive or wade in the waters of Blind Pass within the city limits <b>lying south of an extension of the centerline of 75th Avenue</b>. § 94-1(2) separately closes Gulf and Boca Ciega waters off Pass-a-Grille between two points 150 ft north of the south boundary of First Avenue. § 94-2 bans diving or jumping from any public bridge.",
+  "src": "Marker only: the 75th Avenue / Blind Pass Road intersection, from OpenStreetMap.",
+  "flag": "GEOMETRY NOT MAPPED. This is a 150 m marker circle on a street intersection, NOT the closure. Three separate problems. (1) The ordinance’s northern edge is \"an extension of the centerline of 75th Avenue\", a line the city never surveyed and no dataset carries. (2) OpenStreetMap has no water feature named Blind Pass anywhere near here (only Blind Pass ROAD), so the extent of \"the waters of Blind Pass\" is itself unresolved; the named inlet sits about 1.3 km NORTH of 75th Avenue, which makes \"south of 75th Avenue\" read as the back-bay channel rather than the inlet. (3) The § 94-1(2) Pass-a-Grille zone is not drawn at all. Resolving this needs the city plat or a call to St. Pete Beach.",
+  "kind": "warn"
+ },
+ "ti58": {
+  "n": "Treasure Island: John's Pass spearfishing ban",
+  "s": "Unlawful to swim, dive, jump in, bathe, float or engage in <b>spearfishing or skin diving</b> in the waters commonly known as John’s Pass, and in the Gulf <b>1,500 ft west</b> of the mean high water mark at the western termination of 127th Avenue, and in Boca Ciega Bay <b>1,500 ft east</b> of the eastern termination. § 58-34(b) also bans jumping, diving or swimming from any bridge or catwalk citywide.",
+  "src": "127th Avenue termini from OpenStreetMap, verified against Esri satellite imagery: the western end sits on the Gulf beach and the eastern end at the bridge approach, both inside the Treasure Island city limits (checked by point-in-polygon against TIGER). 1,500 ft = 457.2 m, drawn as half-discs. John’s Pass drawn as a 260 m corridor on the OpenStreetMap channel centreline, clipped to the inlet throat.",
+  "flag": "THE ORDINANCE HAS NO LATERAL LIMIT. It gives a distance out from two points but never says how wide the zone is. Half-discs of 1,500 ft radius are drawn here as the conservative reading; they cover every interpretation. A narrow reading would be a corridor only as wide as 127th Avenue. Also: OpenStreetMap’s 127th Avenue does not reach the Gulf beach, so the western terminus used here is the end of the mapped street, not the mean high water mark. Both need a plat or a site visit.",
+  "kind": "closed"
+ },
+ "sar130": {
+  "n": "Sarasota County: no diving or spearfishing in marked channels",
+  "s": "Unlawful to skin dive, scuba dive or spearfish <b>within the bounds of any marked navigable channel</b> in Sarasota County without permission from a law-enforcement agency, obtained by showing some necessity for diving in the channel. Amended by Ord. 2025-043, effective 1 Jan 2026.",
+  "src": "Geometry: USACE National Channel Framework, ChannelArea polygons, GIWW Caloosahatchee to Anclote (Sarasota County reach).",
+  "flag": "UNDER-INCLUSIVE. The polygon drawn is the FEDERAL project channel only. The ordinance says \"any marked navigable channel\", which also catches locally marked channels (New Pass, Big Pass, Venice Inlet approaches, and marked residential and marina channels) that USACE does not maintain and no single dataset publishes. Assume more channel is closed than is drawn here.",
+  "kind": "closed"
+ },
+ "mon26": {
+  "n": "Lower Keys: speargun discharge banned in manmade canals",
+  "s": "Unlawful to use, fire or discharge a speargun <b>on or below the surface of any manmade canal</b> in unincorporated Monroe County. The § 26-1 definition catches any device that can propel a projectile more than <b>24 inches</b>, pole spears and Hawaiian slings included, regardless of power source. Conviction forfeits the gun to the Sheriff for destruction.",
+  "src": "Canal centrelines from OpenStreetMap (waterway=canal / water=canal), Lower Keys only (24.53 to 24.80 N, 81.85 to 80.85 W).",
+  "flag": "PARTIAL COVERAGE, and drawn as centrelines rather than water polygons. OpenStreetMap canal coverage in the Keys is good but not complete, and this pull covers the LOWER Keys only. That is the stretch that matters, because everything above Long Key is already closed by Fla. Stat. § 379.2425. Canals inside the City of Marathon are covered by City of Marathon Code § 18-27, read verbatim on 30 Sep 2026. Absence of a line here is not evidence that a canal is unrestricted.",
+  "kind": "line"
+ },
+ "lay50": {
+  "n": "Layton: lobster and stone crab sanctuary (all city waters)",
+  "s": "No person shall remove <b>by any means (trap, diving, spearing or otherwise)</b> any Florida spiny lobster or stone crab from any waters within the Layton city limits. $25 to $250 per offence, per day. <b>Finfish spearfishing is not addressed by this ordinance</b>, but all of Layton sits inside the § 379.2425 Upper Keys closure, where spearfishing is prohibited outright.",
+  "src": "Boundary: US Census TIGER 2025 Incorporated Places.",
+  "flag": null,
+  "kind": "warn"
+ },
+ "kcb5": {
+  "n": "Key Colony Beach: seasonal diving and snorkeling closure",
+  "s": "During the lobster window (4 days before mini-season through 10 days after the commercial season opens), diving or snorkeling in any navigable canal, marina, or <b>within 300 ft of an improved residential or commercial shoreline</b> is a public nuisance. $250 per violation. Diving incidental to vessel or dock maintenance is exempt with a diver-down flag displayed. <b>This is not a spearfishing rule</b>, and Key Colony Beach is inside the § 379.2425 Upper Keys closure regardless.",
+  "src": "Boundary: US Census TIGER 2025 Incorporated Places.",
+  "flag": "The 300 ft \"improved shoreline\" buffer is NOT drawn: no dataset distinguishes improved from unimproved shoreline. The whole city polygon is shown instead, which over-states the closure inland and under-states nothing.",
+  "kind": "warn"
+ },
+ "pszcenter": {
+  "n": "Presidential Security Zone: Center Zone, Palm Beach",
+  "s": "Entry prohibited without Captain of the Port Miami authorization. Enforced when the President, First Family or other Secret Service protectees are present or expected. COTP Miami (305) 535-4472, VHF 16.",
+  "src": "Coordinates verbatim from 33 C.F.R. § 165.785.",
+  "flag": null,
+  "kind": "closed"
+ },
+ "pszwest": {
+  "n": "Presidential Security Zone: West Zone, Palm Beach",
+  "s": "Transit permitted with escort, at steady speed. No stopping. Enforced when the President, First Family or other Secret Service protectees are present or expected. COTP Miami (305) 535-4472, VHF 16.",
+  "src": "Coordinates verbatim from 33 C.F.R. § 165.785.",
+  "flag": null,
+  "kind": "closed"
+ },
+ "pszeast": {
+  "n": "Presidential Security Zone: East Zone, Palm Beach",
+  "s": "<b>Entry prohibited</b> without Captain of the Port authorization when the zone is enforced (since 5 Sep 2025; previously steady-speed transit). Enforced when the President, First Family or other Secret Service protectees are present or expected. COTP Miami (305) 535-4472, VHF 16.",
+  "src": "Coordinates verbatim from 33 C.F.R. § 165.785 as amended by USCG-2025-0319, 90 FR 42814. The printed East zone Point 2 reads 80°20′9″W, a typo for 80°02′09″W; the drawing uses 80°02′09″W.",
+  "flag": null,
+  "kind": "closed"
+ },
+ "npsdrto": {
+  "n": "Dry Tortugas National Park",
+  "s": "Spearfishing prohibited by every gear name: pole spear, Hawaiian sling, rubber, pneumatic and spring guns, air rifles, bows, powerheads. <b>Hook-and-line only.</b> 36 C.F.R. § 7.27(b)(4)(ii). Park-wide recreational vessel permit required. The <b>Research Natural Area</b> (the northwest 46 square miles, south line 24°36′N from 82°51′W to 82°58′W) is closed to all fishing and anchoring; mooring buoys are mandatory. Night diving beyond 1 nm of Garden Key Light needs a permit (compendium, 31 Aug 2026).",
+  "src": "Boundary: NPS Land Resources Division Boundary service, UNIT_CODE=DRTO.",
+  "flag": null,
+  "kind": "closed"
+ },
+ "npsever": {
+  "n": "Everglades National Park",
+  "s": "Effectively a spearfishing ban: 36 C.F.R. § 7.45(d)(6) allows <b>only a closely attended hook and line</b>, and a spear is not on the permitted-gear list. Waters near Royal Palm and Shark Valley are closed to fishing entirely.",
+  "src": "Boundary: NPS Land Resources Division Boundary service, UNIT_CODE=EVER.",
+  "flag": null,
+  "kind": "closed"
+ },
+ "npsbisc": {
+  "n": "Biscayne National Park: closures inside the park",
+  "s": "No federal regulation found bans spearfishing park-wide, and parts of the park are closed. The Superintendent's Compendium closes swimming, snorkeling and diving within <b>100 feet of every marked navigational channel</b>, in Boca Chita, Elliott Key and Convoy Point harbors, and at Legare Anchorage (drawn separately). State rule 68B-7.008 closes a bonefish area to <b>all fishing 1 March to 31 May</b> and five reef areas to lobster (drawn separately). The 2015 General Management Plan marine reserve was never implemented as a spearfishing closure.",
+  "src": "Boundary: NPS Land Resources Division Boundary service, UNIT_CODE=BISC.",
+  "flag": "The 100-foot marked-channel dive closure is not drawn: it needs a channel or aids-to-navigation layer for the park. Treat every marked channel as closed to diving.",
+  "kind": "warn"
+ },
+ "npscana": {
+  "n": "Canaveral National Seashore",
+  "s": "No federal spearfishing rule. NPS defers to Florida law. On the Mosquito Lagoon side the binding constraint is the <b>Volusia County inland-salt-waters rule</b>: flounder and sheepshead only, barbed spear of three prongs or fewer.",
+  "src": "Boundary: NPS Land Resources Division Boundary service, UNIT_CODE=CANA.",
+  "flag": null,
+  "kind": "warn"
+ },
+ "npsbicy": {
+  "n": "Big Cypress National Preserve",
+  "s": "Fresh water. Spearing marine species while diving in fresh water is prohibited by r. 68B-4.012 regardless.",
+  "src": "Boundary: NPS Land Resources Division Boundary service, UNIT_CODE=BICY.",
+  "flag": null,
+  "kind": "warn"
+ },
+ "npsguis": {
+  "n": "Gulf Islands National Seashore",
+  "s": "The 2021 Superintendent's Compendium <b>banned spear guns, pole spears, Hawaiian slings and every other projectile device in all Seashore waters</b>. The compendium updated 1 Sep 2026 no longer contains that provision, and the park's fishing page now refers spearfishing questions to FWC. Until the park confirms whether the ban was rescinded, treat Seashore waters as restricted. The Fort Pickens ferry pier is closed to fishing, no diving or swimming is permitted within 200 feet of the Fort Pickens fishing pier, and the designated swim beaches are closed to fishing when lifeguards are on duty.",
+  "src": "Boundary: NPS Land Resources Division Boundary service, UNIT_CODE=GUIS.",
+  "flag": "UNRESOLVED: a projectile-gear ban published in 2021 does not appear in the 1 Sep 2026 compendium. A missing clause on a web page is not proof of rescission. Call Gulf Islands National Seashore (850-934-2600). The water boundary runs one mile seaward of the low tide line at Perdido Key, Fort Pickens and Santa Rosa, and 100 yards at Naval Live Oaks; the NPS polygon drawn here should be checked against that description.",
+  "kind": "warn"
+ },
+ "vol": {
+  "n": "Volusia County: inland salt waters, spearing restricted",
+  "s": "Spearing is prohibited in Volusia County’s inland salt waters <b>except legal-size flounder and sheepshead</b>, and only with a barbed spear of <b>three prongs or fewer</b>. Fla. Admin. Code r. 68B-3.008(3)(a). This covers the Halifax River and Mosquito Lagoon systems, including the lagoon side of Canaveral National Seashore.",
+  "src": "Drawn as the Intracoastal Waterway channel through Volusia County (USACE National Channel Framework) as a positional spine only.",
+  "flag": "THE BOUNDARY IS UNDEFINED IN LAW. Rule 68B-3.008 never defines \"inland salt waters\" of Volusia County, and FWC publishes no boundary. What is drawn is the ICW channel as a landmark, NOT the extent of the rule. Treat the ENTIRE Halifax River / Mosquito Lagoon system, and every connected tidal creek, as covered. This is one of the two worst unmapped-boundary problems in the dataset.",
+  "kind": "warn"
+ },
+ "3sis": {
+  "n": "Three Sisters Springs: scuba and spearfishing prohibited (seasonal)",
+  "s": "Within the Kings Bay Manatee Refuge, <b>scuba diving and fishing including by spear are prohibited 15 November to 31 March</b>, and all waterborne activity is barred sunset to sunrise over the same dates. 50 C.F.R. § 17.108(c)(14)(ii)(A). Year-round: no chasing, no touching a resting or feeding manatee, no diving from the surface onto one.",
+  "src": "200 m circle centred on the Three Sisters Springs pool at 28.89098 N, 82.58931 W; position read off Esri satellite imagery 22 Aug 2026.",
+  "flag": "CORRECTED 22 Aug 2026: the previous centre was 350 m south of the springs, over a residential street. APPROXIMATE CIRCLE. USFWS publishes no GIS layer for the Kings Bay Manatee Refuge or the Three Sisters area; the boundary exists only as Federal Register text (77 FR 15617). The wider refuge is \"all waters of Kings Bay, including all tributaries and adjoining waterbodies, upstream of the confluence of Kings Bay and Crystal River\", which is far larger than the circle drawn.",
+  "kind": "closed"
+ }
+}

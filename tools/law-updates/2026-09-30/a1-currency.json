@@ -1,0 +1,327 @@
+[
+ {
+  "id": "fac-68b-7-008-5",
+  "cite": "Fla. Admin. Code r. 68B-7.008(5)",
+  "title": "Biscayne National Park bonefish seasonal closed area: no fishing of any kind, 1 March to 31 May",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://www.flrules.org/gateway/ruleNo.asp?id=68B-7.008",
+  "effect": "All fishing, spearfishing included, and all possession of fish is prohibited inside a small box of state waters in Biscayne National Park every year from 1 March through 31 May, until 28 February 2031. Transit is allowed with spear shafts out of the gun and all gear secured.",
+  "excerpt": "Fishing and the possession of fish are prohibited within the Bonefish Seasonal Closed Area, described in paragraph (a), from March 1 through May 31 each year. However, fish or fishing gear may be possessed aboard a vessel, provided such vessel is in continuous transit through the Bonefish Seasonal Closed Area, fishing gear is appropriately stowed, and fish are stowed in a cabin, locker, or similar storage area prior to entering and during transit through the Bonefish Seasonal Closed Area. For the purposes of this subsection, appropriately stowed means hooks cannot be baited, and spear shafts shall not be inserted into any spearing device. All hook-and-line gear, spearing equipment, nets, and other harvesting equipment must be secured in a manner that makes their immediate use impracticable.",
+  "full": "(5)(a) The Bonefish Seasonal Closed Area shall apply to all state waters located within the following geographic boundary coordinates: [table] Point 1, 25° 27.895' N, 80° 8.800' W; Point 2, 25° 27.588' N, 80° 7.395' W; Point 3, 25° 26.620' N, 80° 7.687' W; Point 4, 25° 26.922' N, 80° 9.100' W. (5)(c) The prohibitions described in paragraph (b) shall only remain in effect through February 28, 2031. However, the Commission shall review the seasonal closure prior to that date and determine whether repeal is appropriate or if the closure should be renewed or modfied. [sic] Definition, r. 68B-7.002(3): \"Fishing\" means: (a) The catching, taking, or harvesting of fish; (b) The attempted catching, taking, or harvesting of fish; or (c) Any other activity which can reasonably be expected to result in the catching, taking, or harvesting of fish. R. 68B-7.001: \"The regulations in this chapter apply in all state and federal waters of Biscayne National Park.\"",
+  "verified": "verbatim",
+  "scope": "Quadrilateral of about 1.74 sq mi (area as stated in the notice of proposed rule): 25.46492 N 80.14667 W; 25.45980 N 80.12325 W; 25.44367 N 80.12812 W; 25.44870 N 80.15167 W. State waters within the box only, per (5)(a).",
+  "note": "NEW 29 Sep 2026. Effective 4 Nov 2025 (history: New 7-1-20, Amended 4-1-23, 11-4-25), so it was already in force when the 22 Aug 2026 registry said ch. 68B-7 has no spear prohibition. Proposed as a hook-and-line-only closure from 1 Nov to 31 May (FAR Vol. 51 No. 137, 16 Jul 2025, p. 2651); the notice of change (FAR Vol. 51 No. 184, 22 Sep 2025, p. 3573) widened it to all fishing and possession, moved the start to 1 March, added the spearing-equipment stowage sentence and moved the sunset to 28 Feb 2031. Part of the box may lie outside the 3 nm state-waters line; the map should draw the whole box (conservative reading). Datum not stated in the text read.",
+  "axes": {
+   "in_force": "flrules.org rule page, checked 29 Sep 2026: latest version effective 11/4/2025, no later notice. Paragraph (c) sunsets the closure after 28 Feb 2031.",
+   "subsection": "(5)(b) holds the prohibition; (5)(a) gives the box; r. 68B-7.002(3) defines fishing as any catching or taking, which covers spearfishing.",
+   "verbatim": "Read word for word from the flrules.elaws.us copy of the 4 Nov 2025 version (the typo 'modfied' is preserved), and consistent with the struck and added text in the FAR 51/184 notice of change. The flrules.org .doc returned binary through the fetch tool; confirm in a browser.",
+   "url": "flrules.org rule page resolves and lists the 11/4/2025 version; the text itself is served as a .doc file."
+  }
+ },
+ {
+  "id": "bnp-legare",
+  "cite": "36 C.F.R. §§ 1.5, 2.3, 3.16; Biscayne National Park Superintendent's Compendium (approved 17 Sep 2025); Fla. Admin. Code r. 68B-7.008(4)",
+  "title": "Legare Anchorage, Biscayne National Park: closed to diving, snorkeling and swimming",
+  "juris": "federal",
+  "kind": "cfr",
+  "url": "https://www.nps.gov/bisc/learn/management/superintendents-compendium.htm",
+  "effect": "No scuba, snorkeling, swimming, floating or anything else that puts a person or equipment in the water, and no anchoring, inside a one-minute box of latitude and longitude. Only hook-and-line drift fishing is allowed, so spearfishing is impossible here.",
+  "excerpt": "the portion of Biscayne National Park known as the Legare Anchorage within the area bounded by latitude 25°30 N and 25°29 N ... longitude 80°08 W and 80°07 W is closed to the following activities: Scuba diving, snorkeling, swimming, floating ... any activity that involves placing persons or equipment, on, in or under water. However, hook and line \"drift\" fishing is allowed.",
+  "full": "Further compendium fragments (secondary): \"Use of any underwater viewing device including, but not limited to, face masks, glass bottom boats, glass bottom buckets or cameras.\" \"Anchoring any vessel at any time unless an emergency.\" The state rule independently bars traps in the same box, r. 68B-7.008(4): \"A person may not deploy a trap or harvest any marine organism from a trap within the waters described by the following geographical boundaries:\" 25° 30.000' N 80° 7.000' W; 25° 30.000' N 80° 8.000' W; 25° 29.000' N 80° 7.000' W; 25° 29.000' N 80° 8.000' W.",
+  "verified": "secondary",
+  "scope": "Rectangle 25.48333 N to 25.50000 N, 80.13333 W to 80.11667 W (25°29' to 25°30' N, 80°07' to 80°08' W).",
+  "note": "NEW 29 Sep 2026. Closes open question 6: the coordinates are in the compendium itself, and the same box appears in state rule 68B-7.008(4), which corroborates them. The compendium text came back as short exact fragments through a summarising fetch tool, not as a continuous read, so this entry is secondary until the full paragraph is read in a browser. The fetch tool reported the compendium section as 36 C.F.R. 1.5(c)(1), which does not match the usual 1.5(a)(1) closure authority; confirm. Confirm current compendium at 786-335-3620.",
+  "axes": {
+   "in_force": "Compendium approved 17 Sep 2025 per the nps.gov page read 29 Sep 2026. R. 68B-7.008(4) effective 4 Nov 2025.",
+   "subsection": "Compendium Legare Anchorage paragraph (closure list and drift-fishing exception); r. 68B-7.008(4) for the matching box.",
+   "verbatim": "Compendium: exact fragments of 125 characters or fewer returned by a summariser; gaps marked with '...'. R. 68B-7.008(4) lead-in and coordinates read word for word from the elaws copy.",
+   "url": "nps.gov compendium page resolves (HTML)."
+  }
+ },
+ {
+  "id": "fac-68b-13-008-1",
+  "cite": "Fla. Admin. Code r. 68B-13.008(1)",
+  "title": "Stone crab: spears and any puncturing device banned",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://www.flrules.org/gateway/ruleNo.asp?id=68B-13.008",
+  "effect": "You may not take stone crab with a spear, hook or anything else that can puncture, crush or injure the body.",
+  "excerpt": "(1) Gear. It is unlawful to use any device in the taking of stone crabs that can puncture, crush, or injure the crab body, such as spears, grains, grabs, hooks, or similar devices.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "State waters. R. 68B-13.001 (title: Applicability of Rules to State and Federal Waters) was not read.",
+  "note": "NEW 29 Sep 2026. Effective 18 Dec 2023 (history: New 7-1-00, Amended 7-22-01, 7-15-04, 7-13-08, 6-19-13, 10-25-15, 10-1-20, 12-18-23). This, not r. 68B-20.005, is the source of the stone crab spearing ban listed in regs.json.",
+  "axes": {
+   "in_force": "flrules.org chapter page 29 Sep 2026: r. 68B-13.008 latest version 12/18/2023.",
+   "subsection": "(1) is headed 'Gear' and is a single sentence with no lettered paragraphs.",
+   "verbatim": "Identical on flrules.elaws.us and Cornell LII. The flrules.org .doc was not read.",
+   "url": "flrules.org rule page resolves; text served as .doc."
+  }
+ },
+ {
+  "id": "fac-68b-45-004-1",
+  "cite": "Fla. Admin. Code r. 68B-45.004(1)",
+  "title": "Blue crab: only the listed gear is allowed, and a spear is not on the list",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://www.flrules.org/gateway/ruleNo.asp?id=68B-45.004",
+  "effect": "Blue crab may be taken only with traps, dip or landing nets, drop nets, fold-up traps, hook and line, push scrapes or trotlines. A spear is not on the list, so spearing blue crab is prohibited.",
+  "excerpt": "(1) Except as provided in subsections (2), (3), (4), (5) and (6), below, the following types of gear shall be the only types of gear allowed for the harvest of blue crab in or from state waters:",
+  "full": "The allowed gear follows as (1)(a) to (g); names paraphrased, specifications omitted: traps, dip or landing net, drop net, fold-up trap, hook and line gear, push scrape, trotline. Subsections (2) to (6), checked through a summariser, and r. 68B-45.006 contain no spear or puncture clause. The bar on spearing works by exclusion from this list.",
+  "verified": "verbatim",
+  "scope": "State waters.",
+  "note": "NEW 29 Sep 2026. Effective 1 Mar 2022 (history ends 1-1-20, 3-1-22). Source of the blue crab spearing ban listed in regs.json, which currently attributes it to r. 68B-20.005.",
+  "axes": {
+   "in_force": "flrules.org chapter page 29 Sep 2026: r. 68B-45.004 latest version 3/1/2022.",
+   "subsection": "(1) lead-in makes the list exclusive; (2) to (6) are the only exceptions.",
+   "verbatim": "Lead-in identical on flrules.elaws.us and Cornell LII. List items paraphrased in 'full' only.",
+   "url": "flrules.org rule page resolves; text served as .doc."
+  }
+ },
+ {
+  "id": "fac-68b-42-007",
+  "cite": "Fla. Admin. Code rr. 68B-42.001(2)(bb), (5); 68B-42.007(1), (3)",
+  "title": "Marine life fish, including every triggerfish except gray and ocean: spears are not an allowed gear",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://www.flrules.org/gateway/ruleNo.asp?id=68B-42.007",
+  "effect": "Tropical ornamental fish, which include every triggerfish and filefish except gray triggerfish, ocean triggerfish and unicorn filefish, may be harvested only with hand nets, barrier nets, drop nets and slurp guns. Spearing one (a queen triggerfish, for example) is prohibited.",
+  "excerpt": "[r. 68B-42.001(2)(bb):] Filefish/triggerfish - Any species of the Family Balistidae, except gray triggerfish, Balistes capriscus, ocean triggerfish, Canthidermis sufflamen, and unicorn filefish, Aluterus monoceros. [r. 68B-42.007(3):] No person shall harvest in or from state waters any tropical fish by or with the use of any gear other than those types specified in subsection (1);",
+  "full": "R. 68B-42.001(2), lead-in: \"The following fish species, as they occur in waters of the state and in federal Exclusive Economic Zone (EEZ) waters adjacent to state waters, are hereby designated as restricted species pursuant to Section 379.101(32), F.S.:\" R. 68B-42.001(5): \"For the purposes of Section 379.361(2)(j), F.S., the term \"marine life species\" is defined to mean those species designated as restricted species in subsections (2), (3), and (4), of this rule.\" R. 68B-42.002(18): \"Tropical fish\" means any species included in subsection (2) of Rule 68B-42.001, F.A.C., or any part thereof. R. 68B-42.007(1): \"The following types of gear shall be the only types allowed for the harvest of any tropical fish, whether from state waters or from federal Exclusive Economic Zone (EEZ) waters adjacent to state waters:\" followed by (a) to (g), paraphrased: hand held net, barrier net, drop net, slurp gun, quinaldine (licensed), roller frame trawl (shrimp bycatch), dwarf seahorse trawl. (2) permits a single blunt rod used with allowable gear. The rest of (3) excuses commercial incidental bycatch within the r. 68B-42.005 bag limit.",
+  "verified": "secondary",
+  "scope": "State waters and, for the gear list in (1), adjacent federal EEZ waters.",
+  "note": "NEW 29 Sep 2026. R. 68B-42.001 last amended 1 Nov 2012; r. 68B-42.007 last amended 14 Aug 2024. FWC opened rulemaking on the whole of ch. 68B-42 on 15 May 2026 (FAR 52/95) for cownose ray rules; watch for changes. Consistent with FWC's 2026 summary (eRegulations, secondary), which lists 'Marine life species' among species that may not be speared. Marked secondary because the text was read only on Cornell LII (elaws refused access); promote to verbatim after a browser read of the flrules .doc files.",
+  "axes": {
+   "in_force": "flrules.org chapter page 29 Sep 2026: r. 68B-42.001 effective 11/1/2012; r. 68B-42.007 effective 8/14/2024.",
+   "subsection": "001(2)(bb) makes non-gray, non-ocean triggerfish restricted tropical fish; 001(5) makes restricted species 'marine life species'; 002(18) defines tropical fish; 007(1) and (3) limit gear.",
+   "verbatim": "Cornell LII only, returned as exact text; not cross-checked on a second host.",
+   "url": "flrules.org rule pages resolve; text served as .doc."
+  }
+ },
+ {
+  "id": "neg-uap",
+  "cite": "Fla. Admin. Code chs. 1A-31, 1A-32; Fla. Stat. § 267.13 (NEGATIVE)",
+  "title": "Underwater Archaeological Preserves: no fishing or spearfishing ban in the preserve rules",
+  "juris": "state",
+  "kind": "negative",
+  "url": "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=1A-31",
+  "effect": "Nothing in the state's shipwreck and archaeology rules closes a preserve to fishing or spearfishing. What binds is § 267.13 (do not disturb or remove artifacts) plus whatever else overlays the site, such as a state park or a sanctuary zone.",
+  "excerpt": "[Ch. 1A-31 rule titles read in full (32 rules); rr. 1A-31.0042, 1A-31.0045 and 1A-31.013 read in full; none mentions fishing or spearfishing. R. 1A-31.0042 reads in full:] Diving on historic shipwreck sites in Florida waters does not require a permit.",
+  "full": "R. 1A-31.0045(6) names \"Areas of state jurisdiction such as State Parks, State Aquatic Preserves, Coastal and Aquatic Managed Areas, State Archaeological Landmarks, State Archaeological Landmark Zones, Underwater Archaeological Preserves, Underwater Archaeological Research Reserves\" only as areas where the Division will not issue exploration or recovery permits. Ch. 1A-32 (Archaeological Research, 5 rules) and ch. 1A-46 (Archaeological and Historical Report Standards, 1 rule) were checked by title only. The Division of Historical Resources laws page cites only ch. 267, F.S., and chs. 1A-31 and 1A-32.",
+  "verified": "verbatim",
+  "scope": "Florida's twelve Underwater Archaeological Preserves (not individually listed here).",
+  "note": "NEW 29 Sep 2026. A preserve is not automatically open. San Pedro Underwater Archaeological Preserve State Park is a state park (floridastateparks.org/SanPedro), so r. 62D-2.014(9)(d) and r. 68B-20.003(2)(e) close it to spearfishing. The other preserves were not checked one by one for state-park, sanctuary, statutory or local overlays.",
+  "axes": {
+   "in_force": "Ch. 1A-31 rules effective 7/20/2009 (r. 1A-31.013: 5/15/2006); no 2025 or 2026 dates on the flrules chapter page.",
+   "subsection": "Whole-chapter negative; the rules that mention diving or preserves (.0042, .0045) were read in full.",
+   "verbatim": "R. 1A-31.0042 text from Cornell LII, one sentence.",
+   "url": "flrules.org chapter page resolves."
+  }
+ },
+ {
+  "id": "bnp-status",
+  "replaces": [
+   "title",
+   "effect",
+   "scope",
+   "note"
+  ],
+  "title": "Biscayne National Park: spearfishing lawful except Legare Anchorage and a seasonal bonefish area",
+  "effect": "No park-specific federal fishing rule exists, so 36 C.F.R. § 2.3(e) sends you to state law: spearfishing is lawful under ch. 68B-20 and FWC's park chapter 68B-7, except in Legare Anchorage (no in-water activity at all) and, from 1 March to 31 May, in the r. 68B-7.008(5) bonefish closed area.",
+  "scope": "Superintendent's Compendium (approved 17 Sep 2025) closes fishing at: Boca Chita Key Harbor; Elliott Key Harbor (except the maintenance dock south of the main harbor); the NPS boat basin at Convoy Point; the entrance road at Convoy Point; the north side of the Adams Key dock; the north end of the Convoy Point picnic area; and Legare Anchorage, where only hook-and-line drift fishing is allowed. (The compendium counts seven fishing closures; the seventh is taken to be Legare, not confirmed.) Legare Anchorage (25°29' to 25°30' N, 80°07' to 80°08' W) is also closed to scuba, snorkeling, swimming, floating, underwater viewing devices and anchoring: see bnp-legare. State rules for the park: r. 68B-7.003 park size limits, r. 68B-7.004 10-fish Major Finfish Aggregate bag, r. 68B-7.008 spatial limits including the (5) bonefish seasonal closure: see fac-68b-7-008-5.",
+  "note": "CORRECTED 29 Sep 2026. The 22 Aug 2026 text said FAC ch. 68B-7 contains no spear prohibition. Since 4 Nov 2025, r. 68B-7.008(5) prohibits all fishing and possession of fish in a bonefish area from 1 March to 31 May (through 28 Feb 2031). Legare Anchorage coordinates are now known. The 2015 General Management Plan proposed a marine reserve zone. It was never implemented as a spearfishing closure: a 2014 NPS plan and a 2019 FWC rulemaking each proposed one and neither was adopted (carried over from 22 Aug, not re-verified 29 Sep 2026). Confirm current compendium at 786-335-3620."
+ },
+ {
+  "id": "cfr-33-165-785",
+  "replaces": [
+   "effect",
+   "excerpt",
+   "scope",
+   "note"
+  ],
+  "effect": "Three fixed zones across Lake Worth Lagoon and the adjacent Atlantic at Mar-a-Lago, enforced when protectees are present or expected. Center and East zones: no entering, transiting, anchoring or remaining without COTP authorization. West zone: escorted transit at steady speed only.",
+  "excerpt": "(1) Center zone. All persons and vessels are prohibited from entering, transiting, anchoring in, or remaining within the security zone unless authorized by the COTP Miami or a designated representative. (2) West zone. All persons and vessels are required to transit the security zone escorted by an on-scene designated representative at a steady speed and may not slow down or stop except in the case of unforeseen mechanical failure or other emergencies. Any persons or vessels forced to slow or stop in the zone shall immediately notify the COTP Miami via VHF channel 16. (3) East zone. All persons and vessels are prohibited from entering, transiting, anchoring in, or remaining within the security zone unless authorized by the COTP Miami or a designated representative.",
+  "scope": "CENTER (Lake Worth Lagoon): 26°41'21\"N 80°02'39\"W; 26°41'21\"N 80°02'13\"W; 26°39'58\"N 80°02'20\"W; 26°39'58\"N 80°02'38\"W. WEST (Lake Worth Lagoon): 26°41'21\"N 80°02'39\"W; 26°41'21\"N 80°03'00\"W; 26°39'58\"N 80°02'55\"W; 26°39'58\"N 80°02'38\"W. EAST (Atlantic): 26°41'21\"N 80°02'01\"W; 26°39'57\"N 80°02'09\"W [printed in the CFR and in 90 FR 42814 as 80°20'9\"W, an evident typo that would put the point about 30 km inland]; 26°39'57\"N 80°01'36\"W; 26°41'22\"N 80°01'29\"W.",
+  "note": "CORRECTED 29 Sep 2026. USCG-2025-0319, 90 FR 42814 (5 Sep 2025, effective that day) made the East zone a no-entry zone. Before that it was steady-speed transit with no stopping, as quoted in the proposed rule (90 FR 30603, 10 Jul 2025). The 22 Aug 2026 note still described the old East zone rule. Enforced when the President, members of the First Family or other Secret Service protectees are present or expected at the Mar-a-Lago Club; the Coast Guard gives notice under 33 C.F.R. § 165.7 and shows flashing blue lights on scene. COTP Miami (305) 535-4472, VHF 16. Palm Beach has FIXED security zones here, not only the moving port zones of § 165.760.",
+  "axes": {
+   "in_force": "eCFR up to date as of 9/28/2026; source line [USCG-2025-0319, 90 FR 42814, Sept. 5, 2025]; versioner shows no later version.",
+   "subsection": "(c)(1) to (c)(3) are the zone regulations; (d)(1) is the enforcement period.",
+   "verbatim": "Identical on eCFR current text and the 90 FR 42814 raw text.",
+   "url": "https://www.ecfr.gov/current/title-33/chapter-I/subchapter-D/part-165/subpart-F/section-165.785 resolves."
+  }
+ },
+ {
+  "id": "cfr-33-165-760",
+  "replaces": [
+   "excerpt",
+   "scope",
+   "note"
+  ],
+  "excerpt": "In accordance with the general regulations § 165.33, entry into these zones is prohibited, except as authorized by the Captain of the Port of Miami or a designated representative.",
+  "scope": "§ 165.760 Port of Palm Beach, Port Everglades, Port of Miami: moving 100 yd zones around passenger, particular-hazard and LHG vessels west of the sea buoys; fixed 100 yd zones around such vessels while moored; coordinate-bounded fixed zones only in the Miami Main Channel, (b)(2), and Port Everglades, (b)(3). § 165.761 Port of Key West. § 165.759 Jacksonville, Fernandina, Canaveral. § 165.785 Presidential Security Zone, Palm Beach. § 165.701 Kennedy Space Center.",
+  "note": "Checked 29 Sep 2026: § 165.760 last amended 27 Dec 2024 (USCG-2022-0058, 89 FR 105456), which extended the Port of Miami fixed zone about 840 yd east; no 2025 or 2026 change. At the Port of Palm Beach there is no coordinate-bounded fixed zone: the zones move with, or sit 100 yd around, the protected vessels. Moving zones activate at Lake Worth Lighted Buoy LW (26°46'22\"N 80°00'37\"W), Port Everglades Lighted Buoy PE (26°05'30\"N 80°04'46\"W) and Miami Lighted Buoy M (25°46'05\"N 80°05'01\"W). COTP Miami 305-535-4472, VHF 16.",
+  "axes": {
+   "in_force": "eCFR up to date as of 9/28/2026; versioner: last version 2024-12-27.",
+   "subsection": "(c)(2) is the entry prohibition; (b)(1) defines the Palm Beach zones.",
+   "verbatim": "eCFR current text, confirmed character by character on a second request (no quotation marks, no 'in' before § 165.33).",
+   "url": "https://www.ecfr.gov/current/title-33/section-165.760 resolves."
+  }
+ },
+ {
+  "id": "fac-68b-14-009",
+  "replaces": [
+   "url",
+   "excerpt",
+   "full",
+   "note"
+  ],
+  "url": "https://www.flrules.org/gateway/ruleNo.asp?id=68B-14.009",
+  "excerpt": "(1) Recreational harvesters are required to report their intention to harvest or attempt to harvest certain reef fish species annually. A recreational harvester may not harvest, attempt to harvest, or possess the following reef fish species while aboard a vessel in or on Florida Waters, unless that person has reported their intention to do so to the State Reef Fish Survey. ... (2) Proof of submission of the report required in subsection (1), must be in the personal possession of the recreational harvester while the recreational harvester is harvesting, attempting to harvest or possessing these species aboard a vessel in Florida Waters.",
+  "full": "(1) [continued] Under Section 379.401(1), F.S., failure to file reports required of persons who hold recreational licenses is a non-criminal infraction. (a) Amberjacks. 1. Almaco jack. 2. Banded rudderfish. 3. Greater amberjack. 4. Lesser amberjack. (b) Gray triggerfish. (c) Groupers. 1. Black grouper. 2. Gag grouper. 3. Red grouper. (d) Hogfish. (e) Snappers. 1. Mutton snapper. 2. Red snapper. 3. Vermilion snapper. 4. Yellowtail snapper. (3) Persons meeting the criteria outlined in Sections 379.353(2)(a), (i), (j), and (o), F.S., are exempt from the reporting requirement in subsection (1). (4) [Added effective 1 Sep 2026. Text as published in the notice of proposed rule, FAR Vol. 52 No. 95, 15 May 2026; no notice of change is recorded.] In accordance with Section 379.354(7)(e), F.S., owners, operators, or custodians of vessels for hire are required to report their intention to harvest or attempt to harvest certain reef fish species in the Atlantic Ocean during the years 2026, 2027, and 2028. A vessel for hire may not harvest, attempt to harvest, or possess red snapper, vermilion snapper, yellowtail snapper, mutton snapper, hogfish, gag grouper, red grouper, black grouper, gray triggerfish, greater amberjack, lesser amberjack, banded rudderfish, or almaco jack within or without Florida Waters of the Atlantic Ocean, unless the owner, operator, or custodian for the vessel for hire has registered for the Atlantic For-Hire Reef Fish Registry on the agency's website and reported their intention to harvest or attempt to harvest the species listed in this subsection. (a) Under Section 379.401(1), F.S., failure to file reports required of persons who hold recreational vessel licenses is a non-criminal infraction. (b) Proof of submission of the report required in subsection (4) must be aboard the vessel for hire while the vessel for hire is harvesting, attempting to harvest, or possessing these species in Florida Waters of the Atlantic Ocean.",
+  "note": "Checked 29 Sep 2026. Amended effective 1 Sep 2026 (history: New 8-26-14, Amended 6-11-18, 7-1-20, 9-1-26). Subsections (1) to (3) were 'No change': the same 13 species, still triggered only 'while aboard a vessel', so shore-based anglers and shore-entry divers remain outside it. The amendment adds (4), a separate Atlantic For-Hire Reef Fish Registry for charter, headboat and guide vessels, for 2026, 2027 and 2028 only. Whether a dive charter carrying spearfishers must register under (4) is not answered by the text; ask FWC (850-487-0554). The 65-and-over licence exemption does NOT exempt you from (1): the only exemptions are § 379.353(2)(a) (under 16), (i) and (j) (aboard a vessel licensed under § 379.354(7) or run by a licensed operator) and (o) (FWC staff and permitted scientific or educational take). Notices: workshops 19 Sep 2025, 9 Feb 2026, 13 Feb 2026; development 22 Apr 2026 (FAR 52/78); proposed 15 May 2026 (FAR 52/95).",
+  "axes": {
+   "in_force": "flrules.org rule page: latest version effective 9/1/2026 (final ID 31244881); notice table shows no later notice and no notice of change.",
+   "subsection": "(1) and (2) hold the recreational duty and the proof-in-possession rule; (4) holds the new for-hire duty.",
+   "verbatim": "(1) to (3): Cornell LII (2020 version, which the 2026 amendment left unchanged); the (2) sentence also matches elaws. (4): FAR Vol. 52 No. 95 PDF, pp. 2184 to 2185 (primary, proposed text). The adopted .doc (tid 31244881) could not be read; confirm in a browser.",
+   "url": "flrules.org rule page resolves; text served as .doc."
+  }
+ },
+ {
+  "id": "fac-68b-20-003-2",
+  "replaces": [
+   "excerpt"
+  ],
+  "excerpt": "(2) Except as provided in Rule 68B-20.004, F.A.C., spearfishing is hereby prohibited: (a) Within 100 yards of all public bathing beaches. (b) Within 100 yards of all commercial or public fishing piers. (c) Within 100 yards of that portion of any bridge where public fishing is legally permitted. (d) Within 100 feet of the unsubmerged portion of any jetty, except that spearfishing shall be allowed along the last 500 yards of any jetty that extends more than 1,500 yards from the shoreline. (e) In or on any body of water under the jurisdiction of the Division of Recreation and Parks of the Department of Environmental Protection. Possession of spearing equipment in or on any body of water under the jurisdiction of the Division of Recreation and Parks is prohibited except when such equipment is not loaded and is properly stored upon watercraft passing nonstop through such marine waters.",
+  "axes": {
+   "in_force": "flrules.org: latest version 8/1/2014; history New 6-17-85, Amended 1-1-98, Formerly 46-20.003, Amended 6-30-13, 8-1-14.",
+   "subsection": "Chapeau supplies 'spearfishing' to (a) to (e); (e) second sentence uses 'spearing equipment'. List ends at (e).",
+   "verbatim": "Identical on Cornell LII and flrules.elaws.us; FAR Vol. 40 No. 90 (8 May 2014, p. 2015) prints the amended chapeau and '(a) through (e) No change'. The flrules .doc was not read.",
+   "url": "flrules.org rule page resolves; text served as .doc."
+  }
+ },
+ {
+  "id": "fs-790-33",
+  "replaces": [
+   "excerpt"
+  ],
+  "excerpt": "[Fla. Stat. § 379.2425(3):] The Fish and Wildlife Conservation Commission shall have the power to establish restricted areas when it is determined that safety hazards exist or when needs are determined by biological findings. Restricted areas shall be established only after an investigation has been conducted and upon application by the governing body of the county or municipality in which the restricted areas are to be located and one publication in a local newspaper of general circulation in said county or municipality in addition to any other notice required by law. [Fla. Stat. § 790.33(1), opening words:] Except as expressly provided by the State Constitution or general law, the Legislature hereby declares that it is occupying the whole field of regulation of firearms and ammunition",
+  "axes": {
+   "in_force": "2026 Fla. Stat.: § 379.2425 history ends s. 3, ch. 2016-107; § 790.33 history ends s. 1, ch. 2021-15.",
+   "subsection": "§ 379.2425(3) is the FWC restricted-area power; § 790.33(1) is the firearms preemption.",
+   "verbatim": "§ 379.2425(3) identical on flsenate.gov and leg.state.fl.us. The existing excerpt ('The commission may create additional restricted areas following investigation...') was a paraphrase.",
+   "url": "https://www.flsenate.gov/Laws/Statutes/2026/379.2425 and https://www.flsenate.gov/Laws/Statutes/2026/790.33 resolve."
+  }
+ },
+ {
+  "id": "fs-379-354",
+  "replaces": [
+   "cite",
+   "url",
+   "excerpt",
+   "full",
+   "note"
+  ],
+  "cite": "Fla. Stat. §§ 379.354(1), (4)(k), 379.353(2)",
+  "url": "https://www.flsenate.gov/Laws/Statutes/2026/379.354",
+  "excerpt": "[§ 379.354(1):] Except as provided in s. 379.353, no person shall take game, freshwater or saltwater fish, or fur-bearing animals within this state without having first obtained a license, permit, or authorization number and paid the fees set forth in this chapter. [§ 379.354(4)(k):] An annual resident shoreline fishing license shall be issued without a fee to allow any resident to saltwater fish from land or from a structure fixed to the land. This license is not required for any resident issued any other license identified in this section which allows the taking of saltwater fish.",
+  "full": "Statutory fee, § 379.354(4)(b): annual resident saltwater fishing license $15.50 (FWC's sale price adds fees; not checked). Exemptions in § 379.353(2), letters verified 29 Sep 2026 for (a), (c), (d), (h), (i), (j), (o): (a) under 16; (c) resident Armed Forces member stationed out of state, home on leave 30 days or less; (d) resident fishing for recreation in the county of residence with live or natural bait on poles or lines without a line retrieval mechanism (cannot cover spearfishing); (h) resident saltwater fishing 'from land or from a structure fixed to the land' who is DCF-eligible for food assistance, temporary cash assistance or Medicaid (does not reach a diver in the water); (i) and (j) fishing from a vessel licensed under § 379.354(7), or whose operator is so licensed; (o) FWC employees and commission-permitted scientific or educational take. The other exemptions listed on 22 Aug (homestead, private ponds, developmental disabilities, commercial licence holders, residents 65 and over, disabled-veteran and active-duty events) were not re-read. Secondary: § 379.354(7)(f) exempts individual scuba divers aboard a vessel that carries divers for a fee when the operator holds the appropriate vessel licence; confirm wording.",
+  "note": "CORRECTED 29 Sep 2026. The statute gives the shoreline licence only for fishing 'from land or from a structure fixed to the land' and says nothing about swimming or diving. FWC's licence page says the shoreline licence is 'Not valid if taking or attempting to take by swimming or diving' and 'Not valid when fishing from a vessel, or a shoreline reached by vessel'; FWC's FAQ treats a wading angler who can stand on the bottom as fishing from shore. A spearfisher swimming from shore is therefore not covered: hold the full saltwater licence. The 22 Aug excerpt was a bracketed paraphrase of an FWC web page and is replaced by statute text.",
+  "axes": {
+   "in_force": "2026 Fla. Stat.: § 379.354 history ends s. 2, ch. 2020-123; § 379.353 history ends s. 4, ch. 2024-251; no 2026 chapter law in either.",
+   "subsection": "(1) is the licence requirement; (4)(k) is the shoreline licence; § 379.353(2)(h) confirms the 'from land' limit in a parallel exemption.",
+   "verbatim": "(1) from flsenate.gov; (4)(k) identical on flsenate.gov and leg.state.fl.us.",
+   "url": "flsenate.gov 2026 statute page resolves."
+  }
+ },
+ {
+  "id": "fs-316-1305",
+  "replaces": [
+   "excerpt"
+  ],
+  "excerpt": "(1) The Department of Transportation is authorized to investigate and determine whether it is detrimental to traffic safety or dangerous to human life for any person to fish from a state road bridge. When the Department of Transportation, after due investigation, determines that it is dangerous for persons to fish from such a bridge, it shall post appropriate signs on the bridge stating that fishing from the bridge is prohibited. (2) Fishing from a bridge upon which the Department of Transportation has posted signs as provided in subsection (1) is a noncriminal traffic infraction, punishable as a pedestrian violation as provided in chapter 318. (3) This section is cumulative and is not intended to repeal any special law making it unlawful to fish from any bridge.",
+  "axes": {
+   "in_force": "2026 Fla. Stat.; history ends s. 18, ch. 96-350.",
+   "subsection": "Whole section.",
+   "verbatim": "flsenate.gov 2026 text; the 22 Aug excerpt was a bracketed paraphrase.",
+   "url": "https://www.flsenate.gov/Laws/Statutes/2026/316.1305 resolves."
+  }
+ },
+ {
+  "id": "fs-327-331",
+  "replaces": [
+   "excerpt"
+  ],
+  "excerpt": "(1)(a) \"Diver\" means a person who is wholly or partially submerged in the waters of the state and is equipped with a face mask and snorkel or underwater breathing apparatus. ... (2) All divers must prominently display a divers-down warning device in the area in which the diving occurs, other than when diving in an area customarily used for swimming only. A divers-down buoy may not be used or displayed onboard a vessel. ... (4) Divers shall make reasonable efforts to stay within 100 feet of a divers-down warning device on rivers, inlets, and navigation channels. A person operating a vessel on a river, inlet, or navigation channel must make a reasonable effort to maintain a distance of at least 100 feet from any divers-down warning device. (5) Divers must make reasonable efforts to stay within 300 feet of a divers-down warning device on all waters other than rivers, inlets, and navigation channels. A person operating a vessel on waters other than a river, inlet, or navigation channel must make a reasonable effort to maintain a distance of at least 300 feet from any divers-down warning device.",
+  "axes": {
+   "in_force": "2026 Fla. Stat.; history ends s. 1, ch. 2016-171.",
+   "subsection": "(1)(a) definition; (2) display duty; (4) and (5) distances.",
+   "verbatim": "flsenate.gov 2026 full-section read; the 22 Aug excerpt mixed quotation and bracketed paraphrase.",
+   "url": "https://www.flsenate.gov/Laws/Statutes/2026/327.331 resolves."
+  }
+ },
+ {
+  "id": "fs-267-13",
+  "replaces": [
+   "excerpt",
+   "note"
+  ],
+  "excerpt": "(1)(a) Any person who by means other than excavation conducts archaeological field investigations on, or removes or attempts to remove or defaces, destroys, or otherwise alters any archaeological site or specimen located upon, land owned or controlled by the state, land owned by a water authority, or land within the boundaries of a designated state archaeological landmark or landmark zone, except in the course of activities pursued under the authority of a permit or under procedures relating to accredited institutions granted by the division, commits a misdemeanor of the first degree",
+  "note": "No direct effect on spearfishing. The preserve rules (ch. 1A-31) contain no fishing ban (see neg-uap), but a preserve is not automatically open: San Pedro Underwater Archaeological Preserve is a state park and is closed to spearfishing by r. 62D-2.014(9)(d) and r. 68B-20.003(2)(e). Check each preserve for state-park, sanctuary and local overlays. Administrative fines and restitution provisions noted on 22 Aug were not re-read 29 Sep 2026. Checked 29 Sep 2026: history ends s. 2, ch. 2013-204; no 2026 change.",
+  "axes": {
+   "in_force": "2026 Fla. Stat.; history ends s. 2, ch. 2013-204.",
+   "subsection": "(1)(a) is the non-excavation offence.",
+   "verbatim": "flsenate.gov 2026 text up to 'misdemeanor of the first degree'; the rest of (1)(a) not reproduced.",
+   "url": "https://www.flsenate.gov/Laws/Statutes/2026/267.13 resolves."
+  }
+ },
+ {
+  "id": "cfr-622-183",
+  "replaces": [
+   "note"
+  ],
+  "note": "Only THREE of the eight are off Florida: North Florida, St. Lucie Hump and East Hump. The other five are off North Carolina, South Carolina and Georgia. All are deep water: this is a possession risk on the ride home more than a diving restriction. Checked 29 Sep 2026: Regulatory Amendment 36 (91 FR 61160, 28 Sep 2026, effective 28 Oct 2026) revises (a)(1)(ii)(E) and adds (a)(1)(ii)(F) on stowing ropeless sea bass pots in transit; (a)(1)(i) is unchanged."
+ },
+ {
+  "id": "cfr-622-34",
+  "replaces": [
+   "note"
+  ],
+  "note": "Checked 29 Sep 2026: (a) unchanged. 91 FR 36545 (17 Jun 2026) adds § 622.34(h), effective 1 Jan 2027: the recreational sector for Other shallow-water grouper (black grouper, scamp, yellowfin grouper, yellowmouth grouper) in or from the Gulf EEZ is closed 1 January through 30 June each year. That is a season rule, not an area closure, but it reaches black grouper taken by spear in Gulf federal waters."
+ },
+ {
+  "id": "cfr-922-164-d",
+  "replaces": [
+   "note"
+  ],
+  "note": "THE KEYS ARE UNDER TWO DIFFERENT RULEBOOKS AT ONCE. The 2025 Restoration Blueprint (90 FR 6104, 17 Jan 2025) took effect in FEDERAL sanctuary waters on 5 March 2025. Florida's Governor certified it unacceptable under NMSA § 304(b), so FLORIDA STATE WATERS remain on the 1997 zoning. On the federal side the catch-and-release trolling exception at Conch, Alligator, Sombrero and Sand Key is GONE. eCFR's current text of §§ 922.163 and 922.164 still renders the pre-2025 scheme (the § 922.164 source credit stops at 74 FR 38095, 31 July 2009), so anyone reading eCFR is reading state-waters law only. Checked 29 Sep 2026: no Federal Register document has amended 15 C.F.R. pt. 922 subpart P since the Blueprint rule; NOAA told its advisory council in March and June 2026 it would publish a notice codifying the split, and none has appeared. Executive Order 14430 (91 FR 60293, 22 Sep 2026) directs agencies to start suspending or revising rules that burden anglers; watch for FKNMS proposals. This map's Keys layer is built from NOAA's post-Blueprint GIS with a state/federal flag per zone. Confirm with FKNMS (305-809-4700) before relying on it."
+ },
+ {
+  "id": "fac-68c-22",
+  "replaces": [
+   "note"
+  ],
+  "note": "Map these as boat-operation constraints, not closures. The federal manatee rule (50 C.F.R. § 17.108) is the one that actually bans diving and spearing, and only at Three Sisters Springs. Checked 29 Sep 2026: r. 68C-22.011 (Citrus and parts of Levy and Hernando) amended effective 27 Apr 2025; r. 68C-22.007 (Indian River County) amended effective 30 Jun 2026. Re-pull any speed-zone geometry taken from these two rules before those dates."
+ },
+ {
+  "id": "fac-68b-42-0036",
+  "replaces": [
+   "note"
+  ],
+  "note": "The only Special Marine Life Area in the entire Florida Administrative Code. Continuous-transit exception and a landing exception at the Phil Foster ramp and docks. Checked 29 Sep 2026: unchanged since 1 Apr 2019. FWC's cownose ray rulemaking (workshop notice 7 May 2026, development notice 15 May 2026, FAR 52/95) lists every ch. 68B-42 rule including this one, but its stated purpose does not touch this area."
+ },
+ {
+  "id": "fs-379-101-33",
+  "replaces": [
+   "note"
+  ],
+  "note": "Practical upshot: in brackish water you cannot know which regime you are in from a meter. Carry both licences, and treat the strictest applicable rule as controlling. This map's inland/tidal/coastal classification is a PLANNING heuristic built from FWC's own ramp labels; it has no legal force. Checked 29 Sep 2026: § 379.101 last amended by s. 48, ch. 2025-8 (Gulf of America rename, not subsection (33)); (33) unchanged. R. 62-302.200 amended effective 25 Nov 2025; (30) is still 'Predominantly marine waters' at chloride 1,500 mg/L or specific conductance 4,580 µmhos/cm."
+ },
+ {
+  "id": "fac-68b-20-005",
+  "replaces": [
+   "note"
+  ],
+  "note": "This rule has not been amended since 1 January 1998 (flrules.org, checked 29 Sep 2026). It still reads 'Jewfish (Epinephelus itajara)', the pre-1999 name for goliath grouper (carried over from 22 Aug, not re-read 29 Sep 2026). The 2023 limited goliath harvest did not touch it, so goliath remains prohibited by spear; Nassau grouper likewise. Crustaceans are protected by other rules, not this one: spiny lobster, r. 68B-24.006; stone crab, r. 68B-13.008(1) (fac-68b-13-008-1); blue crab, r. 68B-45.004(1) (fac-68b-45-004-1). Marine life species, including every triggerfish except gray and ocean, may not be speared under r. 68B-42.007 (fac-68b-42-007)."
+ }
+]

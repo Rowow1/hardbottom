@@ -1,0 +1,42 @@
+# Bottom Truth: Apache / LiteSpeed settings for the Hostinger deployment.
+
+Options -Indexes
+ErrorDocument 404 /404.html
+
+# Force HTTPS.
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Never serve repository internals, build tooling or dotfiles, even if a deploy leaves them behind.
+RewriteRule (^|/)\.(?!well-known/) - [F,L]
+RewriteRule ^(tools|test|docs|raw|node_modules)(/|$) - [F,L]
+<FilesMatch "\.(py|sh|bundle|log)$">
+  Require all denied
+</FilesMatch>
+
+# Compression for the JSON data and code.
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType application/json .json
+  AddType image/svg+xml .svg
+</IfModule>
+
+# Caching: the vendored library rarely changes; data and pages must update the same day a rule changes.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(png|svg)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+  <If "%{REQUEST_URI} =~ m#^/vendor/#">
+    Header set Cache-Control "public, max-age=2592000"
+  </If>
+  <FilesMatch "\.(json|html|js|css)$">
+    Header set Cache-Control "public, max-age=300, must-revalidate"
+  </FilesMatch>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

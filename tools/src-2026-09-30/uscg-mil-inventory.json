@@ -1,0 +1,722 @@
+[
+ {
+  "cfr": "165.701",
+  "title": "Kennedy Space Center security zone",
+  "type": "security zone",
+  "fixed_or_moving": "fixed (shoreline/buoy boundary)",
+  "active": "launch days",
+  "prohibits": "entry by all persons and vessels",
+  "contact": "COTP Jacksonville (904) 564-7513, VHF 16",
+  "map": "list only (not drawable)"
+ },
+ {
+  "cfr": "165.703",
+  "title": "Tampa Bay fixed security zones (12) and cruise/EHC vessel zones",
+  "type": "security zone",
+  "fixed_or_moving": "fixed + moving 500 yd + moored 200 yd",
+  "active": "always (fixed); vessel present (moving)",
+  "prohibits": "entry; at Skyway main span: loitering, anchoring, dive operations",
+  "contact": "COTP St. Petersburg (727) 824-7506, VHF 16",
+  "map": "drawn"
+ },
+ {
+  "cfr": "165.705",
+  "title": "Port Canaveral Trident and Middle Basin",
+  "type": "security zone",
+  "fixed_or_moving": "fixed",
+  "active": "always",
+  "prohibits": "entry, transit, anchoring, remaining",
+  "contact": "COTP Jacksonville 904-714-7557, VHF 16",
+  "map": "line + list"
+ },
+ {
+  "cfr": "165.706",
+  "title": "Hurricanes, South Florida (Sector Miami)",
+  "type": "safety zone",
+  "fixed_or_moving": "whole COTP zone",
+  "active": "hurricane port conditions",
+  "prohibits": "port closures (commercial focus)",
+  "contact": "COTP Miami (305) 535-4472, VHF 16",
+  "map": "not mapped"
+ },
+ {
+  "cfr": "165.707",
+  "title": "Hurricanes, Florida Keys",
+  "type": "safety zone",
+  "fixed_or_moving": "whole COTP zone",
+  "active": "hurricane port conditions",
+  "prohibits": "at ZULU port closed to all traffic",
+  "contact": "COTP Key West (305) 292-8727, VHF 16",
+  "map": "not mapped"
+ },
+ {
+  "cfr": "165.711",
+  "title": "Port Everglades aircraft carrier moving zone",
+  "type": "safety zone",
+  "fixed_or_moving": "moving 700/500/350 yd",
+  "active": "carrier transit",
+  "prohibits": "entry, transit, remaining",
+  "contact": "COTP Miami (305) 535-4472, VHF 16",
+  "map": "list only"
+ },
+ {
+  "cfr": "165.720",
+  "title": "Hurricanes, Jacksonville, Fernandina, Canaveral",
+  "type": "safety zone",
+  "fixed_or_moving": "port-wide",
+  "active": "hurricane port conditions",
+  "prohibits": "commercial vessel restrictions",
+  "contact": "COTP Jacksonville (904) 564-7513, VHF 16",
+  "map": "not mapped"
+ },
+ {
+  "cfr": "165.721",
+  "title": "St. Johns River fireworks, Hart to Acosta bridges",
+  "type": "safety zone",
+  "fixed_or_moving": "500 yd around barge",
+  "active": "fireworks events",
+  "prohibits": "anchoring, mooring, transiting",
+  "contact": "COTP Jacksonville (904) 564-7513, VHF 16",
+  "map": "list only"
+ },
+ {
+  "cfr": "165.722",
+  "title": "NAS Jacksonville security zone",
+  "type": "security zone",
+  "fixed_or_moving": "fixed, 400 ft band",
+  "active": "always",
+  "prohibits": "entry, remaining",
+  "contact": "COTP Jacksonville (904) 564-7513, VHF 16",
+  "map": "markers"
+ },
+ {
+  "cfr": "165.723",
+  "title": "Fireworks, COTP Zone Jacksonville",
+  "type": "safety zone",
+  "fixed_or_moving": "500 yd around barge",
+  "active": "fireworks events",
+  "prohibits": "entry, transit, anchoring, remaining",
+  "contact": "COTP Jacksonville (904) 564-7513, VHF 16",
+  "map": "list only"
+ },
+ {
+  "cfr": "165.726",
+  "title": "Miami River RNA",
+  "type": "RNA",
+  "fixed_or_moving": "fixed (river)",
+  "active": "always",
+  "prohibits": "mooring/rafting rules only; not an in-water ban",
+  "contact": "COTP Miami (305) 535-4472, VHF 16",
+  "map": "not mapped"
+ },
+ {
+  "cfr": "165.728/.729",
+  "title": "Maritime Prepositioned Ship zones, St. Johns River, Blount Island",
+  "type": "safety + security zone",
+  "fixed_or_moving": "moving 200 yd / fixed",
+  "active": "ship transiting or moored",
+  "prohibits": "entry by all persons and vessels",
+  "contact": "COTP Jacksonville (904) 564-7513, VHF 16",
+  "map": "Zone C line"
+ },
+ {
+  "cfr": "165.730/.731/.732",
+  "title": "Kings Bay RNA and security zone; escorted submarines (St. Marys entrance)",
+  "type": "RNA + security zone",
+  "fixed_or_moving": "fixed (GA) + 1 nm moving",
+  "active": "always (GA fixed); submarine escort (RNA)",
+  "prohibits": "GA zone entry; RNA obey orders",
+  "contact": "COTP Jacksonville (904) 564-7513, VHF 16",
+  "map": "list only (GA waters)"
+ },
+ {
+  "cfr": "165.753",
+  "title": "Tampa Bay RNA",
+  "type": "RNA",
+  "fixed_or_moving": "bay-wide",
+  "active": "always",
+  "prohibits": "radio reporting by vessels 50 m+; not an in-water ban",
+  "contact": "COTP St. Petersburg (727) 824-7506, VHF 16",
+  "map": "not mapped"
+ },
+ {
+  "cfr": "165.759",
+  "title": "Jacksonville, Fernandina, Canaveral 100 yd vessel zones",
+  "type": "security zone",
+  "fixed_or_moving": "moving + moored 100 yd",
+  "active": "vessel present",
+  "prohibits": "entry",
+  "contact": "COTP Jacksonville, VHF 22 broadcasts",
+  "map": "list only"
+ },
+ {
+  "cfr": "165.760",
+  "title": "Palm Beach, Port Everglades, Miami vessel and port zones",
+  "type": "security zone",
+  "fixed_or_moving": "moving + moored 100 yd; fixed port zones",
+  "active": "always (PE fixed); in effect (Miami channel)",
+  "prohibits": "entry",
+  "contact": "COTP Miami (305) 535-4472, VHF 16",
+  "map": "drawn / lines"
+ },
+ {
+  "cfr": "165.761",
+  "title": "Port of Key West 100 yd vessel zones",
+  "type": "security zone",
+  "fixed_or_moving": "moving + moored 100 yd",
+  "active": "vessel present",
+  "prohibits": "entry, anchoring, remaining",
+  "contact": "COTP Key West (305) 292-8727, VHF 16",
+  "map": "list only"
+ },
+ {
+  "cfr": "165.764",
+  "title": "Sector Key West, Trumbo Point",
+  "type": "security zone",
+  "fixed_or_moving": "fixed 100 yd",
+  "active": "always",
+  "prohibits": "entry; anchoring, loitering, fishing",
+  "contact": "COTP Key West (305) 292-8727, VHF 16",
+  "map": "markers"
+ },
+ {
+  "cfr": "165.765",
+  "title": "Port Everglades harbor RNA",
+  "type": "RNA",
+  "fixed_or_moving": "fixed",
+  "active": "always",
+  "prohibits": "slow speed only",
+  "contact": "COTP Miami (305) 535-4472, VHF 16",
+  "map": "drawn (warn)"
+ },
+ {
+  "cfr": "165.773",
+  "title": "Escorted vessels, COTP Zone Jacksonville",
+  "type": "security zone",
+  "fixed_or_moving": "moving/fixed 500 yd (inner 100 yd absolute)",
+  "active": "escort present",
+  "prohibits": "entry",
+  "contact": "COTP Jacksonville (904) 564-7513, VHF 16",
+  "map": "list only"
+ },
+ {
+  "cfr": "165.775",
+  "title": "Cape Canaveral launch RNA, 5 launch hazard areas",
+  "type": "RNA",
+  "fixed_or_moving": "fixed prescribed areas",
+  "active": "launch periods",
+  "prohibits": "transit, anchoring, mooring when activated",
+  "contact": "COTP Jacksonville (904) 564-7513, VHF 16",
+  "map": "5 rings (warn)"
+ },
+ {
+  "cfr": "165.777",
+  "title": "Port Canaveral West Basin",
+  "type": "security zone",
+  "fixed_or_moving": "fixed",
+  "active": "activated for cruise ships at MARSEC 2/3",
+  "prohibits": "entry",
+  "contact": "COTP Jacksonville (904) 564-7513, VHF 16",
+  "map": "line"
+ },
+ {
+  "cfr": "165.779",
+  "title": "Biscayne Bay holiday RNA",
+  "type": "RNA",
+  "fixed_or_moving": "fixed",
+  "active": "3 holiday periods",
+  "prohibits": "15 kn limit only",
+  "contact": "COTP Miami (305) 535-4472, VHF 16",
+  "map": "drawn (warn)"
+ },
+ {
+  "cfr": "165.781",
+  "title": "Hurricanes, Western Florida (Fenholloway to Chokoloskee)",
+  "type": "safety zone",
+  "fixed_or_moving": "COTP zone",
+  "active": "hurricane port conditions",
+  "prohibits": "commercial focus",
+  "contact": "COTP St. Petersburg (727) 824-7506, VHF 16",
+  "map": "not mapped"
+ },
+ {
+  "cfr": "165.782",
+  "title": "Restricted visibility, Tampa Bay",
+  "type": "safety zone",
+  "fixed_or_moving": "bay zones",
+  "active": "visibility under 1 nm",
+  "prohibits": "transit restrictions for large vessels",
+  "contact": "COTP St. Petersburg (727) 824-7506, VHF 16",
+  "map": "not mapped"
+ },
+ {
+  "cfr": "165.783",
+  "title": "Fireworks, COTP Zone St. Petersburg",
+  "type": "safety zone",
+  "fixed_or_moving": "500 yd around platform",
+  "active": "fireworks events",
+  "prohibits": "entry, transit, anchoring, remaining",
+  "contact": "COTP St. Petersburg (727) 824-7506, VHF 16",
+  "map": "list only"
+ },
+ {
+  "cfr": "165.785",
+  "title": "Presidential Security Zone, Palm Beach",
+  "type": "security zone",
+  "fixed_or_moving": "fixed (3 zones)",
+  "active": "protectee present",
+  "prohibits": "Center: entry; West/East: transit rules",
+  "contact": "COTP Miami (305) 535-4472",
+  "map": "already mapped"
+ },
+ {
+  "cfr": "165.786",
+  "title": "Sector Key West recurring swims and paddle races",
+  "type": "safety zone",
+  "fixed_or_moving": "moving around participants",
+  "active": "4 annual events",
+  "prohibits": "entry, transit, anchoring, remaining",
+  "contact": "COTP Key West (305) 292-8727, VHF 16",
+  "map": "list only"
+ },
+ {
+  "cfr": "165.790",
+  "title": "CG Base Miami Beach slip RNA",
+  "type": "RNA",
+  "fixed_or_moving": "fixed",
+  "active": "always",
+  "prohibits": "7 mph, no passing",
+  "contact": "COTP Miami (305) 535-4472, VHF 16",
+  "map": "drawn (warn)"
+ },
+ {
+  "cfr": "165.792",
+  "title": "Port of Miami RNA",
+  "type": "RNA",
+  "fixed_or_moving": "channels",
+  "active": "always",
+  "prohibits": "slow speed only",
+  "contact": "COTP Miami (305) 535-4472, VHF 16",
+  "map": "not mapped"
+ },
+ {
+  "cfr": "165.801 T7",
+  "title": "Sector Mobile recurring events in Florida (Destin, Niceville, Mary Esther, Pensacola Beach Air Show)",
+  "type": "safety zone",
+  "fixed_or_moving": "around barge / show box",
+  "active": "annual event dates",
+  "prohibits": "entry",
+  "contact": "COTP Mobile (251) 441-6211, VHF 16",
+  "map": "Show Box drawn; others list"
+ },
+ {
+  "cfr": "165.836",
+  "title": "Escorted vessels, COTP Zone Mobile (covers Panhandle)",
+  "type": "security zone",
+  "fixed_or_moving": "moving/fixed 500 yd",
+  "active": "escort present",
+  "prohibits": "entry",
+  "contact": "COTP Mobile (251) 441-6211, VHF 16",
+  "map": "list only"
+ },
+ {
+  "cfr": "165.2025",
+  "title": "Naval vessel protection zone",
+  "type": "naval vessel protection zone",
+  "fixed_or_moving": "moving 100/500 yd",
+  "active": "naval vessel present",
+  "prohibits": "no person within 100 yd",
+  "contact": "Coast Guard / senior naval officer, VHF 16",
+  "map": "list only"
+ },
+ {
+  "cfr": "334.500",
+  "title": "NAVSTA Mayport restricted areas and danger zone",
+  "type": "restricted area + danger zone",
+  "fixed_or_moving": "fixed",
+  "active": "always; danger zone during munitions moves",
+  "prohibits": "entering, transiting, drifting, dredging, anchoring",
+  "contact": "CO NAVSTA Mayport",
+  "map": "markers + line"
+ },
+ {
+  "cfr": "334.505",
+  "title": "CG Station Mayport",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed",
+  "active": "always",
+  "prohibits": "entry, drifting, anchoring; fishing and aquatic activities",
+  "contact": "CO CG Station Mayport",
+  "map": "drawn"
+ },
+ {
+  "cfr": "334.510",
+  "title": "Navy Fuel Depot pier, St. Johns River",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed",
+  "active": "always",
+  "prohibits": "use of waters by persons or craft",
+  "contact": "OIC Navy Fuel Depot",
+  "map": "line"
+ },
+ {
+  "cfr": "334.515",
+  "title": "Blount Island Command",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed",
+  "active": "always",
+  "prohibits": "entering, transiting, anchoring, drifting",
+  "contact": "CO MCSF Blount Island",
+  "map": "markers"
+ },
+ {
+  "cfr": "334.520",
+  "title": "Lake George naval bombing area",
+  "type": "danger zone",
+  "fixed_or_moving": "fixed",
+  "active": "during bombing",
+  "prohibits": "leave when warned",
+  "contact": "Navy, NAS Jacksonville",
+  "map": "drawn"
+ },
+ {
+  "cfr": "334.525",
+  "title": "Atlantic off KSC (1.5 nm)",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed",
+  "active": "launches or threats",
+  "prohibits": "entering, transiting, anchoring, drifting",
+  "contact": "Director KSC",
+  "map": "markers"
+ },
+ {
+  "cfr": "334.530",
+  "title": "Navy pier, Canaveral Harbor (200 ft)",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed (distance-described)",
+  "active": "red Bravo flag/beacon shown",
+  "prohibits": "presence of unauthorized vessels and personnel",
+  "contact": "Naval Ordnance Test Unit",
+  "map": "list only"
+ },
+ {
+  "cfr": "334.540",
+  "title": "Banana River at Cape Canaveral SFS",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed",
+  "active": "when closed for threats",
+  "prohibits": "entering, transiting, anchoring, drifting",
+  "contact": "Space Launch Delta 45",
+  "map": "line"
+ },
+ {
+  "cfr": "334.560",
+  "title": "Banana River at Patrick SFB",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed",
+  "active": "always",
+  "prohibits": "stay clear",
+  "contact": "Space Launch Delta 45",
+  "map": "drawn"
+ },
+ {
+  "cfr": "334.570",
+  "title": "Banana River north of NASA Causeway (Orsino)",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed (shoreline-bounded)",
+  "active": "always",
+  "prohibits": "stay clear",
+  "contact": "Director KSC",
+  "map": "list only (needs GIS water polygon)"
+ },
+ {
+  "cfr": "334.580",
+  "title": "Atlantic near Port Everglades",
+  "type": "restricted area (unlabelled)",
+  "fixed_or_moving": "fixed",
+  "active": "always",
+  "prohibits": "anchoring, trawling, dredging, attaching objects to bottom",
+  "contact": "NSWC Det. Dania",
+  "map": "drawn (warn)"
+ },
+ {
+  "cfr": "334.590",
+  "title": "Atlantic off Cape Canaveral missile testing (3 nm)",
+  "type": "danger zone",
+  "fixed_or_moving": "fixed (offset/bearings)",
+  "active": "signals displayed",
+  "prohibits": "leave immediately",
+  "contact": "Space Launch Delta 45",
+  "map": "list only"
+ },
+ {
+  "cfr": "334.595",
+  "title": "Atlantic off Cape Canaveral SFS (1.5 nm)",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed",
+  "active": "when closed for threats",
+  "prohibits": "entering, transiting, anchoring, drifting",
+  "contact": "Space Launch Delta 45",
+  "map": "markers"
+ },
+ {
+  "cfr": "334.600",
+  "title": "Trident Basin",
+  "type": "danger zone",
+  "fixed_or_moving": "fixed",
+  "active": "always",
+  "prohibits": "entry",
+  "contact": "Naval Ordnance Test Unit",
+  "map": "line"
+ },
+ {
+  "cfr": "334.605",
+  "title": "Meloy Channel, CG Base Miami Beach",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed",
+  "active": "always",
+  "prohibits": "entry, drifting, anchoring; fishing and aquatic activities",
+  "contact": "CG Base Miami Beach",
+  "map": "drawn"
+ },
+ {
+  "cfr": "334.610",
+  "title": "Key West naval areas 1 to 6",
+  "type": "restricted areas + danger zone",
+  "fixed_or_moving": "fixed",
+  "active": "always",
+  "prohibits": "entering/crossing (Areas 1, 4, 6); stopping/landing all; fishing within 50 ft of Gov piers",
+  "contact": "CO NAS Key West",
+  "map": "drawn / lines"
+ },
+ {
+  "cfr": "334.620",
+  "title": "NAS Key West training area and Marquesas targets",
+  "type": "danger zones",
+  "fixed_or_moving": "fixed",
+  "active": "announced operations",
+  "prohibits": "exclusion from targets/operation zones",
+  "contact": "Navy (NAS Key West)",
+  "map": "drawn (warn)"
+ },
+ {
+  "cfr": "334.630",
+  "title": "MacDill small-arms range",
+  "type": "danger zone",
+  "fixed_or_moving": "fixed",
+  "active": "always",
+  "prohibits": "entry",
+  "contact": "MacDill AFB",
+  "map": "drawn"
+ },
+ {
+  "cfr": "334.635",
+  "title": "MacDill restricted area",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed",
+  "active": "always",
+  "prohibits": "entering, transiting, anchoring, drifting",
+  "contact": "MacDill AFB",
+  "map": "drawn"
+ },
+ {
+  "cfr": "334.640",
+  "title": "Gulf south of Apalachee Bay rocket range",
+  "type": "danger zone",
+  "fixed_or_moving": "fixed",
+  "active": "announced firing",
+  "prohibits": "leave when warned",
+  "contact": "Moody AFB",
+  "map": "drawn (warn)"
+ },
+ {
+  "cfr": "334.650",
+  "title": "Gulf south of St. George Island helicopter range",
+  "type": "danger zone",
+  "fixed_or_moving": "fixed",
+  "active": "weekday daylight firing",
+  "prohibits": "none stated (surveillance stops firing)",
+  "contact": "Army Aviation Test Board",
+  "map": "drawn (warn)"
+ },
+ {
+  "cfr": "334.660",
+  "title": "Tyndall drone recovery area",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed",
+  "active": "twice daily, 1 hour",
+  "prohibits": "navigation restricted",
+  "contact": "Tyndall AFB",
+  "map": "drawn (warn)"
+ },
+ {
+  "cfr": "334.665",
+  "title": "Tyndall enhanced threat restricted area",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed 500 ft band",
+  "active": "only when activated",
+  "prohibits": "entry, transit, drifting, anchoring, bottom attachment",
+  "contact": "Tyndall AFB",
+  "map": "markers"
+ },
+ {
+  "cfr": "334.670",
+  "title": "Tyndall air-to-air range",
+  "type": "danger zone",
+  "fixed_or_moving": "fixed",
+  "active": "daylight firing",
+  "prohibits": "clear when warned",
+  "contact": "Tyndall AFB",
+  "map": "drawn (warn)"
+ },
+ {
+  "cfr": "334.680",
+  "title": "Tyndall small-arms ranges",
+  "type": "danger zones",
+  "fixed_or_moving": "fixed",
+  "active": "firing (red flag)",
+  "prohibits": "entry, remaining",
+  "contact": "Tyndall AFB",
+  "map": "drawn/line (warn)"
+ },
+ {
+  "cfr": "334.700",
+  "title": "Choctawhatchee Bay gunnery ranges",
+  "type": "danger zones",
+  "fixed_or_moving": "fixed",
+  "active": "firing / activation",
+  "prohibits": "north-shore range: entry, remaining",
+  "contact": "96 ABW Eglin",
+  "map": "lines (warn)"
+ },
+ {
+  "cfr": "334.710",
+  "title": "The Narrows and Gulf, Eglin",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed",
+  "active": "intermittent daylight use",
+  "prohibits": "entry",
+  "contact": "96 ABW Eglin",
+  "map": "drawn (warn)"
+ },
+ {
+  "cfr": "334.720",
+  "title": "Gulf missile test area, Eglin",
+  "type": "danger zone",
+  "fixed_or_moving": "fixed",
+  "active": "announced firing",
+  "prohibits": "clear when warned",
+  "contact": "96 ABW Eglin",
+  "map": "seaward legs (warn)"
+ },
+ {
+  "cfr": "334.730",
+  "title": "Test Site A-3 (Tuck 3), Eglin",
+  "type": "danger zone + restricted areas",
+  "fixed_or_moving": "fixed",
+  "active": "tests / high threat",
+  "prohibits": "entry during tests; ICW transit only at high threat",
+  "contact": "96 ABW Eglin",
+  "map": "drawn (warn)"
+ },
+ {
+  "cfr": "334.740/.742/.744/.748",
+  "title": "Eglin shoreline restricted areas",
+  "type": "restricted areas",
+  "fixed_or_moving": "fixed bands",
+  "active": "high security threat",
+  "prohibits": "entering, transiting, anchoring, drifting",
+  "contact": "96 ABW Eglin",
+  "map": "markers"
+ },
+ {
+  "cfr": "334.746",
+  "title": "CG Station Destin",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed",
+  "active": "always",
+  "prohibits": "entry",
+  "contact": "CG Station Destin",
+  "map": "drawn"
+ },
+ {
+  "cfr": "334.760",
+  "title": "NSA Panama City shoreline (100 ft)",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed band",
+  "active": "always",
+  "prohibits": "entering, transiting, anchoring, drifting",
+  "contact": "NSA Panama City",
+  "map": "markers"
+ },
+ {
+  "cfr": "334.761",
+  "title": "NSA Panama City AP-1, BA-1 to BA-5",
+  "type": "restricted areas",
+  "fixed_or_moving": "fixed boxes; moving security zones inside",
+  "active": "training events",
+  "prohibits": "entering, transiting, anchoring, drifting in military security zones",
+  "contact": "NSA Panama City",
+  "map": "drawn (warn)"
+ },
+ {
+  "cfr": "334.762",
+  "title": "NSA Panama City NB-1 to NB-3",
+  "type": "restricted areas",
+  "fixed_or_moving": "fixed boxes",
+  "active": "training events",
+  "prohibits": "no prohibition sentence in text",
+  "contact": "NSA Panama City",
+  "map": "drawn (warn)"
+ },
+ {
+  "cfr": "334.763",
+  "title": "NSA Panama City Gulf",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed box",
+  "active": "training events",
+  "prohibits": "no prohibition sentence in text",
+  "contact": "NSA Panama City",
+  "map": "drawn (warn)"
+ },
+ {
+  "cfr": "334.770",
+  "title": "Tyndall Drone Launch Corridor",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed",
+  "active": "weekdays 7 to 5, launches",
+  "prohibits": "VHF required; vacate 60 min before launch",
+  "contact": "Tyndall AFB",
+  "map": "drawn (warn)"
+ },
+ {
+  "cfr": "334.775",
+  "title": "NAS Pensacola naval restricted areas",
+  "type": "restricted areas",
+  "fixed_or_moving": "fixed",
+  "active": "naval operations",
+  "prohibits": "approach within 300 yd of naval craft",
+  "contact": "NAS Pensacola",
+  "map": "line + ring (warn)"
+ },
+ {
+  "cfr": "334.778",
+  "title": "NAS Pensacola restricted area",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed",
+  "active": "always",
+  "prohibits": "entry for any reason; 500 ft from piers and Gov vessels",
+  "contact": "NAS Pensacola",
+  "map": "lines"
+ },
+ {
+  "cfr": "334.780",
+  "title": "Pensacola Bay seaplane restricted area",
+  "type": "restricted area",
+  "fixed_or_moving": "fixed",
+  "active": "always",
+  "prohibits": "entry for any reason",
+  "contact": "NAS Pensacola",
+  "map": "line"
+ }
+]

@@ -1,0 +1,268 @@
+a1-currency | fac-68b-7-008-5 | added
+a1-currency | bnp-legare | dropped, duplicate of bnp-compendium-dive
+a1-currency | fac-68b-13-008-1 | added
+a1-currency | fac-68b-45-004-1 | added
+a1-currency | fac-68b-42-007 | added
+a1-currency | neg-uap | added
+a1-currency | bnp-status | updated title,effect,scope,note
+a1-currency | cfr-33-165-785 | updated effect,excerpt,scope,note
+a1-currency | cfr-33-165-760 | updated excerpt,scope,note
+a1-currency | fac-68b-14-009 | updated url,excerpt,full,note
+a1-currency | fac-68b-20-003-2 | updated excerpt
+a1-currency | fs-790-33 | updated excerpt
+a1-currency | fs-379-354 | updated cite,url,excerpt,full,note
+a1-currency | fs-316-1305 | updated excerpt
+a1-currency | fs-327-331 | updated excerpt
+a1-currency | fs-267-13 | updated excerpt,note
+a1-currency | cfr-622-183 | updated note
+a1-currency | cfr-622-34 | updated note
+a1-currency | cfr-922-164-d | updated note
+a1-currency | fac-68c-22 | updated note
+a1-currency | fac-68b-42-0036 | updated note
+a1-currency | fs-379-101-33 | updated note
+a1-currency | fac-68b-20-005 | updated note
+a2-federal | cfr-622-183-a2 | added
+a2-federal | cfr-622-182 | added
+a2-federal | cfr-622-180-b | added
+a2-federal | cfr-622-183-b4 | added
+a2-federal | cfr-622-181-b | added
+a2-federal | cfr-622-188-a4 | added
+a2-federal | cfr-622-224-b2 | added
+a2-federal | cfr-622-272 | added
+a2-federal | cfr-600-725 | added
+a2-federal | cfr-622-375-a | added
+a2-federal | cfr-622-35-a | added
+a2-federal | cfr-622-74 | added
+a2-federal | cfr-635-21-h | added
+a2-federal | cfr-622-404-a | added
+a2-federal | cfr-50-27-21 | added
+a2-federal | cfr-50-32-28-g | added
+a2-federal | cfr-50-32-28-h | added
+a2-federal | cfr-50-32-28-m | added
+a2-federal | cfr-50-32-28-b | added
+a2-federal | cfr-50-32-28-k | added
+a2-federal | cfr-50-32-28-d | added
+a2-federal | cfr-50-32-28 | updated cite,title,juris,kind,url,effect,excerpt,full,verified,scope,note,geom
+a2-federal | cfr-36-7-27-rna | added
+a2-federal | bnp-compendium-dive | added
+a2-federal | guis-compendium | added
+a2-federal | cana-compendium | added
+a2-federal | ne-fl-nps-compendia | added
+a2-federal | neg-onms | added
+a2-federal | neg-fed-spear-gulf | added
+a3-uscg-mil | cfr-33-165-701 | added
+a3-uscg-mil | cfr-33-165-703 | added
+a3-uscg-mil | cfr-33-165-705 | added
+a3-uscg-mil | cfr-33-165-711 | added
+a3-uscg-mil | cfr-33-165-721 | added
+a3-uscg-mil | cfr-33-165-722 | added
+a3-uscg-mil | cfr-33-165-723 | added
+a3-uscg-mil | cfr-33-165-728 | added
+a3-uscg-mil | cfr-33-165-731 | added
+a3-uscg-mil | cfr-33-165-759 | added
+a3-uscg-mil | cfr-33-165-760-b | added
+a3-uscg-mil | cfr-33-165-761 | added
+a3-uscg-mil | cfr-33-165-764 | added
+a3-uscg-mil | cfr-33-165-765 | added
+a3-uscg-mil | cfr-33-165-773 | added
+a3-uscg-mil | cfr-33-165-775 | added
+a3-uscg-mil | cfr-33-165-777 | added
+a3-uscg-mil | cfr-33-165-779 | added
+a3-uscg-mil | cfr-33-165-783 | added
+a3-uscg-mil | cfr-33-165-785-psz | added
+a3-uscg-mil | cfr-33-165-786 | added
+a3-uscg-mil | cfr-33-165-790 | added
+a3-uscg-mil | cfr-33-165-792 | added
+a3-uscg-mil | cfr-33-165-801-mob | added
+a3-uscg-mil | cfr-33-165-2025 | added
+a3-uscg-mil | cfr-33-334-500 | added
+a3-uscg-mil | cfr-33-334-505 | added
+a3-uscg-mil | cfr-33-334-510 | added
+a3-uscg-mil | cfr-33-334-515 | added
+a3-uscg-mil | cfr-33-334-520 | added
+a3-uscg-mil | cfr-33-334-525 | added
+a3-uscg-mil | cfr-33-334-530 | added
+a3-uscg-mil | cfr-33-334-540 | added
+a3-uscg-mil | cfr-33-334-560 | added
+a3-uscg-mil | cfr-33-334-570 | added
+a3-uscg-mil | cfr-33-334-580 | added
+a3-uscg-mil | cfr-33-334-590 | added
+a3-uscg-mil | cfr-33-334-595 | added
+a3-uscg-mil | cfr-33-334-600 | added
+a3-uscg-mil | cfr-33-334-605 | added
+a3-uscg-mil | cfr-33-334-610 | added
+a3-uscg-mil | cfr-33-334-620 | added
+a3-uscg-mil | cfr-33-334-630 | added
+a3-uscg-mil | cfr-33-334-635 | added
+a3-uscg-mil | cfr-33-334-640 | added
+a3-uscg-mil | cfr-33-334-650 | added
+a3-uscg-mil | cfr-33-334-660 | added
+a3-uscg-mil | cfr-33-334-665 | added
+a3-uscg-mil | cfr-33-334-670 | added
+a3-uscg-mil | cfr-33-334-680 | added
+a3-uscg-mil | cfr-33-334-700 | added
+a3-uscg-mil | cfr-33-334-710 | added
+a3-uscg-mil | cfr-33-334-720 | added
+a3-uscg-mil | cfr-33-334-730 | added
+a3-uscg-mil | cfr-33-334-740 | added
+a3-uscg-mil | cfr-33-334-746 | added
+a3-uscg-mil | cfr-33-334-760 | added
+a3-uscg-mil | cfr-33-334-761 | added
+a3-uscg-mil | cfr-33-334-770 | added
+a3-uscg-mil | cfr-33-334-775 | added
+a3-uscg-mil | cfr-33-334-778 | added
+a3-uscg-mil | cfr-33-334-780 | added
+a3-uscg-mil | neg-cfr-32-761-florida | added
+a3-uscg-mil | neg-cfr-33-334-below-500-florida | added
+a4-state | fac-68b-25-003 | added
+a4-state | fac-68b-3-009 | added
+a4-state | fac-68c-22-002-11 | added
+a4-state | cfr-50-17-108-a | added
+a4-state | fac-68b-11-003 | added
+a4-state | fac-68b-24-005-2 | added
+a4-state | fac-68b-24-0065 | added
+a4-state | fac-68b-24-006-10 | added
+a4-state | fac-68b-24-007-4 | added
+a4-state | fac-68b-7-008-1 | added
+a4-state | fac-68b-6-004 | added
+a4-state | fac-68b-6-003 | added
+a4-state | fs-403-93345 | added
+a4-state | neg-kristinjacobs | added
+a4-state | neg-nerr | added
+a4-state | neg-bufferpreserve | added
+a4-state | neg-68b-areas | added
+a4-state | monroe-26-art4 | added
+a4-state | cfr-50-32-28-g4 | dropped, duplicate of cfr-50-32-28-g
+a4-state | cfr-50-32-28-m4 | dropped, duplicate of cfr-50-32-28-m
+a5-local | madeira-78-3 | added
+a5-local | ti-58-34 | updated cite,title,juris,kind,url,effect,excerpt,full,verified,scope,note,geom
+a5-local | ti-22-2 | added
+a5-local | venice-46-114 | added
+a5-local | sarasota-city-10-66 | added
+a5-local | cedarkey-2-4-02 | added
+a5-local | dania-6-12 | added
+a5-local | hallandale-16-23 | added
+a5-local | lbts-5-4 | added
+a5-local | pompano-98-12 | added
+a5-local | pompano-91-22 | added
+a5-local | lwb-7-33 | added
+a5-local | lantana-5-18 | added
+a5-local | juno-16-4 | added
+a5-local | balharbour-12-7 | added
+a5-local | melbourne-40-2 | added
+a5-local | miamibeach-82-441 | added
+a5-local | sib-108-4 | added
+a5-local | annamaria-110-122 | added
+a5-local | boca-9-3 | added
+a5-local | delray-101-34 | added
+a5-local | deerfield-50-112 | added
+a5-local | lee-20-25 | added
+a5-local | fmb-18-24 | added
+a5-local | bonita-28-31 | added
+a5-local | hillsborough-38-25 | added
+a5-local | manatee-2-24-6 | added
+a5-local | marco-54-173 | added
+a5-local | dunedin-86-108 | added
+a5-local | fortpierce-28-4 | added
+a5-local | brevard-78-112 | added
+a5-local | lakepark-76-89 | added
+a5-local | kcb-12-9 | added
+a5-local | neg-jax-388 | added
+a5-local | neg-miami-city | added
+a5-local | neg-stuart-panamacitybeach | added
+a5-local | neg-panhandle | added
+a5-local | neg-nature-coast | added
+a5-local | neg-ne-florida | added
+a5-local | neg-treasure-coast | added
+a5-local | neg-southeast | added
+a5-local | neg-southwest | added
+a6-species | fac-68b-14-0035 | added
+a6-species | fac-68b-14-0036 | added
+a6-species | fac-68b-14-0038 | added
+a6-species | fac-68b-14-0039 | added
+a6-species | fac-68b-14-004 | added
+a6-species | fac-68b-14-0041 | added
+a6-species | fac-68b-14-0042 | added
+a6-species | fac-68b-14-0043 | added
+a6-species | fac-68b-14-005 | added
+a6-species | fac-68b-14-008 | added
+a6-species | fac-68b-19-003 | added
+a6-species | fac-68b-59-003 | added
+a6-species | fac-68b-48-003 | added
+a6-species | fac-68b-36-003 | added
+a6-species | fac-68b-49-006 | added
+a6-species | fac-68b-44-006 | added
+a6-species | fac-68b-24-006 | added
+a6-species | fac-68b-5-006 | added
+a6-species | fac-68b-60-003 | added
+a6-species | fac-68b-57-004 | added
+a6-species | fac-68b-41-004 | added
+a6-species | fac-68b-61-004 | added
+a6-species | fac-68b-62-004 | added
+a6-species | fac-68b-23-004 | added
+a6-species | fac-68b-30-003 | added
+a6-species | fac-68b-12-004 | added
+a6-species | fac-68b-7-003 | added
+a6-species | fs-379-361-2i | added
+a6-species | fwc-eo-26-33 | added
+a6-species | fwc-eo-26-25 | added
+a6-species | fwc-eo-26-10 | added
+a6-species | fwc-eo-26-26 | added
+a6-species | fwc-eo-26-18 | added
+a6-species | fwc-rs-gulf-2026 | added
+a6-species | cfr-622-181 | added
+a6-species | cfr-622-183-b | added
+a6-species | cfr-622-185 | added
+a6-species | cfr-622-187 | added
+a6-species | cfr-622-34-b | added
+a6-species | cfr-622-33 | added
+a6-species | cfr-622-37 | added
+a6-species | cfr-622-38 | added
+a6-species | cfr-622-92 | added
+a6-species | cfr-697-7-f | added
+a6-species | cfr-622-375 | added
+a6-species | cfr-622-380 | added
+a6-species | cfr-622-272 | skipped: a2-federal read the same paragraph; its entry is kept
+a6-species | cfr-622-404 | added
+a6-species | cfr-635-19 | added
+a6-species | cfr-622-182-smz | added
+a6-species | fr-91-60334 | added
+a6-species | fr-91-21389 | added
+a6-species | fr-91-29920 | added
+a6-species | fr-91-32906 | added
+a6-species | fr-91-14651 | added
+a6-species | fr-91-36545 | added
+a6-species | noaa-fb26-029 | added
+a6-species | neg-species-gear | added
+a6-species | fac-68b-20-005 | updated excerpt,note
+v1-verify | marathon-18-27 | added
+v1-verify | pbtown-74-161 | added
+v1-verify | pbtown-74-200 | added
+v1-verify | tampa-16-76 | added
+v1-verify | tampa-16-41 | added
+v1-verify | redshores-77-2 | added
+v1-verify | naples-42-52 | added
+v1-verify | ormond-15-6 | added
+v1-verify | volusia-82-51 | added
+v1-verify | wakulla-23-005 | added
+v1-verify | santarosa-14-52 | added
+v1-verify | escambia-74-36-18 | added
+v1-verify | pompano-91-22 | updated cite,title,juris,kind,url,effect,excerpt,full,verified,scope,note,geom
+release-wording | bnp-status | updated title,effect
+release-wording | fac-68b-20-003-1 | updated title,effect,note
+release-wording | fs-316-1305 | updated effect
+release-wording | fac-68b-14-005 | updated title,effect
+release-wording | fac-68b-19-003 | updated effect
+release-wording | fac-68b-59-003 | updated title
+release-wording | fac-68b-48-003 | updated title
+release-wording | fac-68b-36-003 | updated effect
+release-wording | fac-68b-5-006 | updated title,effect
+release-wording | fac-68b-41-004 | updated title,effect
+release-wording | fac-68b-23-004 | updated title
+release-wording | cfr-622-272 | updated effect
+release-wording | cfr-635-19 | updated title
+release-wording | neg-species-gear | updated effect
+release-wording | fac-68b-45-004-1 | updated title
+release-wording | fac-68b-42-007 | updated title
+release-wording | hillsborough-38-25 | updated note
+release-wording | cfr-622-182 | updated effect

@@ -1,0 +1,6528 @@
+[
+ {
+  "id": "uscg-165-703-a1i-oldporttampa",
+  "name": "Old Port Tampa security zone",
+  "law": [
+   "cfr-33-165-703"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     27.86033,
+     -82.55233
+    ],
+    [
+     27.86183,
+     -82.54167
+    ],
+    [
+     27.86267,
+     -82.54167
+    ],
+    [
+     27.86217,
+     -82.55267
+    ],
+    [
+     27.86033,
+     -82.55233
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 165.703(a)(1)(i)",
+  "active": "always",
+  "note": "Fixed security zone, surface to bottom, closing off the Old Port Tampa Channel. Entry or remaining prohibited at all times without COTP St. Petersburg authorization (165.703(c)(1)). Ring closed by the CFR text itself (last point repeats the first). DMS as printed: 27°51.62′ N 082°33.14′ W | 27°51.71′ N 082°32.5′ W | 27°51.76′ N 082°32.5′ W | 27°51.73′ N 082°33.16′ W | 27°51.62′ N 082°33.14′ W",
+  "flag": null
+ },
+ {
+  "id": "uscg-165-703-a1ii-skyway",
+  "name": "Sunshine Skyway Bridge main span security zone",
+  "law": [
+   "cfr-33-165-703"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     27.62167,
+     -82.65633
+    ],
+    [
+     27.61883,
+     -82.65433
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 165.703(a)(1)(ii)",
+  "active": "always (no diving, anchoring, loitering); transit allowed",
+  "note": "Cut A channel beneath the main span. Transit allowed, but no vessel may loiter, anchor, or conduct operations including dive operations. Drawn as the two CFR points only; the zone also takes in the bridge columns, base and dolphins, which have no coordinates. Marked closed because diving is prohibited at all times even though transit is allowed. DMS as printed: 27°37.30′ N 082°39.38′ W | 27°37.13′ N 082°39.26′ W",
+  "flag": "Only the two CFR points across the main span are drawn. The zone is the Cut A channel under the main span plus the bridge columns, base and dolphins within the span; it does not include waters outside the main span."
+ },
+ {
+  "id": "uscg-165-703-a1iv-seaportmanatee",
+  "name": "Seaport Manatee security zone",
+  "law": [
+   "cfr-33-165-703"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     27.62667,
+     -82.56283
+    ],
+    [
+     27.62667,
+     -82.56333
+    ],
+    [
+     27.63883,
+     -82.56317
+    ],
+    [
+     27.63867,
+     -82.55867
+    ],
+    [
+     27.62667,
+     -82.56283
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 165.703(a)(1)(iv)",
+  "active": "always",
+  "note": "Zone is waters within 50 yards of shore, seawall and piers inside the envelope formed by the four CFR points. The whole envelope is drawn, which includes land and some water more than 50 yards from structures; that is the reading that closes more water. DMS as printed: 27°37.60′ N 082°33.77′ W | 27°37.60′ N 082°33.80′ W | 27°38.33′ N 082°33.79′ W | 27°38.32′ N 082°33.52′ W",
+  "flag": "Drawn as the four-point envelope. The legal zone is only the 50-yard band along shore, seawall and piers inside it."
+ },
+ {
+  "id": "uscg-165-703-a1v-macdill",
+  "name": "MacDill AFB security zone (Coast Guard)",
+  "law": [
+   "cfr-33-165-703",
+   "cfr-33-334-635"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     27.86467,
+     -82.4885
+    ],
+    [
+     27.86683,
+     -82.48083
+    ],
+    [
+     27.858,
+     -82.4695
+    ],
+    [
+     27.85033,
+     -82.46267
+    ],
+    [
+     27.84533,
+     -82.46017
+    ],
+    [
+     27.83883,
+     -82.45983
+    ],
+    [
+     27.8275,
+     -82.46217
+    ],
+    [
+     27.82233,
+     -82.46317
+    ],
+    [
+     27.81833,
+     -82.46467
+    ],
+    [
+     27.81467,
+     -82.46833
+    ],
+    [
+     27.81267,
+     -82.47567
+    ],
+    [
+     27.8145,
+     -82.49067
+    ],
+    [
+     27.81767,
+     -82.5065
+    ],
+    [
+     27.8125,
+     -82.5195
+    ],
+    [
+     27.81933,
+     -82.54017
+    ],
+    [
+     27.82733,
+     -82.55067
+    ],
+    [
+     27.8325,
+     -82.54583
+    ],
+    [
+     27.83483,
+     -82.54683
+    ],
+    [
+     27.84267,
+     -82.54583
+    ],
+    [
+     27.84517,
+     -82.53633
+    ],
+    [
+     27.86467,
+     -82.4885
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 165.703(a)(1)(v)",
+  "active": "always",
+  "note": "All waters encompassed within 20 CFR points around the MacDill peninsula. The CFR list ends at the west shore of the base; the ring is closed with a straight chord across base land back to the first point on the northeast shore, which adds only land. Same footprint as the Army Corps restricted area in 33 CFR 334.635: all 20 vertices agree with 334.635 to within 8 m. DMS as printed: 27°51.88′ N 082°29.31′ W | 27°52.01′ N 082°28.85′ W | 27°51.48′ N 082°28.17′ W | 27°51.02′ N 082°27.76′ W | 27°50.72′ N 082°27.61′ W | 27°50.33′ N 082°27.59′ W | 27°49.65′ N 082°27.73′ W | 27°49.34′ N 082°27.79′ W | 27°49.10′ N 082°27.88′ W | 27°48.88′ N 082°28.10′ W | 27°48.76′ N 082°28.54′ W | 27°48.87′ N 082°29.44′ W | 27°49.06′ N 082°30.39′ W | 27°48.75′ N 082°31.17′ W | 27°49.16′ N 082°32.41′ W | 27°49.64′ N 082°33.04′ W | 27°49.95′ N 082°32.75′ W | 27°50.09′ N 082°32.81′ W | 27°50.56′ N 082°32.75′ W | 27°50.71′ N 082°32.18′ W",
+  "flag": null
+ },
+ {
+  "id": "uscg-165-703-a1vi-portsutton",
+  "name": "Port Sutton security zone (closing line)",
+  "law": [
+   "cfr-33-165-703"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     27.9025,
+     -82.43433
+    ],
+    [
+     27.90767,
+     -82.4285
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 165.703(a)(1)(vi)",
+  "active": "always",
+  "note": "Waters within 50 yards of shore, seawall and piers in Port Sutton; the line across the channel mouth closes off all of Port Sutton Channel. Only the closing line has coordinates. DMS as printed: 27°54.15′ N 082°26.06′ W | 27°54.46′ N 082°25.71′ W",
+  "flag": "Only the closing line is drawn. Everything inside Port Sutton Channel landward of the line is closed."
+ },
+ {
+  "id": "uscg-165-703-a1vii-hookerspoint",
+  "name": "Port of Tampa, west side of Hooker's Point, security zone",
+  "law": [
+   "cfr-33-165-703"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     27.91233,
+     -82.44117
+    ],
+    [
+     27.92083,
+     -82.4455
+    ],
+    [
+     27.92667,
+     -82.44667
+    ],
+    [
+     27.93333,
+     -82.44583
+    ],
+    [
+     27.943,
+     -82.44217
+    ],
+    [
+     27.95483,
+     -82.44183
+    ],
+    [
+     27.95483,
+     -82.4435
+    ],
+    [
+     27.94417,
+     -82.44383
+    ],
+    [
+     27.943,
+     -82.44483
+    ],
+    [
+     27.94217,
+     -82.44833
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 165.703(a)(1)(vii)",
+  "active": "always",
+  "note": "Waters within 50 yards of shore, seawall and piers along Cut D, Sparkman Channel, Ybor Turning Basin and Ybor Channel. The CFR gives a 10-point line; the 50-yard band on its landward side has no separate coordinates. DMS as printed: 27°54.74′ N 082°26.47′ W | 27°55.25′ N 082°26.73′ W | 27°55.60′ N 082°26.80′ W | 27°56.00′ N 082°26.75′ W | 27°56.58′ N 082°26.53′ W | 27°57.29′ N 082°26.51′ W | 27°57.29′ N 082°26.61′ W | 27°56.65′ N 082°26.63′ W | 27°56.58′ N 082°26.69′ W | 27°56.53′ N 082°26.90′ W",
+  "flag": "Line only. The closed water is the 50-yard band between this line and the shore."
+ },
+ {
+  "id": "uscg-165-703-a1viii-stpete-seawall",
+  "name": "St. Petersburg Harbor (Bayboro) security zone, seawall",
+  "law": [
+   "cfr-33-165-703"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     27.75933,
+     -82.62583
+    ],
+    [
+     27.762,
+     -82.63283
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 165.703(a)(1)(viii)",
+  "active": "always",
+  "note": "50 yards from the seawall and around moorings and vessels, from day beacon 10 west along the seawall to the cruise terminal. Positions are marked 'approximate' in the CFR. DMS as printed: 27°45.56′ N 082°37.55′ W | 27°45.72′ N 082°37.97′ W",
+  "flag": "Line only between the two approximate CFR positions; the zone is the 50-yard band off the seawall plus the Coast Guard south moorings."
+ },
+ {
+  "id": "uscg-165-703-a1viii-stpete-piers",
+  "name": "St. Petersburg Harbor (Bayboro) security zone, piers",
+  "law": [
+   "cfr-33-165-703"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     27.7585,
+     -82.63317
+    ],
+    [
+     27.75867,
+     -82.62617
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 165.703(a)(1)(viii)",
+  "active": "always",
+  "note": "50 yards around the piers between the two CFR positions. Southern limit is a line from the Salt Creek entrance toward day beacon 11 (no coordinates). DMS as printed: 27°45.51′ N 082°37.99′ W | 27°45.52′ N 082°37.57′ W",
+  "flag": "Line only; 50-yard pier buffer not drawn."
+ },
+ {
+  "id": "uscg-165-703-a1ix-crystalriver-npp",
+  "name": "Crystal River power plant channel security zone",
+  "law": [
+   "cfr-33-165-703"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     28.94783,
+     -82.75283
+    ],
+    [
+     28.95617,
+     -82.69867
+    ],
+    [
+     28.95533,
+     -82.69867
+    ],
+    [
+     28.9465,
+     -82.75217
+    ],
+    [
+     28.94783,
+     -82.75283
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 165.703(a)(1)(ix)",
+  "active": "always",
+  "note": "The CFR lists four points in the order A, B, C, D, which traces a Z. The two pairs are the north and south edges of the Florida Power Corporation channel, so the ring is drawn A, B, D, C. Point order changed; coordinates unchanged. DMS as printed: 28°56.87′ N 082°45.17′ W | 28°57.37′ N 082°41.92′ W | 28°56.79′ N 082°45.13′ W | 28°57.32′ N 082°41.92′ W",
+  "flag": "Vertex order corrected from the CFR listing (A-B-C-D drawn as A-B-D-C) because the literal order self-intersects."
+ },
+ {
+  "id": "uscg-165-703-a1x-demorygap",
+  "name": "Crystal River Demory Gap Channel security zone",
+  "law": [
+   "cfr-33-165-703"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     28.96017,
+     -82.72367
+    ],
+    [
+     28.95917,
+     -82.698
+    ],
+    [
+     28.9585,
+     -82.698
+    ],
+    [
+     28.95967,
+     -82.72367
+    ],
+    [
+     28.96017,
+     -82.72367
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 165.703(a)(1)(x)",
+  "active": "always",
+  "note": "Same bow-tie listing as (a)(1)(ix); drawn A, B, D, C as a channel strip. DMS as printed: 28°57.61′ N 082°43.42′ W | 28°57.55′ N 082°41.88′ W | 28°57.58′ N 082°43.42′ W | 28°57.51′ N 082°41.88′ W",
+  "flag": "Vertex order corrected from the CFR listing (A-B-C-D drawn as A-B-D-C) because the literal order self-intersects."
+ },
+ {
+  "id": "uscg-165-703-a1xi-bigbend",
+  "name": "Big Bend power plant security zone",
+  "law": [
+   "cfr-33-165-703"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     27.80133,
+     -82.41467
+    ],
+    [
+     27.8025,
+     -82.416
+    ],
+    [
+     27.80167,
+     -82.41667
+    ],
+    [
+     27.7975,
+     -82.41717
+    ],
+    [
+     27.793,
+     -82.41483
+    ],
+    [
+     27.793,
+     -82.401
+    ],
+    [
+     27.79367,
+     -82.40067
+    ],
+    [
+     27.79383,
+     -82.41183
+    ],
+    [
+     27.8005,
+     -82.41167
+    ],
+    [
+     27.80133,
+     -82.41467
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 165.703(a)(1)(xi)",
+  "active": "always",
+  "note": "Closes off the entrance to the Big Bend facility and its cooling canal. Ring closed by the CFR text (last point repeats the first). DMS as printed: 27°48.08′ N 082°24.88′ W | 27°48.15′ N 082°24.96′ W | 27°48.10′ N 082°25.00′ W | 27°47.85′ N 082°25.03′ W | 27°47.58′ N 082°24.89′ W | 27°47.58′ N 082°24.06′ W | 27°47.62′ N 082°24.04′ W | 27°47.63′ N 082°24.71′ W | 27°48.03′ N 082°24.70′ W | 27°48.08′ N 082°24.88′ W",
+  "flag": null
+ },
+ {
+  "id": "uscg-165-703-a1xii-weedon",
+  "name": "Weedon Island power plant security zone",
+  "law": [
+   "cfr-33-165-703"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     27.85867,
+     -82.597
+    ],
+    [
+     27.859,
+     -82.59633
+    ],
+    [
+     27.86483,
+     -82.597
+    ],
+    [
+     27.86483,
+     -82.60233
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 165.703(a)(1)(xii)",
+  "active": "always",
+  "note": "50 yards from shore, seawall and piers, closing off the entrance to both canals. First leg runs along the shore; the CFR does not state how the last point closes back. DMS as printed: 27°51.52′ N 082°35.82′ W | 27°51.54′ N 082°35.78′ W | 27°51.89′ N 082°35.82′ W | 27°51.89′ N 082°36.14′ W",
+  "flag": "Line only. Closing leg is not stated in the CFR and was not guessed."
+ },
+ {
+  "id": "uscg-165-705-zoneB-middlebasin",
+  "name": "Port Canaveral Middle Basin security zone (Zone B)",
+  "law": [
+   "cfr-33-165-705"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     28.41514,
+     -80.61087
+    ],
+    [
+     28.4148,
+     -80.61087
+    ],
+    [
+     28.41479,
+     -80.60845
+    ],
+    [
+     28.41403,
+     -80.60845
+    ],
+    [
+     28.4106,
+     -80.60477
+    ],
+    [
+     28.4106,
+     -80.60414
+    ],
+    [
+     28.41093,
+     -80.60371
+    ]
+   ]
+  ],
+  "points": [
+   [
+    28.41514,
+    -80.61087
+   ],
+   [
+    28.4148,
+    -80.61087
+   ],
+   [
+    28.41479,
+    -80.60845
+   ],
+   [
+    28.41403,
+    -80.60845
+   ],
+   [
+    28.4106,
+    -80.60477
+   ],
+   [
+    28.4106,
+    -80.60414
+   ],
+   [
+    28.41093,
+    -80.60371
+   ]
+  ],
+  "source": "33 CFR 165.705(a)(2)",
+  "active": "always",
+  "note": "All waters of the Middle Basin inside Points 1 to 7, then along the land perimeter back to Point 1. A straight chord from Point 7 to Point 1 crosses the Point 4 to Point 5 leg, so the land perimeter runs around the north and east side and cannot be closed with a chord. Zone A (East/Trident Basin north of 28 deg 24 min 36 sec N) has no longitude limits and is listed only. DMS as printed: 28°24′54.49″ N 080°36′39.13″ W | 28°24′53.27″ N 080°36′39.15″ W | 28°24′53.25″ N 080°36′30.41″ W | 28°24′50.51″ N 080°36′30.41″ W | 28°24′38.15″ N 080°36′17.18″ W | 28°24′38.16″ N 080°36′14.92″ W | 28°24′39.36″ N 080°36′13.37″ W",
+  "flag": "Drawn as the CFR line only. The basin north and east of this line, to the land perimeter, is closed at all times."
+ },
+ {
+  "id": "uscg-165-729-zoneC-gateslip",
+  "name": "Blount Island Gate Slip (Back River) safety and security zone, Zone C",
+  "law": [
+   "cfr-33-165-728",
+   "cfr-33-334-515"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [
+   [
+    [
+     30.39278,
+     -81.51444
+    ],
+    [
+     30.39389,
+     -81.51
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 165.729(a)(3); 165.728(a)(3)",
+  "active": "when a Maritime Prepositioned Ship is moored at Gate Terminal",
+  "note": "All waters of the Back River (Gate Slip) landward of this line, closed when a Maritime Prepositioned Ship is moored at Gate Terminal. Signal: rotating yellow light at Blount Island Marine Terminal or Gate Terminal Berth 1. The same area is restricted at all times under 33 CFR 334.515 Area 2. DMS as printed: 30°23′34″ N 81°30′52″ W | 30°23′38″ N 81°30′36″ W",
+  "flag": null
+ },
+ {
+  "id": "uscg-165-722-nasjax-anchors",
+  "name": "NAS Jacksonville security zone (St. Johns River)",
+  "law": [
+   "cfr-33-165-722"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [],
+  "points": [
+   [
+    30.24431,
+    -81.67917
+   ],
+   [
+    30.245,
+    -81.67833
+   ],
+   [
+    30.21667,
+    -81.67319
+   ],
+   [
+    30.20389,
+    -81.67833
+   ],
+   [
+    30.19444,
+    -81.68764
+   ],
+   [
+    30.19508,
+    -81.68991
+   ]
+  ],
+  "source": "33 CFR 165.722(a)",
+  "active": "always",
+  "note": "Water within about 400 feet of the NAS Jacksonville shoreline from the Timuquana Country Club line to just north of the Buckman Bridge. Only the corner points are drawn; the 400-foot offset legs follow the shoreline and have no coordinates. DMS as printed: 30°14′39.5″ N 81°40′45″ W | 30°14′42″ N 81°40′42″ W | 30°13′00″ N 81°40′23.5″ W | 30°12′14″ N 81°40′42″ W | 30°11′40″ N 81°41′15.5″ W | 30°11′42.30″ N 81°41′23.66″ W",
+  "flag": "Markers only. Closed water is the band within 400 ft of mean high water along the NAS Jacksonville shore between the first and last markers."
+ },
+ {
+  "id": "uscg-165-760-b2-miamimainchannel",
+  "name": "Port of Miami, Main Channel fixed security zone",
+  "law": [
+   "cfr-33-165-760"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     25.77217,
+     -80.15267
+    ],
+    [
+     25.7695,
+     -80.14617
+    ],
+    [
+     25.76733,
+     -80.14583
+    ],
+    [
+     25.7705,
+     -80.15267
+    ],
+    [
+     25.77217,
+     -80.15267
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 165.760(b)(2)",
+  "active": "when the security zone is in effect (two or more subject vessels berthed)",
+  "note": "Miami Main Channel between Star Island and the Biscayne Bay Pilots Station. Transit allowed when only one passenger, hazardous-cargo or LHG vessel is berthed in the channel. Ring closed by the CFR text. DMS as printed: 25°46.33′ N 080°09.16′ W | 25°46.17′ N 080°08.77′ W | 25°46.04′ N 080°08.75′ W | 25°46.23′ N 080°09.16′ W",
+  "flag": null
+ },
+ {
+  "id": "uscg-165-760-b3-pe-northport-line",
+  "name": "Port Everglades Mid-Port to North-Port fixed security zone (line)",
+  "law": [
+   "cfr-33-165-760"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     26.09,
+     -80.11583
+    ],
+    [
+     26.10028,
+     -80.11917
+    ],
+    [
+     26.10028,
+     -80.11944
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 165.760(b)(3), first zone",
+  "active": "always",
+  "note": "All waters west of this line from Berth 22 north to the 17th Street Bridge. DMS as printed: 26°05′24″ N 080°06′57″ W | 26°06′01″ N 080°07′09″ W | 26°06′01″ N 080°07′10″ W",
+  "flag": "Line only; zone is all water west of it to the port shoreline."
+ },
+ {
+  "id": "uscg-165-760-b3-pe-southport-line",
+  "name": "Port Everglades Southport fixed security zone (line)",
+  "law": [
+   "cfr-33-165-760"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     26.09028,
+     -80.11611
+    ],
+    [
+     26.09028,
+     -80.115
+    ],
+    [
+     26.08611,
+     -80.11361
+    ],
+    [
+     26.07861,
+     -80.11472
+    ],
+    [
+     26.065,
+     -80.11444
+    ],
+    [
+     26.065,
+     -80.11528
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 165.760(b)(3), second zone",
+  "active": "always",
+  "note": "Waters west of the Intracoastal Waterway to the pier face, Mid-Port south to the Dania Cut-Off Canal. The west side is the pier face, which has no coordinates; a chord would cut off the Southport turning notch, so no ring is drawn. DMS as printed: 26°05′25″ N 080°06′58″ W | 26°05′25″ N 080°06′54″ W | 26°05′10″ N 080°06′49″ W | 26°04′43″ N 080°06′53″ W | 26°03′54″ N 080°06′52″ W | 26°03′54″ N 080°06′55″ W",
+  "flag": "Line only; zone is all water between this line and the pier face."
+ },
+ {
+  "id": "uscg-165-764-sectorkeywest",
+  "name": "Coast Guard Sector Key West security zone, Trumbo Point",
+  "law": [
+   "cfr-33-165-764",
+   "cfr-33-334-610"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [],
+  "points": [
+   [
+    24.56722,
+    -81.79797
+   ],
+   [
+    24.56406,
+    -81.80306
+   ],
+   [
+    24.56356,
+    -81.79856
+   ]
+  ],
+  "source": "33 CFR 165.764(a)",
+  "active": "always",
+  "note": "All waters within 100 yards of Sector Key West. Anchoring, loitering and fishing prohibited; transit allowed at safe speed in Fleming Key Cut and Key West Bight Channel. The 100-yard offset legs follow the property and have no coordinates. Overlaps 33 CFR 334.610 Area 3. DMS as printed: 24°34′02″ N 81°47′52.7″ W | 24°33′50.6″ N 81°48′11.0″ W | 24°33′48.8″ N 081°47′54.8″ W",
+  "flag": "Markers only. See 334.610 Area 3 for a drawn approximation of the same waters."
+ },
+ {
+  "id": "uscg-165-775-a2i-lha-northeast",
+  "name": "Cape Canaveral launch hazard area, Northeast",
+  "law": [
+   "cfr-33-165-775"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     28.79639,
+     -80.46333
+    ],
+    [
+     28.705,
+     -80.58194
+    ],
+    [
+     28.65361,
+     -80.63028
+    ],
+    [
+     28.54139,
+     -80.56472
+    ],
+    [
+     28.56667,
+     -80.48333
+    ],
+    [
+     28.66194,
+     -80.36583
+    ],
+    [
+     28.79639,
+     -80.46333
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 165.775(a)(2)(i)",
+  "active": "launch periods only (Broadcast Notice to Mariners, VHF 16)",
+  "note": "One of five prescribed launch hazard areas inside the Cape Canaveral launch RNA. Restrictions on transit, anchoring and mooring are enacted only just before and after a launch, based on the Space Launch Delta 45 exclusion area; the COTP may also activate ad hoc areas anywhere in the RNA. Signal: yellow ball on 90-foot poles. Rings are closed per 'encompassed by a line starting at Point 1 connecting the following points'. The outer RNA boundary follows the shoreline and the 12 nm line and is not drawn. DMS as printed: 28°47′47″ N 080°27′48″ W | 28°42′18″ N 080°34′55″ W | 28°39′13″ N 080°37′49″ W | 28°32′29″ N 080°33′53″ W | 28°34′00″ N 080°29′00″ W | 28°39′43″ N 080°21′57″ W",
+  "flag": null
+ },
+ {
+  "id": "uscg-165-775-a2ii-lha-eastnortheast",
+  "name": "Cape Canaveral launch hazard area, East Northeast",
+  "law": [
+   "cfr-33-165-775"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     28.73139,
+     -80.41389
+    ],
+    [
+     28.60278,
+     -80.58889
+    ],
+    [
+     28.52944,
+     -80.56111
+    ],
+    [
+     28.57833,
+     -80.47778
+    ],
+    [
+     28.67917,
+     -80.37444
+    ],
+    [
+     28.73139,
+     -80.41389
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 165.775(a)(2)(ii)",
+  "active": "launch periods only (Broadcast Notice to Mariners, VHF 16)",
+  "note": "One of five prescribed launch hazard areas inside the Cape Canaveral launch RNA. Restrictions on transit, anchoring and mooring are enacted only just before and after a launch, based on the Space Launch Delta 45 exclusion area; the COTP may also activate ad hoc areas anywhere in the RNA. Signal: yellow ball on 90-foot poles. Rings are closed per 'encompassed by a line starting at Point 1 connecting the following points'. The outer RNA boundary follows the shoreline and the 12 nm line and is not drawn. DMS as printed: 28°43′53″ N 080°24′50″ W | 28°36′10″ N 080°35′20″ W | 28°31′46″ N 080°33′40″ W | 28°34′42″ N 080°28′40″ W | 28°40′45″ N 080°22′28″ W",
+  "flag": null
+ },
+ {
+  "id": "uscg-165-775-a2iii-lha-largeeast",
+  "name": "Cape Canaveral launch hazard area, Large East",
+  "law": [
+   "cfr-33-165-775"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     28.67556,
+     -80.3725
+    ],
+    [
+     28.65389,
+     -80.63
+    ],
+    [
+     28.45,
+     -80.53194
+    ],
+    [
+     28.45972,
+     -80.3075
+    ],
+    [
+     28.67556,
+     -80.3725
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 165.775(a)(2)(iii)",
+  "active": "launch periods only (Broadcast Notice to Mariners, VHF 16)",
+  "note": "One of five prescribed launch hazard areas inside the Cape Canaveral launch RNA. Restrictions on transit, anchoring and mooring are enacted only just before and after a launch, based on the Space Launch Delta 45 exclusion area; the COTP may also activate ad hoc areas anywhere in the RNA. Signal: yellow ball on 90-foot poles. Rings are closed per 'encompassed by a line starting at Point 1 connecting the following points'. The outer RNA boundary follows the shoreline and the 12 nm line and is not drawn. DMS as printed: 28°40′32″ N 080°22′21″ W | 28°39′14″ N 080°37′48″ W | 28°27′00″ N 080°31′55″ W | 28°27′35″ N 080°18′27″ W",
+  "flag": null
+ },
+ {
+  "id": "uscg-165-775-a2iv-lha-smalleast",
+  "name": "Cape Canaveral launch hazard area, Small East",
+  "law": [
+   "cfr-33-165-775"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     28.66167,
+     -80.36556
+    ],
+    [
+     28.65,
+     -80.51667
+    ],
+    [
+     28.63333,
+     -80.61611
+    ],
+    [
+     28.53333,
+     -80.5625
+    ],
+    [
+     28.53083,
+     -80.34472
+    ],
+    [
+     28.66167,
+     -80.36556
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 165.775(a)(2)(iv)",
+  "active": "launch periods only (Broadcast Notice to Mariners, VHF 16)",
+  "note": "One of five prescribed launch hazard areas inside the Cape Canaveral launch RNA. Restrictions on transit, anchoring and mooring are enacted only just before and after a launch, based on the Space Launch Delta 45 exclusion area; the COTP may also activate ad hoc areas anywhere in the RNA. Signal: yellow ball on 90-foot poles. Rings are closed per 'encompassed by a line starting at Point 1 connecting the following points'. The outer RNA boundary follows the shoreline and the 12 nm line and is not drawn. DMS as printed: 28°39′42″ N 080°21′56″ W | 28°39′00″ N 080°31′00″ W | 28°38′00″ N 080°36′58″ W | 28°32′00″ N 080°33′45″ W | 28°31′51″ N 080°20′41″ W",
+  "flag": null
+ },
+ {
+  "id": "uscg-165-775-a2v-lha-southeast",
+  "name": "Cape Canaveral launch hazard area, Southeast",
+  "law": [
+   "cfr-33-165-775"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     28.61667,
+     -80.48333
+    ],
+    [
+     28.59667,
+     -80.58306
+    ],
+    [
+     28.42167,
+     -80.57861
+    ],
+    [
+     28.18333,
+     -80.48333
+    ],
+    [
+     28.16667,
+     -80.35361
+    ],
+    [
+     28.32667,
+     -80.38611
+    ],
+    [
+     28.36972,
+     -80.33806
+    ],
+    [
+     28.61667,
+     -80.48333
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 165.775(a)(2)(v)",
+  "active": "launch periods only (Broadcast Notice to Mariners, VHF 16)",
+  "note": "One of five prescribed launch hazard areas inside the Cape Canaveral launch RNA. Restrictions on transit, anchoring and mooring are enacted only just before and after a launch, based on the Space Launch Delta 45 exclusion area; the COTP may also activate ad hoc areas anywhere in the RNA. Signal: yellow ball on 90-foot poles. Rings are closed per 'encompassed by a line starting at Point 1 connecting the following points'. The outer RNA boundary follows the shoreline and the 12 nm line and is not drawn. DMS as printed: 28°37′00″ N 080°29′00″ W | 28°35′48″ N 080°34′59″ W | 28°25′18″ N 080°34′43″ W | 28°11′00″ N 080°29′00″ W | 28°10′00″ N 080°21′13″ W | 28°19′36″ N 080°23′10″ W | 28°22′11″ N 080°20′17″ W",
+  "flag": null
+ },
+ {
+  "id": "uscg-165-777-westbasin",
+  "name": "Port Canaveral West Basin cruise ship security zone (line)",
+  "law": [
+   "cfr-33-165-777"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [
+   [
+    [
+     28.41608,
+     -80.6238
+    ],
+    [
+     28.41041,
+     -80.62612
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 165.777(a)",
+  "active": "when activated (MARSEC 2/3 cruise arrivals)",
+  "note": "All waters of the West Basin northwest of this line. Activated 4 hours before a cruise ship arrives at MARSEC 2 or 3 (or a specific threat at MARSEC 1); red ball on a 50-foot pole at the east end of Cruise Terminal 10. DMS as printed: 28°24′57.88″ N 080°37′25.69″ W | 28°24′37.48″ N 080°37′34.03″ W",
+  "flag": "Line only; the basin northwest of it is the zone."
+ },
+ {
+  "id": "uscg-165-801-t7r7-pcola-airshow-box",
+  "name": "Pensacola Beach Air Show 'Show Box' safety zone",
+  "law": [
+   "cfr-33-165-801-mob"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.32667,
+     -87.16866
+    ],
+    [
+     30.32667,
+     -87.10595
+    ],
+    [
+     30.31845,
+     -87.10595
+    ],
+    [
+     30.31845,
+     -87.16866
+    ],
+    [
+     30.32667,
+     -87.16866
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 165.801 Table 7, row 7",
+  "active": "2nd weekend in July, 4 days, per Notice of Enforcement",
+  "note": "Annual, 4 days on the 2nd weekend in July. CFR text: 1.75 nm east and 1.5 nm west of 30 deg 19 min 36 sec N, 087 deg 08 min 23 sec W, extending 1000 yards south of Pensacola Beach. Box computed from that text: north edge on the reference latitude, south edge 1000 yards south of the reference point. The Santa Rosa Sound part (Deer Point to Sharp Point and Little Sabine Bay) is described in words only and is not drawn. DMS as printed: 30°19′36″ N 087°08′23″ W",
+  "flag": "Box computed from distances in the CFR text, not from listed corners. The CFR measures 1000 yards south of Pensacola Beach, not of the reference point; the reference point appears to sit on the beach but this was not satellite-checked."
+ },
+ {
+  "id": "usace-334-500-a5-mayport-dangerzone",
+  "name": "NAVSTA Mayport munitions danger zone (line)",
+  "law": [
+   "cfr-33-334-500"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [
+   [
+    [
+     30.40009,
+     -81.41834
+    ],
+    [
+     30.4031,
+     -81.41775
+    ],
+    [
+     30.40017,
+     -81.40281
+    ],
+    [
+     30.39479,
+     -81.40245
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 334.500(a)(5)",
+  "active": "during munitions movement, unannounced",
+  "note": "During munitions movement at wharves Bravo and Charlie no one may remain within the 1,250-foot explosive safety arcs. No advance notice is given. The CFR line runs shore to shore; the closing shoreline leg was not drawn. DMS as printed: 30°24′00.31″ N 081°25′06.02″ W | 30°24′11.16″ N 081°25′03.90″ W | 30°24′00.62″ N 081°24′10.13″ W | 30°23′41.26″ N 081°24′08.82″ W",
+  "flag": "Line only; closure along the basin shoreline not drawn."
+ },
+ {
+  "id": "usace-334-500-a2a3-mayport-anchors",
+  "name": "NAVSTA Mayport restricted areas, St. Johns River and Atlantic (anchor points)",
+  "law": [
+   "cfr-33-334-500"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [],
+  "points": [
+   [
+    30.39805,
+    -81.42681
+   ],
+   [
+    30.39909,
+    -81.42681
+   ],
+   [
+    30.39839,
+    -81.40392
+   ],
+   [
+    30.3962,
+    -81.40104
+   ],
+   [
+    30.39808,
+    -81.39278
+   ],
+   [
+    30.39724,
+    -81.39118
+   ],
+   [
+    30.39698,
+    -81.39114
+   ],
+   [
+    30.38177,
+    -81.39558
+   ],
+   [
+    30.38179,
+    -81.39679
+   ]
+  ],
+  "source": "33 CFR 334.500(a)(2),(a)(3)",
+  "active": "always",
+  "note": "River and ocean restricted areas: 380 feet seaward of mean high water from the NAVSTA shore to the south jetty, around the jetty tip on a 466-foot arc, and down the ocean beach to 30 deg 22 min 54 sec N. Closed 24 hours a day. The 380-foot offset legs follow the shoreline and cannot be drawn from the CFR. This covers the Navy (south) side of the St. Johns River south jetty. DMS as printed: 30°23′52.97″ N 081°25′36.51″ W | 30°23′56.71″ N 081°25′36.51″ W | 30°23′54.20″ N 081°24′14.11″ W | 30°23′46.33″ N 081°24′03.73″ W | 30°23′53.08″ N 081°23′34.00″ W | 30°23′50.06″ N 081°23′28.26″ W | 30°23′49.12″ N 81°23′28.10″ W | 30°22′54.37″ N 081°23′44.09″ W | 30°22′54.46″ N 081°23′48.44″ W",
+  "flag": "Markers only. Closed water is the band within 380 ft of the NAVSTA Mayport shoreline and around the south jetty tip between these markers."
+ },
+ {
+  "id": "usace-334-505-cgstation-mayport",
+  "name": "Coast Guard Station Mayport restricted area",
+  "law": [
+   "cfr-33-334-505"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     30.38859,
+     -81.43428
+    ],
+    [
+     30.38876,
+     -81.43453
+    ],
+    [
+     30.38777,
+     -81.43555
+    ],
+    [
+     30.38692,
+     -81.43548
+    ],
+    [
+     30.38674,
+     -81.4352
+    ],
+    [
+     30.38859,
+     -81.43428
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.505(a)",
+  "active": "always",
+  "note": "Open only to government vessels. Entering, transiting, drifting, dredging, anchoring, fishing and other aquatic activities prohibited 24/7. The closing leg follows mean high water between two shore points about 220 m apart and is drawn as a straight chord. DMS as printed: 30°23.315366′ N 081°26.056735′ W | 30°23.325775′ N 081°26.071548′ W | 30°23.266063′ N 081°26.132775′ W | 30°23.215082′ N 081°26.1287404′ W | 30°23.204522′ N 081°26.111753′ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-510-navyfuelpier",
+  "name": "Navy Fuel Depot pier restricted area, St. Johns River (waterward line)",
+  "law": [
+   "cfr-33-334-510"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     30.39944,
+     -81.62083
+    ],
+    [
+     30.39806,
+     -81.62344
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 334.510(a)(2),(3)",
+  "active": "always",
+  "note": "Waters within a line 100 feet off the pier from platform 59 to platform 65, with side lines to shore on 328.5 degrees true. Only the waterward line has coordinates. DMS as printed: 30°23′58.0″ N 81°37′15.0″ W | 30°23′53.0″ N 81°37′24.4″ W",
+  "flag": "Waterward line only. The area is the water between this line and the shore, bounded by lines from each end on 328.5 deg T."
+ },
+ {
+  "id": "usace-334-515-blountisland-anchors",
+  "name": "Blount Island Command restricted areas (anchor points)",
+  "law": [
+   "cfr-33-334-515"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [],
+  "points": [
+   [
+    30.41281,
+    -81.53861
+   ],
+   [
+    30.41384,
+    -81.53976
+   ],
+   [
+    30.39354,
+    -81.50734
+   ],
+   [
+    30.3929,
+    -81.508
+   ],
+   [
+    30.39269,
+    -81.50906
+   ],
+   [
+    30.39193,
+    -81.51587
+   ],
+   [
+    30.39065,
+    -81.53048
+   ],
+   [
+    30.39148,
+    -81.5305
+   ]
+  ],
+  "source": "33 CFR 334.515(a)",
+  "active": "always",
+  "note": "Areas 1 to 3: 200 yards (Area 1) and 100 yards (Areas 2 and 3) from the Blount Island shoreline, plus the Back River (Marine Corps slipway). Entering, transiting, anchoring or drifting prohibited 24/7. Offset legs follow the shoreline and cannot be drawn. DMS as printed: 30°24′46.10″ N 81°32′19.01″ W | 30°24′49.84″ N 81°32′23.12″ W | 30°23′36.75″ N 81°30′26.42″ W | 30°23′34.44″ N 81°30′28.80″ W | 30°23′33.68″ N 81°30′32.61″ W | 30°23′30.93″ N 81°30′57.14″ W | 30°23′26.34″ N 81°31′49.73″ W | 30°23′29.34″ N 81°31′49.79″ W",
+  "flag": "Markers only; offset legs follow the shoreline."
+ },
+ {
+  "id": "usace-334-520-lakegeorge",
+  "name": "Lake George naval bombing area",
+  "law": [
+   "cfr-33-334-520"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     29.22111,
+     -81.57444
+    ],
+    [
+     29.33472,
+     -81.60417
+    ],
+    [
+     29.33861,
+     -81.58667
+    ],
+    [
+     29.31,
+     -81.56472
+    ],
+    [
+     29.22278,
+     -81.54389
+    ],
+    [
+     29.22111,
+     -81.57444
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.520(a)",
+  "active": "during bombing operations",
+  "note": "Freshwater (St. Johns River). Persons and vessels must leave when warned by aircraft and stay out until bombing stops; quarterly public notices. Ring closed by 'thence to the point of beginning'. The CFR gives latitudes and longitudes without hemisphere letters; N and W are implied. DMS as printed: 29°13′16″ N 81°34′28″ W | 29°20′05″ N 81°36′15″ W | 29°20′19″ N 81°35′12″ W | 29°18′36″ N 81°33′53″ W | 29°13′22″ N 81°32′38″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-525-ksc-anchors",
+  "name": "Atlantic Ocean off Kennedy Space Center restricted area (anchor points)",
+  "law": [
+   "cfr-33-334-525"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [],
+  "points": [
+   [
+    28.58347,
+    -80.57413
+   ],
+   [
+    28.59527,
+    -80.54897
+   ],
+   [
+    28.7261,
+    -80.65157
+   ],
+   [
+    28.7261,
+    -80.68648
+   ]
+  ],
+  "source": "33 CFR 334.525(a)",
+  "active": "during launches or threats",
+  "note": "Band 1.5 nm from mean high water off KSC. Closed during launch operations or threats (marquee signs at KSC gates and Port Canaveral). The 1.5 nm offset leg cannot be drawn from the CFR. DMS as printed: 28°35.008′ N 80°34.448′ W | 28°35.716′ N 80°32.938′ W | 28°43.566′ N 80°39.094′ W | 28°43.566′ N 80°41.189′ W",
+  "flag": "Markers only; the seaward edge is 1.5 nm off the KSC shoreline between the markers."
+ },
+ {
+  "id": "usace-334-540-bananariver-ccafs",
+  "name": "Banana River at Cape Canaveral SFS restricted area (line)",
+  "law": [
+   "cfr-33-334-540"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [
+   [
+    [
+     28.4195,
+     -80.604
+    ],
+    [
+     28.41967,
+     -80.61083
+    ],
+    [
+     28.42083,
+     -80.611
+    ],
+    [
+     28.42033,
+     -80.63933
+    ],
+    [
+     28.43717,
+     -80.6375
+    ],
+    [
+     28.43717,
+     -80.64117
+    ],
+    [
+     28.51233,
+     -80.6105
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 334.540(a)",
+  "active": "when closed for threats",
+  "note": "Waters between this line and the Cape Canaveral SFS shoreline, from the southeast shore point to the NASA Causeway East. Closed when the 45th Space Wing (now Space Launch Delta 45) deems necessary; red beacon at the station's south entrance. DMS as printed: 28°25.17′ N 80°36.24′ W | 28°25.18′ N 80°36.65′ W | 28°25.25′ N 80°36.66′ W | 28°25.22′ N 80°38.36′ W | 28°26.23′ N 80°38.25′ W | 28°26.23′ N 80°38.47′ W | 28°30.74′ N 80°36.63′ W",
+  "flag": "Line only; closure along the station shoreline not drawn."
+ },
+ {
+  "id": "usace-334-560-patrick",
+  "name": "Banana River at Patrick SFB restricted area",
+  "law": [
+   "cfr-33-334-560"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     28.27194,
+     -80.60778
+    ],
+    [
+     28.27194,
+     -80.60972
+    ],
+    [
+     28.24278,
+     -80.61889
+    ],
+    [
+     28.21222,
+     -80.62167
+    ],
+    [
+     28.21222,
+     -80.61972
+    ],
+    [
+     28.27194,
+     -80.60778
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.560(a)",
+  "active": "always",
+  "note": "About 600-foot strip off the Patrick SFB shore on the Banana River; stay clear at all times. Outer line from the CFR; closing leg drawn as a straight chord between the two shore points. The outer line bows west of the chord by up to about 520 m while the band is only about 600 ft wide, so the chord should lie on base land and the ring should contain all of the zone water plus land. DMS as printed: 28°16′19″ N 80°36′28″ W | 28°16′19″ N 80°36′35″ W | 28°14′34″ N 80°37′08″ W | 28°12′44″ N 80°37′18″ W | 28°12′44″ N 80°37′11″ W",
+  "flag": "Chord across Patrick SFB land stands in for the shoreline; not satellite-checked."
+ },
+ {
+  "id": "usace-334-580-porteverglades",
+  "name": "Atlantic Ocean near Port Everglades (Navy ocean measurement facility)",
+  "law": [
+   "cfr-33-334-580"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     26.09167,
+     -80.05833
+    ],
+    [
+     26.09167,
+     -80.10833
+    ],
+    [
+     26.05,
+     -80.11167
+    ],
+    [
+     26.05,
+     -80.09556
+    ],
+    [
+     26.02667,
+     -80.09556
+    ],
+    [
+     26.02667,
+     -80.05833
+    ],
+    [
+     26.09167,
+     -80.05833
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.580(a)",
+  "active": "always (anchoring and bottom attachment only)",
+  "note": "Anchoring, trawling, dredging, or attaching any object to the bottom prohibited at all times. Diving and passage are not prohibited by this section, but anchoring a boat or float and any bottom attachment are. Covers the reef tracts off Fort Lauderdale south of Port Everglades. Ring closed by 'north to the point of beginning'. DMS as printed: 26°05′30″ N 80°03′30″ W | 26°05′30″ N 80°06′30″ W | 26°03′00″ N 80°06′42″ W | 26°03′00″ N 80°05′44″ W | 26°01′36″ N 80°05′44″ W | 26°01′36″ N 80°03′30″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-595-ccafs-anchors",
+  "name": "Atlantic Ocean off Cape Canaveral SFS restricted area (anchor points)",
+  "law": [
+   "cfr-33-334-595"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [],
+  "points": [
+   [
+    28.58347,
+    -80.57413
+   ],
+   [
+    28.59527,
+    -80.54897
+   ],
+   [
+    28.40312,
+    -80.55738
+   ],
+   [
+    28.4115,
+    -80.58417
+   ]
+  ],
+  "source": "33 CFR 334.595(a)",
+  "active": "when closed for threats",
+  "note": "Band 1.5 nm off mean high water from 28 deg 35 min N south to about 28 deg 24 min N. Closed when the Space Wing deems necessary; red ball and red beacon on 90-foot poles. Offset leg not drawable from the CFR. DMS as printed: 28°35.008′ N 80°34.448′ W | 28°35.716′ N 80°32.938′ W | 28°24.187′ N 80°33.443′ W | 28°24.69′ N 80°35.05′ W",
+  "flag": "Markers only; seaward edge 1.5 nm off the shoreline."
+ },
+ {
+  "id": "usace-334-600-tridentbasin",
+  "name": "Trident Basin danger zone, Port Canaveral (entrance line)",
+  "law": [
+   "cfr-33-334-600",
+   "cfr-33-165-705"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     28.41028,
+     -80.59306
+    ],
+    [
+     28.41028,
+     -80.59056
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 334.600(a)",
+  "active": "always",
+  "note": "Line across the access channel; the zone is this line and the entire basin. No unauthorized entry at any time (explosives handling). Overlaps 33 CFR 165.705 Zone A. DMS as printed: 28°24′37″ N 80°35′35″ W | 28°24′37″ N 80°35′26″ W",
+  "flag": "Entrance line only; the whole Trident Basin behind it is closed."
+ },
+ {
+  "id": "usace-334-605-meloychannel",
+  "name": "Meloy Channel, Coast Guard Base Miami Beach restricted area",
+  "law": [
+   "cfr-33-334-605"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     25.77224,
+     -80.14748
+    ],
+    [
+     25.77297,
+     -80.14556
+    ],
+    [
+     25.77278,
+     -80.14504
+    ],
+    [
+     25.77006,
+     -80.14315
+    ],
+    [
+     25.7692,
+     -80.14465
+    ],
+    [
+     25.7699,
+     -80.14538
+    ],
+    [
+     25.77145,
+     -80.14644
+    ],
+    [
+     25.77143,
+     -80.14656
+    ],
+    [
+     25.77156,
+     -80.14704
+    ],
+    [
+     25.77192,
+     -80.14729
+    ],
+    [
+     25.77188,
+     -80.14742
+    ],
+    [
+     25.77224,
+     -80.14748
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.605(a)",
+  "active": "always",
+  "note": "Open only to government vessels. Entering, transiting, drifting, dredging, anchoring, fishing and other aquatic activities prohibited 24/7. Closing leg along mean high water drawn as a straight chord of about 10 m. Overlaps the 165.790 speed RNA. DMS as printed: 25°46′20.07″ N 080°08′50.94″ W | 25°46′22.69″ N 080°08′44.01″ W | 25°46′22.02″ N 080°08′42.14″ W | 25°46′12.23″ N 080°08'35.33″ W | 25°46′09.13″ N 080°08′40.74″ W | 25°46'11.63″ N 080°08'43.36″ W | 25°46′17.22″ N 080°08′47.17″ W | 25°46′17.15″ N 080°08′47.62″ W | 25°46′17.63″ N 080°08′49.33″ W | 25°46′18.91″ N 080°08′50.24″ W | 25°46′18.76″ N 080°08′50.71″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-610-a1-trumanannex-south",
+  "name": "Key West Naval restricted Area 1, Truman Annex south shore",
+  "law": [
+   "cfr-33-334-610"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     24.54592,
+     -81.7975
+    ],
+    [
+     24.54508,
+     -81.7975
+    ],
+    [
+     24.54378,
+     -81.80889
+    ],
+    [
+     24.54472,
+     -81.80861
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 334.610(a)(1)",
+  "active": "always",
+  "note": "100 yards off the south shoreline of Truman Annex. Entering or crossing prohibited. Line drawn from the CFR points; the 100-yard band is between it and the shore. DMS as printed: 24°32′45.3″ N 81°47′51″ W | 24°32′42.3″ N 81°47′51″ W | 24°32′37.6″ N 81°48′32″ W | 24°32′41″ N 81°48′31″ W",
+  "flag": "Line only; the closed water is the 100-yard band between this line and the Truman Annex south shore."
+ },
+ {
+  "id": "usace-334-610-a2-trumanannex-west",
+  "name": "Key West Naval restricted Area 2, Truman Annex west shore and harbor",
+  "law": [
+   "cfr-33-334-610"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     24.55,
+     -81.81158
+    ],
+    [
+     24.55,
+     -81.8125
+    ],
+    [
+     24.55639,
+     -81.81028
+    ],
+    [
+     24.55536,
+     -81.80797
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 334.610(a)(2)",
+  "active": "always (transit corridor allowed)",
+  "note": "100 yards off the west shore of Truman Annex and part of Truman Annex Harbor. Registered private vessels may transit the part between the Mole and the range channel at minimum wake; stopping or landing prohibited. DMS as printed: 24°33′00″ N 81°48′41.7″ W | 24°33′00″ N 81°48′45″ W | 24°33′23″ N 81°48′37″ W | 24°33′19.3″ N 81°48′28.7″ W",
+  "flag": "Line only; the closed water lies between this line and the Truman Annex west shore and harbor."
+ },
+ {
+  "id": "usace-334-610-a3-trumbopoint",
+  "name": "Key West Naval restricted Area 3, Coast Guard station and Trumbo Point",
+  "law": [
+   "cfr-33-334-610",
+   "cfr-33-165-764"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     24.56322,
+     -81.79878
+    ],
+    [
+     24.56333,
+     -81.80025
+    ],
+    [
+     24.56272,
+     -81.80025
+    ],
+    [
+     24.56306,
+     -81.80333
+    ],
+    [
+     24.56839,
+     -81.80278
+    ],
+    [
+     24.56758,
+     -81.79861
+    ],
+    [
+     24.56322,
+     -81.79878
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.610(a)(3)",
+  "active": "always (transit channels allowed)",
+  "note": "100 yards around the Coast Guard station and west end of Trumbo Point Annex. Transit allowed in the Fleming Key Cut channel and the Key West Bight channel; no mooring, anchoring or fishing within 50 feet of government piers or craft; stopping prohibited. Ring closed with a straight north-south chord across Trumbo Point from the Fleming Key junction point to the start point. DMS as printed: 24°33′47.6″ N 81°47′55.6″ W | 24°33′48″ N 81°48′00.9″ W | 24°33′45.8″ N 81°48′00.9″ W | 24°33′47″ N 81°48′12″ W | 24°34′06.2″ N 81°48′10″ W | 24°34′03.3″ N 81°47′55″ W",
+  "flag": "East side is a chord across Trumbo Point. The true boundary follows the shore and may include water in Key West Bight east of the chord that is not drawn."
+ },
+ {
+  "id": "usace-334-610-a4-flemingkey-west",
+  "name": "Key West Naval restricted Area 4, Fleming Key (west legs)",
+  "law": [
+   "cfr-33-334-610"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     24.56758,
+     -81.79861
+    ],
+    [
+     24.57121,
+     -81.80217
+    ],
+    [
+     24.5726,
+     -81.80032
+    ],
+    [
+     24.57418,
+     -81.80241
+    ],
+    [
+     24.57603,
+     -81.80312
+    ],
+    [
+     24.58181,
+     -81.80157
+    ],
+    [
+     24.58301,
+     -81.799
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 334.610(a)(4)",
+  "active": "always",
+  "note": "Explosive safety area around Fleming Key: explicit legs up the west side, then 100 yards around Fleming Key (not drawable). Entering or crossing prohibited. DMS as printed: 24°34.0550′ N 81°47.9166′ W | 24°34.2725′ N 81°48.1304′ W | 24°34.3562′ N 81°48.0192′ W | 24°34.4506′ N 81°48.1444′ W | 24°34.5619′ N 81°48.1873′ W | 24°34.9084′ N 81°48.0945′ W | 24°34.9809′ N 81°47.9400′ W",
+  "flag": "Explicit west legs only; the 100-yard band around the rest of Fleming Key is not drawn."
+ },
+ {
+  "id": "usace-334-610-a4-flemingkey-east",
+  "name": "Key West Naval restricted Area 4, Fleming Key (southeast legs)",
+  "law": [
+   "cfr-33-334-610"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     24.56689,
+     -81.79375
+    ],
+    [
+     24.566,
+     -81.78889
+    ],
+    [
+     24.56519,
+     -81.78908
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 334.610(a)(4)",
+  "active": "always",
+  "note": "Closing legs of Area 4 at the southeast corner of Fleming Key to the Key West shore. DMS as printed: 24°34.0133′ N 81°47.6250′ W | 24°33.9600′ N 81°47.3333′ W | 24°33.9117′ N 81°47.3450′ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-610-a5-bocachica-sw",
+  "name": "Key West Naval restricted Area 5, Boca Chica Key southwest shore",
+  "law": [
+   "cfr-33-334-610"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     24.55667,
+     -81.70833
+    ],
+    [
+     24.55567,
+     -81.70833
+    ],
+    [
+     24.5675,
+     -81.71306
+    ],
+    [
+     24.5775,
+     -81.71306
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 334.610(a)(5)",
+  "active": "always (channel transit allowed)",
+  "note": "100 yards off the southwest shore of Boca Chica Key to the Boca Chica Channel bridge. Transit allowed in the dredged Boca Chica channel; stopping prohibited. DMS as printed: 24°33′24″ N 81°42′30″ W | 24°33′20.4″ N 81°42′30″ W | 24°34′03″ N 81°42′47″ W | 24°34′39″ N 81°42′47″ W",
+  "flag": "Explicit legs only; the 100-yard shoreline offset between them is drawn as a straight segment."
+ },
+ {
+  "id": "usace-334-610-a6-bocachica-dangerzone",
+  "name": "Key West Naval danger zone (Area 6), NAS Boca Chica northeast side",
+  "law": [
+   "cfr-33-334-610"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     24.5912,
+     -81.69707
+    ],
+    [
+     24.60482,
+     -81.69062
+    ],
+    [
+     24.60653,
+     -81.6995
+    ],
+    [
+     24.59497,
+     -81.69968
+    ],
+    [
+     24.5912,
+     -81.69707
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.610(a)(6)",
+  "active": "always",
+  "note": "Entering or crossing prohibited. The CFR ends at a point on shore; the ring is closed to the starting point with a straight chord of about 480 m along the Boca Chica shore. DMS as printed: 24°35.472′ N 81°41.824′ W | 24°36.289′ N 81°41.437′ W | 24°36.392′ N 81°41.970′ W | 24°35.698′ N 81°41.981′ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-620-a1-kw-training",
+  "name": "NAS Key West operational training area",
+  "law": [
+   "cfr-33-334-620"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     25.75,
+     -82.11667
+    ],
+    [
+     24.81667,
+     -81.91667
+    ],
+    [
+     24.625,
+     -82.00833
+    ],
+    [
+     24.625,
+     -82.1
+    ],
+    [
+     24.475,
+     -82.1
+    ],
+    [
+     24.41667,
+     -82.10833
+    ],
+    [
+     24.41667,
+     -81.95
+    ],
+    [
+     23.5,
+     -82.31667
+    ],
+    [
+     23.5,
+     -82.76667
+    ],
+    [
+     23.875,
+     -83.18333
+    ],
+    [
+     24.41667,
+     -83.18333
+    ],
+    [
+     24.41667,
+     -83.13333
+    ],
+    [
+     24.45546,
+     -83.14425
+    ],
+    [
+     24.49508,
+     -83.14803
+    ],
+    [
+     24.53478,
+     -83.1505
+    ],
+    [
+     24.57453,
+     -83.15168
+    ],
+    [
+     24.61429,
+     -83.15155
+    ],
+    [
+     24.65403,
+     -83.15011
+    ],
+    [
+     24.69372,
+     -83.14737
+    ],
+    [
+     24.73331,
+     -83.14332
+    ],
+    [
+     24.77278,
+     -83.13797
+    ],
+    [
+     24.81208,
+     -83.13131
+    ],
+    [
+     24.85118,
+     -83.12337
+    ],
+    [
+     24.89006,
+     -83.11414
+    ],
+    [
+     24.92866,
+     -83.10362
+    ],
+    [
+     24.96696,
+     -83.09183
+    ],
+    [
+     25.00492,
+     -83.07878
+    ],
+    [
+     25.04252,
+     -83.06448
+    ],
+    [
+     25.0797,
+     -83.04893
+    ],
+    [
+     25.11645,
+     -83.03216
+    ],
+    [
+     25.15273,
+     -83.01417
+    ],
+    [
+     25.1885,
+     -82.99498
+    ],
+    [
+     25.22373,
+     -82.97461
+    ],
+    [
+     25.2584,
+     -82.95307
+    ],
+    [
+     25.29246,
+     -82.93039
+    ],
+    [
+     25.32589,
+     -82.90657
+    ],
+    [
+     25.35867,
+     -82.88166
+    ],
+    [
+     25.39075,
+     -82.85565
+    ],
+    [
+     25.42211,
+     -82.82858
+    ],
+    [
+     25.45272,
+     -82.80048
+    ],
+    [
+     25.48255,
+     -82.77136
+    ],
+    [
+     25.51158,
+     -82.74125
+    ],
+    [
+     25.53978,
+     -82.71018
+    ],
+    [
+     25.56712,
+     -82.67818
+    ],
+    [
+     25.59358,
+     -82.64528
+    ],
+    [
+     25.61913,
+     -82.61149
+    ],
+    [
+     25.64376,
+     -82.57686
+    ],
+    [
+     25.66743,
+     -82.54142
+    ],
+    [
+     25.69014,
+     -82.5052
+    ],
+    [
+     25.71184,
+     -82.46822
+    ],
+    [
+     25.73254,
+     -82.43053
+    ],
+    [
+     25.75139,
+     -82.39167
+    ],
+    [
+     25.75,
+     -82.11667
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.620(a)(1)",
+  "active": "when operations are announced",
+  "note": "Watercraft may pass except when operations require exclusion; warnings issued in advance. The northwest side is a clockwise arc of 92 miles radius about 24 deg 35 min N, 81 deg 41 min 15 sec W. Both arc endpoints fall 147.5 to 148.0 km from the centre, which matches 92 statute miles (148.1 km) and not 92 nautical miles (170.4 km), so statute miles were used. Includes the Marquesas and Dry Tortugas. DMS as printed: 25°45′00″ N 82°07′00″ W | 24°49′00″ N 81°55′00″ W | 24°37′30″ N 82°00′30″ W | 24°37′30″ N 82°06′00″ W | 24°28′30″ N 82°06′00″ W | 24°25′00″ N 82°06′30″ W | 24°25′00″ N 81°57′00″ W | 23°30′00″ N 82°19′00″ W | 23°30′00″ N 82°46′00″ W | 23°52′30″ N 83°11′00″ W | 24°25′00″ N 83°11′00″ W | 24°25′00″ N 83°08′00″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-620-a2i-marquesas-target1",
+  "name": "Marquesas bombing target, grounded LSIL (2 nm)",
+  "law": [
+   "cfr-33-334-620"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     24.58998,
+     -82.18167
+    ],
+    [
+     24.58982,
+     -82.17808
+    ],
+    [
+     24.58934,
+     -82.17452
+    ],
+    [
+     24.58855,
+     -82.17104
+    ],
+    [
+     24.58744,
+     -82.16765
+    ],
+    [
+     24.58605,
+     -82.1644
+    ],
+    [
+     24.58437,
+     -82.16132
+    ],
+    [
+     24.58242,
+     -82.15843
+    ],
+    [
+     24.58022,
+     -82.15577
+    ],
+    [
+     24.5778,
+     -82.15335
+    ],
+    [
+     24.57517,
+     -82.15121
+    ],
+    [
+     24.57237,
+     -82.14937
+    ],
+    [
+     24.56941,
+     -82.14783
+    ],
+    [
+     24.56634,
+     -82.14662
+    ],
+    [
+     24.56316,
+     -82.14575
+    ],
+    [
+     24.55993,
+     -82.14522
+    ],
+    [
+     24.55667,
+     -82.14505
+    ],
+    [
+     24.5534,
+     -82.14522
+    ],
+    [
+     24.55017,
+     -82.14575
+    ],
+    [
+     24.547,
+     -82.14663
+    ],
+    [
+     24.54392,
+     -82.14784
+    ],
+    [
+     24.54096,
+     -82.14938
+    ],
+    [
+     24.53816,
+     -82.15122
+    ],
+    [
+     24.53554,
+     -82.15336
+    ],
+    [
+     24.53311,
+     -82.15578
+    ],
+    [
+     24.53092,
+     -82.15844
+    ],
+    [
+     24.52897,
+     -82.16133
+    ],
+    [
+     24.52729,
+     -82.16441
+    ],
+    [
+     24.52589,
+     -82.16766
+    ],
+    [
+     24.52479,
+     -82.17104
+    ],
+    [
+     24.524,
+     -82.17453
+    ],
+    [
+     24.52352,
+     -82.17808
+    ],
+    [
+     24.52336,
+     -82.18167
+    ],
+    [
+     24.52352,
+     -82.18526
+    ],
+    [
+     24.524,
+     -82.18881
+    ],
+    [
+     24.52479,
+     -82.1923
+    ],
+    [
+     24.52589,
+     -82.19568
+    ],
+    [
+     24.52729,
+     -82.19893
+    ],
+    [
+     24.52897,
+     -82.20201
+    ],
+    [
+     24.53092,
+     -82.2049
+    ],
+    [
+     24.53311,
+     -82.20756
+    ],
+    [
+     24.53554,
+     -82.20998
+    ],
+    [
+     24.53816,
+     -82.21212
+    ],
+    [
+     24.54096,
+     -82.21396
+    ],
+    [
+     24.54392,
+     -82.2155
+    ],
+    [
+     24.547,
+     -82.21671
+    ],
+    [
+     24.55017,
+     -82.21759
+    ],
+    [
+     24.5534,
+     -82.21812
+    ],
+    [
+     24.55667,
+     -82.21829
+    ],
+    [
+     24.55993,
+     -82.21812
+    ],
+    [
+     24.56316,
+     -82.21759
+    ],
+    [
+     24.56634,
+     -82.21672
+    ],
+    [
+     24.56941,
+     -82.21551
+    ],
+    [
+     24.57237,
+     -82.21397
+    ],
+    [
+     24.57517,
+     -82.21213
+    ],
+    [
+     24.5778,
+     -82.20999
+    ],
+    [
+     24.58022,
+     -82.20757
+    ],
+    [
+     24.58242,
+     -82.20491
+    ],
+    [
+     24.58437,
+     -82.20202
+    ],
+    [
+     24.58605,
+     -82.19894
+    ],
+    [
+     24.58744,
+     -82.19569
+    ],
+    [
+     24.58855,
+     -82.1923
+    ],
+    [
+     24.58934,
+     -82.18882
+    ],
+    [
+     24.58982,
+     -82.18526
+    ],
+    [
+     24.58998,
+     -82.18167
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.620(a)(2)(i)",
+  "active": "during announced operations",
+  "note": "Circle, centre 24°33.4′ N 82°10.9′ W, radius two nautical miles (3704 m), drawn as a 64-point ring. All watercraft excluded while announced bombing or strafing is in progress. The CFR excludes land and the area within the Marquesas Keys; the ring does not cut those out. DMS as printed: 24°33.4′ N 82°10.9′ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-620-a2ii-marquesas-target2",
+  "name": "Marquesas high-altitude bombing range, live ordnance (3 statute mi)",
+  "law": [
+   "cfr-33-334-620"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     24.63675,
+     -82.19333
+    ],
+    [
+     24.63654,
+     -82.18865
+    ],
+    [
+     24.63591,
+     -82.18401
+    ],
+    [
+     24.63488,
+     -82.17946
+    ],
+    [
+     24.63344,
+     -82.17505
+    ],
+    [
+     24.63162,
+     -82.17081
+    ],
+    [
+     24.62943,
+     -82.16679
+    ],
+    [
+     24.62689,
+     -82.16303
+    ],
+    [
+     24.62403,
+     -82.15956
+    ],
+    [
+     24.62087,
+     -82.15641
+    ],
+    [
+     24.61745,
+     -82.15362
+    ],
+    [
+     24.61379,
+     -82.15121
+    ],
+    [
+     24.60994,
+     -82.14921
+    ],
+    [
+     24.60593,
+     -82.14763
+    ],
+    [
+     24.60179,
+     -82.14649
+    ],
+    [
+     24.59758,
+     -82.14581
+    ],
+    [
+     24.59332,
+     -82.14558
+    ],
+    [
+     24.58907,
+     -82.14581
+    ],
+    [
+     24.58485,
+     -82.1465
+    ],
+    [
+     24.58072,
+     -82.14764
+    ],
+    [
+     24.57671,
+     -82.14922
+    ],
+    [
+     24.57286,
+     -82.15122
+    ],
+    [
+     24.5692,
+     -82.15363
+    ],
+    [
+     24.56578,
+     -82.15643
+    ],
+    [
+     24.56262,
+     -82.15957
+    ],
+    [
+     24.55976,
+     -82.16305
+    ],
+    [
+     24.55723,
+     -82.16681
+    ],
+    [
+     24.55504,
+     -82.17083
+    ],
+    [
+     24.55321,
+     -82.17506
+    ],
+    [
+     24.55178,
+     -82.17947
+    ],
+    [
+     24.55074,
+     -82.18402
+    ],
+    [
+     24.55012,
+     -82.18865
+    ],
+    [
+     24.54991,
+     -82.19333
+    ],
+    [
+     24.55012,
+     -82.19801
+    ],
+    [
+     24.55074,
+     -82.20264
+    ],
+    [
+     24.55178,
+     -82.20719
+    ],
+    [
+     24.55321,
+     -82.2116
+    ],
+    [
+     24.55504,
+     -82.21583
+    ],
+    [
+     24.55723,
+     -82.21985
+    ],
+    [
+     24.55976,
+     -82.22361
+    ],
+    [
+     24.56262,
+     -82.22709
+    ],
+    [
+     24.56578,
+     -82.23023
+    ],
+    [
+     24.5692,
+     -82.23303
+    ],
+    [
+     24.57286,
+     -82.23544
+    ],
+    [
+     24.57671,
+     -82.23744
+    ],
+    [
+     24.58072,
+     -82.23902
+    ],
+    [
+     24.58485,
+     -82.24016
+    ],
+    [
+     24.58907,
+     -82.24085
+    ],
+    [
+     24.59332,
+     -82.24108
+    ],
+    [
+     24.59758,
+     -82.24085
+    ],
+    [
+     24.60179,
+     -82.24017
+    ],
+    [
+     24.60593,
+     -82.23903
+    ],
+    [
+     24.60994,
+     -82.23745
+    ],
+    [
+     24.61379,
+     -82.23545
+    ],
+    [
+     24.61745,
+     -82.23304
+    ],
+    [
+     24.62087,
+     -82.23025
+    ],
+    [
+     24.62403,
+     -82.2271
+    ],
+    [
+     24.62689,
+     -82.22363
+    ],
+    [
+     24.62943,
+     -82.21987
+    ],
+    [
+     24.63162,
+     -82.21585
+    ],
+    [
+     24.63344,
+     -82.21161
+    ],
+    [
+     24.63488,
+     -82.2072
+    ],
+    [
+     24.63591,
+     -82.20265
+    ],
+    [
+     24.63654,
+     -82.19801
+    ],
+    [
+     24.63675,
+     -82.19333
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.620(a)(2)(ii)",
+  "active": "during announced operations",
+  "note": "Circle, centre 24°35.6′ N 82°11.6′ W, radius three statute miles (4828 m), drawn as a 64-point ring. All watercraft excluded while announced bombing or strafing is in progress. The CFR excludes land and the area within the Marquesas Keys; the ring does not cut those out. DMS as printed: 24°35.6′ N 82°11.6′ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-620-a2iii-marquesas-target3",
+  "name": "Marquesas target area 3 (2 nm)",
+  "law": [
+   "cfr-33-334-620"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     24.60831,
+     -82.23333
+    ],
+    [
+     24.60815,
+     -82.22974
+    ],
+    [
+     24.60767,
+     -82.22618
+    ],
+    [
+     24.60688,
+     -82.22269
+    ],
+    [
+     24.60577,
+     -82.21931
+    ],
+    [
+     24.60438,
+     -82.21606
+    ],
+    [
+     24.6027,
+     -82.21298
+    ],
+    [
+     24.60075,
+     -82.21009
+    ],
+    [
+     24.59855,
+     -82.20742
+    ],
+    [
+     24.59613,
+     -82.20501
+    ],
+    [
+     24.5935,
+     -82.20287
+    ],
+    [
+     24.5907,
+     -82.20102
+    ],
+    [
+     24.58774,
+     -82.19949
+    ],
+    [
+     24.58467,
+     -82.19828
+    ],
+    [
+     24.58149,
+     -82.1974
+    ],
+    [
+     24.57826,
+     -82.19688
+    ],
+    [
+     24.575,
+     -82.1967
+    ],
+    [
+     24.57173,
+     -82.19688
+    ],
+    [
+     24.5685,
+     -82.19741
+    ],
+    [
+     24.56533,
+     -82.19828
+    ],
+    [
+     24.56225,
+     -82.19949
+    ],
+    [
+     24.55929,
+     -82.20103
+    ],
+    [
+     24.55649,
+     -82.20288
+    ],
+    [
+     24.55387,
+     -82.20502
+    ],
+    [
+     24.55144,
+     -82.20743
+    ],
+    [
+     24.54925,
+     -82.2101
+    ],
+    [
+     24.5473,
+     -82.21298
+    ],
+    [
+     24.54562,
+     -82.21607
+    ],
+    [
+     24.54422,
+     -82.21932
+    ],
+    [
+     24.54312,
+     -82.2227
+    ],
+    [
+     24.54233,
+     -82.22619
+    ],
+    [
+     24.54185,
+     -82.22974
+    ],
+    [
+     24.54169,
+     -82.23333
+    ],
+    [
+     24.54185,
+     -82.23692
+    ],
+    [
+     24.54233,
+     -82.24047
+    ],
+    [
+     24.54312,
+     -82.24396
+    ],
+    [
+     24.54422,
+     -82.24734
+    ],
+    [
+     24.54562,
+     -82.25059
+    ],
+    [
+     24.5473,
+     -82.25368
+    ],
+    [
+     24.54925,
+     -82.25656
+    ],
+    [
+     24.55144,
+     -82.25923
+    ],
+    [
+     24.55387,
+     -82.26164
+    ],
+    [
+     24.55649,
+     -82.26378
+    ],
+    [
+     24.55929,
+     -82.26563
+    ],
+    [
+     24.56225,
+     -82.26717
+    ],
+    [
+     24.56533,
+     -82.26838
+    ],
+    [
+     24.5685,
+     -82.26925
+    ],
+    [
+     24.57173,
+     -82.26978
+    ],
+    [
+     24.575,
+     -82.26996
+    ],
+    [
+     24.57826,
+     -82.26978
+    ],
+    [
+     24.58149,
+     -82.26926
+    ],
+    [
+     24.58467,
+     -82.26838
+    ],
+    [
+     24.58774,
+     -82.26717
+    ],
+    [
+     24.5907,
+     -82.26564
+    ],
+    [
+     24.5935,
+     -82.26379
+    ],
+    [
+     24.59613,
+     -82.26165
+    ],
+    [
+     24.59855,
+     -82.25924
+    ],
+    [
+     24.60075,
+     -82.25657
+    ],
+    [
+     24.6027,
+     -82.25368
+    ],
+    [
+     24.60438,
+     -82.2506
+    ],
+    [
+     24.60577,
+     -82.24735
+    ],
+    [
+     24.60688,
+     -82.24397
+    ],
+    [
+     24.60767,
+     -82.24048
+    ],
+    [
+     24.60815,
+     -82.23692
+    ],
+    [
+     24.60831,
+     -82.23333
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.620(a)(2)(iii)",
+  "active": "during announced operations",
+  "note": "Circle, centre 24°34′30″ N 82°14′00″ W, radius two nautical miles (3704 m), drawn as a 64-point ring. All watercraft excluded while announced bombing or strafing is in progress. The CFR excludes land and the area within the Marquesas Keys; the ring does not cut those out. DMS as printed: 24°34′30″ N 82°14′00″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-630-macdill-dangerzone",
+  "name": "MacDill AFB small-arms range danger zone",
+  "law": [
+   "cfr-33-334-630",
+   "cfr-33-334-635"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     27.82427,
+     -82.49329
+    ],
+    [
+     27.82226,
+     -82.49522
+    ],
+    [
+     27.81245,
+     -82.51944
+    ],
+    [
+     27.81926,
+     -82.54016
+    ],
+    [
+     27.82739,
+     -82.55068
+    ],
+    [
+     27.84127,
+     -82.5375
+    ],
+    [
+     27.82427,
+     -82.49329
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.630(a)",
+  "active": "always",
+  "note": "Shoreward of the CFR line; entry prohibited at all times. Ring closed with a chord across base land from the last shore point to the first point. Lies inside the 334.635 restricted area. DMS as printed: 27°49′27.38″ N 82°29′35.83″ W | 27°49′20.14″ N 82°29′42.78″ W | 27°48′44.82″ N 82°31′10.0″ W | 27°49′09.35″ N 82°32′24.56″ W | 27°49′38.62″ N 82°33′02.44″ W | 27°50′28.57″ N 82°32′15.0″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-635-macdill-restricted",
+  "name": "MacDill AFB restricted area (Hillsborough Bay and Tampa Bay)",
+  "law": [
+   "cfr-33-334-635",
+   "cfr-33-165-703"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     27.86469,
+     -82.48842
+    ],
+    [
+     27.86685,
+     -82.48089
+    ],
+    [
+     27.85802,
+     -82.46956
+    ],
+    [
+     27.8503,
+     -82.4626
+    ],
+    [
+     27.84535,
+     -82.46014
+    ],
+    [
+     27.83884,
+     -82.45985
+    ],
+    [
+     27.82746,
+     -82.46212
+    ],
+    [
+     27.82228,
+     -82.4632
+    ],
+    [
+     27.81836,
+     -82.46465
+    ],
+    [
+     27.81466,
+     -82.46832
+    ],
+    [
+     27.81261,
+     -82.47564
+    ],
+    [
+     27.81449,
+     -82.49074
+    ],
+    [
+     27.81767,
+     -82.50656
+    ],
+    [
+     27.81245,
+     -82.51944
+    ],
+    [
+     27.81926,
+     -82.54015
+    ],
+    [
+     27.82739,
+     -82.55068
+    ],
+    [
+     27.83249,
+     -82.54584
+    ],
+    [
+     27.83485,
+     -82.54687
+    ],
+    [
+     27.8427,
+     -82.54589
+    ],
+    [
+     27.84523,
+     -82.53638
+    ],
+    [
+     27.86469,
+     -82.48842
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.635(a)",
+  "active": "always",
+  "note": "Entering, transiting, anchoring or drifting prohibited for any reason 24/7. Ring closed with a chord across base land between the two shore points. DMS as printed: 27°51′52.901″ N 82°29′18.329″ W | 27°52′00.672″ N 82°28′51.196″ W | 27°51′28.859″ N 82°28′10.412″ W | 27°51′01.067″ N 82°27′45.355″ W | 27°50′43.248″ N 82°27′36.491″ W | 27°50′19.817″ N 82°27′35.466″ W | 27°49′38.865″ N 82°27′43.642″ W | 27°49′20.204″ N 82°27′47.517″ W | 27°49′06.112″ N 82°27′52.750″ W | 27°48′52.791″ N 82°28′05.943″ W | 27°48′45.406″ N 82°28′32.309″ W | 27°48′52.162″ N 82°29′26.672″ W | 27°49′03.600″ N 82°30′23.629″ W | 27°48′44.820″ N 82°31′10.000″ W | 27°49′09.350″ N 82°32′24.556″ W | 27°49′38.620″ N 82°33′02.444″ W | 27°49′56.963″ N 82°32′45.023″ W | 27°50′05.447″ N 82°32′48.734″ W | 27°50′33.715″ N 82°32′45.220″ W | 27°50′42.836″ N 82°32′10.972″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-640-apalachee-rocketrange",
+  "name": "Gulf south of Apalachee Bay, Air Force rocket firing range",
+  "law": [
+   "cfr-33-334-640"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     29.70833,
+     -84.66667
+    ],
+    [
+     29.70833,
+     -84.0
+    ],
+    [
+     28.93333,
+     -83.51667
+    ],
+    [
+     28.61667,
+     -84.18333
+    ],
+    [
+     29.29167,
+     -84.66667
+    ],
+    [
+     29.53333,
+     -85.0
+    ],
+    [
+     29.70833,
+     -84.66667
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.640(a)",
+  "active": "during announced firing",
+  "note": "Persons and watercraft must leave when warned by patrol and stay clear until firing ends. The northeast side runs 'three miles off the meanderings of the shore'; it is drawn as a straight chord. Against the Natural Earth 10 m coastline the chord sits 4.9 to 8.1 km offshore, so it is on or seaward of the 3-mile line. DMS as printed: 29°42′30″ N 84°40′00″ W | 29°42′30″ N 84°00′00″ W | 28°56′00″ N 83°31′00″ W | 28°37′00″ N 84°11′00″ W | 29°17′30″ N 84°40′00″ W | 29°32′00″ N 85°00′00″ W",
+  "flag": "Inshore edge drawn as a chord. The true edge (3 miles off the shore) is up to about 3 km closer to shore than drawn, mainly at the west end off St. George Island."
+ },
+ {
+  "id": "usace-334-650-stgeorge-fan",
+  "name": "Gulf south of St. George Island, Army helicopter test firing range",
+  "law": [
+   "cfr-33-334-650"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     29.5875,
+     -85.05333
+    ],
+    [
+     29.52167,
+     -85.12528
+    ],
+    [
+     29.51866,
+     -85.12168
+    ],
+    [
+     29.51568,
+     -85.11806
+    ],
+    [
+     29.51285,
+     -85.11429
+    ],
+    [
+     29.51018,
+     -85.11037
+    ],
+    [
+     29.50766,
+     -85.10632
+    ],
+    [
+     29.50531,
+     -85.10213
+    ],
+    [
+     29.50313,
+     -85.09783
+    ],
+    [
+     29.50112,
+     -85.09341
+    ],
+    [
+     29.49929,
+     -85.0889
+    ],
+    [
+     29.49764,
+     -85.08429
+    ],
+    [
+     29.49618,
+     -85.0796
+    ],
+    [
+     29.4949,
+     -85.07484
+    ],
+    [
+     29.49382,
+     -85.07002
+    ],
+    [
+     29.49293,
+     -85.06515
+    ],
+    [
+     29.49224,
+     -85.06023
+    ],
+    [
+     29.49174,
+     -85.05528
+    ],
+    [
+     29.49144,
+     -85.05032
+    ],
+    [
+     29.49134,
+     -85.04534
+    ],
+    [
+     29.49144,
+     -85.04036
+    ],
+    [
+     29.49174,
+     -85.03539
+    ],
+    [
+     29.49223,
+     -85.03044
+    ],
+    [
+     29.49293,
+     -85.02553
+    ],
+    [
+     29.49381,
+     -85.02065
+    ],
+    [
+     29.49489,
+     -85.01583
+    ],
+    [
+     29.49617,
+     -85.01107
+    ],
+    [
+     29.49763,
+     -85.00638
+    ],
+    [
+     29.49928,
+     -85.00177
+    ],
+    [
+     29.5011,
+     -84.99726
+    ],
+    [
+     29.50311,
+     -84.99284
+    ],
+    [
+     29.505,
+     -84.98833
+    ],
+    [
+     29.58583,
+     -85.03139
+    ],
+    [
+     29.5875,
+     -85.05333
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.650(a)",
+  "active": "weekday daylight when firing",
+  "note": "Fan-shaped area used sunrise to sunset Monday to Friday; the area plus 5 miles is watched and firing stops if a vessel approaches. The section contains no entry prohibition. Seaward arc has a 10,500 m radius about a point 1,500 ft east of Cape St. George Light on the south shore of St. George Island; the centre was derived as the point 10,500 m from both the SW and SE corners (29.58577, -85.04532); it lies 798 m from the NW corner and 1,347 m from the NE corner, consistent with a point on the island shore between them. The landward side between the NE and NW corners is closed with a straight chord along the shore. DMS as printed: 29°35′15″ N 85°03′12″ W | 29°31′18″ N 85°07′31″ W | 29°30′18″ N 84°59′18″ W | 29°35′09″ N 85°01′53″ W",
+  "flag": "Arc centre derived from the corners, not stated as coordinates. The enforcing unit (Army Aviation Test Board, Fort Rucker) may no longer exist; currency of use unknown."
+ },
+ {
+  "id": "usace-334-660-tyndall-dronerecovery",
+  "name": "Tyndall drone recovery area, Gulf and Apalachicola Bay",
+  "law": [
+   "cfr-33-334-660"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     29.63889,
+     -84.975
+    ],
+    [
+     29.58972,
+     -84.94833
+    ],
+    [
+     29.57083,
+     -85.00972
+    ],
+    [
+     29.61944,
+     -85.03333
+    ],
+    [
+     29.63889,
+     -84.975
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.660(a)",
+  "active": "twice daily, one hour each",
+  "note": "Used twice daily, restricted to navigation for one hour each; patrol boats and aircraft warn traffic out. Ring closed by 'to point of beginning'. The CFR excludes St. George Island land; the ring does not cut it out. DMS as printed: 29°38′20″ N 84°58′30″ W | 29°35′23″ N 84°56′54″ W | 29°34′15″ N 85°00′35″ W | 29°37′10″ N 85°02′00″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-670-tyndall-airtoair",
+  "name": "Tyndall air-to-air firing range, Gulf of Mexico",
+  "law": [
+   "cfr-33-334-670"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     29.66667,
+     -85.35833
+    ],
+    [
+     29.38333,
+     -84.65
+    ],
+    [
+     28.65,
+     -84.81667
+    ],
+    [
+     29.71667,
+     -85.88333
+    ],
+    [
+     29.94167,
+     -85.64167
+    ],
+    [
+     29.66667,
+     -85.35833
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.670(a)",
+  "active": "daylight firing periods",
+  "note": "Daylight firing seven days a week; persons and vessels must clear when warned; open when not firing. Ring closed by 'thence southeasterly to the point of beginning'. DMS as printed: 29°40′00″ N 85°21′30″ W | 29°23′00″ N 84°39′00″ W | 28°39′00″ N 84°49′00″ W | 29°43′00″ N 85°53′00″ W | 29°56′30″ N 85°38′30″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-680-a1-tyndall-smallarms1",
+  "name": "Tyndall small-arms range Area 1, Gulf southeast of St. Andrew Bay East Entrance",
+  "law": [
+   "cfr-33-334-680"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.07556,
+     -85.61861
+    ],
+    [
+     30.05083,
+     -85.645
+    ],
+    [
+     30.03722,
+     -85.62083
+    ],
+    [
+     30.07028,
+     -85.61306
+    ],
+    [
+     30.07556,
+     -85.61861
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.680(a)(1)",
+  "active": "during firing, red flag",
+  "note": "No entry during firing (6:30 a.m. to 5 p.m. weekdays as scheduled, some weekends); red flag on shore when firing. Shoreline leg closed with a straight chord of about 800 m along a straight Gulf beach. DMS as printed: 30°04′32″ N 85°37′07″ W | 30°03′03″ N 85°38′42″ W | 30°02′14″ N 85°37′15″ W | 30°04′13″ N 85°36′47″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-680-a2-tyndall-smallarms2",
+  "name": "Tyndall small-arms range Area 2, Gulf and St. Andrew Sound (line)",
+  "law": [
+   "cfr-33-334-680"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [
+   [
+    [
+     30.04889,
+     -85.57639
+    ],
+    [
+     30.03833,
+     -85.605
+    ],
+    [
+     30.02333,
+     -85.59444
+    ],
+    [
+     30.0125,
+     -85.57806
+    ],
+    [
+     30.03611,
+     -85.56167
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 334.680(a)(2)",
+  "active": "during firing, red flag",
+  "note": "No entry during firing (6 a.m. to 5 p.m. any day, sporadic); red flag on shore. Excludes Crooked Island. Shoreline return not drawn. DMS as printed: 30°02′56″ N 85°34′35″ W | 30°02′18″ N 85°36′18″ W | 30°01′24″ N 85°35′40″ W | 30°00′45″ N 85°34′41″ W | 30°02′10″ N 85°33′42″ W",
+  "flag": "Line only; closure along the shore not drawn."
+ },
+ {
+  "id": "usace-334-700-a1-choctaw-west",
+  "name": "Choctawhatchee Bay west aerial gunnery range (explicit legs)",
+  "law": [
+   "cfr-33-334-700"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [
+   [
+    [
+     30.4692,
+     -86.48397
+    ],
+    [
+     30.425,
+     -86.35833
+    ],
+    [
+     30.39298,
+     -86.38339
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 334.700(a)(1)",
+  "active": "during announced firing",
+  "note": "Usable except when firing; use advertised by Eglin Public Affairs. Two shoreline legs make the polygon undrawable from the CFR. DMS as printed: 30°28′09.11″ N 086°29′02.30″ W | 30°25′30″ N 086°21′30″ W | 30°23′34.72″ N 086°23′00.22″ W",
+  "flag": "Explicit legs only; two shoreline legs not drawn."
+ },
+ {
+  "id": "usace-334-700-a1-choctaw-west-b",
+  "name": "Choctawhatchee Bay west aerial gunnery range (southwest leg)",
+  "law": [
+   "cfr-33-334-700"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [
+   [
+    [
+     30.40262,
+     -86.41669
+    ],
+    [
+     30.46505,
+     -86.48842
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 334.700(a)(1)",
+  "active": "during announced firing",
+  "note": "Second explicit leg of the west range, south shore to southwest shore. DMS as printed: 30°24′09.45″ N 086°25′00.08″ W | 30°27′54.18″ N 086°29′18.32″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-700-a2-choctaw-northshore",
+  "name": "Choctawhatchee Bay north shore aerial gunnery range (line)",
+  "law": [
+   "cfr-33-334-700"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [
+   [
+    [
+     30.45722,
+     -86.425
+    ],
+    [
+     30.43333,
+     -86.425
+    ],
+    [
+     30.44917,
+     -86.34306
+    ],
+    [
+     30.43667,
+     -86.34306
+    ],
+    [
+     30.44139,
+     -86.25
+    ],
+    [
+     30.48575,
+     -86.25
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 334.700(a)(2)",
+  "active": "when activated",
+  "note": "No entry while active; activation advertised by Eglin Public Affairs. Closed along 17 km of north-shore shoreline back to the start; a chord would cut off nearshore water, so only the CFR line is drawn. DMS as printed: 30°27′26″ N 086°25′30″ W | 30°26′00″ N 086°25′30″ W | 30°26′57″ N 086°20′35″ W | 30°26′12″ N 086°20′35″ W | 30°26′29″ N 086°15′00″ W | 30°29′08.7″ N 086°15′00″ W",
+  "flag": "Line only. The zone is all water between this line and the north shore of Choctawhatchee Bay."
+ },
+ {
+  "id": "usace-334-710-narrows-lune",
+  "name": "The Narrows and Gulf adjacent to Santa Rosa Island, Eglin restricted area",
+  "law": [
+   "cfr-33-334-710"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.4391,
+     -86.73247
+    ],
+    [
+     30.4399,
+     -86.73127
+    ],
+    [
+     30.44067,
+     -86.73004
+    ],
+    [
+     30.44142,
+     -86.7288
+    ],
+    [
+     30.44214,
+     -86.72753
+    ],
+    [
+     30.44283,
+     -86.72624
+    ],
+    [
+     30.44349,
+     -86.72493
+    ],
+    [
+     30.44411,
+     -86.7236
+    ],
+    [
+     30.44471,
+     -86.72225
+    ],
+    [
+     30.44528,
+     -86.72088
+    ],
+    [
+     30.44582,
+     -86.7195
+    ],
+    [
+     30.44633,
+     -86.7181
+    ],
+    [
+     30.4468,
+     -86.71669
+    ],
+    [
+     30.44724,
+     -86.71526
+    ],
+    [
+     30.44765,
+     -86.71382
+    ],
+    [
+     30.44803,
+     -86.71237
+    ],
+    [
+     30.44837,
+     -86.7109
+    ],
+    [
+     30.44868,
+     -86.70943
+    ],
+    [
+     30.44896,
+     -86.70795
+    ],
+    [
+     30.44921,
+     -86.70645
+    ],
+    [
+     30.44942,
+     -86.70496
+    ],
+    [
+     30.44959,
+     -86.70345
+    ],
+    [
+     30.44974,
+     -86.70195
+    ],
+    [
+     30.44984,
+     -86.70043
+    ],
+    [
+     30.44992,
+     -86.69892
+    ],
+    [
+     30.44996,
+     -86.6974
+    ],
+    [
+     30.44996,
+     -86.69588
+    ],
+    [
+     30.44994,
+     -86.69437
+    ],
+    [
+     30.44987,
+     -86.69285
+    ],
+    [
+     30.44978,
+     -86.69134
+    ],
+    [
+     30.44964,
+     -86.68983
+    ],
+    [
+     30.44948,
+     -86.68832
+    ],
+    [
+     30.44928,
+     -86.68682
+    ],
+    [
+     30.44905,
+     -86.68533
+    ],
+    [
+     30.44878,
+     -86.68385
+    ],
+    [
+     30.44848,
+     -86.68237
+    ],
+    [
+     30.44815,
+     -86.6809
+    ],
+    [
+     30.44778,
+     -86.67944
+    ],
+    [
+     30.44738,
+     -86.678
+    ],
+    [
+     30.44695,
+     -86.67657
+    ],
+    [
+     30.44649,
+     -86.67515
+    ],
+    [
+     30.44599,
+     -86.67374
+    ],
+    [
+     30.44547,
+     -86.67236
+    ],
+    [
+     30.44491,
+     -86.67098
+    ],
+    [
+     30.44432,
+     -86.66963
+    ],
+    [
+     30.4437,
+     -86.66829
+    ],
+    [
+     30.44305,
+     -86.66697
+    ],
+    [
+     30.44237,
+     -86.66568
+    ],
+    [
+     30.44166,
+     -86.6644
+    ],
+    [
+     30.44093,
+     -86.66315
+    ],
+    [
+     30.44016,
+     -86.66192
+    ],
+    [
+     30.43937,
+     -86.66071
+    ],
+    [
+     30.43855,
+     -86.65953
+    ],
+    [
+     30.4377,
+     -86.65837
+    ],
+    [
+     30.43683,
+     -86.65724
+    ],
+    [
+     30.43594,
+     -86.65613
+    ],
+    [
+     30.43502,
+     -86.65506
+    ],
+    [
+     30.43407,
+     -86.65401
+    ],
+    [
+     30.4331,
+     -86.65299
+    ],
+    [
+     30.43211,
+     -86.652
+    ],
+    [
+     30.4311,
+     -86.65104
+    ],
+    [
+     30.43006,
+     -86.65011
+    ],
+    [
+     30.42901,
+     -86.64921
+    ],
+    [
+     30.42793,
+     -86.64835
+    ],
+    [
+     30.42684,
+     -86.64752
+    ],
+    [
+     30.42573,
+     -86.64672
+    ],
+    [
+     30.42459,
+     -86.64596
+    ],
+    [
+     30.42345,
+     -86.64523
+    ],
+    [
+     30.42228,
+     -86.64453
+    ],
+    [
+     30.42111,
+     -86.64388
+    ],
+    [
+     30.41991,
+     -86.64325
+    ],
+    [
+     30.41871,
+     -86.64267
+    ],
+    [
+     30.41749,
+     -86.64212
+    ],
+    [
+     30.41626,
+     -86.64161
+    ],
+    [
+     30.41501,
+     -86.64113
+    ],
+    [
+     30.41376,
+     -86.6407
+    ],
+    [
+     30.4125,
+     -86.6403
+    ],
+    [
+     30.41123,
+     -86.63994
+    ],
+    [
+     30.40995,
+     -86.63962
+    ],
+    [
+     30.40866,
+     -86.63933
+    ],
+    [
+     30.40737,
+     -86.63909
+    ],
+    [
+     30.40608,
+     -86.63889
+    ],
+    [
+     30.40478,
+     -86.63872
+    ],
+    [
+     30.40347,
+     -86.6386
+    ],
+    [
+     30.40217,
+     -86.63851
+    ],
+    [
+     30.40086,
+     -86.63847
+    ],
+    [
+     30.39955,
+     -86.63846
+    ],
+    [
+     30.39824,
+     -86.6385
+    ],
+    [
+     30.39694,
+     -86.63857
+    ],
+    [
+     30.39563,
+     -86.63868
+    ],
+    [
+     30.39433,
+     -86.63883
+    ],
+    [
+     30.39303,
+     -86.63903
+    ],
+    [
+     30.39174,
+     -86.63926
+    ],
+    [
+     30.39045,
+     -86.63953
+    ],
+    [
+     30.38917,
+     -86.63984
+    ],
+    [
+     30.3879,
+     -86.64019
+    ],
+    [
+     30.38664,
+     -86.64057
+    ],
+    [
+     30.38538,
+     -86.641
+    ],
+    [
+     30.38413,
+     -86.64146
+    ],
+    [
+     30.3829,
+     -86.64196
+    ],
+    [
+     30.38168,
+     -86.6425
+    ],
+    [
+     30.38047,
+     -86.64307
+    ],
+    [
+     30.37927,
+     -86.64369
+    ],
+    [
+     30.37809,
+     -86.64433
+    ],
+    [
+     30.37692,
+     -86.64502
+    ],
+    [
+     30.37577,
+     -86.64574
+    ],
+    [
+     30.37463,
+     -86.64649
+    ],
+    [
+     30.37351,
+     -86.64728
+    ],
+    [
+     30.37241,
+     -86.6481
+    ],
+    [
+     30.37133,
+     -86.64895
+    ],
+    [
+     30.37027,
+     -86.64984
+    ],
+    [
+     30.36923,
+     -86.65075
+    ],
+    [
+     30.36821,
+     -86.6517
+    ],
+    [
+     30.36721,
+     -86.65268
+    ],
+    [
+     30.36624,
+     -86.65369
+    ],
+    [
+     30.36528,
+     -86.65473
+    ],
+    [
+     30.36436,
+     -86.6558
+    ],
+    [
+     30.36345,
+     -86.6569
+    ],
+    [
+     30.36257,
+     -86.65802
+    ],
+    [
+     30.36172,
+     -86.65917
+    ],
+    [
+     30.36089,
+     -86.66034
+    ],
+    [
+     30.36009,
+     -86.66154
+    ],
+    [
+     30.35932,
+     -86.66276
+    ],
+    [
+     30.35857,
+     -86.66401
+    ],
+    [
+     30.35786,
+     -86.66528
+    ],
+    [
+     30.35717,
+     -86.66657
+    ],
+    [
+     30.35651,
+     -86.66788
+    ],
+    [
+     30.35588,
+     -86.66921
+    ],
+    [
+     30.35528,
+     -86.67055
+    ],
+    [
+     30.35471,
+     -86.67192
+    ],
+    [
+     30.35418,
+     -86.6733
+    ],
+    [
+     30.35367,
+     -86.6747
+    ],
+    [
+     30.3532,
+     -86.67611
+    ],
+    [
+     30.35275,
+     -86.67754
+    ],
+    [
+     30.35235,
+     -86.67898
+    ],
+    [
+     30.35197,
+     -86.68043
+    ],
+    [
+     30.35162,
+     -86.68189
+    ],
+    [
+     30.35131,
+     -86.68336
+    ],
+    [
+     30.35104,
+     -86.68485
+    ],
+    [
+     30.35079,
+     -86.68634
+    ],
+    [
+     30.35058,
+     -86.68783
+    ],
+    [
+     30.35041,
+     -86.68933
+    ],
+    [
+     30.35026,
+     -86.69084
+    ],
+    [
+     30.35016,
+     -86.69235
+    ],
+    [
+     30.35008,
+     -86.69386
+    ],
+    [
+     30.35004,
+     -86.69538
+    ],
+    [
+     30.35004,
+     -86.6969
+    ],
+    [
+     30.35006,
+     -86.69841
+    ],
+    [
+     30.35013,
+     -86.69992
+    ],
+    [
+     30.35022,
+     -86.70144
+    ],
+    [
+     30.35035,
+     -86.70294
+    ],
+    [
+     30.35052,
+     -86.70445
+    ],
+    [
+     30.35072,
+     -86.70595
+    ],
+    [
+     30.35095,
+     -86.70744
+    ],
+    [
+     30.35122,
+     -86.70892
+    ],
+    [
+     30.35152,
+     -86.7104
+    ],
+    [
+     30.35185,
+     -86.71186
+    ],
+    [
+     30.35222,
+     -86.71332
+    ],
+    [
+     30.35261,
+     -86.71476
+    ],
+    [
+     30.35305,
+     -86.71619
+    ],
+    [
+     30.35351,
+     -86.71761
+    ],
+    [
+     30.35367,
+     -86.71808
+    ],
+    [
+     30.3551,
+     -86.71749
+    ],
+    [
+     30.3565,
+     -86.71685
+    ],
+    [
+     30.35792,
+     -86.71624
+    ],
+    [
+     30.35935,
+     -86.71566
+    ],
+    [
+     30.36078,
+     -86.71512
+    ],
+    [
+     30.36222,
+     -86.7146
+    ],
+    [
+     30.36368,
+     -86.71411
+    ],
+    [
+     30.36513,
+     -86.71365
+    ],
+    [
+     30.3666,
+     -86.71322
+    ],
+    [
+     30.36807,
+     -86.71283
+    ],
+    [
+     30.36955,
+     -86.71246
+    ],
+    [
+     30.37103,
+     -86.71213
+    ],
+    [
+     30.37252,
+     -86.71183
+    ],
+    [
+     30.37402,
+     -86.71155
+    ],
+    [
+     30.37551,
+     -86.71132
+    ],
+    [
+     30.37701,
+     -86.71111
+    ],
+    [
+     30.37852,
+     -86.71093
+    ],
+    [
+     30.38002,
+     -86.71079
+    ],
+    [
+     30.38153,
+     -86.71067
+    ],
+    [
+     30.38304,
+     -86.71059
+    ],
+    [
+     30.38455,
+     -86.71054
+    ],
+    [
+     30.38606,
+     -86.71052
+    ],
+    [
+     30.38757,
+     -86.71054
+    ],
+    [
+     30.38908,
+     -86.71058
+    ],
+    [
+     30.39059,
+     -86.71066
+    ],
+    [
+     30.3921,
+     -86.71077
+    ],
+    [
+     30.39361,
+     -86.71091
+    ],
+    [
+     30.39511,
+     -86.71108
+    ],
+    [
+     30.39661,
+     -86.71128
+    ],
+    [
+     30.39811,
+     -86.71152
+    ],
+    [
+     30.3996,
+     -86.71179
+    ],
+    [
+     30.40109,
+     -86.71209
+    ],
+    [
+     30.40258,
+     -86.71242
+    ],
+    [
+     30.40406,
+     -86.71278
+    ],
+    [
+     30.40553,
+     -86.71317
+    ],
+    [
+     30.407,
+     -86.71359
+    ],
+    [
+     30.40846,
+     -86.71405
+    ],
+    [
+     30.40991,
+     -86.71453
+    ],
+    [
+     30.41135,
+     -86.71504
+    ],
+    [
+     30.41279,
+     -86.71559
+    ],
+    [
+     30.41422,
+     -86.71617
+    ],
+    [
+     30.41563,
+     -86.71677
+    ],
+    [
+     30.41704,
+     -86.71741
+    ],
+    [
+     30.41844,
+     -86.71807
+    ],
+    [
+     30.41983,
+     -86.71876
+    ],
+    [
+     30.42121,
+     -86.71949
+    ],
+    [
+     30.42257,
+     -86.72024
+    ],
+    [
+     30.42392,
+     -86.72102
+    ],
+    [
+     30.42526,
+     -86.72183
+    ],
+    [
+     30.42659,
+     -86.72267
+    ],
+    [
+     30.42791,
+     -86.72353
+    ],
+    [
+     30.42921,
+     -86.72442
+    ],
+    [
+     30.43049,
+     -86.72534
+    ],
+    [
+     30.43177,
+     -86.72629
+    ],
+    [
+     30.43302,
+     -86.72726
+    ],
+    [
+     30.43426,
+     -86.72826
+    ],
+    [
+     30.43549,
+     -86.72929
+    ],
+    [
+     30.4367,
+     -86.73034
+    ],
+    [
+     30.43789,
+     -86.73142
+    ],
+    [
+     30.4391,
+     -86.73247
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.710(a)",
+  "active": "intermittent daylight use",
+  "note": "Entry prohibited during intermittent daylight use; notice by Eglin water patrol and local media. Drawn as the part of a 3 nm circle about 30 deg 24 min N, 086 deg 41 min 47 sec W that lies outside the 5 nm circle about Station Tuck 3. The CFR says 'within the segment of a circle' without defining the segment; the whole lune is drawn, the reading that closes more water. The drawn lune also covers part of Okaloosa Island and the west end of Choctawhatchee Bay at Fort Walton Beach. DMS as printed: C2 30°24′00″ N 086°41′47″ W r=3 nm | Tuck 3 30°23′10.074″ N 086°48′25.433″ W r=5 nm",
+  "flag": "Undefined 'segment' drawn as the full lune (conservative)."
+ },
+ {
+  "id": "usace-334-730-a1-tuck3-dangerzone",
+  "name": "Eglin Test Site A-3 danger zone, 1 nm circle at Station Tuck 3",
+  "law": [
+   "cfr-33-334-730"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.40279,
+     -86.80706
+    ],
+    [
+     30.40271,
+     -86.80517
+    ],
+    [
+     30.40247,
+     -86.80329
+    ],
+    [
+     30.40207,
+     -86.80145
+    ],
+    [
+     30.40152,
+     -86.79967
+    ],
+    [
+     30.40082,
+     -86.79796
+    ],
+    [
+     30.39998,
+     -86.79633
+    ],
+    [
+     30.399,
+     -86.79481
+    ],
+    [
+     30.39791,
+     -86.79341
+    ],
+    [
+     30.3967,
+     -86.79213
+    ],
+    [
+     30.39538,
+     -86.791
+    ],
+    [
+     30.39398,
+     -86.79003
+    ],
+    [
+     30.3925,
+     -86.78922
+    ],
+    [
+     30.39096,
+     -86.78858
+    ],
+    [
+     30.38938,
+     -86.78812
+    ],
+    [
+     30.38776,
+     -86.78785
+    ],
+    [
+     30.38613,
+     -86.78775
+    ],
+    [
+     30.3845,
+     -86.78785
+    ],
+    [
+     30.38288,
+     -86.78812
+    ],
+    [
+     30.38129,
+     -86.78858
+    ],
+    [
+     30.37976,
+     -86.78922
+    ],
+    [
+     30.37828,
+     -86.79003
+    ],
+    [
+     30.37688,
+     -86.79101
+    ],
+    [
+     30.37556,
+     -86.79214
+    ],
+    [
+     30.37435,
+     -86.79341
+    ],
+    [
+     30.37325,
+     -86.79481
+    ],
+    [
+     30.37228,
+     -86.79633
+    ],
+    [
+     30.37144,
+     -86.79796
+    ],
+    [
+     30.37074,
+     -86.79967
+    ],
+    [
+     30.37019,
+     -86.80146
+    ],
+    [
+     30.36979,
+     -86.80329
+    ],
+    [
+     30.36955,
+     -86.80517
+    ],
+    [
+     30.36947,
+     -86.80706
+    ],
+    [
+     30.36955,
+     -86.80895
+    ],
+    [
+     30.36979,
+     -86.81083
+    ],
+    [
+     30.37019,
+     -86.81266
+    ],
+    [
+     30.37074,
+     -86.81445
+    ],
+    [
+     30.37144,
+     -86.81616
+    ],
+    [
+     30.37228,
+     -86.81779
+    ],
+    [
+     30.37325,
+     -86.81931
+    ],
+    [
+     30.37435,
+     -86.82071
+    ],
+    [
+     30.37556,
+     -86.82198
+    ],
+    [
+     30.37688,
+     -86.82311
+    ],
+    [
+     30.37828,
+     -86.82409
+    ],
+    [
+     30.37976,
+     -86.8249
+    ],
+    [
+     30.38129,
+     -86.82554
+    ],
+    [
+     30.38288,
+     -86.826
+    ],
+    [
+     30.3845,
+     -86.82627
+    ],
+    [
+     30.38613,
+     -86.82637
+    ],
+    [
+     30.38776,
+     -86.82627
+    ],
+    [
+     30.38938,
+     -86.826
+    ],
+    [
+     30.39096,
+     -86.82554
+    ],
+    [
+     30.3925,
+     -86.8249
+    ],
+    [
+     30.39398,
+     -86.82409
+    ],
+    [
+     30.39538,
+     -86.82312
+    ],
+    [
+     30.3967,
+     -86.82199
+    ],
+    [
+     30.39791,
+     -86.82071
+    ],
+    [
+     30.399,
+     -86.81931
+    ],
+    [
+     30.39998,
+     -86.81779
+    ],
+    [
+     30.40082,
+     -86.81616
+    ],
+    [
+     30.40152,
+     -86.81445
+    ],
+    [
+     30.40207,
+     -86.81267
+    ],
+    [
+     30.40247,
+     -86.81083
+    ],
+    [
+     30.40271,
+     -86.80895
+    ],
+    [
+     30.40279,
+     -86.80706
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.730(a)(1)",
+  "active": "during test operations",
+  "note": "No entry during experimental test operations (usually not over one hour, not more than twice weekly). Includes the ICW between miles 209.6 and 211.4. DMS as printed: 30°23′10.074″ N 086°48′25.433″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-730-a2i-tuck3-restricted",
+  "name": "Eglin restricted Area 1, 5 nm circle at Station Tuck 3",
+  "law": [
+   "cfr-33-334-730",
+   "cfr-33-334-720"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.46941,
+     -86.80706
+    ],
+    [
+     30.46901,
+     -86.79759
+    ],
+    [
+     30.46781,
+     -86.78821
+    ],
+    [
+     30.46582,
+     -86.77901
+    ],
+    [
+     30.46306,
+     -86.77009
+    ],
+    [
+     30.45957,
+     -86.76152
+    ],
+    [
+     30.45536,
+     -86.75339
+    ],
+    [
+     30.45049,
+     -86.74578
+    ],
+    [
+     30.445,
+     -86.73876
+    ],
+    [
+     30.43894,
+     -86.73239
+    ],
+    [
+     30.43237,
+     -86.72675
+    ],
+    [
+     30.42536,
+     -86.72189
+    ],
+    [
+     30.41797,
+     -86.71784
+    ],
+    [
+     30.41027,
+     -86.71466
+    ],
+    [
+     30.40234,
+     -86.71236
+    ],
+    [
+     30.39426,
+     -86.71098
+    ],
+    [
+     30.38609,
+     -86.71052
+    ],
+    [
+     30.37793,
+     -86.711
+    ],
+    [
+     30.36985,
+     -86.71239
+    ],
+    [
+     30.36192,
+     -86.7147
+    ],
+    [
+     30.35423,
+     -86.7179
+    ],
+    [
+     30.34685,
+     -86.72196
+    ],
+    [
+     30.33984,
+     -86.72683
+    ],
+    [
+     30.33328,
+     -86.73248
+    ],
+    [
+     30.32723,
+     -86.73884
+    ],
+    [
+     30.32174,
+     -86.74586
+    ],
+    [
+     30.31688,
+     -86.75346
+    ],
+    [
+     30.31268,
+     -86.76159
+    ],
+    [
+     30.30919,
+     -86.77015
+    ],
+    [
+     30.30644,
+     -86.77906
+    ],
+    [
+     30.30445,
+     -86.78824
+    ],
+    [
+     30.30325,
+     -86.79761
+    ],
+    [
+     30.30285,
+     -86.80706
+    ],
+    [
+     30.30325,
+     -86.81651
+    ],
+    [
+     30.30445,
+     -86.82588
+    ],
+    [
+     30.30644,
+     -86.83506
+    ],
+    [
+     30.30919,
+     -86.84397
+    ],
+    [
+     30.31268,
+     -86.85253
+    ],
+    [
+     30.31688,
+     -86.86066
+    ],
+    [
+     30.32174,
+     -86.86826
+    ],
+    [
+     30.32723,
+     -86.87528
+    ],
+    [
+     30.33328,
+     -86.88164
+    ],
+    [
+     30.33984,
+     -86.88729
+    ],
+    [
+     30.34685,
+     -86.89216
+    ],
+    [
+     30.35423,
+     -86.89622
+    ],
+    [
+     30.36192,
+     -86.89942
+    ],
+    [
+     30.36985,
+     -86.90173
+    ],
+    [
+     30.37793,
+     -86.90312
+    ],
+    [
+     30.38609,
+     -86.9036
+    ],
+    [
+     30.39426,
+     -86.90314
+    ],
+    [
+     30.40234,
+     -86.90176
+    ],
+    [
+     30.41027,
+     -86.89946
+    ],
+    [
+     30.41797,
+     -86.89628
+    ],
+    [
+     30.42536,
+     -86.89223
+    ],
+    [
+     30.43237,
+     -86.88737
+    ],
+    [
+     30.43894,
+     -86.88173
+    ],
+    [
+     30.445,
+     -86.87536
+    ],
+    [
+     30.45049,
+     -86.86834
+    ],
+    [
+     30.45536,
+     -86.86073
+    ],
+    [
+     30.45957,
+     -86.8526
+    ],
+    [
+     30.46306,
+     -86.84403
+    ],
+    [
+     30.46582,
+     -86.83511
+    ],
+    [
+     30.46781,
+     -86.82591
+    ],
+    [
+     30.46901,
+     -86.81653
+    ],
+    [
+     30.46941,
+     -86.80706
+    ]
+   ],
+   [
+    [
+     30.40279,
+     -86.80706
+    ],
+    [
+     30.40271,
+     -86.80517
+    ],
+    [
+     30.40247,
+     -86.80329
+    ],
+    [
+     30.40207,
+     -86.80145
+    ],
+    [
+     30.40152,
+     -86.79967
+    ],
+    [
+     30.40082,
+     -86.79796
+    ],
+    [
+     30.39998,
+     -86.79633
+    ],
+    [
+     30.399,
+     -86.79481
+    ],
+    [
+     30.39791,
+     -86.79341
+    ],
+    [
+     30.3967,
+     -86.79213
+    ],
+    [
+     30.39538,
+     -86.791
+    ],
+    [
+     30.39398,
+     -86.79003
+    ],
+    [
+     30.3925,
+     -86.78922
+    ],
+    [
+     30.39096,
+     -86.78858
+    ],
+    [
+     30.38938,
+     -86.78812
+    ],
+    [
+     30.38776,
+     -86.78785
+    ],
+    [
+     30.38613,
+     -86.78775
+    ],
+    [
+     30.3845,
+     -86.78785
+    ],
+    [
+     30.38288,
+     -86.78812
+    ],
+    [
+     30.38129,
+     -86.78858
+    ],
+    [
+     30.37976,
+     -86.78922
+    ],
+    [
+     30.37828,
+     -86.79003
+    ],
+    [
+     30.37688,
+     -86.79101
+    ],
+    [
+     30.37556,
+     -86.79214
+    ],
+    [
+     30.37435,
+     -86.79341
+    ],
+    [
+     30.37325,
+     -86.79481
+    ],
+    [
+     30.37228,
+     -86.79633
+    ],
+    [
+     30.37144,
+     -86.79796
+    ],
+    [
+     30.37074,
+     -86.79967
+    ],
+    [
+     30.37019,
+     -86.80146
+    ],
+    [
+     30.36979,
+     -86.80329
+    ],
+    [
+     30.36955,
+     -86.80517
+    ],
+    [
+     30.36947,
+     -86.80706
+    ],
+    [
+     30.36955,
+     -86.80895
+    ],
+    [
+     30.36979,
+     -86.81083
+    ],
+    [
+     30.37019,
+     -86.81266
+    ],
+    [
+     30.37074,
+     -86.81445
+    ],
+    [
+     30.37144,
+     -86.81616
+    ],
+    [
+     30.37228,
+     -86.81779
+    ],
+    [
+     30.37325,
+     -86.81931
+    ],
+    [
+     30.37435,
+     -86.82071
+    ],
+    [
+     30.37556,
+     -86.82198
+    ],
+    [
+     30.37688,
+     -86.82311
+    ],
+    [
+     30.37828,
+     -86.82409
+    ],
+    [
+     30.37976,
+     -86.8249
+    ],
+    [
+     30.38129,
+     -86.82554
+    ],
+    [
+     30.38288,
+     -86.826
+    ],
+    [
+     30.3845,
+     -86.82627
+    ],
+    [
+     30.38613,
+     -86.82637
+    ],
+    [
+     30.38776,
+     -86.82627
+    ],
+    [
+     30.38938,
+     -86.826
+    ],
+    [
+     30.39096,
+     -86.82554
+    ],
+    [
+     30.3925,
+     -86.8249
+    ],
+    [
+     30.39398,
+     -86.82409
+    ],
+    [
+     30.39538,
+     -86.82312
+    ],
+    [
+     30.3967,
+     -86.82199
+    ],
+    [
+     30.39791,
+     -86.82071
+    ],
+    [
+     30.399,
+     -86.81931
+    ],
+    [
+     30.39998,
+     -86.81779
+    ],
+    [
+     30.40082,
+     -86.81616
+    ],
+    [
+     30.40152,
+     -86.81445
+    ],
+    [
+     30.40207,
+     -86.81267
+    ],
+    [
+     30.40247,
+     -86.81083
+    ],
+    [
+     30.40271,
+     -86.80895
+    ],
+    [
+     30.40279,
+     -86.80706
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.730(a)(2)(i)",
+  "active": "during high security threats",
+  "note": "Open to all, with ID checks by Air Force patrol boats. During high security threats, no entry except ICW transit. Drawn as a 5 nm ring with the 1 nm danger zone as a hole. Includes the Gulf off Navarre and Okaloosa Island. DMS as printed: 30°23′10.074″ N 086°48′25.433″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-730-a2ii-santarosa-north-anchors",
+  "name": "Eglin restricted Area 2, Santa Rosa Island north side (anchor points)",
+  "law": [
+   "cfr-33-334-730"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [],
+  "points": [
+   [
+    30.40183,
+    -86.67361
+   ],
+   [
+    30.40224,
+    -86.67361
+   ],
+   [
+    30.38676,
+    -86.84934
+   ],
+   [
+    30.38635,
+    -86.84934
+   ]
+  ],
+  "source": "33 CFR 334.730(a)(2)(ii)",
+  "active": "during high security threats",
+  "note": "150 feet off the north shore of Santa Rosa Island; closed only during high security threats. Offset leg not drawable. DMS as printed: 30°24′06.58″ N 086°40′25.00″ W | 30°24′08.08″ N 086°40′25.00″ W | 30°23′12.34″ N 086°50′57.62″ W | 30°23′10.85″ N 086°50′57.62″ W",
+  "flag": "Markers only."
+ },
+ {
+  "id": "usace-334-730-a2iii-hurlburt-anchors",
+  "name": "Eglin restricted Area 3, Hurlburt Field shore (anchor points)",
+  "law": [
+   "cfr-33-334-730"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [],
+  "points": [
+   [
+    30.40786,
+    -86.68192
+   ],
+   [
+    30.40731,
+    -86.68192
+   ],
+   [
+    30.40581,
+    -86.6961
+   ],
+   [
+    30.40647,
+    -86.70006
+   ],
+   [
+    30.40801,
+    -86.70206
+   ],
+   [
+    30.40722,
+    -86.70476
+   ],
+   [
+    30.40731,
+    -86.70551
+   ],
+   [
+    30.408,
+    -86.71495
+   ],
+   [
+    30.40855,
+    -86.71495
+   ]
+  ],
+  "source": "33 CFR 334.730(a)(2)(iii)",
+  "active": "during high security threats",
+  "note": "200 feet off the Hurlburt Field shore on Santa Rosa Sound; closed only during high security threats. One CFR point reads 'longitude 30 deg 24 min 26.31 sec N', a typo for latitude. DMS as printed: 30°24′28.30″ N 086°40′54.91″ W | 30°24′26.32″ N 086°40′54.91″ W | 30°24′20.92″ N 086°41′45.96″ W | 30°24′23.31″ N 086°42′00.20″ W | 30°24′28.83″ N 086°42′07.42″ W | 30°24′25.98″ N 086°42′17.12″ W | 30°24′26.31″ N 086°42′19.82″ W | 30°24′28.80″ N 086°42′53.83″ W | 30°24′30.79″ N 086°42′53.83″ W",
+  "flag": "Markers only."
+ },
+ {
+  "id": "usace-334-740-choctaw-northshore-anchors",
+  "name": "Choctawhatchee Bay north shore, Eglin restricted area (anchor points)",
+  "law": [
+   "cfr-33-334-740"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [],
+  "points": [
+   [
+    30.48331,
+    -86.4858
+   ],
+   [
+    30.48322,
+    -86.48384
+   ],
+   [
+    30.48556,
+    -86.47994
+   ],
+   [
+    30.44683,
+    -86.54221
+   ],
+   [
+    30.44822,
+    -86.54495
+   ]
+  ],
+  "source": "33 CFR 334.740(a)",
+  "active": "during high security threats",
+  "note": "Band 1,000 feet off the shore; open with ID checks, closed during high security threats. Offset legs not drawable from the CFR. DMS as printed: 30°28′59.90″ N 086°29′08.88″ W | 30°28′59.61″ N 086°29′01.81″ W | 30°29′08.01″ N 086°28′47.78″ W | 30°26′48.60″ N 086°32′31.95″ W | 30°26′53.58″ N 086°32′41.81″ W",
+  "flag": "Markers only."
+ },
+ {
+  "id": "usace-334-742-camppinchot-anchors",
+  "name": "Eglin Camp Pinchot restricted area (anchor points)",
+  "law": [
+   "cfr-33-334-740"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [],
+  "points": [
+   [
+    30.47186,
+    -86.59407
+   ],
+   [
+    30.47244,
+    -86.5934
+   ],
+   [
+    30.46834,
+    -86.59422
+   ],
+   [
+    30.46874,
+    -86.59505
+   ]
+  ],
+  "source": "33 CFR 334.742(a)",
+  "active": "during high security threats",
+  "note": "Band 300 feet off the shore; open with ID checks, closed during high security threats. Offset legs not drawable from the CFR. DMS as printed: 30°28′18.68″ N 086°35′38.66″ W | 30°28′20.80″ N 086°35′36.25″ W | 30°28′06.02″ N 086°35′39.18″ W | 30°28′07.47″ N 086°35′42.17″ W",
+  "flag": "Markers only."
+ },
+ {
+  "id": "usace-334-744-poquito-anchors",
+  "name": "Eglin Poquito housing restricted area (anchor points)",
+  "law": [
+   "cfr-33-334-740"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [],
+  "points": [
+   [
+    30.45324,
+    -86.5758
+   ],
+   [
+    30.45329,
+    -86.57627
+   ],
+   [
+    30.45868,
+    -86.57738
+   ],
+   [
+    30.45946,
+    -86.57657
+   ]
+  ],
+  "source": "33 CFR 334.744(a)",
+  "active": "during high security threats",
+  "note": "Band 150 feet off the shore; open with ID checks, closed during high security threats. Offset legs not drawable from the CFR. DMS as printed: 30°27′11.68″ N 086°34′32.87″ W | 30°27′11.86″ N 086°34′34.59″ W | 30°27′31.25″ N 086°34′38.56″ W | 30°27′34.07″ N 086°34′35.67″ W",
+  "flag": "Markers only."
+ },
+ {
+  "id": "usace-334-748-wynnhaven-anchors",
+  "name": "Wynnhaven Beach, Eglin restricted area (anchor points)",
+  "law": [
+   "cfr-33-334-740"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [],
+  "points": [
+   [
+    30.40974,
+    -86.77231
+   ],
+   [
+    30.40932,
+    -86.77231
+   ],
+   [
+    30.40967,
+    -86.76922
+   ],
+   [
+    30.41008,
+    -86.76922
+   ]
+  ],
+  "source": "33 CFR 334.748(a)",
+  "active": "during high security threats",
+  "note": "Band 150 feet off the shore; open with ID checks, closed during high security threats. Offset legs not drawable from the CFR. DMS as printed: 30°24′35.06″ N 086°46′20.31″ W | 30°24′33.57″ N 086°46′20.31″ W | 30°24′34.81″ N 086°46′09.19″ W | 30°24′36.30″ N 086°46′09.19″ W",
+  "flag": "Markers only."
+ },
+ {
+  "id": "usace-334-746-cgdestin",
+  "name": "Coast Guard Station Destin restricted area",
+  "law": [
+   "cfr-33-334-746"
+  ],
+  "kind": "closed",
+  "rings": [
+   [
+    [
+     30.39262,
+     -86.52709
+    ],
+    [
+     30.39324,
+     -86.52703
+    ],
+    [
+     30.39269,
+     -86.52527
+    ],
+    [
+     30.39222,
+     -86.52467
+    ],
+    [
+     30.39171,
+     -86.52506
+    ],
+    [
+     30.39262,
+     -86.52709
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.746(a)",
+  "active": "always",
+  "note": "No entry without permission, 24/7. Closing leg from the shore end point to the start drawn as a straight chord of about 100 m along the station shore. DMS as printed: 30°23′33.45″ N 86°31′37.51″ W | 30°23′35.67″ N 86°31′37.31″ W | 30°23′33.68″ N 86°31′30.98″ W | 30°23′32.00″ N 86°31′28.80″ W | 30°23′30.14″ N 86°31′30.21″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-760-nsapc-alligatorbayou-anchors",
+  "name": "Naval Support Activity Panama City shoreline restricted area (anchor points)",
+  "law": [
+   "cfr-33-334-760"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [],
+  "points": [
+   [
+    30.16267,
+    -85.73906
+   ],
+   [
+    30.163,
+    -85.73906
+   ],
+   [
+    30.17131,
+    -85.75033
+   ],
+   [
+    30.17317,
+    -85.75158
+   ],
+   [
+    30.18647,
+    -85.75078
+   ],
+   [
+    30.18675,
+    -85.75089
+   ]
+  ],
+  "source": "33 CFR 334.760(a)",
+  "active": "always",
+  "note": "100 feet off the NSA Panama City shore on St. Andrew Bay, across the mouth of Alligator Bayou. No entry, transit, anchoring or drifting without written permission, 24/7. Offset legs not drawable. DMS as printed: 30°09′45.6″ N 85°44′20.6″ W | 30°09′46.8″ N 85°44′20.6″ W | 30°10′16.7″ N 85°45′01.2″ W | 30°10′23.4″ N 85°45′05.7″ W | 30°11′11.3″ N 85°45′02.8″ W | 30°11′12.3″ N 85°45′03.2″ W",
+  "flag": "Markers only."
+ },
+ {
+  "id": "usace-334-761-ap1",
+  "name": "NSA Panama City restricted area AP-1, St. Andrew Bay",
+  "law": [
+   "cfr-33-334-761"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.16667,
+     -85.74361
+    ],
+    [
+     30.16667,
+     -85.72139
+    ],
+    [
+     30.16417,
+     -85.72139
+    ],
+    [
+     30.16389,
+     -85.74222
+    ],
+    [
+     30.16597,
+     -85.74361
+    ],
+    [
+     30.16667,
+     -85.74361
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.761(a)(1)",
+  "active": "during training events",
+  "note": "No entering, transiting, anchoring or drifting within military security zones set by safety vessels during training events. Short mean-high-water leg (about 260 m) closed with a chord. DMS as printed: 30°10′00″ N 085°44′37″ W | 30°10′00″ N 085°43′17″ W | 30°09′51″ N 085°43′17″ W | 30°09′50″ N 085°44′32″ W | 30°09′57.5″ N 085°44′37″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-761-ba1",
+  "name": "NSA Panama City restricted area BA-1",
+  "law": [
+   "cfr-33-334-761"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.18722,
+     -85.74972
+    ],
+    [
+     30.18694,
+     -85.74222
+    ],
+    [
+     30.17556,
+     -85.74222
+    ],
+    [
+     30.17556,
+     -85.74972
+    ],
+    [
+     30.18722,
+     -85.74972
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.761(a)(2)",
+  "active": "during training events",
+  "note": "Four corners, closed by 'then northerly to point of origin'. No entering, transiting, anchoring or drifting within military security zones set by safety vessels during training events. DMS as printed: 30°11′14″ N 085°44′59″ W | 30°11′13″ N 085°44′32″ W | 30°10′32″ N 085°44′32″ W | 30°10′32″ N 085°44′59″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-761-ba2",
+  "name": "NSA Panama City restricted area BA-2",
+  "law": [
+   "cfr-33-334-761"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.18694,
+     -85.74222
+    ],
+    [
+     30.18528,
+     -85.73361
+    ],
+    [
+     30.17556,
+     -85.73333
+    ],
+    [
+     30.17556,
+     -85.74222
+    ],
+    [
+     30.18694,
+     -85.74222
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.761(a)(3)",
+  "active": "during training events",
+  "note": "Four corners, closed by 'then northerly to point of origin'. No entering, transiting, anchoring or drifting within military security zones set by safety vessels during training events. DMS as printed: 30°11′13″ N 085°44′32″ W | 30°11′07″ N 085°44′01″ W | 30°10′32″ N 085°44′00″ W | 30°10′32″ N 085°44′32″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-761-ba3",
+  "name": "NSA Panama City restricted area BA-3",
+  "law": [
+   "cfr-33-334-761"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.17556,
+     -85.74972
+    ],
+    [
+     30.17556,
+     -85.73583
+    ],
+    [
+     30.16667,
+     -85.73583
+    ],
+    [
+     30.16694,
+     -85.74472
+    ],
+    [
+     30.17556,
+     -85.74972
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.761(a)(4)",
+  "active": "during training events",
+  "note": "Four corners, closed by 'then northerly to point of origin'. No entering, transiting, anchoring or drifting within military security zones set by safety vessels during training events. DMS as printed: 30°10′32″ N 085°44′59″ W | 30°10′32″ N 085°44′09″ W | 30°10′00″ N 085°44′09″ W | 30°10′01″ N 085°44′41″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-761-ba4",
+  "name": "NSA Panama City restricted area BA-4",
+  "law": [
+   "cfr-33-334-761"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.17556,
+     -85.73583
+    ],
+    [
+     30.17556,
+     -85.70972
+    ],
+    [
+     30.16667,
+     -85.70972
+    ],
+    [
+     30.16667,
+     -85.73583
+    ],
+    [
+     30.17556,
+     -85.73583
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.761(a)(5)",
+  "active": "during training events",
+  "note": "Four corners, closed by 'then northerly to point of origin'. No entering, transiting, anchoring or drifting within military security zones set by safety vessels during training events. DMS as printed: 30°10′32″ N 085°44′09″ W | 30°10′32″ N 085°42′35″ W | 30°10′00″ N 085°42′35″ W | 30°10′00″ N 085°44′09″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-761-ba5",
+  "name": "NSA Panama City restricted area BA-5",
+  "law": [
+   "cfr-33-334-761"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.14472,
+     -85.69028
+    ],
+    [
+     30.13556,
+     -85.68
+    ],
+    [
+     30.11667,
+     -85.70806
+    ],
+    [
+     30.12528,
+     -85.71917
+    ],
+    [
+     30.14472,
+     -85.69028
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.761(a)(6)",
+  "active": "during training events",
+  "note": "Four corners, closed by 'then northerly to point of origin'. No entering, transiting, anchoring or drifting within military security zones set by safety vessels during training events. DMS as printed: 30°08′41″ N 085°41′25″ W | 30°08′08″ N 085°40′48″ W | 30°07′00″ N 085°42′29″ W | 30°07′31″ N 085°43′09″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-762-nb1",
+  "name": "NSA Panama City restricted area NB-1",
+  "law": [
+   "cfr-33-334-761"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.20444,
+     -85.73722
+    ],
+    [
+     30.20444,
+     -85.71694
+    ],
+    [
+     30.18778,
+     -85.73722
+    ],
+    [
+     30.18806,
+     -85.74694
+    ],
+    [
+     30.20444,
+     -85.73722
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.762(a)(1)",
+  "active": "during training events",
+  "note": "Four corners, closed by 'then northerly to point of origin'. The section defines military security zones and notice procedures but, unlike 334.761, contains no paragraph prohibiting entry; safety vessels intercept and advise. DMS as printed: 30°12′16″ N 085°44′14″ W | 30°12′16″ N 085°43′01″ W | 30°11′16″ N 085°44′14″ W | 30°11′17″ N 085°44′49″ W",
+  "flag": "No operative prohibition in the current text of 334.762(b). NB-1 lists its 'Southeast point' at the same longitude as its 'Northwest point'; drawn as printed."
+ },
+ {
+  "id": "usace-334-762-nb2",
+  "name": "NSA Panama City restricted area NB-2",
+  "law": [
+   "cfr-33-334-761"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.23333,
+     -85.73722
+    ],
+    [
+     30.23333,
+     -85.6975
+    ],
+    [
+     30.20444,
+     -85.71694
+    ],
+    [
+     30.20444,
+     -85.73722
+    ],
+    [
+     30.23333,
+     -85.73722
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.762(a)(2)",
+  "active": "during training events",
+  "note": "Four corners, closed by 'then northerly to point of origin'. The section defines military security zones and notice procedures but, unlike 334.761, contains no paragraph prohibiting entry; safety vessels intercept and advise. DMS as printed: 30°14′00″ N 085°44′14″ W | 30°14′00″ N 085°41′51″ W | 30°12′16″ N 085°43′01″ W | 30°12′16″ N 085°44′14″ W",
+  "flag": "No operative prohibition in the current text of 334.762(b)."
+ },
+ {
+  "id": "usace-334-762-nb3",
+  "name": "NSA Panama City restricted area NB-3",
+  "law": [
+   "cfr-33-334-761"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.28389,
+     -85.75944
+    ],
+    [
+     30.24889,
+     -85.72917
+    ],
+    [
+     30.23361,
+     -85.74972
+    ],
+    [
+     30.26944,
+     -85.78111
+    ],
+    [
+     30.28389,
+     -85.75944
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.762(a)(3)",
+  "active": "during training events",
+  "note": "Four corners, closed by 'then northerly to point of origin'. The section defines military security zones and notice procedures but, unlike 334.761, contains no paragraph prohibiting entry; safety vessels intercept and advise. DMS as printed: 30°17′02″ N 085°45′34″ W | 30°14′56″ N 085°43′45″ W | 30°14′01″ N 085°44′59″ W | 30°16′10″ N 085°46′52″ W",
+  "flag": "No operative prohibition in the current text of 334.762(b)."
+ },
+ {
+  "id": "usace-334-763-gulf",
+  "name": "NSA Panama City restricted area, Gulf of Mexico",
+  "law": [
+   "cfr-33-334-761"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.17472,
+     -85.80556
+    ],
+    [
+     30.13278,
+     -85.74556
+    ],
+    [
+     30.09,
+     -85.79139
+    ],
+    [
+     30.13194,
+     -85.85139
+    ],
+    [
+     30.17472,
+     -85.80556
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.763(a)",
+  "active": "during training events",
+  "note": "Four corners off Panama City Beach, closed by 'then northerly to point of origin'. Same wording as 334.762: military security zones and notices, no operative prohibition paragraph. DMS as printed: 30°10′29″ N 085°48′20″ W | 30°07′58″ N 085°44′44″ W | 30°05′24″ N 085°47′29″ W | 30°07′55″ N 085°51′05″ W",
+  "flag": "No operative prohibition in the current text of 334.763(b)."
+ },
+ {
+  "id": "usace-334-770-tyndall-dronecorridor",
+  "name": "Tyndall Drone Launch Corridor, Gulf and St. Andrew Sound",
+  "law": [
+   "cfr-33-334-770"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.025,
+     -85.54167
+    ],
+    [
+     30.01611,
+     -85.56056
+    ],
+    [
+     29.94389,
+     -85.56056
+    ],
+    [
+     29.92083,
+     -85.5225
+    ],
+    [
+     30.01611,
+     -85.5225
+    ],
+    [
+     30.025,
+     -85.54167
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.770(a)",
+  "active": "weekdays 7 a.m. to 5 p.m. when launches announced",
+  "note": "Military use Monday to Friday 7 a.m. to 5 p.m. Vessels may enter and remain only with a working VHF 16 (or CB 13) receiver and must vacate at least 60 minutes before a launch when warned. Ring closed by 'thence northwest to the point of beginning'. Includes Crooked Island. DMS as printed: 30°01′30″ N 85°32′30″ W | 30°00′58″ N 85°33′38″ W | 29°56′38″ N 85°33′38″ W | 29°55′15″ N 85°31′21″ W | 30°00′58″ N 85°31′21″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-775-a1-naspensacola",
+  "name": "NAS Pensacola naval restricted area (a)(1), Pensacola Bay (line)",
+  "law": [
+   "cfr-33-334-775"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [
+   [
+    [
+     30.34556,
+     -87.28833
+    ],
+    [
+     30.33583,
+     -87.28833
+    ],
+    [
+     30.33528,
+     -87.27806
+    ],
+    [
+     30.34361,
+     -87.26694
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 334.775(a)(1)",
+  "active": "during naval operations",
+  "note": "Normally used Monday to Wednesday 8 a.m. to 4 p.m. and one evening every other week. Traffic stays open, but keep 300 yards from naval vessels engaged in operations. Shoreline return from the Lexington finger pier to the start not drawn. DMS as printed: 30°20′44″ N 87°17′18″ W | 30°20′09″ N 87°17′18″ W | 30°20′07″ N 87°16′41″ W | 30°20′37″ N 87°16′01″ W",
+  "flag": "Line only; closure along the NAS shoreline not drawn."
+ },
+ {
+  "id": "usace-334-775-a2-parasail",
+  "name": "NAS Pensacola naval restricted area (a)(2), parasail triangle",
+  "law": [
+   "cfr-33-334-775"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     30.35967,
+     -87.20817
+    ],
+    [
+     30.3375,
+     -87.18333
+    ],
+    [
+     30.338,
+     -87.23783
+    ],
+    [
+     30.35967,
+     -87.20817
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 334.775(a)(2)",
+  "active": "during naval operations",
+  "note": "Triangle north of Santa Rosa Island, west of Fair Point to Deer Point; normally used Wednesday to Friday 8 a.m. to 4 p.m. for parasail operations. Keep 300 yards from naval vessels engaged in operations. Ring closed by 'thence to the point of beginning'. DMS as printed: 30°21.58′ N 87°12.49′ W | 30°20.25′ N 87°11.00′ W | 30°20.28′ N 87°14.27′ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-778-nas-a",
+  "name": "NAS Pensacola restricted area, Big Lagoon to Point 4 (explicit points)",
+  "law": [
+   "cfr-33-334-778"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     30.32833,
+     -87.35167
+    ],
+    [
+     30.32417,
+     -87.35083
+    ],
+    [
+     30.33,
+     -87.32639
+    ],
+    [
+     30.33333,
+     -87.3175
+    ]
+   ]
+  ],
+  "points": [
+   [
+    30.32833,
+    -87.35167
+   ],
+   [
+    30.32417,
+    -87.35083
+   ],
+   [
+    30.33,
+    -87.32639
+   ],
+   [
+    30.33333,
+    -87.3175
+   ]
+  ],
+  "source": "33 CFR 334.778(a) Points 1 to 4",
+  "active": "always",
+  "note": "No entry for any reason, 24/7. Points 1 to 4; the legs between Points 2, 3 and 4 run 500 feet offshore or along the ICW edge and are drawn here as straight segments between the CFR points. DMS as printed: 30°19′42″ N 87°21′06″ W | 30°19′27″ N 87°21′03″ W | 30°19′48″ N 87°19′35″ W | 30°20′00″ N 87°19′03″ W",
+  "flag": "Straight segments stand in for 500-ft shoreline offsets between Points 2, 3 and 4; the segment from Point 4 to Point 5 is not drawn."
+ },
+ {
+  "id": "usace-334-778-nas-b",
+  "name": "NAS Pensacola restricted area, Points 5 to 18 (Pensacola Bay to Bayou Grande)",
+  "law": [
+   "cfr-33-334-778"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     30.34194,
+     -87.26694
+    ],
+    [
+     30.35306,
+     -87.25806
+    ],
+    [
+     30.37389,
+     -87.26194
+    ],
+    [
+     30.3775,
+     -87.26889
+    ],
+    [
+     30.37139,
+     -87.26917
+    ],
+    [
+     30.37167,
+     -87.27639
+    ],
+    [
+     30.36917,
+     -87.28611
+    ],
+    [
+     30.37083,
+     -87.28861
+    ],
+    [
+     30.36861,
+     -87.29667
+    ],
+    [
+     30.37361,
+     -87.29806
+    ],
+    [
+     30.37028,
+     -87.315
+    ],
+    [
+     30.36583,
+     -87.32278
+    ],
+    [
+     30.36583,
+     -87.32694
+    ],
+    [
+     30.36361,
+     -87.33028
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 334.778(a) Points 5 to 18",
+  "active": "always",
+  "note": "No entry for any reason, 24/7; also no approach within 500 feet of any NAS pier or any U.S. government vessel in the area. Points 5 to 18 are explicit straight legs ending on the south shore of Bayou Grande. The Navy Channel at Magazine Point stays open except in emergencies. DMS as printed: 30°20′31″ N 87°16′01″ W | 30°21′11″ N 87°15′29″ W | 30°22′26″ N 87°15′43″ W | 30°22′39″ N 87°16′08″ W | 30°22′17″ N 87°16′09″ W | 30°22′18″ N 87°16′35″ W | 30°22′09″ N 87°17′10″ W | 30°22′15″ N 87°17′19″ W | 30°22′07″ N 87°17′48″ W | 30°22′25″ N 87°17′53″ W | 30°22′13″ N 87°18′54″ W | 30°21′57″ N 87°19′22″ W | 30°21′57″ N 87°19′37″ W | 30°21′49″ N 87°19′49″ W",
+  "flag": "Line only; the area is the water between this line and the NAS shoreline."
+ },
+ {
+  "id": "usace-334-780-seaplane",
+  "name": "Pensacola Bay seaplane restricted area (NAS small-boat training area)",
+  "law": [
+   "cfr-33-334-780"
+  ],
+  "kind": "closed",
+  "rings": [],
+  "lines": [
+   [
+    [
+     30.37444,
+     -87.26667
+    ],
+    [
+     30.35056,
+     -87.23889
+    ],
+    [
+     30.33389,
+     -87.25444
+    ],
+    [
+     30.33639,
+     -87.29944
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 334.780(a)",
+  "active": "always",
+  "note": "No entry for any reason, 24/7. Four points, then 272 degrees true to the NAS shore. The run to shore and the return along the NAS shoreline have no coordinates; a chord from Point 4 back to Point 1 would leave out water on the west side, so only the CFR line is drawn. Lies between NAS Pensacola and the bay side of Santa Rosa Island near Fort Pickens. DMS as printed: 30°22′28″ N 87°16′00″ W | 30°21′02″ N 87°14′20″ W | 30°20′02″ N 87°15′16″ W | 30°20′11″ N 87°17′58″ W",
+  "flag": "Line only. The closed water is everything inside this line and west of it to the NAS Pensacola shore. Satellite check needed before any polygon is drawn."
+ },
+ {
+  "id": "usace-334-665-tyndall-threat-anchors",
+  "name": "Tyndall enhanced threat restricted area (23 shoreline points)",
+  "law": [
+   "cfr-33-334-665"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [],
+  "points": [
+   [
+    30.01927,
+    -85.44858
+   ],
+   [
+    30.02208,
+    -85.48347
+   ],
+   [
+    30.0349,
+    -85.49888
+   ],
+   [
+    30.05118,
+    -85.51048
+   ],
+   [
+    30.06273,
+    -85.53123
+   ],
+   [
+    30.07665,
+    -85.52628
+   ],
+   [
+    30.0829,
+    -85.55793
+   ],
+   [
+    30.09548,
+    -85.5772
+   ],
+   [
+    30.09987,
+    -85.58827
+   ],
+   [
+    30.10065,
+    -85.61085
+   ],
+   [
+    30.12323,
+    -85.61922
+   ],
+   [
+    30.12375,
+    -85.64425
+   ],
+   [
+    30.13043,
+    -85.6609
+   ],
+   [
+    30.14202,
+    -85.66912
+   ],
+   [
+    30.12247,
+    -85.68707
+   ],
+   [
+    30.09712,
+    -85.65208
+   ],
+   [
+    30.06138,
+    -85.59705
+   ],
+   [
+    30.07015,
+    -85.62383
+   ],
+   [
+    30.02212,
+    -85.5626
+   ],
+   [
+    30.03202,
+    -85.55407
+   ],
+   [
+    30.00857,
+    -85.52597
+   ],
+   [
+    29.98992,
+    -85.50297
+   ],
+   [
+    29.98338,
+    -85.5066
+   ]
+  ],
+  "source": "33 CFR 334.665(a)(4)(i) to (xxiii), shoreline points",
+  "active": "only when activated for a threat",
+  "note": "500 feet off the Tyndall shoreline on East Bay, St. Andrew Bay and St. Andrew Sound; activated only for specific credible threats, re-evaluated every 48 hours. Only the shoreline point of each pair is drawn. DMS as printed: 30°1.156′ N 85°26.915′ W | 30°1.325′ N 85°29.008′ W | 30°2.094′ N 85°29.933′ W | 30°3.071′ N 85°30.629′ W | 30°3.764′ N 85°31.874′ W | 30°4.599′ N 85°31.577′ W | 30°4.974′ N 85°33.476′ W | 30°5.729′ N 85°34.632′ W | 30°5.992′ N 85°35.296′ W | 30°6.039′ N 85°36.651′ W | 30°7.394′ N 85°37.153′ W | 30°7.425′ N 85°38.655′ W | 30°7.826′ N 85°39.654′ W | 30°8.521′ N 85°40.147′ W | 30°7.348′ N 85°41.224′ W | 30°5.827′ N 85°39.125′ W | 30°3.683′ N 85°35.823′ W | 30°4.209′ N 85°37.430′ W | 30°1.327′ N 85°33.756′ W | 30°1.921′ N 85°33.244′ W | 30°0.514′ N 85°31.558′ W | 29°59.395′ N 85°30.178′ W | 29°59.003′ N 85°30.396′ W",
+  "flag": "Markers only; the band is 500 ft waterward of mean high water."
+ },
+ {
+  "id": "uscg-165-775-a1-rna-outer",
+  "name": "Cape Canaveral launch RNA, outer boundary points",
+  "law": [
+   "cfr-33-165-775"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [],
+  "points": [
+   [
+    28.815,
+    -80.47778
+   ],
+   [
+    28.72222,
+    -80.68333
+   ],
+   [
+    28.42167,
+    -80.57861
+   ],
+   [
+    28.18333,
+    -80.48333
+   ],
+   [
+    28.16667,
+    -80.35361
+   ]
+  ],
+  "source": "33 CFR 165.775(a)(1)",
+  "active": "launch periods only",
+  "note": "Outer RNA points 1 to 5. The leg from Point 2 to Point 3 follows the shoreline and the leg from Point 5 back to Point 1 follows the 12 nm line, so no ring is drawn. Restrictions apply only when activated for a launch. DMS as printed: 28°48′54″ N 80°28′40″ W | 28°43′20″ N 80°41′00″ W | 28°25′18″ N 80°34′43″ W | 28°11′00″ N 80°29′00″ W | 28°10′00″ N 80°21′13″ W",
+  "flag": "Markers only."
+ },
+ {
+  "id": "uscg-165-765-pe-rna",
+  "name": "Port Everglades harbor slow-speed RNA",
+  "law": [
+   "cfr-33-165-765"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     26.09478,
+     -80.1114
+    ],
+    [
+     26.09253,
+     -80.11137
+    ],
+    [
+     26.09137,
+     -80.11322
+    ],
+    [
+     26.09443,
+     -80.11578
+    ],
+    [
+     26.09478,
+     -80.1114
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 165.765(a)",
+  "active": "always (speed only)",
+  "note": "Speed rule only: vessels under 150 m proceed at slow speed. Not an entry, anchoring or diving prohibition. Ring closed by the CFR text. DMS as printed: 26°05.687′ N 080°06.684′ W | 26°05.552′ N 080°06.682′ W | 26°05.482′ N 080°06.793′ W | 26°05.666′ N 080°06.947′ W | 26°05.687′ N 080°06.684′ W",
+  "flag": null
+ },
+ {
+  "id": "uscg-165-790-causewayslip-rna",
+  "name": "Biscayne Bay Causeway Island slip RNA (Coast Guard Base Miami Beach)",
+  "law": [
+   "cfr-33-165-790"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     25.77167,
+     -80.14722
+    ],
+    [
+     25.77194,
+     -80.14639
+    ],
+    [
+     25.76944,
+     -80.14472
+    ],
+    [
+     25.76944,
+     -80.14583
+    ],
+    [
+     25.77167,
+     -80.14722
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 165.790(a)",
+  "active": "always (speed only)",
+  "note": "Speed rule only: 7 mph or less, minimum wake, no passing. Lies inside the 33 CFR 334.605 restricted area, which is closed to non-government vessels at all times. Ring closed by 'back to origin'. DMS as printed: 25°46′18″ N 080°08′50″ W | 25°46′19″ N 080°08′47″ W | 25°46′10″ N 080°08′41″ W | 25°46′10″ N 080°08′45″ W",
+  "flag": null
+ },
+ {
+  "id": "uscg-165-779-biscayne-holiday-rna",
+  "name": "Biscayne Bay holiday events RNA",
+  "law": [
+   "cfr-33-165-779"
+  ],
+  "kind": "warn",
+  "rings": [
+   [
+    [
+     25.81194,
+     -80.14139
+    ],
+    [
+     25.48528,
+     -80.17889
+    ],
+    [
+     25.43083,
+     -80.2
+    ],
+    [
+     25.43083,
+     -80.32833
+    ],
+    [
+     25.48611,
+     -80.34944
+    ],
+    [
+     25.62639,
+     -80.30778
+    ],
+    [
+     25.81222,
+     -80.18806
+    ],
+    [
+     25.81194,
+     -80.14139
+    ]
+   ]
+  ],
+  "lines": [],
+  "points": [],
+  "source": "33 CFR 165.779(a)",
+  "active": "three holiday periods a year (speed only)",
+  "note": "Speed rule only: 15 knots maximum and subject to Coast Guard control, on Columbus Day weekend (noon Saturday to 2 a.m. Monday), New Year's Eve 9 p.m. to 2 a.m., and 7 p.m. to 2 a.m. on the night of the Fourth of July fireworks. Not an in-water prohibition. Suggest a hidden-by-default layer. Ring closed by 'thence back to origin'. DMS as printed: 25°48′43″ N 80°08′29″ W | 25°29′07″ N 80°10′44″ W | 25°25′51″ N 80°12′00″ W | 25°25′51″ N 80°19′42″ W | 25°29′10″ N 80°20′58″ W | 25°37′35″ N 80°18′28″ W | 25°48′44″ N 80°11′17″ W",
+  "flag": null
+ },
+ {
+  "id": "usace-334-720-missile-legs",
+  "name": "Gulf south from Choctawhatchee Bay, Eglin missile test area (seaward legs)",
+  "law": [
+   "cfr-33-334-720"
+  ],
+  "kind": "warn",
+  "rings": [],
+  "lines": [
+   [
+    [
+     29.53333,
+     -85.0
+    ],
+    [
+     29.29167,
+     -84.66667
+    ],
+    [
+     28.66667,
+     -84.81667
+    ],
+    [
+     28.16667,
+     -84.5
+    ],
+    [
+     28.16667,
+     -86.8
+    ],
+    [
+     30.30308,
+     -86.8
+    ]
+   ]
+  ],
+  "points": [],
+  "source": "33 CFR 334.720(a)",
+  "active": "during announced firing periods",
+  "note": "Intermittent daylight use, a week or 10 days at a time, firing once or twice a day for about an hour; persons and vessels other than cargo and passenger traffic on established routes must clear when warned. The north edge runs 3 nm offshore parallel to the shore from the Tuck 3 circle to 29 deg 32 min N, 85 deg W and cannot be drawn from the CFR. Drawn: the explicit legs from 29 deg 32 min N, 85 deg W south and west to 28 deg 10 min N, 86 deg 48 min W, then north to the 5 nm Tuck 3 circle (intersection computed). DMS as printed: 29°32′00″ N 085°00′00″ W | 29°17′30″ N 084°40′00″ W | 28°40′00″ N 084°49′00″ W | 28°10′00″ N 084°30′00″ W | 28°10′00″ N 086°48′00″ W (270 deg true leg ends at longitude 086°48′00″ W) | intersection of 086°48′00″ W with 5 nm circle about Tuck 3 (computed)",
+  "flag": "Seaward legs only; the 3 nm offshore north edge from Santa Rosa Island to south of Apalachicola Bay is not drawn."
+ }
+]
