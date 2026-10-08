@@ -1,16 +1,27 @@
 # Data licences
 
 The files in `data/` are licensed per file. The code licence in `LICENSE` (MIT) does not cover them.
-Every file falls into one of three groups, depending on where its content came from. The full
-record of sources, record counts and derivations is in `DATA-SOURCES.md`.
+Every current file falls into one of two groups, depending on where its content came from: the
+project's own work (group 1) or redistributed public data (group 3). Group 2 records the earlier
+versions of three files that were derived from OpenStreetMap. The full record of sources, record
+counts and derivations is in `DATA-SOURCES.md`.
 
 ## 1. The project's own research: CC BY 4.0
 
 These files hold the project's legal research, curation and classification:
 
 `law.json`, `regs.json`, `species.json`, `coverage.json`, `closures.json`, `zones-statewide.json`,
-`spots.json` (descriptions and curation), and the classification fields added to `bridges.json`
-(`st`, `iw`, `iwr`) and `piers.json` (`iw`, `iwr`).
+`zones-local.json`, `zones-palmbeach.json`, `spots.json` (descriptions and curation), and the
+classification fields added to `bridges.json` (`st`, `iw`, `iwr`), `piers.json` (`iw`, `iwr`) and
+`sites.json` (`ref`, `edge`, `closed`, `iw`, `iwr`). The site positions and descriptions in
+`sites.json` are FWC and Palm Beach County public records.
+
+`zones-local.json` and `zones-palmbeach.json` are drawn from public-domain inputs: NOAA Electronic
+Navigational Charts (CC0), USGS National Hydrography Dataset and NAIP imagery, US Census TIGER, USACE
+and NPS boundaries, and coordinates printed in regulations. The Palm Beach Phil Foster Park circle
+(`pfp`) is centred on a point whose source was not recorded in August 2026; it lies within 40 m of the
+FWC and Palm Beach County reef-site positions for the same park, and a single position is not a
+substantial part of any database.
 
 They are licensed under the Creative Commons Attribution 4.0 International licence,
 <https://creativecommons.org/licenses/by/4.0/>. Attribution: **"Bottom Truth (Robert Karas),
@@ -21,25 +32,30 @@ law itself. Statutes, rules, regulations and ordinances quoted in `law.json` are
 and are free for anyone to use whatever this licence says (*Georgia v. Public.Resource.Org*, 590
 U.S. 255 (2020)).
 
-## 2. Files derived from OpenStreetMap: ODbL 1.0
+## 2. Earlier versions derived from OpenStreetMap: ODbL 1.0
 
-These files contain geometry or fields computed from OpenStreetMap data, which makes them derivative
-databases under the Open Database License:
+Up to 7 October 2026 three files contained geometry or fields computed from OpenStreetMap data, which
+made them derivative databases under the Open Database License:
 
-| File | OpenStreetMap input |
+| File | OpenStreetMap input in those versions |
 |---|---|
-| `zones-palmbeach.json` | Refuge edges at 750 yd and the 3 nm line offset from the OSM coastline; beach buffer; north jetty breakwater; Blue Heron bridge span |
+| `zones-palmbeach.json` | Refuge edges at 750 yd and the 3 nm line offset from the OSM coastline; beach buffer; north jetty breakwater; Blue Heron bridge span; Peanut Island beach |
 | `zones-local.json` | Lower Keys canal centrelines (`mon26`); 127th Avenue termini (`ti58`); the Blind Pass marker position (`spb94`) |
-| `sites.json` | The `ref` and `edge` fields, computed against the OSM coastline. Site positions themselves are FWC and Palm Beach County public records. |
+| `sites.json` | The `ref` and `edge` fields, computed against the OSM coastline |
 
-They are made available under the Open Database License 1.0, <https://opendatacommons.org/licenses/odbl/1-0/>.
-Any rights in individual contents of the database are licensed under the Database Contents License,
-<https://opendatacommons.org/licenses/dbcl/1-0/>. Map data © OpenStreetMap contributors,
-<https://www.openstreetmap.org/copyright>. Anyone who publicly uses an adapted version of these
-files must offer that version under ODbL as well.
+Those versions, which remain in this repository's history and in the offline copies attached to
+earlier releases, stay available under the Open Database License 1.0,
+<https://opendatacommons.org/licenses/odbl/1-0/>, with any rights in individual contents under the
+Database Contents License, <https://opendatacommons.org/licenses/dbcl/1-0/>. Map data © OpenStreetMap
+contributors, <https://www.openstreetmap.org/copyright>.
 
-Recomputing the Palm Beach offsets and the `sites.json` fields from the NOAA ENC coastline (CC0)
-would move these files into group 1. That work is listed in `docs/BACKLOG.md`.
+On 7 October 2026 all three were rebuilt without OpenStreetMap data: the coastline, jetties, bridge and
+Peanut Island shore from the NOAA ENC harbour-band charts, the Keys canals from the USGS National
+Hydrography Dataset, 127th Avenue and the Blind Pass intersection from US Census TIGER/Line roads, and
+the imagery readings from USGS NAIP. The scripts are `tools/extract-enc-2026-10-07.py`,
+`tools/build-zones-palmbeach.py`, `tools/recompute-sites-ref-2026-10-07.py` and
+`tools/patch-zones-local-geometry-2026-10-07.py`. The current files are in group 1. OpenStreetMap was
+used only to compare old and new geometry.
 
 ## 3. Redistributed public data: upstream terms, no added restriction
 

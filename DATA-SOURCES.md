@@ -7,7 +7,10 @@ source, how it was derived, its size and its terms. Record counts were computed 
 All agency data was pulled from the agencies' own public GIS services, mostly in August and
 September 2026. Coordinates are `[lat, lon]` rounded to 5 decimal places (about 1 m). The raw pulls
 are not in the repository because they total about 60 MB; `tools/src-2026-09-30/raw-manifest.json`
-lists them with their service URLs, layer ids and SHA-256 hashes.
+lists them with their service URLs, layer ids and SHA-256 hashes. The 7 October 2026 pulls (NOAA ENC
+harbour band, USGS NHD, TIGERweb, NAIP readings) are in `raw/2026-10-07/`, listed the same way in
+`tools/geometry/2026-10-07/raw-manifest.json`; the reduced public-domain geometry the builders read is
+committed beside it.
 
 ## Legal layers
 
@@ -15,8 +18,8 @@ lists them with their service URLs, layer ids and SHA-256 hashes.
 |---|---|---|---|---|---|
 | `law.json` | Citation registry: citation, title, effect, verbatim excerpt, URL, verification status | Online Sunshine (statutes), FLRules (administrative code), eCFR (federal), Municode and county codes (local) | Built by `tools/build-law.py` plus the dated review passes in `tools/law-updates/` | 278 entries: 124 federal regulation, 66 state rule, 53 ordinance, 25 confirmed negative, 9 statute, 1 special act. 246 verbatim, 31 secondary, 1 unverified. | CC BY 4.0; quoted law is free |
 | `zones-statewide.json` | Statewide legal zones: federal fishery closures, Coast Guard and military zones, manatee No Entry zones, state areas, wildlife refuges, local ordinances | Coordinate text in the CFR and the Florida Administrative Code; FWC State Manatee Protection Zones (MapServer/9); USFWS NWR boundaries; NOAA ENC named sea areas; Census TIGERweb places; `piers.json`, `bridges.json` | `tools/build-zones-statewide.py`. Structure buffers drawn at 125 per cent of the stated distance. Boundaries the law gives only in words are drawn from the nearest published geometry with a flag, or shown as a marker. | 208 zones: 94 military and Coast Guard, 33 local, 27 manatee, 21 federal fishery, 16 state areas, 15 refuges, 2 other federal | CC BY 4.0 |
-| `zones-local.json` | Local, park and federal zones | TIGER 2025 places; OpenStreetMap (Keys canals, 127th Avenue, Blind Pass marker); USACE National Channel Framework; NPS land resources boundaries; 33 C.F.R. § 165.785 coordinates; two positions read from aerial imagery (see open questions) | `tools/build-zones-local.py` (August inputs not kept), then the text-only patches `tools/patch-zones-local-2026-09-30.py` and `-2026-10-06.py` | 18 zones; the Lower Keys canal zone holds 122 polylines | ODbL 1.0 |
-| `zones-palmbeach.json` | Palm Beach County refuges and carve-outs, beach, jetty, groin, bridge and park buffers, inlet readings, COLREGS line, 3 nm line | OpenStreetMap coastline (596 points), OSM breakwater and bridge span; NOAA ENC jetty tips; PBC Code App. G latitudes; 33 C.F.R. § 80.727 | `tools/build-zones-palmbeach.py`. Beach buffer drawn at 125 yd for a 100 yd rule, jetties at 150 ft for a 100 ft rule. | 17 features | ODbL 1.0 |
+| `zones-local.json` | Local, park and federal zones | TIGER 2025 places; USGS National Hydrography Dataset high resolution (Lower Keys canal centrelines, `mon26`); TIGER/Line roads (127th Avenue for `ti58`, the Blind Pass Road intersection for `spb94`); USGS NAIP imagery (the `ti58` termini and John's Pass edge, the `3sis` centre); USACE National Channel Framework; NPS land resources boundaries; 33 C.F.R. § 165.785 coordinates | `tools/build-zones-local.py` (August inputs not kept), the text patches `tools/patch-zones-local-2026-09-30.py`, `-2026-10-06.py` and `-2026-10-07.py`, then the geometry patch `tools/patch-zones-local-geometry-2026-10-07.py`, which asserts the old coordinates it replaces | 18 zones; the Lower Keys canal zone holds 508 polylines (about 81 km; the OpenStreetMap set it replaced held 122, about 35 km) | CC BY 4.0 (ODbL 1.0 before 7 Oct 2026) |
+| `zones-palmbeach.json` | Palm Beach County refuges and carve-outs, beach, jetty, groin, bridge and park buffers, inlet readings, COLREGS line, 3 nm line | NOAA ENC harbour band (cells US5FL6AN, US5PABBA, US5PABCA, US5FL6DN): Atlantic-facing coastline, 576 points from 26.66 to 26.90 N; jetty rip rap, groin and jetty tips (SLCONS); Blue Heron Bridge spans (BRIDGE areas); Peanut Island east shore. PBC Code App. G latitudes; 33 C.F.R. § 80.727 | `tools/extract-enc-2026-10-07.py` then `tools/build-zones-palmbeach.py` (`osm` argument rebuilds the August version for comparison). Beach buffer drawn at 150 yd for a 100 yd rule, refuge inner edge at 725 yd for a 750 yd rule, jetties at 150 ft for a 100 ft rule, bridge and swim areas at 125 yd for 100 yd. | 17 features | CC BY 4.0 (ODbL 1.0 before 7 Oct 2026) |
 | `closures.json` | Fla. Stat. § 379.2425 closures: Upper Keys and John Pennekamp | Hand-built Upper Keys box through Long Key; FDEP park boundary for Pennekamp | `tools/build-layers.py` | 2 polygons | CC BY 4.0 |
 | `fknms.json` | Florida Keys National Marine Sanctuary zones with regulation text | NOAA ONMS, `FKNMS_Zone_Boundaries_With_Attributes_04282026/FeatureServer/1` | Passed through from the August pull | 76 zones; 50 prohibit fishing; 47 in state waters | US government work |
 | `cwa.json` | FWC Critical Wildlife Areas | `gis.myfwc.com/.../Critical_Wildlife_Areas_in_Florida/MapServer/7` | Fields reduced | 37 | Florida public record |
@@ -30,7 +33,7 @@ lists them with their service URLs, layer ids and SHA-256 hashes.
 
 | File | Contents | Source | Derivation | Records | Licence |
 |---|---|---|---|---|---|
-| `sites.json` | Artificial reefs and natural sites | FWC Artificial Reef Locations (MapServer/12, 4,548 records); Palm Beach County ERM reef sites (252) | `tools/fetch-statewide.py`: merged within 60 m; `ref` and `edge` computed against the OSM coastline; `closed` from `closures.json`; `iw` from the inland classifier | 3,609 (3,548 artificial, 61 natural) | Positions public record; file ODbL 1.0 because of `ref` and `edge` |
+| `sites.json` | Artificial reefs and natural sites | FWC Artificial Reef Locations (MapServer/12, 4,548 records); Palm Beach County ERM reef sites (252) | `tools/fetch-statewide.py`: merged within 60 m; `closed` from `closures.json`; `iw` from the inland classifier. `ref` and `edge` recomputed on 7 Oct 2026 by `tools/recompute-sites-ref-2026-10-07.py` against the NOAA ENC coastline the Palm Beach zones use (no value changed; the nearest offshore site is 205 yd from the refuge edge, and `edge` tests latitude only) | 3,609 (3,548 artificial, 61 natural) | Positions public record; `ref`, `edge`, `closed`, `iw` CC BY 4.0 (ODbL 1.0 before 7 Oct 2026) |
 | `spots.json` | Curated dive spots with descriptions and media links | Positions from `sites.json`, FKNMS and FDEP buoy lists, `piers.json`, FPAN, NPS and other agency pages; text is the project's own | `tools/build-layers-2026.py` from `tools/src-2026-09-30/spots.json` | 283 spots, 481 links (352 pages, 66 photos, 61 videos, 2 galleries) | CC BY 4.0 for text and curation; media keep their own licences |
 | `ramps.json` | Saltwater boat ramps | FWC Florida Boat Ramp Inventory (MapServer/4) | Filtered to saltwater ramps with lanes | 613 | Florida public record |
 | `piers.json` | Fishing piers, jetties and fishing bridges | FWC Fishing Piers, Jetties and Bridges inventory | Inland/tidal/coastal tag added; buffer circles drawn by the page | 646 | Public record; tags CC BY 4.0 |
@@ -89,11 +92,17 @@ These load in the browser at run time. None needs a key except the two marked as
 
 ## Open questions about sources
 
-- **Aerial-imagery positions.** Two positions in `zones-local.json` were read from Esri World
-  Imagery in August 2026: the John's Pass corridor in `ti58` and the Three Sisters circle in `3sis`.
-  Whether Esri's terms allow publishing positions read this way has not been checked. Re-reading
-  both from USGS NAIP imagery (public domain) would settle it. The `ti58` source text also still
-  credits the OpenStreetMap channel centreline, which disagrees with the build script.
+- **Aerial-imagery positions (settled 7 Oct 2026).** The John's Pass corridor in `ti58` and the Three
+  Sisters circle in `3sis` had been read from Esri World Imagery. Both were re-read from USGS NAIP
+  imagery (public domain). The corridor's north-west edge was moved onto the Madeira Beach shoreline,
+  where the August outline left part of the pass out; its other vertices sit on the channel and were
+  kept. The Three Sisters centre moved 264 m south, from the pond in the middle of the property to the
+  spring pool. The `ti58` termini are now read on the TIGER/Line street at the Gulf and bay waterlines.
+  Screenshots and the endpoints used are listed in `tools/geometry/2026-10-07/raw-manifest.json`.
+- **NOAA chart coastline against the waterline.** On USGS NAIP imagery (service refreshed June 2024) the ENC coastline runs along the
+  upper beach at Singer Island (26.83 N), about 15 to 30 m landward of the waterline, and at the
+  waterline on north Palm Beach (26.76 N). The Palm Beach beach buffer is drawn at 150 yd and the
+  refuge inner edge at 725 yd so that neither closure shrinks below the rule on that evidence.
 - **Use constraints not located** for the FWRI Unified Reef Map v2.2, the West Florida Shelf benthic
   layer (Nova Southeastern University and FWRI) and the worm reef layer (TNC and FWRI).
 - **August service URLs not kept** for the bridge inventory, the FWC pier inventory, the BOEM
