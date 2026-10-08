@@ -1,7 +1,7 @@
 /* Bottom Truth: Florida spearfishing closures map, statewide
    Data: FWC artificial reefs, Palm Beach County ERM reef sites, FWC boat ramp inventory,
    NOAA ENC wrecks, obstructions, rocks, fish havens, bottom samples and depth contours, FDEP state
-   park waters, FWRI hardbottom, statewide legal zones, curated dive spots, OSM coastline.
+   park waters, FWRI hardbottom, statewide legal zones, curated dive spots, NOAA ENC coastline.
    Not legal advice. See README.
 
    Loading model
@@ -38,7 +38,7 @@ const COL = {
   wreck: '#c084fc', obstruction: '#8b5cf6', ramp: '#ffffff',
   refuge: '#e5484d', closure: '#ff4d4f', buffer: '#e5484d',
   park: '#fb7185', hardbottom: '#2dd4bf', contour: '#7dd3fc', boundary: '#f5a524',
-  pier: '#f472b6', jetty: '#ff5fa2', jettyExempt: '#f5a524', fknms: '#ff7a45',
+  pier: '#f472b6', jetty: '#ff5fa2', jettyExempt: '#f5a524', fknms: '#ff7a45', beach: '#fb7185',
   bridgeConfirmed: '#f472b6', bridgePresumed: '#facc15', bridgeExcluded: '#64748b',
   spot: '#f0abfc', fishhaven: '#fb923c', rock: '#d6d3d1', encarea: '#fdba74',
   buoy: '#60a5fa', station: '#34d399', seabed: '#e7cf8f', hbsw: '#5eead4',
@@ -62,7 +62,7 @@ const KIND_SW = 'linear-gradient(135deg,#ff4d4f 0 50%,#facc15 50% 100%)';
 let SITES = [], RAMPS = [], ZONES = [], REGS = {}, CLOSURES = [], ENC = null, HB = null, PARKS = null, CONT = null;
 let PIERS = null, BRIDGES = null, FKNMS = null, JURIS = null, LOCALZ = [], CWA = [];
 let STATEZ = [], ENCA = null, SEABED = null, HBSW = null, BUOYS = null, STATIONS = null;
-let ENCR = null, MPA = null, SPOTS = null, JETTIES = null;
+let ENCR = null, MPA = null, SPOTS = null, JETTIES = null, BEACHES = null;
 let LAWVER = '';
 let mode = 'scuba', origin = null, map, sideEl;
 const marks = {}, rmarks = {}, zl = {};
@@ -122,6 +122,7 @@ const CATS = [
   { id: 'closure',     grp: 'legal',  label: 'Statutory closed areas',  col: COL.closure,  on: true,  z: 4 },
   { id: 'pier',        grp: 'legal',  label: 'Fishing piers (FWC list), drawn at 125 yd', col: COL.pier, on: true, src: ['piers'], z: 4 },
   { id: 'jetty',       grp: 'legal',  label: 'Jetties, traced: 100 ft drawn at 150 ft', col: COL.jetty, on: true, src: ['jetties'], z: 4 },
+  { id: 'beach',       grp: 'legal',  label: 'Sandy beaches: 100 yd drawn at 150 yd', col: COL.beach, on: true, src: ['beaches'], z: 4 },
   { id: 'refuge',      grp: 'legal',  label: 'Palm Beach refuge areas', col: COL.refuge,   on: true,  z: 4 },
   { id: 'buffer',      grp: 'legal',  label: 'Beach / pier / jetty buffers', col: COL.buffer, on: true, z: 4 },
   { id: 'park',        grp: 'legal',  label: 'State park waters',       col: COL.park,     on: true,  src: ['parkwaters'], z: 4 },
@@ -207,6 +208,7 @@ source('zones-statewide', d => { STATEZ = d.zones || d; buildStatewideZones(); }
 source('cwa',             d => { CWA = d; buildCwa(); });
 source('bridges',         d => { BRIDGES = d; buildBridges(); });
 source('jetties',         d => { JETTIES = d.zones || d; buildJetties(); });
+source('beaches',         d => { BEACHES = d.zones || d; buildBeaches(); });
 source('hardbottom',      d => { HB = d; buildHb(); });
 source('hardbottom-sw',   d => { HBSW = d; buildHbSw(); });
 source('seabed',          d => { SEABED = d; buildSeabed(); });
@@ -813,24 +815,28 @@ function buildBridges() {
       '<b>This is not a statement that the water is open.</b> Every other rule on this map applies independently, and a nearby ' +
       'causeway or frontage span may be a different structure with its own buffer. Check the posted signs on site.</div>'
   };
+  const DS = { chart: 'the bridge as charted by NOAA (ENC)', roads: 'the Census TIGER road where it crosses mapped water',
+    both: 'the NOAA chart (ENC) and the Census TIGER road where it crosses mapped water',
+    wide: 'the NOAA chart (ENC), taking the charted bridge nearest the NBI point within 250 m, which may be a neighbouring structure' };
   const RV = {
-    span: 'Deck traced on imagery: the buffer runs the length of the bridge, not only around the NBI point.',
-    short: 'Deck checked on imagery: it stays within the circle drawn at the NBI point.',
-    none: 'Deck checked on imagery: no bridge deck was found within 60 m of the NBI point, so only the circle ' +
-      'is drawn. If the bridge runs well past the circle, treat its whole length as buffered.',
-    loose: 'Deck checked on imagery: the nearest deck lay 60 to 250 m from the NBI point and was not taken ' +
-      'to be the same bridge, so only the circle is drawn. Treat the whole bridge as buffered.',
-    ferry: 'The record is a ferry crossing, not a bridge deck. Only the circle at the NBI point is drawn.'
+    span: b => 'Deck drawn from ' + DS[b.ds] + ': the buffer runs the length of the bridge, not only around the NBI point.',
+    short: b => 'Deck found (' + DS[b.ds] + '): it stays within the circle drawn at the NBI point.',
+    none: () => 'No deck was found for this record in the NOAA chart or in the Census roads over mapped water, so ' +
+      'only the circle at the NBI point is drawn. If the bridge runs well past the circle, treat its whole length ' +
+      'as buffered.',
+    ferry: () => 'The record is a ferry crossing, not a bridge deck. Only the circle at the NBI point is drawn.'
   };
   BRIDGES.forEach((b, i) => {
     const c = style[b.st], grp = lay(MAP[b.st], b);
     const name = b.n + (b.o ? ' (over ' + b.o + ')' : '');
-    const rv = b.rv ? '<div style="margin-top:6px">' + RV[b.rv] + '</div>' : '';
+    const rv = b.rv && RV[b.rv] ? '<div style="margin-top:6px">' + RV[b.rv](b) + '</div>' : '';
     const pop = '<h3>' + esc(b.n) + '</h3>over ' + esc(b.o) + text[b.st] + rv +
       (b.cf ? '<div style="margin-top:6px">Matches FWC record: <b>' + esc(b.cf) + '</b></div>' : '') +
       '<span class="m">NBI functional class ' + esc(b.fc) + ' &middot; ' +
       b.lat.toFixed(5) + ', ' + b.lon.toFixed(5) +
-      (b.dk ? '<br>Deck geometry: OpenStreetMap contributors (ODbL), checked on USGS NAIP imagery, 8 Oct 2026' : '') +
+      (b.dk ? '<br>Deck geometry: ' + { chart: 'NOAA ENC', roads: 'US Census TIGER/Line roads over TIGERweb and USGS NHD water areas',
+        both: 'NOAA ENC; US Census TIGER/Line roads over TIGERweb and USGS NHD water areas',
+        wide: 'NOAA ENC, nearest charted bridge within 250 m' }[b.ds] + ', 8 Oct 2026' : '') +
       '</span>' + waterNote(b) + C('fac-68b-20-003-2', 'fs-316-1305', 'neg-bridgeregister');
     if (b.st !== 'excluded') {
       const line = b.st === 'confirmed'
@@ -866,6 +872,50 @@ function decI(a) {
   }
   return out;
 }
+/* r. 68B-20.003(2)(a): 100 yd from any public bathing beach, drawn 150 yd seaward of the charted shore
+   along every chain of FDEP range monuments (data/beaches.json, tools/build-beaches.py). kind closed:
+   R-series monuments, the sandy-beach baseline. kind warn: V-series (supplementary) monuments. */
+function buildBeaches() {
+  const grp = layers.beach;
+  BEACHES.forEach(z => {
+    const warn = z.kind === 'warn';
+    const c = warn ? ZKC.warn : COL.beach;
+    const head = warn
+      ? '<div class="pv pv-warn"><b>Shore that may be a bathing beach: treat as buffered.</b> R. 68B-20.003(2)(a) ' +
+        'closes water within <b>100 yards</b> of any public bathing beach. This stretch is marked by the state\'s ' +
+        'supplementary (V-series) survey monuments rather than its sandy-beach baseline, so the buffer is drawn as ' +
+        'a caution.</div>'
+      : '<div class="pv pv-no"><b>Beach buffer: 100 yards.</b> R. 68B-20.003(2)(a) closes water within ' +
+        '<b>100 yards</b> of any public bathing beach. Florida beaches are public below the mean high-water line, ' +
+        'so every sandy beach on the open coast is treated as a public bathing beach (the reading that closes ' +
+        'more water). Drawn at 150 yd seaward of the charted shore.</div>';
+    const pop = '<h3>' + esc(z.n) + '</h3>' + head +
+      '<div style="margin-top:6px">Shore line: the NOAA chart coastline nearest each FDEP range monument on the ' +
+      'open-water side, ' + esc(z.mon[0]) + ' to ' + esc(z.mon[1]) + ' (' + z.mon[2] + ' monuments, about ' +
+      Number(Math.round(z.len_m / 100) / 10).toLocaleString() + ' km). Beaches between the monument chains, ' +
+      'beaches on bays and lagoons, and short beaches with a single monument are not drawn: assume the ' +
+      'buffer applies at any beach.</div>' +
+      '<span class="m">' + esc(z.cty) + ' County &middot; FDEP Coastal Range Monuments; NOAA ENC coastline</span>' +
+      C.apply(null, z.law || []);
+    const rings = (z.ri || []).map(decI);
+    let first = null;
+    rings.forEach(r => {
+      const p = addPoly(r, { color: c, weight: 1, opacity: .8, fillColor: c, fillOpacity: warn ? .08 : .14,
+        dashArray: warn ? '5,4' : null }, pop, grp);
+      first = first || p;
+    });
+    if (z.li) L.polyline(decI(z.li), { color: c, weight: 1.5, opacity: .9, interactive: false }).addTo(grp);
+    const meta = { k: 'beach:' + z.id, n: z.n, cls: warn ? 'restrict' : 'closed', src: 'beaches',
+      line: warn ? 'Within 150 yd of a shore that may be a bathing beach; r. 68B-20.003(2)(a) is 100 yd.'
+        : 'Within 150 yd of a sandy beach; r. 68B-20.003(2)(a) closes 100 yd from any public bathing beach.',
+      law: z.law || [] };
+    if (rings.length) {
+      qPoly(rings, meta);
+      regSearch({ g: 'pier', n: z.n, sub: 'Beach buffer · ' + z.cty, cat: 'beach', layer: first,
+        ll: centroid(rings[0]), b: boxLL(ringsBox(rings)), z: 13 });
+    }
+  });
+}
 /* r. 68B-20.003(2)(d): 100 ft from the unsubmerged portion of any jetty, traced structure by
    structure (data/jetties.json, tools/build-jetties.py). kind closed: an inlet or fishing jetty.
    kind warn: a groin, breakwater or revetment that may count as a jetty. exempt: the stretch of a
@@ -881,7 +931,8 @@ function buildJetties() {
         'jetty, and this structure is not a plain inlet jetty, so the buffer is drawn as a caution.</div>'
       : '<div class="pv pv-no"><b>Jetty buffer: 100 feet.</b> R. 68B-20.003(2)(d) closes water within ' +
         '<b>100 feet</b> of the unsubmerged portion of any jetty. Feet, not yards: the other three ' +
-        'buffers in the rule are yards. Drawn at 150 ft around the structure as traced.</div>';
+        'buffers in the rule are yards. Drawn at 150 ft around the structure, and 10 m wider where its outline ' +
+        'comes from the NOAA nautical chart rather than a trace on the imagery.</div>';
     const ex = z.exempt
       ? '<div style="margin-top:6px"><b>Long jetty.</b> This jetty runs about ' + Number(z.exempt.seaward_yd).toLocaleString() +
         ' yd seaward of the shoreline, more than 1,500 yd, so the rule allows spearfishing along its last ' +
@@ -896,7 +947,9 @@ function buildJetties() {
       (z.fwc ? '<div style="margin-top:6px">FWC fishing structure inventory: <b>' + esc(z.fwc) + '</b>. If the ' +
         'jetty is used as a public fishing pier, the 100 yd pier buffer in (2)(b) may apply as well; the ' +
         'FWC point keeps its 125 yd circle.</div>' : '') +
-      '<span class="m">' + esc(z.cty) + ' County &middot; ' + esc(z.src) + '</span>' + C.apply(null, z.law || []);
+      '<span class="m">' + esc(z.cty) + ' County &middot; ' + esc(z.src) +
+      (z.standin ? '<br>Stand-in circle positions: map data &copy; OpenStreetMap contributors' : '') + '</span>' +
+      C.apply(null, z.law || []);
     const rings = z.r || [], lines = z.line || [];
     let first = null;
     rings.forEach(r => {
@@ -924,7 +977,7 @@ function buildJetties() {
     });
     const meta = { k: 'jetty:' + z.id, n: z.n, cls: warn ? 'restrict' : 'closed', src: 'jetties',
       line: warn ? 'Within 150 ft of a structure that may count as a jetty; r. 68B-20.003(2)(d) is 100 ft.'
-        : 'Within 150 ft of a jetty as traced; r. 68B-20.003(2)(d) closes 100 ft from its unsubmerged portion.',
+        : 'Within 150 ft or more of a jetty as drawn; r. 68B-20.003(2)(d) closes 100 ft from its unsubmerged portion.',
       law: z.law || [] };
     if (rings.length) qPoly(rings, meta);
     else if ((z.pts || []).length) qNoGeom(z.pts.map(p => [p]), meta);
@@ -1321,12 +1374,12 @@ function disarmWh() {
   const b = document.getElementById('whbtn'); if (b) b.classList.remove('on');
   if (map) map.getContainer().classList.remove('wh-armed');
 }
-const Q_LEGAL = ['fknms', 'parkwaters', 'cwa', 'zones-local', 'zones-statewide', 'piers', 'bridges', 'jetties'];
+const Q_LEGAL = ['fknms', 'parkwaters', 'cwa', 'zones-local', 'zones-statewide', 'piers', 'bridges', 'jetties', 'beaches'];
 /* contours (3 MB) are used only when already loaded, so a first query on a phone stays light */
 const Q_EXTRA = ['spots', 'seabed', 'jurisdiction'];
 const Q_NAMES = { fknms: 'Keys sanctuary zones', parkwaters: 'state park waters', cwa: 'Critical Wildlife Areas',
   'zones-local': 'local and federal zones', 'zones-statewide': 'statewide zones', piers: 'pier buffers',
-  bridges: 'bridge buffers', jetties: 'jetty buffers' };
+  bridges: 'bridge buffers', jetties: 'jetty buffers', beaches: 'beach buffers' };
 const NEAR_M = 300, NOGEOM_M = 5000;
 function queryPoint(lat, lon, opts) {
   opts = opts || {};
@@ -1435,8 +1488,9 @@ function legalHtml(r) {
   if (r.restrict.length) h += '<div class="wh-sec wh-warn"><div class="wh-h">Restricted at this point</div>' +
     r.restrict.map(whItem).join('') + '</div>';
   if (!r.closed.length) h += '<div class="pv pv-warn">' + NO_RESULT + '</div>';
-  else h += '<div class="wh-note">Rules with no drawn boundary (beach buffers outside Palm Beach County and ' +
-    'Hollywood, piers and bridges missing from the inventories, and local ordinances) may also apply here.</div>';
+  else h += '<div class="wh-note">Rules with no drawn boundary (beach buffers on bays, lagoons and beaches ' +
+    'outside the state\'s monument chains, piers and bridges missing from the inventories, and local ordinances) ' +
+    'may also apply here.</div>';
   if (r.other.length) h += '<div class="wh-sec"><div class="wh-h">Other rules drawn here</div>' +
     r.other.map(whItem).join('') + '</div>';
   if (r.near.length) h += '<div class="wh-sec"><div class="wh-h">Drawn closures within ' + NEAR_M + ' m</div>' +
@@ -1664,9 +1718,10 @@ function render() {
   } else {
     h += '<div class="info"><b>' + esc(county) + ': no county notes.</b><br><br>' +
       'The statewide rules below apply. This county has no notes in this map, so its county and municipal ' +
-      'ordinances may not have been checked. Of the R. 68B-20.003(2) buffers, jetties are traced statewide and ' +
-      'bridges and FWC-listed piers are drawn, but beach buffers are <b>not drawn</b> outside Palm Beach County ' +
-      'and Hollywood. Assume a buffer applies wherever there is a beach, pier, fishing bridge or jetty.</div>';
+      'ordinances may not have been checked. Of the R. 68B-20.003(2) buffers, jetties are drawn statewide, ' +
+      'bridges and FWC-listed piers are drawn, and the beach buffer is drawn along the open-coast sandy beaches ' +
+      'the state monitors, but <b>not</b> on bays, lagoons or beaches outside those monument chains. Assume a ' +
+      'buffer applies wherever there is a beach, pier, fishing bridge or jetty.</div>';
   }
   h += '<h2>Launching from ' + esc(origin.n) + '</h2><div class="sub">' +
        origin.ln + ' lanes · ' + origin.tr + ' trailer spaces · ' + esc(origin.h) +
@@ -1703,10 +1758,10 @@ function render() {
     '<b>Legal coverage is not uniform.</b> Palm Beach County has the most complete coverage, including the ' +
     'feature-relative beach, pier, bridge and jetty buffers. Statewide, the federal and state closures and many ' +
     'local ordinance closures are drawn, and every rule is available as text. Of the buffers in Fla. Admin. Code ' +
-    'r. 68B-20.003(2), the jetty buffers are traced structure by structure statewide and coastal bridge buffers ' +
-    'run the length of each traced deck, but the 100 yd beach buffer is not drawn outside Palm Beach County and ' +
-    'Hollywood, and unlisted piers have no circle; assume they apply. Unshaded or unflagged water is not shown ' +
-    'as open.<br><br>' +
+    'r. 68B-20.003(2), the jetty buffers are drawn structure by structure statewide, coastal bridge buffers run ' +
+    'along each deck the chart or the road map shows, and the 100 yd beach buffer is drawn along the open-coast ' +
+    'sandy beaches the state monitors. Beaches on bays and lagoons and unlisted piers have no buffer; assume ' +
+    'they apply. Unshaded or unflagged water is not shown as open.<br><br>' +
     'The Palm Beach refuge <i>latitudes</i> are exact, quoted from § 13-55. The Upper Keys closure edges are a ' +
     'construction: the statute names Long Key and a county line, not coordinates. Buffers carry deliberate ' +
     'margin over the rule. Reef points are deployment or survey centroids, not the structure you swim. ' +
