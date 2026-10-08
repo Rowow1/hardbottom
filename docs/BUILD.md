@@ -55,8 +55,10 @@ python3 tools/patch-2026-10-07.py                 # regs.json, coverage.json, bo
 python3 tools/patch-2026-10-07-drawn.py           # regs.json, coverage.json: Hollywood and inlet zones now drawn
 python3 tools/patch-zones-2026-10-07.py           # zones-local, zones-statewide: Clearwater, Mexico Beach, Ponce, Steinhatchee
 python3 tools/patch-regs-species-2026-10-07.py    # regs.json, species.json: the 8 Oct second review (run after the two above)
-python3 tools/build-jetties.py                    # data/jetties.json from tools/jetties-2026-10-07/
-python3 tools/build-bridge-spans.py               # bridges.json: rv, dk and sp fields from the bridge review
+python3 tools/build-jetties.py                    # data/jetties.json from tools/jetties-2026-10-07/ and -2026-10-08/ (NOAA ENC, NAIP traces, stand-ins)
+python3 tools/build-bridge-spans.py               # bridges.json: rv, ds, dk and sp from tools/bridges-2026-10-08/decks.txt
+python3 tools/build-beaches.py                    # data/beaches.json from tools/beaches-2026-10-08/waterline.txt
+python3 tools/patch-2026-10-08-buffers.py         # regs.json: statewide buffer text for the three layers above
 python3 tools/check-text.py                       # no dashes, no permissive wording in the map's own text
 python3 tools/test-data.py
 NODE_PATH=<jsdom>/node_modules node test/smoke-test.js
@@ -73,7 +75,18 @@ python3 build-standalone.py [--out DIR]
   `tools/patch-2026-10-07.py`, which assert the old text before replacing it and are safe to rerun.
 - The 7 Oct 2026 patches must run after the builds they patch: `build-zones-statewide.py` and
   `build-layers-2026.py` rewrite the files they touch. `build-bridge-spans.py` refuses to run if
-  `bridges.json` no longer has the 2,509 coastal and tidal records the review was done against.
+  `bridges.json` no longer has the 2,509 coastal and tidal records the decks were pulled for.
+- The 8 Oct 2026 pulls for the jetty, bridge and beach layers were made in the author's Chrome
+  (fetch() in a page on encdirect.noaa.gov, which also reached TIGERweb, the USGS NHD service and the
+  FDEP open-data service), reduced in the page, and transcribed with a 32-bit rolling hash check. The
+  reduced files are committed: `tools/jetties-2026-10-08/enc-jetties.txt`,
+  `tools/bridges-2026-10-08/decks.txt` and `tools/beaches-2026-10-08/waterline.txt`; each script header
+  gives the endpoints, layer ids and the selection rule. The raw responses were not kept.
+- Traps found on 8 Oct 2026: NOAA ENC charts most Florida inlet jetties as shoreline construction with
+  CATSLC "pier" (S-57 "pier (jetty)"), not "breakwater"; ENC bridge features cover the charted spans
+  over navigable water and often not the trestle approaches, so the bridge layer joins the ENC deck with
+  the TIGER road over mapped water; the USGS NHD Waterbody layer answers in several seconds per query
+  and was dropped part-way through the road search.
 
 ## Endpoints and traps
 

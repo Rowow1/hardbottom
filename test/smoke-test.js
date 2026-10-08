@@ -222,8 +222,10 @@ const text = sel => { const e = w.document.querySelector(sel); return e ? e.text
     check('whatsHere on the St. Johns north jetty lists the traced jetty buffer', jt.closed.some(i => /St\. Johns.*jetty/i.test(i.n)), at(jt.closed));
     const jx = await w.FLSpearMap.whatsHere(30.40110, -81.37900);
     check('whatsHere on the long-jetty stretch does not list the jetty buffer', !jx.closed.some(i => /St\. Johns.*north jetty/i.test(i.n)), at(jx.closed));
-    const br = await w.FLSpearMap.whatsHere(27.87836, -82.58544);
-    check('whatsHere at the far end of the Gandy Bridge deck lists the bridge buffer (4 km from the NBI point)', br.closed.some(i => /US-92/.test(i.n)), at(br.closed));
+    const br = await w.FLSpearMap.whatsHere(27.87926, -82.58237);
+    check('whatsHere at the west end of the Gandy Bridge deck lists the bridge buffer (3.9 km from the NBI point)', br.closed.some(i => /US-92/.test(i.n)), at(br.closed));
+    const bh = await w.FLSpearMap.whatsHere(29.25357, -81.01878);
+    check('whatsHere off the Daytona surf line lists the beach buffer', bh.closed.some(i => /Volusia County beach/.test(i.n)), at(bh.closed));
     check('whatsHere extras: nearest spot and state-waters distance', !!(b.spot && b.sw), (b.spot ? b.spot.n : '-') + ', ' + (b.sw ? Math.round(b.sw.d) + ' m' : '-'));
 
     /* species panel */

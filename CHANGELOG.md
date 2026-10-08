@@ -3,6 +3,28 @@
 Changes to what the map says about the law are listed here with the date they were made, so anyone
 who relied on an earlier version can see what changed. Code-only changes are summarised.
 
+## 8 October 2026 (later): beach buffer statewide, rebuild without OpenStreetMap
+
+No rule changed. What changed is where three of the statewide buffers of r. 68B-20.003(2) are drawn.
+
+- **Beach buffer drawn statewide.** The 100 yd buffer of r. 68B-20.003(2)(a) is now drawn at 150 yd
+  seaward of the charted shore along 121 stretches of open-coast sandy beach, about 1,160 km in 28
+  counties, chained from FDEP's coastal range monuments. 93 stretches on R-series monuments are drawn
+  closed; 28 on V-series (supplementary) monuments are amber. Beaches on bays and lagoons, the Keys and
+  173 single-monument stretches are not drawn (OPEN-QUESTIONS.md question 34).
+- **Jetties rebuilt from the NOAA chart.** The 46 jetty outlines that came from OpenStreetMap now come
+  from NOAA ENC shoreline construction, drawn 10 m wider than the 150 ft line. Where the imagery shows
+  structure the chart does not carry, a circle sized to the stretch stands in (39 circles at 18
+  structures). The St. Marys south long-jetty stretch is now drawn as intended.
+- **Bridge decks rebuilt from the NOAA chart and the Census road map.** 1,105 coastal and tidal
+  bridges carry the 125 yd buffer along the deck (was 1,441 from OpenStreetMap), 316 have a deck
+  inside the circle, and 1,086 keep the circle only. The total bridge buffer is 138.4 km² (was 143.4).
+  Most of the difference is OpenStreetMap deck over land; about 1.5 km² over mapped water is no longer
+  drawn, mostly at causeway ends, and is listed in question 33. Fort Hamer Road and Crosstown Parkway
+  have no deck in any public source; treat them as buffered end to end.
+- **Licence.** `jetties.json` and the bridge deck fields are CC BY 4.0 again; the 39 stand-in positions
+  are an insubstantial OpenStreetMap extract and are credited (LICENSE-DATA.md).
+
 ## 8 October 2026: second review, jetties and bridge spans
 
 Rules current as of 8 Oct 2026. A second pass over the same days, done in parallel with the 7 October

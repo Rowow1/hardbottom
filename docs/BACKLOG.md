@@ -1,7 +1,7 @@
 # Application backlog
 
 Distinct from `OPEN-QUESTIONS.md`, which is the legal research queue. This is what to build. Ranked.
-Last reviewed 7 October 2026.
+Last reviewed 8 October 2026.
 
 ## Done at launch (7 October 2026)
 
@@ -29,8 +29,10 @@ Last reviewed 7 October 2026.
 6. **Wikimedia Commons photos for the spots.** 229 of 283 spots have no media; Commons was unreachable
    from the research tools. `tools/src-2026-09-30/commons-candidates.json` holds 10 files to check.
 7. **The 100 ft Biscayne channel dive closure** needs a channel or aids-to-navigation layer for the park.
-8. **Buffers statewide.** The R. 68B-20.003(2) beach, pier, bridge and jetty buffers are drawn only in
-   Palm Beach County. Pier and confirmed-bridge circles exist statewide; beaches and jetties do not.
+8. **Buffers statewide, the remainder.** Jetties (75), bridge decks (1,105) and open-coast beaches
+   (121 stretches) are now drawn statewide. Still to draw: bay, sound and lagoon beaches; the 173
+   single-monument beach stretches and the Keys; pier lengths (only the inventory point is buffered);
+   OPEN-QUESTIONS.md questions 33 to 35.
 9. **Madeira Beach and Treasure Island lines** at 127th and 128th Avenues need street geometry; St. Pete
    Beach § 94-1 now has a charted "Blind Pass" polygon in ENC named sea areas worth checking against
    the ordinance.
@@ -59,10 +61,12 @@ Last reviewed 7 October 2026.
 
 ## Added 8 Oct 2026 (second review)
 
-- Rebuild `jetties.json` and the `dk`/`sp` bridge fields from NOAA ENC shoreline construction and
-  BRIDGE areas instead of OpenStreetMap ways, as was done for the zone files on 7 Oct 2026, so those
-  files can leave the ODbL group (LICENSE-DATA.md section 2a). The structure-by-structure review notes in
-  `tools/jetties-2026-10-07/review.py` say which records are OSM and which are ENC or traced.
+- Done later on 8 Oct 2026: `jetties.json` and the `dk`/`sp` bridge fields rebuilt from NOAA ENC and
+  Census TIGER, so they left the ODbL group (LICENSE-DATA.md section 2a).
+- Retrace the 39 jetty stand-in stretches on NAIP (question 35) and the causeway ends listed in
+  question 33; add the spans to `tools/bridges-2026-10-08/decks.txt`.
+- Find a deck source for Fort Hamer Road and Crosstown Parkway, the two long bridges no public
+  dataset carries (FDOT plans or a NAIP trace).
 - Draw the canal gear rules (Pinellas County, Cape Coral, Sanibel, Naples, Collier, Brevard, Satellite
   Beach) from USGS NHD canal flowlines, as `mon26` is drawn.
 - Read Melbourne Beach § 40-33 and Cocoa Beach § 5-56 verbatim, the Naples ch. 90-469 canal table and

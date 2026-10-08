@@ -65,6 +65,9 @@ for z in zs.get('zones', zs):
 jt = load('jetties.json')
 for z in jt['zones']:
     check_ids('jetties.json#' + z['id'], z.get('law'))
+bc = load('beaches.json')
+for z in bc['zones']:
+    check_ids('beaches.json#' + z['id'], z.get('law'))
 sp = load('species.json')
 for s in sp['species']:
     check_ids('species.json#' + s['id'], s.get('law'))
@@ -157,6 +160,18 @@ for z in jt['zones']:
         rings(w + ' exempt', z['exempt']['r']); paths(w + ' exempt line', [z['exempt']['line']])
 
 
+bids = set()
+for z in bc['zones']:
+    w = 'beaches.json#' + z['id']
+    if z['id'] in bids:
+        fail(w + ': duplicate id')
+    bids.add(z['id'])
+    if z['kind'] not in ('closed', 'warn'):
+        fail(w + ': kind must be closed or warn')
+    if not z.get('ri') or not z.get('li'):
+        fail(w + ': no buffer ring or no shore line')
+
+
 def dec_i(a):
     out, la, lo = [], 0, 0
     for k in range(0, len(a), 2):
@@ -167,14 +182,20 @@ def dec_i(a):
 
 for i, b in enumerate(load('bridges.json')):
     w = 'bridges.json[%d] %s' % (i, b.get('n'))
-    if b.get('rv') not in (None, 'span', 'short', 'none', 'loose', 'ferry'):
+    if b.get('rv') not in (None, 'span', 'short', 'none', 'ferry'):
         fail(w + ': unknown rv %r' % b.get('rv'))
     if (b.get('rv') == 'span') != bool(b.get('sp')) or bool(b.get('sp')) != bool(b.get('dk')):
         fail(w + ': rv span needs both sp and dk, and only span has them')
+    if (b.get('rv') in ('span', 'short')) != (b.get('ds') in ('chart', 'roads', 'both', 'wide')):
+        fail(w + ': rv span or short needs ds chart, roads, both or wide, and only they have it')
     if b.get('sp'):
         if b['st'] == 'excluded':
             fail(w + ': excluded bridge carries a span buffer')
         rings(w + ' span', [dec_i(r) for r in b['sp']]); paths(w + ' deck', [dec_i(d) for d in b['dk']])
+
+for z in bc['zones']:
+    w = 'beaches.json#' + z['id']
+    rings(w, [dec_i(r) for r in z['ri']]); paths(w + ' shore', [dec_i(z['li'])])
 
 for i, z in enumerate(load('zones-palmbeach.json')):
     w = 'zones-palmbeach.json#' + z['id']
