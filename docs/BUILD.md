@@ -53,6 +53,10 @@ python3 tools/patch-zones-statewide-2026-10-07.py # without raw/: the same 7 Oct
 python3 tools/build-layers-2026.py                # ENC, seabed, contours, habitat, buoys, stations, spots, species (needs raw/)
 python3 tools/patch-2026-10-07.py                 # regs.json, coverage.json, both species files: 7 Oct seasons and sweeps
 python3 tools/patch-2026-10-07-drawn.py           # regs.json, coverage.json: Hollywood and inlet zones now drawn
+python3 tools/patch-zones-2026-10-07.py           # zones-local, zones-statewide: Clearwater, Mexico Beach, Ponce, Steinhatchee
+python3 tools/patch-regs-species-2026-10-07.py    # regs.json, species.json: the 8 Oct second review (run after the two above)
+python3 tools/build-jetties.py                    # data/jetties.json from tools/jetties-2026-10-07/
+python3 tools/build-bridge-spans.py               # bridges.json: rv, dk and sp fields from the bridge review
 python3 tools/check-text.py                       # no dashes, no permissive wording in the map's own text
 python3 tools/test-data.py
 NODE_PATH=<jsdom>/node_modules node test/smoke-test.js
@@ -67,6 +71,9 @@ python3 build-standalone.py [--out DIR]
   were not kept. The two patch scripts change text, kinds and law ids only, never coordinates.
 - `data/regs.json` and `data/coverage.json` are edited by hand, except for the dated scripted edits in
   `tools/patch-2026-10-07.py`, which assert the old text before replacing it and are safe to rerun.
+- The 7 Oct 2026 patches must run after the builds they patch: `build-zones-statewide.py` and
+  `build-layers-2026.py` rewrite the files they touch. `build-bridge-spans.py` refuses to run if
+  `bridges.json` no longer has the 2,509 coastal and tidal records the review was done against.
 
 ## Endpoints and traps
 

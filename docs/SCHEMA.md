@@ -126,7 +126,8 @@ Not in the project knowledge base — coordinate volume with no retrieval value.
 | File | Records | Key fields |
 |---|---|---|
 | `sites.json` | 3,609 reef/wreck sites | `n,lat,lon,d,rel,t,c,m,src,nt,ref,edge,closed,czone,ctype,iw,iwr` — `t` = `n`atural/`a`rtificial, `c` = county, `closed` = `keys`/`penn`/`fknms`, `ref` = PBC refuge 1\|2, `iw` = water class |
-| `bridges.json` | 7,822 | `n,o,lat,lon,fc,st,cf,iw,iwr` — `st` = `confirmed`(211) / `presumed`(6041) / `excluded`(1570) |
+| `bridges.json` | 7,822 | `n,o,lat,lon,fc,st,cf,iw,iwr` — `st` = `confirmed`(211) / `presumed`(6041) / `excluded`(1570). From 8 Oct 2026 the 2,509 coastal and tidal confirmed or presumed records also carry `rv` = `span` (1,441) · `short` (508) · `none` (508) · `loose` (50) · `ferry` (2); `span` records add `dk` (traced deck lines) and `sp` (buffer rings, the union of the 125 yd circle and a 125 yd band along the deck). `dk` and `sp` are flat integer lists `[lat, lon, dlat, dlon, …]` in units of 1e-5 degree, first pair absolute. Built by `tools/build-bridge-spans.py`. |
+| `jetties.json` | 75 zones | `id,n,cty,kind` (`closed` inlet or fishing jetty · `warn` groin, breakwater or revetment that may count as a jetty), `law`, `seen` (what the imagery showed), `note`, `fwc` (matching FWC inventory name), `src`, `r` (150 ft buffer rings), `line` (structure lines), `pts` (marker where nothing could be traced), `exempt` (`{r, line, seaward_yd}` for the long-jetty stretch), `seaward_yd`, `near_long`. Built by `tools/build-jetties.py` from `tools/jetties-2026-10-07/`. |
 | `piers.json` | 646 | FWC fishing structures |
 | `ramps.json` | 613 | saltwater ramps with lanes, hours, fees |
 | `parkwaters.json` | 120 | FDEP park water polygons |

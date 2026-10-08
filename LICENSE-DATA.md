@@ -14,7 +14,8 @@ These files hold the project's legal research, curation and classification:
 `zones-local.json`, `zones-palmbeach.json`, `spots.json` (descriptions and curation), and the
 classification fields added to `bridges.json` (`st`, `iw`, `iwr`), `piers.json` (`iw`, `iwr`) and
 `sites.json` (`ref`, `edge`, `closed`, `iw`, `iwr`). The site positions and descriptions in
-`sites.json` are FWC and Palm Beach County public records.
+`sites.json` are FWC and Palm Beach County public records. The review text of `jetties.json` (`seen`, `note`) and the
+bridge review status in `bridges.json` (`rv`) are also in this group; their geometry is not (section 2a).
 
 `zones-local.json` and `zones-palmbeach.json` are drawn from public-domain inputs: NOAA Electronic
 Navigational Charts (CC0), USGS National Hydrography Dataset and NAIP imagery, US Census TIGER, USACE
@@ -56,6 +57,22 @@ the imagery readings from USGS NAIP. The scripts are `tools/extract-enc-2026-10-
 `tools/build-zones-palmbeach.py`, `tools/recompute-sites-ref-2026-10-07.py` and
 `tools/patch-zones-local-geometry-2026-10-07.py`. The current files are in group 1. OpenStreetMap was
 used only to compare old and new geometry.
+
+## 2a. Current files with OpenStreetMap-derived geometry: ODbL 1.0
+
+The jetty and bridge reviews of 7 and 8 October 2026 used OpenStreetMap ways as the starting geometry,
+checked structure by structure on USGS NAIP imagery:
+
+| File | OpenStreetMap input |
+|---|---|
+| `jetties.json` | Breakwater and groyne ways for most structures (the rest are NOAA ENC shoreline construction or lines traced on NAIP), and the buffer rings drawn from them |
+| `bridges.json` | The `dk` deck lines and the `sp` span buffers drawn from OSM bridge ways (1,441 records). The other fields are in groups 1 and 3. |
+
+These parts are made available under the Open Database License 1.0,
+<https://opendatacommons.org/licenses/odbl/1-0/>, with any rights in individual contents under the
+Database Contents License, <https://opendatacommons.org/licenses/dbcl/1-0/>. Map data © OpenStreetMap
+contributors, <https://www.openstreetmap.org/copyright>. Rebuilding them from the NOAA ENC charts, as was
+done for the zone files on 7 October, is listed in `docs/BACKLOG.md`.
 
 ## 3. Redistributed public data: upstream terms, no added restriction
 

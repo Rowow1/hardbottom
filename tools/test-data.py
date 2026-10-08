@@ -62,6 +62,9 @@ for z in zl.get('zones', zl):
 zs = load('zones-statewide.json')
 for z in zs.get('zones', zs):
     check_ids('zones-statewide.json#' + z['id'], z.get('law'))
+jt = load('jetties.json')
+for z in jt['zones']:
+    check_ids('jetties.json#' + z['id'], z.get('law'))
 sp = load('species.json')
 for s in sp['species']:
     check_ids('species.json#' + s['id'], s.get('law'))
@@ -136,6 +139,42 @@ for z in zs.get('zones', zs):
     rings(w, z.get('r')); paths(w, z.get('line'))
     for p in z.get('pts') or []:
         pt(w + ' pts', p)
+
+jids = set()
+for z in jt['zones']:
+    w = 'jetties.json#' + z['id']
+    if z['id'] in jids:
+        fail(w + ': duplicate id')
+    jids.add(z['id'])
+    if z['kind'] not in ('closed', 'warn'):
+        fail(w + ': kind must be closed or warn')
+    if not (z.get('r') or z.get('pts')):
+        fail(w + ': no buffer ring and no marker')
+    rings(w, z.get('r')); paths(w, z.get('line'))
+    for p in z.get('pts') or []:
+        pt(w + ' pts', p)
+    if z.get('exempt'):
+        rings(w + ' exempt', z['exempt']['r']); paths(w + ' exempt line', [z['exempt']['line']])
+
+
+def dec_i(a):
+    out, la, lo = [], 0, 0
+    for k in range(0, len(a), 2):
+        la, lo = (a[k], a[k + 1]) if k == 0 else (la + a[k], lo + a[k + 1])
+        out.append([la / 1e5, lo / 1e5])
+    return out
+
+
+for i, b in enumerate(load('bridges.json')):
+    w = 'bridges.json[%d] %s' % (i, b.get('n'))
+    if b.get('rv') not in (None, 'span', 'short', 'none', 'loose', 'ferry'):
+        fail(w + ': unknown rv %r' % b.get('rv'))
+    if (b.get('rv') == 'span') != bool(b.get('sp')) or bool(b.get('sp')) != bool(b.get('dk')):
+        fail(w + ': rv span needs both sp and dk, and only span has them')
+    if b.get('sp'):
+        if b['st'] == 'excluded':
+            fail(w + ': excluded bridge carries a span buffer')
+        rings(w + ' span', [dec_i(r) for r in b['sp']]); paths(w + ' deck', [dec_i(d) for d in b['dk']])
 
 for i, z in enumerate(load('zones-palmbeach.json')):
     w = 'zones-palmbeach.json#' + z['id']

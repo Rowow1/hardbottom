@@ -56,3 +56,14 @@ Last reviewed 7 October 2026.
 - `zones-palmbeach.json` predates the zones schema; migrate it.
 - `zones-local.json` cannot be rebuilt from source because its August raw pulls are not kept.
 - Existing popup strings still contain em dashes; new strings do not.
+
+## Added 8 Oct 2026 (second review)
+
+- Rebuild `jetties.json` and the `dk`/`sp` bridge fields from NOAA ENC shoreline construction and
+  BRIDGE areas instead of OpenStreetMap ways, as was done for the zone files on 7 Oct 2026, so those
+  files can leave the ODbL group (LICENSE-DATA.md section 2a). The structure-by-structure review notes in
+  `tools/jetties-2026-10-07/review.py` say which records are OSM and which are ENC or traced.
+- Draw the canal gear rules (Pinellas County, Cape Coral, Sanibel, Naples, Collier, Brevard, Satellite
+  Beach) from USGS NHD canal flowlines, as `mon26` is drawn.
+- Read Melbourne Beach § 40-33 and Cocoa Beach § 5-56 verbatim, the Naples ch. 90-469 canal table and
+  Collier § 210-67 Exhibit A in full, and r. 68B-35.004(5).

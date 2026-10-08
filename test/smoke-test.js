@@ -99,7 +99,7 @@ const text = sel => { const e = w.document.querySelector(sel); return e ? e.text
     check('notice: persistent, has the required sentences',
       /Not legal advice · Not for navigation/.test(nt) && /Unshaded water is not shown as open/.test(nt) &&
       /Boundaries are approximate\. NOT FOR NAVIGATION\./.test(nt) && !w.document.getElementById('caution'));
-    check('notice: law.json version date shown', /Rules current as of 7 Oct 2026/.test(nt), nt.match(/Rules current as of[^.]*?20\d\d/) ? nt.match(/Rules current as of[^.]*?20\d\d/)[0] : 'no date');
+    check('notice: law.json version date shown', /Rules current as of 8 Oct 2026/.test(nt), nt.match(/Rules current as of[^.]*?20\d\d/) ? nt.match(/Rules current as of[^.]*?20\d\d/)[0] : 'no date');
     check('notice: no dismiss control', !w.document.querySelector('#notice [title="Dismiss"]'));
 
     /* base layers */
@@ -218,6 +218,12 @@ const text = sel => { const e = w.document.querySelector(sel); return e ? e.text
       c.closed.length === 0 && /No researched closure covers this point\. That does not mean the water is open/.test(text('.leaflet-popup-content')));
     const pb = await w.FLSpearMap.whatsHere(26.7735, -80.034);
     check('whatsHere inside the Lake Worth Inlet lists the county inlet ban and a buffer', pb.closed.length >= 2, at(pb.closed));
+    const jt = await w.FLSpearMap.whatsHere(30.40281, -81.39479);
+    check('whatsHere on the St. Johns north jetty lists the traced jetty buffer', jt.closed.some(i => /St\. Johns.*jetty/i.test(i.n)), at(jt.closed));
+    const jx = await w.FLSpearMap.whatsHere(30.40110, -81.37900);
+    check('whatsHere on the long-jetty stretch does not list the jetty buffer', !jx.closed.some(i => /St\. Johns.*north jetty/i.test(i.n)), at(jx.closed));
+    const br = await w.FLSpearMap.whatsHere(27.87836, -82.58544);
+    check('whatsHere at the far end of the Gandy Bridge deck lists the bridge buffer (4 km from the NBI point)', br.closed.some(i => /US-92/.test(i.n)), at(br.closed));
     check('whatsHere extras: nearest spot and state-waters distance', !!(b.spot && b.sw), (b.spot ? b.spot.n : '-') + ', ' + (b.sw ? Math.round(b.sw.d) + ' m' : '-'));
 
     /* species panel */

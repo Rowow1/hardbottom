@@ -26,7 +26,8 @@ Counts are from the data files as of 6 October 2026.
 | Statutory closures | Fla. Stat. § 379.2425 | Upper Keys and John Pennekamp |
 | State park waters | FDEP park boundaries | 120 parks |
 | Fishing piers, jetties and fishing bridges, with buffers | FWC inventory | 646 |
-| Bridges, classified for the bridge buffer | FHWA National Bridge Inventory | 7,822 |
+| Bridges, classified for the bridge buffer | FHWA National Bridge Inventory | 7,822 (1,441 with the buffer drawn along the traced deck) |
+| Jetty buffers, traced on imagery | OpenStreetMap, NOAA ENC, USGS NAIP | 75 structures |
 | State and federal waters boundary | BOEM Submerged Lands Act boundary | 3 nm Atlantic, 9 nm Gulf |
 | Reef and wreck sites | FWC artificial reef inventory and Palm Beach County | 3,609 |
 | Curated dive spots with photo and video links | FWC, FKNMS, NPS, FPAN and others | 283 |
@@ -45,7 +46,7 @@ Every source, licence and derivation is listed in [DATA-SOURCES.md](DATA-SOURCES
 |---|---|
 | Palm Beach County | The most complete: the county refuge areas, all four buffers of Fla. Admin. Code r. 68B-20.003(2), the inlet rules, diver-flag zones, Coast Guard security zones and the 3 nm line. |
 | Statewide | Federal fishery closures and special management zones, Coast Guard and military zones, manatee No Entry zones, wildlife refuges, state park waters, the Keys sanctuary, the statutory closures, and local ordinances found in a 211-jurisdiction coastal sweep (30 September 2026). |
-| Outside Palm Beach County | The beach, pier, bridge and jetty buffers of r. 68B-20.003(2) are drawn only for known fishing piers and confirmed or presumed fishing bridges. Beach and jetty buffers are not drawn. Assume they apply. |
+| Outside Palm Beach County | Of the r. 68B-20.003(2) buffers, jetties are traced structure by structure statewide (75 structures), coastal and tidal bridge buffers run along each traced deck, and FWC-listed piers get a circle. The beach buffer is drawn only in Hollywood, where a city ordinance sets it. Assume a buffer applies wherever there is a beach, pier, fishing bridge or jetty. |
 
 The map's research-coverage layer shows these tiers. Open items, including every zone whose
 boundary could not be drawn from published geometry, are in [OPEN-QUESTIONS.md](OPEN-QUESTIONS.md).

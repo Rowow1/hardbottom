@@ -3,6 +3,36 @@
 Changes to what the map says about the law are listed here with the date they were made, so anyone
 who relied on an earlier version can see what changed. Code-only changes are summarised.
 
+## 8 October 2026: second review, jetties and bridge spans
+
+Rules current as of 8 Oct 2026. A second pass over the same days, done in parallel with the 7 October
+pass below; where both found the same rule, the map keeps one entry. Every new excerpt was read word
+for word at the primary source (`tools/law-updates/2026-10-07/reads.md`).
+
+- **Jetties are traced, not circled.** 75 jetties, groins and breakwaters from St. Marys to Pickens
+  and the Keys were read one at a time on USGS NAIP imagery. Each is drawn as its own outline with
+  the 100 ft buffer of r. 68B-20.003(2)(d) at 150 ft. Groins and breakwaters that may count as a jetty
+  are amber. At St. Marys south and St. Johns north, which run more than 1,500 yd out, the last
+  400 yd are drawn amber for the long-jetty exception.
+- **Bridge buffers follow the deck.** 1,441 coastal and tidal bridges now carry the 125 yd buffer
+  along the whole bridge as traced, not only around the inventory point (the Gandy Bridge buffer
+  now runs 4 km). 558 records with no matching deck keep the circle and say so in the popup.
+- **New closures drawn:** Clearwater citywide (projectile weapon ban, as at Treasure Island); the
+  Mexico Beach canal channel (marker); 300 ft around the Ponce Inlet jetties (Volusia beach code);
+  the Steinhatchee River (fresh water by statute). Crystal River NWR changed from amber to closed.
+  Boynton Inlet also cites the county's § 18-1 swimming and sand-plant rules.
+- **Federal:** a loaded speargun in any vessel is prohibited in national parks (36 C.F.R. § 2.4(c));
+  spears prohibited on wildlife refuges unless authorized (§ 27.43); one scamp or yellowmouth within
+  the South Atlantic grouper bag and no more than 10 of any one snapper-grouper species; fish landed
+  with head and fins in federal waters; Everglades transit passes; fresh water in parks hook and line only.
+- **State:** fishing preemption is Fla. Stat. § 379.2412, not § 790.33; no diving from a public bridge
+  (§ 316.130(17)); speargun possession on fresh water prohibited (r. 68A-23.002(7), correcting an
+  earlier note); reef fish landed whole; descending device aboard; snook and tarpon rules; permit and
+  African pompano federal-water gear rule; divers-down flag sizes and slow-down distances.
+- **Local text added:** Cape Coral, Sanibel, Naples, Collier, Brevard and Satellite Beach canal gear
+  rules; Clearwater; St. Petersburg bridges and pier district (§ 7-5); Pinellas County parks (§ 90-7);
+  Bradenton Beach parks; Broward County's 1921 inside-waters act (status open); Boynton § 18-1.
+
 ## 7 October 2026: legal currency pass
 
 Three research passes (federal, state and local) re-read the open questions and every dated season

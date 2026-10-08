@@ -37,7 +37,7 @@ def js_safe(text):
 
 
 ALL = ['sites', 'ramps', 'zones-palmbeach', 'regs', 'closures', 'law', 'enc', 'enc-areas', 'parkwaters',
-       'contours', 'hardbottom', 'hardbottom-sw', 'seabed', 'fknms', 'jurisdiction', 'piers', 'bridges',
+       'contours', 'hardbottom', 'hardbottom-sw', 'seabed', 'fknms', 'jurisdiction', 'piers', 'bridges', 'jetties',
        'zones-local', 'zones-statewide', 'cwa', 'buoys', 'stations', 'spots', 'species', 'coverage',
        'enc-restricted', 'mpa']
 REFERENCE_ONLY = {'enc-restricted', 'mpa'}

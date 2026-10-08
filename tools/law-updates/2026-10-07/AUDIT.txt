@@ -50,3 +50,44 @@
 2026-10-07/editorial | pompano-91-22 | updated note
 2026-10-07/editorial | fac-68c-22 | updated  appended note
 2026-10-07/editorial | fac-68b-3-038 | updated effect
+2026-10-07/r1-review | fr-91-63502 | updated cite,title,juris,kind,url,effect,excerpt,verified,scope,note
+2026-10-07/r1-review | cfr-622-187 | updated effect,excerpt,note
+2026-10-07/r1-review | fr-91-61160 | updated cite,title,juris,kind,url,effect,excerpt,verified,scope,note
+2026-10-07/r1-review | cfr-50-27-43 | added
+2026-10-07/r1-review | cfr-36-1-4-2-4 | updated cite,title,juris,kind,url,effect,excerpt,full,verified,scope,note
+2026-10-07/r1-review | cfr-36-7-45-d9 | added
+2026-10-07/r1-review | cfr-36-2-3-d | added
+2026-10-07/r1-review | cfr-50-17-108-c14 | added
+2026-10-07/r1-review | fws-crystal-river | added
+2026-10-07/r1-review | cfr-622-10-186 | added
+2026-10-07/r1-review | fs-379-2412 | added
+2026-10-07/r1-review | fs-790-33 | updated title,effect,full appended note
+2026-10-07/r1-review | fs-316-130-17 | added
+2026-10-07/r1-review | fs-379-354-b | added
+2026-10-07/r1-review | fs-327-331-b | added
+2026-10-07/r1-review | fs-379-101-17 | added
+2026-10-07/r1-review | fac-62d-2-014-10 | added
+2026-10-07/r1-review | fac-68a-23-002-7 | added
+2026-10-07/r1-review | fac-68b-14-006-4 | added
+2026-10-07/r1-review | fac-68b-14-005-3 | added
+2026-10-07/r1-review | fac-68b-21-006 | added
+2026-10-07/r1-review | fac-68b-32-006-2 | added
+2026-10-07/r1-review | fac-68b-35-004 | added
+2026-10-07/r1-review | pbc-18-1 | added
+2026-10-07/r1-review | clearwater-21-06 | added
+2026-10-07/r1-review | pinellas-14-97 | updated cite,title,juris,kind,url,effect,excerpt,verified,scope,note
+2026-10-07/r1-review | capecoral-78-483 | added
+2026-10-07/r1-review | sanibel-85-440 | added
+2026-10-07/r1-review | naples-90-469 | added
+2026-10-07/r1-review | naples-42-3 | updated cite,title,juris,kind,url,effect,excerpt,verified,scope,note
+2026-10-07/r1-review | brevard-122-3 | added
+2026-10-07/r1-review | satellitebeach-66-1 | added
+2026-10-07/r1-review | collier-210-67 | added
+2026-10-07/r1-review | volusia-20-121 | added
+2026-10-07/r1-review | mexicobeach-95-03 | added
+2026-10-07/r1-review | stpete-21-44 | updated cite,title,juris,kind,url,effect,excerpt,full,verified,scope,note
+2026-10-07/r1-review | pbtown-74-162 | updated  appended note
+2026-10-07/r1-review | bradentonbeach-46-46 | added
+2026-10-07/r1-review | broward-13-5 | added
+2026-10-07/r1-review | fac-68b-14-0036 | updated  appended note
+2026-10-07/r1-review | pinellas-90-7 | added

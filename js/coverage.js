@@ -168,8 +168,8 @@
     if (!body || body.querySelector('.lg-note-cov')) return;
     var d = document.createElement('div');
     d.className = 'lg-note lg-note-cov';
-    d.innerHTML = '<b>Coverage is not the law.</b> The grey wash marks water where the beach, pier, ' +
-      'bridge and jetty buffers of r. 68B-20.003(2) have not been inventoried; assume they apply. ' +
+    d.innerHTML = '<b>Coverage is not the law.</b> The grey wash marks water where the beach buffer and ' +
+      'unlisted piers of r. 68B-20.003(2) have not been inventoried; assume they apply. ' +
       'Federal, state and many local closures are still drawn there. ' +
       'Un-shaded water is <b>not</b> shown as open.';
     body.appendChild(d);
