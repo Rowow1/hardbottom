@@ -4,7 +4,7 @@
    Sources were chosen for terms that allow a public site to load them without a key. Details,
    probe results and the rejected candidates are in the d1-layers research notes (layers.json).
 
-     Base, one at a time      Nautical chart (NOAA NCDS, default), Satellite (USGS NAIP),
+     Base, one at a time      Nautical chart (NOAA NCDS), Satellite (USGS NAIP, default),
                               Satellite (Sentinel-2 2016, EOX, CC BY 4.0), Topographic (USGS),
                               Street (OpenStreetMap, ODbL).
      Keyed, hidden by default Esri World Imagery and CARTO dark need a key each. Fill KEYS below
@@ -365,7 +365,7 @@
 
     var q = new URLSearchParams(location.search);
     var want = q.get('base');
-    if (!want || !setBase(want)) setBase('chart');
+    if (!want || !setBase(want)) setBase('sat');
     renderPanel();
 
     window.FLLayers = {
