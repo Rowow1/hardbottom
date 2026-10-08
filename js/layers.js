@@ -70,7 +70,9 @@
     { id: 'sat', label: 'Satellite', short: 'Satellite', type: 'xyz',
       url: USGS_T + 'USGSImageryOnly/MapServer/tile/{z}/{y}/{x}',
       opts: { maxNativeZoom: 16, maxZoom: 19, attribution: 'Imagery: USGS The National Map, USDA NAIP' },
-      desc: 'NAIP aerial imagery, about 1 m, near shore. Offshore extent varies.', lic: 'Public domain (USGS).' },
+      under: 's2',
+      desc: 'NAIP aerial imagery, about 1 m, near shore. Offshore, where NAIP stops, the 2016 Sentinel-2 mosaic shows through.',
+      lic: 'Public domain (USGS); Sentinel-2 fill CC BY 4.0.' },
     { id: 's2', label: 'Satellite (Sentinel-2 2016)', short: 'Sentinel-2', type: 'xyz',
       url: 'https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless_3857/default/g/{z}/{y}/{x}.jpg',
       opts: { maxNativeZoom: 15, maxZoom: 19,
@@ -232,11 +234,21 @@
   function setBase(id) {
     var b = BASES.filter(function (x) { return x.id === id; })[0];
     if (!b) return false;
-    if (cur && cur !== b && map.hasLayer(cur.layer)) map.removeLayer(cur.layer);
+    if (cur && cur !== b) {
+      if (map.hasLayer(cur.layer)) map.removeLayer(cur.layer);
+      if (cur.underLayer && map.hasLayer(cur.underLayer)) map.removeLayer(cur.underLayer);
+    }
     cur = b;
     if (b.bad) resetHealth(b);
     if (!map.hasLayer(b.layer)) b.layer.addTo(map);
     b.layer.bringToBack();
+    /* A base with gaps (NAIP stops a few miles offshore and returns transparent tiles there) gets a
+       second, wider base drawn beneath it. The fill is a separate layer so it keeps its own credit. */
+    if (b.under) {
+      if (!b.underLayer) b.underLayer = make(BASES.filter(function (x) { return x.id === b.under; })[0]);
+      if (!map.hasLayer(b.underLayer)) b.underLayer.addTo(map);
+      b.underLayer.bringToBack();
+    }
     Array.prototype.forEach.call(ctl.querySelectorAll('[data-b]'), function (x) {
       x.classList.toggle('on', x.dataset.b === id);
     });
@@ -377,6 +389,11 @@
       layer: function (id) {
         var d = BASES.concat(OVERLAYS).filter(function (x) { return x.id === id; })[0];
         return d ? d.layer : null;
+      },
+      /* the fill drawn beneath a base, if it has one */
+      under: function (id) {
+        var d = BASES.filter(function (x) { return x.id === id; })[0];
+        return d && d.underLayer ? d.underLayer : null;
       },
       open: function () { togglePanel(true); },
       close: function () { togglePanel(false); }
