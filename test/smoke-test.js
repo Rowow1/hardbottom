@@ -112,6 +112,13 @@ const text = sel => { const e = w.document.querySelector(sel); return e ? e.text
     let noHotlink = true;
     w.FLSpearMap.map.eachLayer(l => { if (l._url && /arcgisonline|cartocdn/.test(l._url)) noHotlink = false; });
     check('layers: no unlicensed hotlinked tiles on the map', noHotlink);
+    const satU = L.under('sat'), m = w.FLSpearMap.map;
+    check('layers: Sentinel-2 drawn beneath the satellite base, below it',
+      !!satU && m.hasLayer(satU) && m.hasLayer(L.layer('sat')) && /s2cloudless/.test(satU._url) &&
+      satU.options.zIndex < L.layer('sat').options.zIndex, satU ? satU.options.zIndex + ' vs ' + L.layer('sat').options.zIndex : 'none');
+    L.setBase('chart');
+    check('layers: switching base removes the satellite and its fill', !m.hasLayer(satU) && !m.hasLayer(L.layer('sat')));
+    L.setBase('sat');
     const chart = L.layer('chart');
     check('layers: chart tiles use zoomOffset -2', chart && chart.options.zoomOffset === -2 && chart.options.maxNativeZoom === 16);
     /* simulated failing overlay marks itself unavailable */

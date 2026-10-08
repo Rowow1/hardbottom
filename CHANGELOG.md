@@ -5,6 +5,11 @@ who relied on an earlier version can see what changed. Code-only changes are sum
 
 ## 7 October 2026
 
+- Offshore, where the USGS imagery stops, the satellite base now shows the 2016 Sentinel-2 mosaic
+  beneath it instead of blank water.
+- Phone layout: a compact header and shorter side panel give the map most of the screen, and the
+  notice bar wraps instead of running off the edge.
+- Search engines may now index the site; a sitemap lists the map and the About page.
 - The map opens on satellite imagery (USGS NAIP) instead of the NOAA nautical chart. The chart is
   one click away in the base map control, or open the map with `?base=chart`. No legal content changed.
 

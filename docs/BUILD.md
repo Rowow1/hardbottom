@@ -28,9 +28,9 @@ The offline copies are never committed to `main`. The `site` branch does carry t
 about 21 MB each time the data changes. If it becomes large it can be reset to a single commit; the
 Hostinger deployment then needs one manual redeploy.
 
-**Before launch** `robots.txt` blocks all crawlers and the site sits behind hPanel's password
-protection. Launch means: swap `robots.txt` to the allow form noted in the file, remove the password
-protection, and make the GitHub repository public so the About page's links resolve.
+**Launched 7 October 2026.** The site is public without a password, `robots.txt` admits crawlers
+(except the two large offline files) and points at `sitemap.xml`, and the GitHub repository is public
+so the About page's links resolve. Hostinger redeploys the `site` branch on each push.
 
 ## Rebuilding the data
 
