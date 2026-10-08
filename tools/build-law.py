@@ -375,15 +375,22 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from law_updates import apply
 L, AUDIT = apply(L, "2026-09-30")
 
-data = {"version": "2026-09-30", "entries": L}  # date of the last legal currency check, shown as "Rules current as of"
+data = {"version": "2026-10-07", "entries": L}  # date of the last legal currency check, shown as "Rules current as of"
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "law.json")
 with io.open(OUT, "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
-with io.open(os.path.join(os.path.dirname(OUT), "..", "tools", "law-updates", "2026-09-30", "AUDIT.txt"),
-             "w", encoding="utf-8") as f:
-    for a in AUDIT:
-        f.write(" | ".join(a) + "\n")
+# Audit lines go to the pass directory that produced them: "<date>/<file>" tags to tools/law-updates/<date>/,
+# everything else (the 30 Sep passes and the 6 Oct release wording) to tools/law-updates/2026-09-30/.
+_aud = {}
+for a in AUDIT:
+    d = a[0].split("/")[0] if "/" in a[0] else "2026-09-30"
+    _aud.setdefault(d, []).append(a)
+for d, rows in _aud.items():
+    with io.open(os.path.join(os.path.dirname(OUT), "..", "tools", "law-updates", d, "AUDIT.txt"),
+                 "w", encoding="utf-8") as f:
+        for a in rows:
+            f.write(" | ".join(a) + "\n")
 print("entries:", len(L), "bytes:", os.path.getsize(OUT))
 ids = [e["id"] for e in L]
 assert len(ids) == len(set(ids)), "dup ids"

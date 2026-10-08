@@ -1,0 +1,134 @@
+[
+ {
+  "id": "fac-68b-14-0039",
+  "replaces": [
+   "effect"
+  ],
+  "effect": "Gulf gag (not Monroe) closed outside 1 Sep to 10 Nov by default; ten Atlantic groupers closed 1 Jan to 30 Apr in all Atlantic and Monroe waters; goliath permit harvest closed outside 1 Mar to 31 May; Atlantic snowy grouper closed outside 1 May to 30 Jun; Atlantic blueline tilefish closed outside 1 May to 31 Aug.",
+  "src": "research-state.md A.2, law.json table: open-season phrasing replaced by closure phrasing"
+ },
+ {
+  "id": "fac-68b-14-0042",
+  "replaces": [
+   "title",
+   "effect"
+  ],
+  "title": "Hogfish (Atlantic and Keys): closed 1 Nov to 30 Apr",
+  "effect": "Hogfish may not be taken in Atlantic state waters or Gulf state waters south of 25 deg 09 min N from 1 Nov to 30 Apr.",
+  "src": "research-state.md A.2"
+ },
+ {
+  "id": "fac-68b-14-0043",
+  "replaces": [
+   "title",
+   "effect"
+  ],
+  "title": "Atlantic red porgy: closed 1 Jul to 30 Apr",
+  "effect": "Red porgy may not be taken in Atlantic state waters from 1 Jul to 30 Apr.",
+  "src": "research-state.md A.2 (title); effect reworded to match"
+ },
+ {
+  "id": "fwc-eo-26-33",
+  "replaces": [
+   "title",
+   "effect"
+  ],
+  "title": "2026 Atlantic red snapper: closed outside 9 to 22 Oct",
+  "effect": "Atlantic red snapper closed within or without Florida waters of the Atlantic except 9 to 22 Oct 2026; 1 per person, no minimum size, trip declaration required, until the order expires 31 Dec 2026.",
+  "src": "research-state.md A.2"
+ },
+ {
+  "id": "fwc-eo-26-25",
+  "replaces": [
+   "effect"
+  ],
+  "effect": "Gulf state-water greater amberjack closed from 12:01 a.m. 14 Oct 2026 to 31 Aug 2027. The order expires 12:01 a.m. 1 Nov 2026; r. 68B-14.004(1) keeps the closure to 31 Aug 2027.",
+  "src": "research-state.md A.1 item 4 and A.2"
+ },
+ {
+  "id": "fwc-rs-gulf-2026",
+  "replaces": [
+   "effect"
+  ],
+  "effect": "2026 Gulf red snapper, private vessels, state and federal waters: closed 5 to 8 Oct, 26 to 29 Oct, 2 to 6 Nov, 9 to 13 Nov, 16 to 20 Nov, 23 to 25 Nov, 30 Nov to 4 Dec, 7 to 11 Dec, 14 to 18 Dec, 21 to 24 Dec and 28 to 31 Dec 2026, and from 5 Jan 2027 until FWC announces the 2027 season.",
+  "src": "research-state.md A.2; dates checked against the FWC snappers page on 7 Oct 2026"
+ },
+ {
+  "id": "fr-91-60334",
+  "replaces": [
+   "title",
+   "effect"
+  ],
+  "title": "2026 South Atlantic red snapper: federal waters closed outside 9 to 12 Oct",
+  "effect": "South Atlantic EEZ red snapper closed outside 12:01 a.m. 9 Oct to 12:01 a.m. 12 Oct 2026, 1 per person; trips under the Florida, Georgia and South Carolina exempted fishing permits close after 22 Oct 2026.",
+  "src": "research-state.md A.2"
+ },
+ {
+  "id": "fr-91-29920",
+  "replaces": [
+   "title",
+   "effect"
+  ],
+  "title": "2026 Gulf gag: federal waters closed from 1 Oct 2026",
+  "effect": "Gulf EEZ recreational gag closed from 12:01 a.m. 1 Oct 2026 through 31 Dec 2026; the recurring § 622.34(e) closure then runs 1 Jan to 31 Aug 2027.",
+  "src": "research-state.md A.2"
+ },
+ {
+  "id": "noaa-fb26-029",
+  "replaces": [
+   "title",
+   "effect"
+  ],
+  "append": [
+   "note"
+  ],
+  "title": "2026 Gulf greater amberjack: federal waters closed from 14 Oct 2026 (bulletin; see fr-91-32360)",
+  "effect": "Gulf EEZ recreational greater amberjack closed from 12:01 a.m. 14 Oct 2026. The primary citation is the temporary rule, fr-91-32360.",
+  "note": "SUPERSEDED 7 Oct 2026 as the citation by 91 FR 32360 (fr-91-32360), the temporary rule itself.",
+  "src": "research-state.md A.1 item 3"
+ },
+ {
+  "id": "cfr-622-34",
+  "append": [
+   "note"
+  ],
+  "note": "7 Oct 2026: 91 FR 63502 removed and reserved § 622.34(d), the Gulf shallow-water grouper closure beyond 20 fathoms, effective 2 Oct 2026 (fr-91-63502); (a) unchanged.",
+  "src": "research-state.md A.2 law.json table"
+ },
+ {
+  "id": "cfr-622-34-b",
+  "replaces": [
+   "title",
+   "excerpt",
+   "full"
+  ],
+  "title": "Gulf EEZ seasonal closures: red snapper, greater amberjack, gag, gray triggerfish",
+  "excerpt": "(c) ... closed from January 1 through August 31 and from November 1 through December 31 ... (e) The recreational harvest of gag in or from the Gulf EEZ is closed from January 1 through August 31 ... (f) ... closed from January 1 through the end of February, and from June 1 through July 31",
+  "full": "Gulf SWG (622.2): gag, red, black, scamp, yellowfin, yellowmouth. (d), the recreational SWG closure 1 Feb to 31 Mar seaward of 20 fathoms, was removed and reserved effective 2 Oct 2026 by 91 FR 63502 (Amendment 62). (g) hogfish south of 25 deg 09 min N follows 622.183(b)(4). From 1 Jan 2027, 91 FR 36545 adds (h): Other SWG (black, scamp, yellowfin, yellowmouth) closed 1 Jan to 30 Jun.",
+  "src": "research-state.md A.1 item 1: the removed paragraph (d) dropped from the excerpt (the remaining quoted fragments are unchanged)"
+ },
+ {
+  "id": "pompano-91-22",
+  "replaces": [
+   "note"
+  ],
+  "note": "Operative sentence and the whole boundary description read in Chrome and string-matched against the page (30 Sep 2026), and re-matched 7 Oct 2026: the 1,945-character 'Beginning at ... Broward County, Florida.' passage, the (A) lead sentence, all of (B) and the history '(Ord. 772, passed 7-10-62)' match exactly. No coordinates in the law; drawing it needs Broward parcel GIS for the named Hillsboro Shores lots (plat book 2 page 39; plat book 21 page 14). The starting point 'the easterly boundary of the State of Florida' is ambiguous; the conservative reading takes the inlet centreline seaward to the 3 nm state line. Hillsboro Inlet also carries the 100 ft jetty buffer in r. 68B-20.003(2)(d). CORRECTED 7 Oct 2026: the earlier 'boundary not read, so kept secondary' sentence was stale.",
+  "src": "research-local.md section 2"
+ },
+ {
+  "id": "fac-68c-22",
+  "append": [
+   "note"
+  ],
+  "note": "7 Oct 2026: the 30 Jun 2026 amendment of r. 68C-22.007 removed the Vero Beach No Entry zone (fac-68c-22-007).",
+  "src": "research-state.md Task B"
+ },
+ {
+  "id": "fac-68b-3-038",
+  "replaces": [
+   "effect"
+  ],
+  "effect": "FWC repealed three Palm Beach fisheries special acts and expressly did NOT repeal chs. 59-1699 (the two scuba-only refuges) and 59-1702 (the countywide night, inlet, anchored-boat and flag rules).",
+  "src": "research-local.md section 10: the 'refuge acts' sweep for ch. 59-1702"
+ }
+]

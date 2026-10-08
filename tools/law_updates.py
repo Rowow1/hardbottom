@@ -10,6 +10,14 @@ only those fields change; otherwise every supplied field replaces the old one.
 Decisions that a machine cannot make (duplicates between passes, conflicts, prose corrections that
 came back as instructions rather than fields) are written out explicitly in MANUAL below, dated,
 so the reasoning survives. Edit the sources or MANUAL, never data/law.json.
+
+Order of application:
+  1. the 30 Sep 2026 passes (PASSES_2026_09_30), MANUAL and the browser check;
+  2. the 6 Oct 2026 release-wording overrides;
+  3. every dated pass directory after 2026-10-06 (tools/law-updates/YYYY-MM-DD/), oldest first, in the
+     file order given by its pass.json (see dated_passes);
+  4. the dash sweep (sweep_dashes), last, so no pass can reintroduce an em or en dash into a title,
+     effect, scope or citation label.
 """
 import glob
 import io
@@ -212,6 +220,8 @@ def apply(L, date="2026-09-30"):
     manual(reg)
     browser_check(reg, os.path.join(src, "browser-check.json"))
     release_wording(reg, audit)
+    dated_passes(reg, order, audit)
+    sweep_dashes(reg)
     out = [reg[i] for i in order if i in reg]
     # validation
     for e in out:
@@ -322,15 +332,20 @@ def release_wording(reg, audit):
     """6 Oct 2026 release pass (tools/law-updates/2026-10-06/release-wording.json).
 
     Titles and effects written in the registry's own voice say what the law closes or restricts, never
-    that water or gear is lawful. Em dashes become colons and en dashes in ranges become "to" in the
-    title, effect, scope and cite fields. Excerpts, full text and notes (which quote the law) are untouched,
-    except where a note override is listed explicitly.
+    that water or gear is lawful. Excerpts, full text and notes (which quote the law) are untouched,
+    except where a note override is listed explicitly. The dash clean-up that used to run here is now
+    sweep_dashes(), called after the later dated passes.
     """
     p = os.path.join(HERE, "law-updates", "2026-10-06", "release-wording.json")
     for i, fields in json.load(io.open(p, encoding="utf-8"))["entries"].items():
         if i in reg:
             reg[i].update(fields)
             audit.append(("release-wording", i, "updated " + ",".join(fields)))
+
+
+def sweep_dashes(reg):
+    """Em dashes become colons and en dashes in ranges become "to" in the title, effect, scope and cite
+    fields. Run last, after every pass. Excerpts, full text and notes quote the law and are untouched."""
     for e in reg.values():
         for f in ("title", "effect", "scope", "cite"):
             v = e.get(f)
@@ -339,3 +354,49 @@ def release_wording(reg, audit):
                 v = re.sub(r"(?<=\S)\u2013(?=\S)", " to ", v)
                 v = v.replace(" \u2013 ", " to ")
                 e[f] = v
+
+
+DATED = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def dated_passes(reg, order, audit, after="2026-10-06"):
+    """Apply every pass directory tools/law-updates/YYYY-MM-DD/ dated after `after`, oldest first.
+
+    Each directory holds law.json-shaped entry files and a pass.json whose "order" lists them (without
+    .json); without pass.json the files are applied in name order. A new id is added whole and must carry
+    every required field. For an existing id, each field in "replaces" (or, if "replaces" is absent, each
+    supplied field not listed in "append") replaces the old value, and each field in "append" is added to
+    the end of the old value unless it is already there. Other keys ("axes", "src") are records of the
+    research and are not copied. Audit lines are tagged "<date>/<file>".
+    """
+    base = os.path.join(HERE, "law-updates")
+    for d in sorted(x for x in os.listdir(base) if DATED.match(x) and x > after):
+        folder = os.path.join(base, d)
+        man = os.path.join(folder, "pass.json")
+        if os.path.exists(man):
+            names = json.load(io.open(man, encoding="utf-8"))["order"]
+        else:
+            names = sorted(os.path.splitext(os.path.basename(f))[0]
+                           for f in glob.glob(os.path.join(folder, "*.json")))
+        for name in names:
+            tag = d + "/" + name
+            for e in load_pass(os.path.join(folder, name + ".json")):
+                i = e["id"]
+                app = [f for f in (e.get("append") or []) if f in FIELDS]
+                if i in reg:
+                    cur = reg[i]
+                    rep = e.get("replaces") or [f for f in FIELDS if f in e and f != "id" and f not in app]
+                    for f in rep:
+                        cur[f] = e.get(f)
+                    for f in app:
+                        if e.get(f) and e[f] not in (cur.get(f) or ""):
+                            _append(cur, f, e[f])
+                    audit.append((tag, i, "updated " + ",".join(rep) +
+                                  ((" appended " + ",".join(app)) if app else "")))
+                else:
+                    missing = [f for f in ("cite", "title", "juris", "kind", "url", "effect", "excerpt",
+                                           "verified") if not e.get(f)]
+                    assert not missing, (tag, i, "new entry missing " + ",".join(missing))
+                    reg[i] = {f: e.get(f) for f in FIELDS}
+                    order.append(i)
+                    audit.append((tag, i, "added"))

@@ -89,7 +89,7 @@ const COUNTY_LAW = {
   'Monroe':     ['fs-379-2425', 'monroe-26-5', 'cfr-922-164-d', 'cfr-922-164-b1'],
   'Collier':    ['fac-68b-20-003-1', 'fs-379-2425'],
   'Volusia':    ['fac-68b-3-008'],
-  'Palm Beach': ['pbc-13-55', 'fac-68b-3-038'],
+  'Palm Beach': ['pbc-13-32', 'pbc-13-55', 'fac-68b-3-038'],
   'Pinellas':   ['spb-54-4', 'spb-94-1', 'ti-58-34'],
   'Sarasota':   ['sarasota-130-33']
 };
@@ -290,9 +290,6 @@ function setNoticeDate() {
 
 function initMap() {
   map = L.map('map', { preferCanvas: true }).setView([27.2, -81.5], 7);
-  /* ODbL 4.3: reef-site distances, the Palm Beach zones and some local zones are derived from
-     OpenStreetMap, and all three are on by default. Same string as layers.js, so Leaflet shows it once. */
-  map.attributionControl.addAttribution('&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ODbL');
   /* base layers and raster overlays are owned by js/layers.js */
   sideEl = document.getElementById('side');
   /* clicks and wheel turns on the panels that float over the map stay out of the map */

@@ -1,0 +1,190 @@
+{
+ "generated": "2026-10-07",
+ "agent": "browser pull through the author's desktop Chrome; fetch() run in a page on each service's own origin, results returned as page text and transcribed; every line checked against a checksum computed in the page",
+ "files": {
+  "enc-coalne-eastfacing.txt": {
+   "source": "https://encdirect.noaa.gov/arcgis/rest/services/encdirect/enc_harbour/MapServer/84 (Harbor.Coastline_line, COALNE)",
+   "scale_band": "harbour (usage band 5). The berthing band (enc_berthing/MapServer/37) returned 0 features in both boxes; approach (layer 88) and coastal (layer 70) are smaller-scale and were not used.",
+   "bbox_wsen": {
+    "pbc": "-80.20,26.30,-79.95,26.99",
+    "hwd": "-80.16,25.95,-80.08,26.10"
+   },
+   "query": "query?geometry={bbox}&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=*&returnGeometry=true&geometryPrecision=6&f=json (paged with resultOffset)",
+   "counts": {
+    "pbc_features": 606,
+    "pbc_vertices": 14591,
+    "hwd_features": 165,
+    "hwd_vertices": 4129
+   },
+   "reduction": "Kept only vertices with no other coastline segment crossing their latitude to the east (ray cast east within the same pull), grouped into runs along each feature: 1,491 Palm Beach and 357 Hollywood vertices.",
+   "cells": [
+    "US5FL5VP",
+    "US5FL5WP",
+    "US5FL5XP",
+    "US5FL5YP",
+    "US5FL5ZP",
+    "US5FL6AN",
+    "US5PABBA",
+    "US5PABCA",
+    "US5FL6DN",
+    "US5FL6EN",
+    "US5FL6EM",
+    "US5FL5RO",
+    "US5PEFBA"
+   ],
+   "sha256": "05953608f712e4da071397e8696f2602c9823e2e339fd2e79bf60e31b45e2114",
+   "bytes": 15811
+  },
+  "enc-lakeworth-inlet.txt": {
+   "source": [
+    "https://encdirect.noaa.gov/arcgis/rest/services/encdirect/enc_harbour/MapServer/85 (Shoreline_Construction_line)",
+    "https://encdirect.noaa.gov/arcgis/rest/services/encdirect/enc_harbour/MapServer/138 (Shoreline_Construction_area)",
+    "https://encdirect.noaa.gov/arcgis/rest/services/encdirect/enc_harbour/MapServer/84 (Coastline_line)",
+    "https://encdirect.noaa.gov/arcgis/rest/services/encdirect/enc_harbour/MapServer/141 (Bridge_area)"
+   ],
+   "bbox_wsen": {
+    "jetties": "-80.040,26.769,-80.029,26.776",
+    "blue_heron_bridge": "-80.052,26.779,-80.036,26.788"
+   },
+   "query": "query?geometry={bbox}&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=*&returnGeometry=true&geometryPrecision=6&f=json (paged with resultOffset)",
+   "scale_band": "harbour",
+   "sha256": "fb29b338690350ab2414c37db0e82a7b8a0c96022d8449b587ef8a287f7afa3a",
+   "bytes": 3020
+  },
+  "enc-inlets-jupiter-boynton.txt": {
+   "source": [
+    "https://encdirect.noaa.gov/arcgis/rest/services/encdirect/enc_harbour/MapServer/237 (Sea_Area_Named_Water_Area), OBJNAM 'Jupiter Inlet', cell US5FL6EN, taken from the Palm Beach box pull",
+    "https://encdirect.noaa.gov/arcgis/rest/services/encdirect/enc_harbour/MapServer/85, 141, 87, 233 (SLCONS line, BRIDGE area and line, LNDARE)"
+   ],
+   "bbox_wsen": {
+    "boynton": "-80.0545,26.5435,-80.0405,26.5485"
+   },
+   "query": "query?geometry={bbox}&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&spatialRel=esriSpatialRelIntersects&where=1%3D1&outFields=*&returnGeometry=true&geometryPrecision=6&f=json (paged with resultOffset)",
+   "scale_band": "harbour",
+   "note": "LNDARE rings were clipped to the Boynton box in the browser (Sutherland-Hodgman). The chart has no named SEAARE for South Lake Worth Inlet. Bridges inside the Jupiter Inlet area were listed (enc_harbour/MapServer/141) to place the first bridge at 80.0852 to 80.0847 W.",
+   "sha256": "f36add3ccc3632e9eb9154d43bdda22e00170748f146313d1c03ec4bd7b0162b",
+   "bytes": 4149
+  },
+  "tiger-hollywood-hallandale.txt": {
+   "source": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Places_CouSub_ConCity_SubMCD/MapServer/4/query?where=STATE='12' AND BASENAME IN ('Hollywood','Hallandale Beach','Dania Beach')&outFields=*&returnGeometry=true&outSR=4326&geometryPrecision=6&f=json",
+   "note": "Rings clipped in the browser to lon -80.135 to -80.095, lat 25.965 to 26.075. Only the Hallandale Beach ring and the main Hollywood ring (256 vertices) were transcribed.",
+   "sha256": "a7ceff8dd9f025f10ca3f24a2d4a98601a789e505adbe1426151fb09b882d9bd",
+   "bytes": 2978
+  },
+  "nhd-lowerkeys-canal-centrelines.txt": {
+   "source": [
+    "https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/6 (Flowline - Large Scale)",
+    "https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/9 (Area - Large Scale)"
+   ],
+   "bbox_wsen": "-81.85,24.53,-80.90,24.80",
+   "query": "where=1=1, outFields=*, outSR=4326, geometryPrecision=6, paged",
+   "counts": {
+    "flowlines_in_box": 2225,
+    "ftype_336_flowlines": 6,
+    "ftype_558_flowlines": 546,
+    "areas_in_box": 93,
+    "ftype_336_areas": 66
+   },
+   "selection": "ftype 336 flowlines plus ftype 558 flowlines whose middle vertex is inside an FTYPE 336 area; 508 lines, 81.5 km before simplification; Douglas-Peucker 0.00004 deg; 1e-5 deg delta encoding; field 2 is M for City of Marathon, U for unincorporated (TIGERweb places point-in-polygon).",
+   "comparison_with_osm": "OSM mon26 set 122 lines, 34.9 km. 17.8 km of it lies inside an NHD canal area or within 25 m of an NHD centreline. Of the 17.2 km not matched, 6.7 km is inside the City of Key West (outside Monroe § 26-5) and 10.5 km is in unincorporated county, mostly long lines around the Key West island group.",
+   "sha256": "7450056b622b5ebac51dac8cc730eff52cb8dcfc3a22fc8fdf6c4c1b5ea1961c",
+   "bytes": 16081
+  },
+  "tiger roads (not saved as a file)": {
+   "source": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer layers 4 to 8, where NAME LIKE '%127th%' OR NAME LIKE '%75th Ave%' OR NAME LIKE '%Blind Pass%', bbox -82.80,27.735,-82.74,27.79",
+   "result": {
+    "127th Ave": [
+     [
+      27.780472,
+      -82.782111
+     ],
+     [
+      27.780741,
+      -82.781619
+     ]
+    ],
+    "127th Ave E": [
+     [
+      27.780897,
+      -82.781345
+     ],
+     [
+      27.781138,
+      -82.781
+     ]
+    ],
+    "75th Ave meets Blind Pass Rd": [
+     27.742808,
+     -82.750458
+    ]
+   }
+  },
+  "naip/": {
+   "source": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/export (bbox in EPSG:3857, size = browser viewport, format jpg). Tiles above zoom 16 are not cached (404), so the export endpoint was used for zoom 17 to 19.",
+   "copyright_text": "USDA, USGS The National Map: Orthoimagery. Data refreshed June, 2024.v1.2",
+   "readings": {
+    "ti58 west terminus (Gulf waterline on the extension of TIGER 127th Ave)": [
+     27.77981,
+     -82.78323
+    ],
+    "ti58 east terminus (bay waterline on the extension of TIGER 127th Ave E)": [
+     27.78138,
+     -82.78066
+    ],
+    "ti58 Madeira Beach shoreline, Gulf tip to bridge": [
+     [
+      27.78289,
+      -82.78436
+     ],
+     [
+      27.78305,
+      -82.78393
+     ],
+     [
+      27.78322,
+      -82.7836
+     ],
+     [
+      27.78343,
+      -82.78335
+     ],
+     [
+      27.78365,
+      -82.78296
+     ]
+    ],
+    "ti58 channel banks checked": {
+     "bridge north": [
+      27.78351,
+      -82.78275
+     ],
+     "bridge south": [
+      27.78219,
+      -82.78205
+     ],
+     "Gulf tip of Madeira Beach": [
+      27.78296,
+      -82.78426
+     ]
+    },
+    "3sis Three Sisters spring pool centre": [
+     28.88861,
+     -82.58916
+    ]
+   },
+   "method": "Point drawn in an SVG overlay on the export image; screenshot pixel scaled by viewport width / screenshot width (2560 / 1568) and converted with the inverse web-mercator of the export bbox.",
+   "screenshots": {
+    "3sis-three-sisters-naip.jpg": "cd55b3f1b70f40e565368bf4f1901e1711a4f2646797050c5119693520eba4e0",
+    "pbc-lake-worth-inlet-enc-vs-osm-naip.jpg": "ab0713c7766308921ce8541e2979758789c76e6e63f10789ce64d7e3ca036043",
+    "pbc-palm-beach-26764-enc-vs-osm-naip.jpg": "1ed372366511d0615578bba35733d90832823a6be56f0ba0a6aa92ebb8b1f142",
+    "pbc-singer-island-26828-enc-vs-osm-naip.jpg": "4894595a56188675383efd32e62785e688813ba3020571798ed82203152d7f8a",
+    "proposal-boynton-inlet-naip.jpg": "876886d248a11d2bbdb7a21ba1db12466834f6209d55cf1fe2736e3327bf0150",
+    "proposal-jupiter-inlet-naip.jpg": "c36f99eeb07cb2be25cf85f4b7bbdbfdae78867578a5ae553ee02be7901d3d42",
+    "ti58-east-terminus-naip.jpg": "fbe7590626f326035b35f26fa5da9702bfafbb5e1c5c204e49cffc2fd905a818",
+    "ti58-johns-pass-aug-corridor-naip.jpg": "0fc129d797f159078935f1cc50e80af3edf7143caef9b94170a5750e787708f5",
+    "ti58-johns-pass-corrected-naip.jpg": "ba449c285639d1b9abd9844c2ecf2e45c46eff0d6716cc8ad4071f59bda9af90",
+    "ti58-west-terminus-naip.jpg": "2d8917f94243ffe765678b2643b5ea48f06d2984a2795e20c263b57d03e1a6cb"
+   }
+  }
+ }
+}

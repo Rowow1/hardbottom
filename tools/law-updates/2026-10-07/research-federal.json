@@ -1,0 +1,165 @@
+[
+ {
+  "id": "guis-compendium",
+  "replaces": [
+   "title",
+   "effect",
+   "excerpt",
+   "verified",
+   "url",
+   "note"
+  ],
+  "title": "Gulf Islands NS: the current compendium (1 Sep 2026) has no spearfishing or projectile-gear rule",
+  "url": "https://www.nps.gov/guis/learn/management/compendium.htm",
+  "effect": "The Superintendent's Compendium last updated 1 Sep 2026 contains no provision on spears, spearguns, Hawaiian slings or projectile gear and has no section 2.3, so it adds no spearfishing closure of its own; under 36 CFR 2.3(e) and 2.4(b)(2)(i)(B), Florida's spearfishing rules and closures govern Seashore salt water. Fishing is closed at the Fort Pickens and Ship Island ferry docks, the Davis Bayou boat ramp dock, the Ship Island boardwalk and the designated swim beaches when lifeguards are on duty, and diving is prohibited within 200 feet of the Fort Pickens fishing pier. The 2021 projectile ban is not in the current text, but two stale nps.gov pages still state it: call the park (850-934-2600) to confirm it was rescinded.",
+  "excerpt": "Section 1.5(a)(1): Fishing Closures a. Fishing and cast netting from public boat docks and boardwalks are not allowed in the following areas: 1. Fort Pickens and Ship Island ferry docks, 2. Davis Bayou boat ramp dock, 3. Ship Island cross island boardwalk, 4. In the small ponds and small creeks within the Davis Bayou area.",
+  "verified": "verbatim",
+  "note": "Read 7 Oct 2026 from the page DOM in the author's Chrome (accordion text present in DOM, not rendered by fetch tools). Whole page (about 152,000 characters) searched: zero matches for spear, projectile, Hawaiian, gig, bow/bows, '2.3'. Page carries 'Last updated: September 1, 2026' and no signature date. Park 'Fishing in Florida' page (www.nps.gov, last updated 28 Aug 2026): 'All fishing regulations for national seashore waters in Florida correspond with Florida fishing regulations.' and 'For more information regarding spear fishing regulations, please consult the Florida Fish and Wildlife Commission's website.' Stale pages still stating the ban: nps.gov/thingstodo/fishing-at-gulf-islands-national-seashore.htm (28 Feb 2022) and the home.nps.gov mirror of fishing-in-florida.htm (18 Mar 2021). 2021 source retained for history: https://www.nps.gov/guis/learn/news/national-seashore-releases-2021-superintendent-s-compendium.htm. 36 CFR 7.12 (Gulf Islands special regulations) has no fishing-gear or weapon provision (negative, eCFR as of 6 Oct 2026).",
+  "axes": {
+   "in_force": "yes, page last updated 1 Sep 2026; 'will remain in effect until specifically amended or supplemented'",
+   "subsection": "Section 1.5(a)(1) Fishing Closures, as quoted",
+   "verbatim": "yes, DOM text",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "nps-guis-fishing-fl",
+  "cite": "Gulf Islands National Seashore, 'Fishing in Florida' (nps.gov, last updated 28 Aug 2026)",
+  "title": "Gulf Islands NS: Florida water boundary and fishing closures",
+  "juris": "federal",
+  "kind": "rule",
+  "url": "https://www.nps.gov/guis/planyourvisit/fishing-in-florida.htm",
+  "effect": "The Seashore's water runs north to the Gulf Intracoastal Waterway and south one mile from the low tide line at Perdido Key, Fort Pickens and Santa Rosa, and 100 yards from the low tide line at Naval Live Oaks. Florida fishing regulations apply there; fishing is closed at the Fort Pickens ferry pier and at the designated swim beaches while lifeguards are on duty.",
+  "excerpt": "All fishing regulations for national seashore waters in Florida correspond with Florida fishing regulations. In the Perdido Key, Fort Pickens, and Santa Rosa Areas the national seashore boundary extends on the north to the Gulf Intracoastal Waterway and on the south one mile from the low tide line of the island. At Naval Live Oaks the national seashore boundary extends 100 yards from the low tide line.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Gulf Islands National Seashore, Florida District waters.",
+  "note": "Read 7 Oct 2026 from the page DOM. Same page: 'Fishing is prohibited in the following locations when lifeguards are on duty: the designated swim beaches located at Johnson Beach, Langdon Beach, Opal Beach, and Ship Island (formerly known as West ship & East Ship Islands).' and 'The Fort Pickens ferry pier is closed to fishing and netting.' A park web page, not a regulation; the boundary itself is set by the Seashore's enabling legislation, not read here.",
+  "geom": null,
+  "axes": {
+   "in_force": "current page, 28 Aug 2026",
+   "subsection": "n/a (web page)",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "cfr-36-1-4-2-4",
+  "cite": "36 C.F.R. §§ 1.4 ('weapon'), 2.4(b)",
+  "title": "NPS: a speargun is a weapon, prohibited in parks except at designated times and locations where taking fish is authorized",
+  "juris": "federal",
+  "kind": "cfr",
+  "url": "https://www.ecfr.gov/current/title-36/section-2.4",
+  "effect": "Possessing, carrying or using a speargun in a park is prohibited except at designated times and locations where taking fish is authorized under § 2.3. Read with § 2.3(e), salt-water spearfishing follows state law unless the park designates otherwise.",
+  "excerpt": "(b)(1) Except as otherwise provided in this section and parts 7 (special regulations) and 13 (Alaska regulations), the following are prohibited: (i) Possessing a weapon, trap or net (ii) Carrying a weapon, trap or net (iii) Using a weapon, trap or net (2) Weapons, traps or nets may be carried, possessed or used: (i) At designated times and locations in park areas where: (A) The taking of wildlife is authorized by law in accordance with § 2.2 of this chapter; (B) The taking of fish is authorized by law in accordance with § 2.3 of this part.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "All National Park System units, including Gulf Islands NS, Biscayne NP, Dry Tortugas NP, Everglades NP, Canaveral NS.",
+  "note": "Read 7 Oct 2026 from the eCFR versioner API (version of 6 Oct 2026). § 1.4: 'Weapon means a firearm, compressed gas or spring-powered pistol or rifle, bow and arrow, crossbow, blowgun, speargun, hand-thrown spear, slingshot, irritant gas device, explosive device, or any other implement designed to discharge missiles, and includes a weapon the possession of which is prohibited under the laws of the State in which the park area or portion thereof is located.' Ambiguity: 'at designated times and locations' may require affirmative designation; conservative reading noted in research-federal.md.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, eCFR current",
+   "subsection": "§ 2.4(b)(1), (b)(2)(i)(B); § 1.4",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "cfr-600-725",
+  "replaces": [
+   "excerpt",
+   "verified",
+   "note"
+  ],
+  "excerpt": "South Atlantic Fishery Management Council ... 8. South Atlantic Coastal Migratory Pelagics Fishery (FMP): ... D. Recreational fishery | D. Bandit gear, rod and reel, handline, spear. Gulf Fishery Management Council ... 5. Gulf Coastal Migratory Pelagics Fishery (FMP): ... E. Recreational fishery | E. Bandit gear, handline, rod and reel, spear.",
+  "verified": "verbatim",
+  "note": "Read 7 Oct 2026 from the eCFR versioner API (version of 6 Oct 2026; current version effective 6 Apr 2026). Paragraph (v) opening: 'The list of fisheries and authorized gear does not, in any way, alter or supersede any definitions or regulations contained elsewhere in this chapter. A person or vessel is prohibited from engaging in fishing or employing fishing gear when such fishing gear is prohibited or restricted by regulation under an FMP or other applicable law.' So § 622.375(a)(1) controls for king and Atlantic Spanish mackerel. The snapper-grouper and Gulf reef fish recreational rows previously quoted from govinfo 2025 were not re-read this pass; re-check them before relying on the old excerpt text, which this replaces.",
+  "axes": {
+   "in_force": "yes, version effective 6 Apr 2026",
+   "subsection": "§ 600.725(v), SAFMC item 8 D, GMFMC item 5 E",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "cfr-622-375-a",
+  "note": "Re-read 7 Oct 2026 from the eCFR versioner API (version of 6 Oct 2026); last amended 21 Mar 2019, unchanged. (b)(3) verbatim as previously recorded. The current § 600.725(v) (effective 6 Apr 2026) lists spear for SA and Gulf CMP recreational fisheries but states the list does not 'alter or supersede' other regulations in the chapter, so this section controls. 'Directed fisheries' remains undefined. Conservative reading kept: spearing Atlantic king, Gulf king or Atlantic Spanish mackerel in the EEZ is not authorized gear; stated consequence is the bag limit. Gulf-group Spanish mackerel and Gulf-group cobia: the federal gear rule does not exclude spear.",
+  "axes": {
+   "in_force": "yes",
+   "subsection": "§ 622.375(a)(1)(i) to (iv), (b)(3)",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  },
+  "append": [
+   "note"
+  ]
+ },
+ {
+  "id": "cfr-622-224",
+  "note": "Re-read 7 Oct 2026 (eCFR version of 6 Oct 2026; last substantive amendment 3 Jan 2017). Defects still present: opening 'Origin | 29°43′29.82″ | 80°14′48.06″', closing 'Origin | 29°43′29.82″ | 80°14′55.27″', point '21 | 27°30′ | 79°54″'. No Federal Register correction found (search 'Oculina Bank' from 1 Oct 2015). Pending: 91 FR 59098 (18 Sep 2026), notice of availability of Coral Amendment 11 / Shrimp Amendment 12, a shrimp fishery access area on the eastern edge of the northern OHAPC extension; comments due 17 Nov 2026; implementing proposed rule not yet published.",
+  "axes": {
+   "in_force": "yes",
+   "subsection": "§ 622.224(b)(1) table",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  },
+  "append": [
+   "note"
+  ]
+ },
+ {
+  "id": "fknms-blueprint-2025",
+  "cite": "Florida Keys National Marine Sanctuary Management Review: Blueprint for Restoration, final rule, 90 FR 6104 (Jan. 17, 2025)",
+  "title": "FKNMS Restoration Blueprint final rule: French Reef SPA, Rock Key SPA and Looe Key SUA eliminated",
+  "juris": "federal",
+  "kind": "rule",
+  "url": "https://www.federalregister.gov/documents/2025/01/17/2025-00496/regulations-for-the-florida-keys-national-marine-sanctuary-management-review-blueprint-for-restoration",
+  "effect": "The Blueprint final rule eliminates the French Reef and Rock Key Sanctuary Preservation Areas and the Looe Key Special-Use (Research Only) Area as zones. The rule does not take effect in state sanctuary waters, where Florida's Governor objected, so Rock Key SPA, which lies in state waters, stays under the 1997 zoning. NOAA has not published the effective-date announcement the rule promised, and eCFR still prints all three zones.",
+  "excerpt": "NOAA's final rule eliminates five existing marine zones including one Conservation Area (Looe Key SUA), two SPAs (Rock Key and French Reef) and two WMAs (Little Crane Key and Tidal Flat South of Marvin Key). These existing marine zones are eliminated due to resource condition changes and an opportunity to evaluate different management regimes. The elimination of these zones removes restrictions on fishing in these areas.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "FKNMS federal waters (and state waters only if the Governor did not certify objection).",
+  "note": "Read 7 Oct 2026 from federalregister.gov raw text (doc 2025-00496), response to comments at 90 FR 6128. DATES field: '... if the Governor of the State of Florida certifies to the Secretary of Commerce during that same review period that any such regulation is unacceptable, the regulation(s) will not take effect in State waters of the sanctuary. ... NOAA will publish an announcement of the effective date of the final regulations in the Federal Register.' No such announcement found (searches 7 Oct 2026: CFR 15 pt 922 since 1 Jun 2024; 'Florida Keys National Marine Sanctuary' 2026; 'Restoration Blueprint'/'Blueprint for Restoration' after 17 Jan 2025). Rock Key SPA remains in NOAA's 28 Apr 2026 zone layer flagged state waters, consistent with the split.",
+  "geom": null,
+  "axes": {
+   "in_force": "effective date not announced in the FR; NOAA statements treat it as in force in federal waters",
+   "subsection": "preamble, response to comments, 90 FR 6128",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "cfr-50-27-21",
+  "note": "Re-checked 7 Oct 2026: § 32.28 last amended 30 Oct 2023; 'Key West' and 'Great White Heron' do not appear in § 32.28; § 32.7(i) still lists 16 Florida refuges, neither of these. The 2026 to 2027 station-specific rule (91 FR 56290, 1 Sep 2026; correction 91 FR 60900, 25 Sep 2026) contains no Florida, 32.28 or refuge-name text. CONFLICT unchanged: fws.gov Key West and Great White Heron pages (read 7 Oct 2026): 'The refuge waters are open 24 hours a day, 365 days a year for water-based activities such as boating, fishing, wildlife viewing, photography, snorkeling and diving.' and 'Sport and commercial fishing in accordance with state fishing laws.' Both pages state the submerged lands are managed by the State of Florida under the 1992 Management Agreement. Drawn warn. Passage Key and Pinellas pages: closed to all public use year-round (islands).",
+  "axes": {
+   "in_force": "yes",
+   "subsection": "§§ 27.21, 32.7(i), 32.28",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  },
+  "append": [
+   "note"
+  ]
+ },
+ {
+  "id": "eo-14430",
+  "cite": "Executive Order 14430, Restoring American Saltwater Angling and Recreation, 91 FR 60293 (Sept. 22, 2026)",
+  "title": "EO 14430: agencies to initiate suspension, revision or rescission of regulations burdening anglers",
+  "juris": "federal",
+  "kind": "rule",
+  "url": "https://www.federalregister.gov/documents/2026/09/22/2026-19417/restoring-american-saltwater-angling-and-recreation",
+  "effect": "No legal effect on any closure by itself. Directs Interior, Agriculture, Commerce and the Army Corps to begin, by 17 Oct 2026, action to suspend, revise or rescind regulations that overly burden boaters, anglers and outdoor businesses. Watch for proposals touching FKNMS, NPS compendia, refuges and fishery closures.",
+  "excerpt": "Sec. 5. Rescission of Regulations that Restrict Marine Infrastructure and Access. (a) Within 30 days of the date of this order, the Secretary of the Interior, the Secretary of Agriculture, the Secretary of Commerce, and the Assistant Secretary of the Army for Civil Works shall, consistent with applicable law, take steps to initiate action to suspend, revise, or rescind regulations that overly burden boaters, anglers, and outdoor businesses.",
+  "full": null,
+  "verified": "verbatim",
+  "scope": "Federal agencies; no Florida-specific text.",
+  "note": "Signed 17 Sep 2026, published 22 Sep 2026, doc 2026-19417. Read 7 Oct 2026 from federalregister.gov raw text. No agency document citing '14430' found through 7 Oct 2026. The URL slug was built from the title; the document number 2026-19417 is confirmed.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes",
+   "subsection": "Sec. 5(a)",
+   "verbatim": "yes",
+   "url_resolves": "document number confirmed via API; full slug not opened"
+  }
+ }
+]

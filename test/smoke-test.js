@@ -99,7 +99,7 @@ const text = sel => { const e = w.document.querySelector(sel); return e ? e.text
     check('notice: persistent, has the required sentences',
       /Not legal advice · Not for navigation/.test(nt) && /Unshaded water is not shown as open/.test(nt) &&
       /Boundaries are approximate\. NOT FOR NAVIGATION\./.test(nt) && !w.document.getElementById('caution'));
-    check('notice: law.json version date shown', /Rules current as of 30 Sep 2026/.test(nt), nt.match(/Rules current as of[^.]*?20\d\d/) ? nt.match(/Rules current as of[^.]*?20\d\d/)[0] : 'no date');
+    check('notice: law.json version date shown', /Rules current as of 7 Oct 2026/.test(nt), nt.match(/Rules current as of[^.]*?20\d\d/) ? nt.match(/Rules current as of[^.]*?20\d\d/)[0] : 'no date');
     check('notice: no dismiss control', !w.document.querySelector('#notice [title="Dismiss"]'));
 
     /* base layers */
@@ -144,7 +144,7 @@ const text = sel => { const e = w.document.querySelector(sel); return e ? e.text
     await until(() => /\d/.test(text('#legend [data-cat="spots"] em')), 10000, 'spots count');
     check('legend: spot count', text('#legend [data-cat="spots"] em') === '283', text('#legend [data-cat="spots"] em'));
     await until(() => /\d/.test(text('#legend [data-cat="mil"] em')), 10000, 'statewide zones count');
-    check('legend: statewide zone counts', text('#legend [data-cat="mil"] em') === '94' && text('#legend [data-cat="manatee"] em') === '27',
+    check('legend: statewide zone counts', text('#legend [data-cat="mil"] em') === '94' && text('#legend [data-cat="manatee"] em') === '26',
       'mil ' + text('#legend [data-cat="mil"] em') + ', manatee ' + text('#legend [data-cat="manatee"] em'));
     check('legend: coverage note attached', !!w.document.querySelector('#legend .lg-note-cov'));
 

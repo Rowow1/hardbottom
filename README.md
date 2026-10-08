@@ -18,7 +18,7 @@ Counts are from the data files as of 6 October 2026.
 
 | Layer | Source | Records |
 |---|---|---|
-| Citation registry (statutes, rules, federal regulations, ordinances, confirmed negatives) | Online Sunshine, FLRules, eCFR, Municode and county codes | 278 |
+| Citation registry (statutes, rules, federal regulations, ordinances, confirmed negatives) | Online Sunshine, FLRules, eCFR, Municode and county codes | 295 |
 | Statewide legal zones | CFR and FAC coordinate tables, Coast Guard and USACE zones, FWC manatee No Entry zones, wildlife refuges, local ordinances | 208 |
 | Local, park and federal zones | County and city codes, NPS, Coast Guard | 18 |
 | Palm Beach County zones | County code, state rule buffers, Coast Guard | 17 |
@@ -148,8 +148,8 @@ official text. [CONTRIBUTING.md](CONTRIBUTING.md) sets out the evidence standard
 
 - Code: MIT, see [LICENSE](LICENSE).
 - Data: per file, see [LICENSE-DATA.md](LICENSE-DATA.md). The project's own research is CC BY 4.0;
-  three files derived from OpenStreetMap are ODbL 1.0; redistributed agency data keeps its
-  upstream public status.
+  versions before 7 Oct 2026 of three files derived from OpenStreetMap are ODbL 1.0;
+  redistributed agency data keeps its upstream public status.
 - Leaflet: BSD 2-Clause, see `vendor/leaflet/LICENSE`.
 
 Agency names appear as plain-text credits only. Bottom Truth is not affiliated with or endorsed by

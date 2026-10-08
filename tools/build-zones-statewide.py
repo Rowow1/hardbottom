@@ -395,6 +395,16 @@ marker("loc-lakepark", "Lake Park", ["lakepark-76-89"], "warn", "Lake Park: no s
 marker("loc-juno", "Juno Beach", ["juno-16-4"], "warn", "Juno Beach: loaded spear gun banned on beaches, the pier and public places",
        "NOT a water closure. Carrying an unloaded gun across the beach and loading it in the water is not addressed.")
 
+# ------------------------------------------------------------------ dated corrections
+# The 7 Oct 2026 legal currency pass (man-66 removed, refuge and local flags, the Deerfield Beach marker).
+# The same function patches the committed JSON directly when raw/ is not available.
+import importlib.util
+_spec = importlib.util.spec_from_file_location(
+    "patch_zs_20261007", os.path.join(ROOT, "tools", "patch-zones-statewide-2026-10-07.py"))
+_mod = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(_mod)
+_mod.patch(Z, LAW, PIERS)
+
 # ------------------------------------------------------------------ write
 data = {"version": "2026-09-30",
         "note": "Statewide legal zones added by the 30 Sep 2026 review. Same shape as zones-local.json plus "

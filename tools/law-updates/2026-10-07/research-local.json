@@ -1,0 +1,313 @@
+[
+ {
+  "id": "monroe-26-art4",
+  "replaces": [
+   "cite",
+   "title",
+   "url",
+   "effect",
+   "excerpt",
+   "full",
+   "verified",
+   "scope",
+   "note"
+  ],
+  "cite": "Monroe County Code §§ 26-96, 26-98",
+  "title": "Keys lobster mini-season: no diving or snorkeling in manmade water bodies, marinas, or within 300 ft of improved shoreline",
+  "url": "https://library.municode.com/fl/monroe_county/codes/code_of_ordinances?nodeId=CH26WA_ARTIVDISNPRDULOMIAS",
+  "effect": "From three days before the lobster mini-season, through the mini-season, and for the first five days of the commercial lobster season, diving or snorkeling is unlawful in any manmade water body or marina or within 300 ft of improved residential or commercial shoreline, in incorporated and unincorporated Monroe County unless a city ordinance conflicts.",
+  "excerpt": "(a) It is a public nuisance and is unlawful for any person to dive or snorkel in any manmade water body or marina, or within 300 feet of an improved residential or commercial shoreline beginning three days prior to the opening of and during the entirety of the lobster mini-season and for the first five days of commercial lobster season.",
+  "full": "(b) Nothing in this article shall prohibit diving incidental to vessel or dock maintenance, provided the diver performing the maintenance lawfully displays a diver down flag and otherwise complies with the requirements of F.S. ch. 327, or diving and snorkeling in front of his or her property to the center line of the canal or 100 feet of open water. § 26-96: 'This article shall be effective in both incorporated and unincorporated Monroe County to the extent that no conflict exist with a municipal ordinance as provided in Art. VIII § 1(f) of the Florida Constitution.' § 26-99: noncriminal infraction, $50 civil penalty, up to $500 in county court. History § 26-98: (Code 1979, § 5.5-140; Ord. No. 044-2003, § 1; Ord. No. 038-2010, § 2; Ord. No. 001-2013, § 2).",
+  "verified": "verbatim",
+  "scope": "All Monroe County (cities included absent a conflicting city ordinance): manmade water bodies, marinas, and water within 300 ft of improved residential or commercial shoreline. Seasonal window only.",
+  "note": "Read 7 Oct 2026 through api.municode.com in Chrome (Supplement 33 Update 3, published 15 Jul 2026). Replaces the flyer-based lead. Corrections: trigger is the commercial lobster season, not 'regular season' (same 6 Aug opening); 'manmade water body' is wider than 'canal'. No bridge diving ban is codified (searched spear*, bridge AND diving/snorkel/swim, '300 feet' AND bridge, jump* AND bridge*). Not a spearfishing rule by name, but it bars any in-water spearfisher in those places during the window. 'Improved shoreline' has no dataset: text flag, not a polygon.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current codified text (Supp. 33 Upd. 3)",
+   "subsection": "§ 26-98(a) contains the quoted text",
+   "verbatim": "yes, from Municode API section HTML",
+   "url_resolves": "yes, Municode library deep link to art. IV"
+  }
+ },
+ {
+  "id": "pbc-13-32",
+  "cite": "Palm Beach County Code, App. G, ch. 13, art. II, div. 1, §§ 13-31 to 13-39 (Laws of Fla. ch. 59-1702)",
+  "title": "Palm Beach County: no underwater spearfishing at night or within any inlet",
+  "juris": "county",
+  "kind": "specialact",
+  "url": "https://library.municode.com/fl/palm_beach_county/codes/code_of_ordinances?nodeId=VOII_APXGLOLA_CH13FI_ARTIISPFI",
+  "effect": "In all Palm Beach County salt waters, underwater spearfishing is banned from one hour after sunset to one hour before sunrise, banned at all times within any inlet, banned within 150 ft of an anchored boat with people fishing, and needs a diver-down flag in the Intracoastal waters, within 200 yd of inlet jetties, and more than 150 yd offshore.",
+  "excerpt": "Sec. 13-32. No person shall engage in underwater spear fishing in any of the salt waters of Palm Beach County, Florida, during the period of time from one (1) hour after sunset to one (1) hour before sunrise. Sec. 13-33. No person shall at any time engage in underwater spear fishing within any inlet in Palm Beach County, Florida.",
+  "full": "§ 13-35: 'No person shall engage in underwater spear fishing in the salt waters of Palm Beach County, Florida, within one hundred fifty (150) feet of any anchored boat containing a person or persons engaged in fishing provided that this section shall not apply to those persons who were engaged in underwater spear fishing in the salt waters described in this section immediately prior to and at the time that such boat was anchored.' Session law ch. 59-1702 (HB 1996, filed 18 Jun 1959) s. 1(b) defines underwater spear fishing as spearing 'while the person manipulating such instrument or implement is either under water or floating in the water or swimming', so it reaches freedivers as well as scuba. s. 1(d) 'Intercoastal Waters' are all county territorial waters except those in the Atlantic Ocean. s. 7: flag required within 200 yd of any inlet jetty, not applying inside 150 yd of MHW. s. 8: flag required more than 150 yd from MHW. s. 10 repeals ch. 31133 (1955). County code history notes cite 59-1702 ss. 2 to 9 for §§ 13-32 to 13-39.",
+  "verified": "verbatim",
+  "scope": "All salt waters of Palm Beach County (night ban); every inlet in the county: Jupiter Inlet, Lake Worth Inlet, South Lake Worth (Boynton) Inlet, Boca Raton Inlet (inlet ban). 'Inlet' is undefined.",
+  "note": "Read 7 Oct 2026: county code through api.municode.com (Supplement 126 Update 1, 7 Jul 2026) and the 1959 session law from the State Library scan (edocs.dlis.state.fl.us/fldocs/leg/actsflorida/1959/LOF1959V2Pt3Ch1670-1754.pdf, printed pp. 3261 to 3263). Wording matches apart from '(1)' numerals and capitalisation. FWC did not repeal 59-1702 in r. 68B-3.038. Applies to freedivers. regs.json already describes these rules but law.json had no entry; the inlet ban is drawn only at Lake Worth Inlet.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, codified in current PBC Code; not in the r. 68B-3.038 repeal list",
+   "subsection": "§§ 13-32, 13-33 contain the quoted text; session law ss. 2, 3",
+   "verbatim": "yes for the county code (API); session law OCR matches in substance",
+   "url_resolves": "yes, Municode deep link to art. II"
+  }
+ },
+ {
+  "id": "pbc-13-55",
+  "replaces": [
+   "title",
+   "note"
+  ],
+  "title": "Palm Beach spearfishing refuge areas (Laws of Fla. ch. 59-1699)",
+  "note": "SCUBA ONLY. A breath-hold diver is outside § 13-56's operative prohibition. The 1959 prose landmarks are expressly 'approximate'; the latitudes control. The 750 yd and 30 ft carve-outs rescue no offshore site. Read verbatim from Municode 21 Aug 2026; browser check 30 Sep 2026. Session law ch. 59-1699 (HB 1997, filed 17 Jun 1959) read 7 Oct 2026 from the State Library scan (LOF1959V2Pt3Ch1670-1754.pdf, printed pp. 3244 to 3246): latitudes and carve-outs match § 13-55. CORRECTED 7 Oct 2026: ch. 59-1702 is not a refuge act; it is the night, inlet, standoff and flag act behind §§ 13-31 to 13-39 (see pbc-13-32).",
+  "axes": {
+   "in_force": "yes",
+   "subsection": "§ 13-55 and session law s. 2",
+   "verbatim": "yes (county code); session law matches",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "fac-68b-3-038",
+  "replaces": [
+   "note"
+  ],
+  "note": "Chapters 59-1699 (the scuba refuges, PBC Code §§ 13-54 to 13-59) and 59-1702 (the night, inlet, standoff and flag act, PBC Code §§ 13-31 to 13-39) are NOT in this list. FWC worked through this county's fisheries acts and left those two standing. That is a deliberate-looking omission and it guts the implied-preemption argument. Plan as though both bind you. CORRECTED 30 Sep 2026 by browser word-for-word check: the previous excerpt paraphrased the rule. CORRECTED 7 Oct 2026: 59-1702 is not a refuge act.",
+  "axes": {
+   "in_force": "unchanged",
+   "subsection": "unchanged",
+   "verbatim": "unchanged",
+   "url_resolves": "unchanged"
+  }
+ },
+ {
+  "id": "hollywood-99-03",
+  "cite": "City of Hollywood Code § 99.03(F), (E); § 99.01",
+  "title": "Hollywood: no spearfishing within 100 yards of the public beach",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://codelibrary.amlegal.com/codes/hollywood/latest/hollywood_fl/0-0-0-42081",
+  "effect": "Spearfishing is prohibited within 100 yards of Hollywood's public/municipal beach, which § 99.01 defines as running from mean high water to 50 yards offshore along the whole Hollywood oceanfront; loaded spearguns are barred on the beach and in public swimming areas.",
+  "excerpt": "(F) Spearfishing is prohibited within 100 yards of the public/municipal beach. It is unlawful to carry or possess a loaded spear gun on the public/municipal beach or in the public swimming areas. Participants must have fish bag and a raft.",
+  "full": "Lead-in: 'It shall be unlawful for any person to do any acts set forth below upon Hollywood Beach as described in § 99.01:' (E): 'Swim, bathe or participate in other water activities in the proximity of groins, jetties or other hazards, or, sit, stand, or perform any activity on these structures.' § 99.01 opens: 'All of the area lying east of the mean high water line and north of the common Hollywood-Hallandale city limits and south of an easterly extension of the south right-of-way of Magnolia Terrace and west of a point 50 yards east of said mean high water line;' and continues north to 'south of John U. Lloyd State Park and west of a point 50 yards east of said mean high water line, less that portion in the corporate city limits of Dania, Florida'. § 99.02(B)(4) allows snorkeling or scuba with a diver-down flag. History § 99.03: ('72 Code, § 7½-4) (Ord. O-74-24, passed 3-6-74; ... Am. Ord. O-2023-04, passed 4-4-23).",
+  "verified": "verbatim",
+  "scope": "Atlantic Ocean off the Hollywood oceanfront, Hallandale Beach city line north to John U. Lloyd Beach State Park (less any part in Dania Beach). Conservative reading: 100 yd measured from the seaward edge of the defined beach, i.e. 150 yd from MHW.",
+  "note": "Read 7 Oct 2026 in Chrome on American Legal (rendered page text). NEW: not in the 30 Sep sweep, which could not reach Hollywood. Ambiguity: the lead-in limits § 99.03 to acts 'upon Hollywood Beach' (MHW to 50 yd) while (F) reaches 100 yd 'of' the beach; the conservative reading gives (F) its full reach measured from the beach's seaward edge. Whole Hollywood code not yet searched for other spear rules.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, current American Legal text",
+   "subsection": "§ 99.03(F) contains the quoted text",
+   "verbatim": "yes, rendered page text read in Chrome",
+   "url_resolves": "yes, ch. 99 page"
+  }
+ },
+ {
+  "id": "pinellas-14-97",
+  "cite": "Pinellas County Code § 14-97",
+  "title": "Pinellas County: no spearing in any manmade saltwater canal (hook and line, cast net and crab traps only)",
+  "juris": "county",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/pinellas_county/codes/code_of_ordinances",
+  "effect": "Taking or attempting to take any saltwater fish in any manmade saltwater canal in Pinellas County is unlawful except by hook and line, handheld cast net or up to five blue-crab traps, so spearfishing and gigging are excluded. Misdemeanor.",
+  "excerpt": "(a) [Regulated.] It is unlawful for any person to take or attempt to take any saltwater fish, except by hook and line or handheld cast net or with no more than five blue-crab traps, within any manmade saltwater canal located in Pinellas County, Florida.",
+  "full": "(b) [Penalty.] The violation of this section is declared to be a criminal offense and misdemeanor within the meaning of F.S. § 775.08, and shall be punishable as provided by law. (Ord. No. 25-28, § 1, 12-16-25). Sits in ch. 14, art. III, div. 2 'Saltwater Fishing', whose footnote says 'The acts contained in this division retain their status as special acts. See charter § 5.02.' and cites former F.S. § 370.172(4) and § 125.01(4).",
+  "verified": "verbatim",
+  "scope": "Every manmade saltwater canal in Pinellas County, on the face of the text including canals inside cities.",
+  "note": "Read 7 Oct 2026 through api.municode.com in Chrome (client 7309, product 10274). NEW, adopted 16 Dec 2025. A gear-list rule that excludes spears by omission, like r. 68B-25.003. Open: whether it binds inside municipalities and whether it is a special act or a county ordinance; § 125.01(4) limits county power over saltwater fishing. Treated as live per project posture. Draw from canal polygons only if a public dataset carries manmade canals; otherwise a countywide text flag.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, Ord. 25-28 adopted 16 Dec 2025, in current code",
+   "subsection": "§ 14-97(a) contains the quoted text",
+   "verbatim": "yes, Municode API section HTML",
+   "url_resolves": "Municode code root resolves; deep node id not captured"
+  }
+ },
+ {
+  "id": "naples-42-3",
+  "cite": "City of Naples Code § 42-3",
+  "title": "Naples: no swimming within 100 ft of any public bridge",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/naples/codes/code_of_ordinances",
+  "effect": "No diving or jumping from, or swimming within 100 ft of, any public bridge wholly or partly in Naples, which bars an in-water spearfisher near those bridges.",
+  "excerpt": "No person shall dive or jump from or swim within 100 feet of any bridge accessible to the public located totally or partially within the corporate limits of the city.",
+  "full": "(Code 1957, § 7-4.1; Code 1994, § 78-3)",
+  "verified": "verbatim",
+  "scope": "100 ft around every public bridge wholly or partly within the City of Naples.",
+  "note": "Read 7 Oct 2026 through api.municode.com (client 3471, product 13804). NEW. Searches: spear* (only § 42-52); 'spear gun*' OR harpoon* OR gig* (only § 42-52); scuba OR snorkel* OR 'skin div*' OR diving (§ 42-3, § 42-53). A swim rule, not a spear rule; overlaps the state bridge buffer where that applies.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes",
+   "subsection": "§ 42-3 is the whole section",
+   "verbatim": "yes, Municode API",
+   "url_resolves": "code root resolves; deep node not captured"
+  }
+ },
+ {
+  "id": "pbtown-74-162",
+  "cite": "Town of Palm Beach Code §§ 74-162(e), 74-197",
+  "title": "Town of Palm Beach: no fishing within 50 yards either side of guarded beaches; no swimming beyond 300 ft of them",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/palm_beach/codes/code_of_ordinances?nodeId=PTIICOOR_CH74PARE_ARTIIBEAQAC",
+  "effect": "Fishing, which includes spearfishing, is unlawful in the waters 50 yards north or south of any lifeguarded Town beach, and swimming beyond 300 ft (from mean low water) of a lifeguarded Town beach is unlawful.",
+  "excerpt": "(e) It shall be unlawful for any person to fish in the waters 50 yards in either direction north or south of any public beach operated and patrolled and guarded by lifeguards of the town.",
+  "full": "§ 74-162 history: (Ord. No. 8-96, § 1, 5-14-96; Ord. No. 21-10, § 1, 7-13-10; Ord. No. 003-2025, § 2, 3-4-25). § 74-197(a): 'It shall be declared unlawful for any person to swim beyond 300 feet of the shore of any public beach operated and patrolled and guarded by lifeguards of the town. For the purposes of this section, the 300-foot distance shall be measured at right angles from the mean low water mark of the Atlantic Ocean.' (b) applies to flotation aids. (Code 1982, § 14-61). § 74-269(a)(1) names the public beaches as 'Phipps Ocean Park, Mid Town Beach, Clarke Avenue Beach and Kreusler Park' for its 400 ft watercraft exclusion.",
+  "verified": "verbatim",
+  "scope": "Water off each lifeguarded Town of Palm Beach beach and 50 yd beyond each end (fishing); beyond 300 ft from MLW off those beaches (swimming).",
+  "note": "Read 7 Oct 2026 through api.municode.com (client 9332, product 11397). NEW. Ch. 74 art. III is Boats and Boating; the sweep's 'art. III' lead meant the art. II beach rules. Reading of (e) that closes more water: the whole water off the guarded beach plus a 50-yard band each side. Guarded beaches are not listed in § 74-162; § 74-269 names four.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes, amended Ord. 003-2025",
+   "subsection": "§ 74-162(e) contains the quoted text",
+   "verbatim": "yes, Municode API",
+   "url_resolves": "yes, art. II deep link"
+  }
+ },
+ {
+  "id": "deerfield-50-112",
+  "replaces": [
+   "excerpt",
+   "full",
+   "verified",
+   "note"
+  ],
+  "excerpt": "It shall be unlawful for any person to do any acts set out in this section upon the municipal/public beaches of the city. ... (d) Swim, paddle, kayak, surf, wind surf, kite board/surf or snorkel within 50 yards of the city fishing pier.",
+  "full": "§ 50-2 'Municipal beach/public beach means the dry sand beach falling above the mean high water mark owned or under the control of the city and the wet sand beach falling seaward of the mean high water mark governed by the State of Florida Public Trust Doctrine.' (s) scuba requires buddy, certification card and BC; (t) diving requires a 12 in by 12 in diver-down flag with a stiffener. History: (Ord. No. 2012/015, § 15, 5-15-12; Ord. No. 2014/006, § 2, 2-11-14; Ord. No. 2022/017, § 4, 9-6-22). § 46-3 bans diving from the pier. § 74-31 'No Entry Area' location still unread.",
+  "verified": "verbatim",
+  "note": "Lead-in read 7 Oct 2026 through api.municode.com (client 1891, product 12050); upgrades the entry to verbatim. See deerfield-50-112-beach for subsections (b) and (p).",
+  "axes": {
+   "in_force": "yes",
+   "subsection": "lead-in and (d)",
+   "verbatim": "yes, Municode API",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "deerfield-50-112-beach",
+  "cite": "City of Deerfield Beach Code § 50-112(b), (p)",
+  "title": "Deerfield Beach: no swimming beyond 50 yards of the beach without lifeguard permission; no fishing off the beach 8 a.m. to dusk",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/deerfield_beach/codes/code_of_ordinances?nodeId=PTIICOOR_CH50PARE_ARTVRURE_S50-112MUPUBERE",
+  "effect": "Off the Deerfield Beach municipal beach, swimming more than 50 yards out from mean high water needs the supervising lifeguard's permission, and fishing off the beach (which includes shore-entry spearfishing) is unlawful from 8 a.m. to dusk.",
+  "excerpt": "(b) Swim outside an area extending 50 yards eastward from the mean highwater mark of the Atlantic Ocean at the municipal/public beaches, unless express permission has been obtained from the supervising lifeguard.",
+  "full": "Lead-in: 'It shall be unlawful for any person to do any acts set out in this section upon the municipal/public beaches of the city.' (p) 'Fish off of the municipal/public beaches, including the use of cast nets, from 8:00 a.m. to dusk.' § 50-2 extends the municipal/public beach to the wet sand seaward of mean high water.",
+  "verified": "verbatim",
+  "scope": "Atlantic Ocean off the Deerfield Beach municipal beach: beyond 50 yd from MHW (swimming, without permission); shore-based fishing from the beach 8 a.m. to dusk.",
+  "note": "Read 7 Oct 2026 through api.municode.com. NEW. Conservative readings: a freediver or snorkeler is swimming; spearfishing is fishing; the lead-in's 'upon the municipal/public beaches' does not stop (b) applying in the water because (b) itself describes water. Warn, not closed: lifeguard permission can lift (b), and (p) is a daytime shore rule.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes",
+   "subsection": "§ 50-112(b), (p)",
+   "verbatim": "yes, Municode API",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "fortpierce-28-4",
+  "replaces": [
+   "excerpt",
+   "verified",
+   "note"
+  ],
+  "excerpt": "(a) The city hereby prohibits fishing from certain specified areas, as follows: ... (3) From the land or shoreline, in, on, upon or under the waters of Moore's Creek, east of Indian River Drive, being the area where Moore's Creek enters the Indian River Lagoon; (4) From the land or shoreline, including structures attached thereto, in, on, upon or under the waters of the city marina, except as otherwise provided by marina rules or dockage license agreements; ... (c) Areas encompassed and included in this section, wherein fishing is prohibited, shall be posted with signage indicating such restriction. [§ 28-31(18)] To launch, throw, hurl, or otherwise propel an arrow, spear, BB, pellet, slingshot, or other dangerous object, except that in accordance with F.S. § 790.33, this subsection (18) shall not be used to regulate firearms, ammunition, or components thereof, as defined in F.S. ch. 790;",
+  "verified": "verbatim",
+  "note": "Re-read 7 Oct 2026 through api.municode.com (Supplement 20, 2 Feb 2026); each section came back whole, so upgraded to verbatim. § 28-4(b): the no-fishing areas are shown on a diagram on file with the city clerk; (c): they are posted. Items (1), (2), (5) to (8) are 'from' land or structures (shore fishing); (3) and (4) reach the water. 'Park area' may be limited by 'provided in connection therewith'; conservative reading keeps all city waterways, canals and beaches. Browser check 30 Sep 2026: excerpt matched word for word at the source.",
+  "axes": {
+   "in_force": "yes",
+   "subsection": "§ 28-4(a)(3), (4), (c); § 28-31(18)",
+   "verbatim": "yes, Municode API",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "lakepark-76-89",
+  "replaces": [
+   "excerpt",
+   "full",
+   "verified",
+   "note"
+  ],
+  "excerpt": "Swimming, diving and fishing are forbidden within the marina area; provided, however, that persons may fish and may use cast nets measuring eight feet or less stretched length (stretched length is defined as the distance from the horn at the center of the net with the net gathered and pulled taut, to the lead line) within designated areas located along the marina bulkhead into the Lake Worth Lagoon, east of the established bulkhead line from sunrise to sunset.",
+  "full": "(Code 1966, § 11-24; Ord. No. 7-1971, § 1, 4-21-1971; Code 1978, § 8-57; Ord. No. 15-1987, §§ I, II, 11-4-1987; Ord. No. 8-1988, § 1, 4-6-1988; Ord. No. 2-2004, § 2, 1-21-2004; Ord. No. 03-2014, § 2, 5-7-2014). § 76-71: 'Marina means the Lake Park Harbor Marina.' 'Marina area' undefined.",
+  "verified": "verbatim",
+  "note": "Read whole 7 Oct 2026 through api.municode.com (Supplement 57, 17 Jun 2026). The exception lets people fish from designated bulkhead areas only; diving is forbidden outright, so the marina basin is closed to divers.",
+  "axes": {
+   "in_force": "yes",
+   "subsection": "§ 76-89 whole",
+   "verbatim": "yes, Municode API",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "sib-108-4",
+  "replaces": [
+   "full",
+   "note"
+  ],
+  "full": "Whole section read 7 Oct 2026. The last sentence carries no dangerous-conditions trigger, unlike every sentence before it. Art. I heading 'Swimming or Fishing During Dangerous Water Conditions'; editor's note 'Adopted 10-11-2005 by Ord. No. 2005-237.' No section history note. § 108-2(B) ends: 'To protect swimmers near the fishing pier from possible shark attacks, the City of Sunny Isles Beach must prohibit fishing at the pier during dangerous water conditions. This article shall be applicable throughout the City of Sunny Isles Beach.' 'Designated areas' is undefined in § 108-3. § 201-6(D) park Rule 23 uses the same 'hook and line, seine, trap, spear gig or other device' wording for park waters.",
+  "note": "Re-read 7 Oct 2026 through api.municode.com. Text supports a standing rule; heading and purpose point to dangerous conditions only. Kept as standing (closes more water). Whole-code spear* search: §§ 14-17, 201-6, 108-4 only; no designated area found. Ask City Clerk, 305.792.1703, cityclerk@sibfl.net.",
+  "axes": {
+   "in_force": "yes",
+   "subsection": "§ 108-4 last sentence",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "hallandale-16-23",
+  "replaces": [
+   "excerpt",
+   "note"
+  ],
+  "excerpt": "(a) Prohibited acts. (1) It shall be unlawful for any person to surfboard, sandsurf, spear fish, scuba dive, except within a designated area; to build fires, allow animals to come upon the beach, drink alcoholic beverages on the beach, or throw bottles or other litter upon the public beaches.",
+  "note": "Re-read 7 Oct 2026 through api.municode.com; excerpt corrected to include the '(a) Prohibited acts. (1)' lead. § 16-1: 'Designated area shall mean that geographical area within a city park which has been established by the department for a specific activity or activities', so designations are administrative and not in the code. § 16-23(a)(6): fishing within restricted swim areas prohibited 8 a.m. to 6 p.m. § 16-23(c): city park rules apply on the public beach. Searches: spear* (§§ 16-1, 16-23), scuba OR snorkel* OR diving (§ 16-23), 'designated area' (§§ 16-23, 16-1).",
+  "axes": {
+   "in_force": "yes, Ord. 2024-031",
+   "subsection": "§ 16-23(a)(1)",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "stpete-21-44",
+  "cite": "City of St. Petersburg Code § 21-44",
+  "title": "St. Petersburg: no fishing of any kind in park waters unless signed",
+  "juris": "city",
+  "kind": "ordinance",
+  "url": "https://library.municode.com/fl/st._petersburg/codes/code_of_ordinances",
+  "effect": "Fishing by any method, including spearing, is prohibited in St. Petersburg park waters except at times and places that signs designate.",
+  "excerpt": "Fishing in Park waters is prohibited, regardless of the method used, except at such times and places which are designated with signs allowing such use by the POD.",
+  "full": "(Code 1992, § 21-44; Ord. No. 694-G, § 1, 11-4-2004). § 21-1: 'Park means property owned by the City and designated Park Property on the Park and waterfront property map of the Charter or specifically designated as a Charter Park Property pursuant to article III of this chapter.' Former § 7-134 (spears or harpoons in yacht basins) repealed by Ord. No. 22-H, 7 Jun 2012. § 7-5 bars fishing at listed bridges and causeways and in the municipal pier district unless authorized.",
+  "verified": "verbatim",
+  "scope": "Water inside St. Petersburg city park property; extent of 'park waters' undefined.",
+  "note": "Read 7 Oct 2026 through api.municode.com (client 4477, product 14674). NEW. Searches: spear* (1 hit, the repeal note), 'spear gun*' OR harpoon* OR gig (same), scuba OR snorkel* OR 'skin div*' (0). Warn-level text note; no park-water layer.",
+  "geom": null,
+  "axes": {
+   "in_force": "yes",
+   "subsection": "§ 21-44 whole",
+   "verbatim": "yes, Municode API",
+   "url_resolves": "code root resolves"
+  }
+ },
+ {
+  "id": "neg-local-2026-10-07",
+  "cite": "Martin County; St. Petersburg (spear rule); Santa Rosa County (beyond § 14-52); Santa Rosa Island Authority; Treasure Island (designation); Monroe County (bridge ban): NEGATIVE",
+  "title": "Local codes read 7 Oct 2026 with no spearfishing rule found",
+  "juris": "county",
+  "kind": "negative",
+  "url": "https://library.municode.com/fl/",
+  "effect": "These searches found no spearfishing or speargun rule beyond the entries listed separately.",
+  "excerpt": "[Martin County (12081; all products, Supp. 63): spear* 0 hits; ch. 83 now 'Fishing on Bridges' after Ord. 1265 (21 Oct 2025) repealed the old fish and wildlife chapter. St. Petersburg (4477): former § 7-134 spear rule repealed 2012. Santa Rosa County (7626): only § 14-52; § 23-72 Snorkel Reef is a vessel exclusion. Santa Rosa Island Authority: no rules published at sria-fla.com; site search 'spear' no results. Treasure Island (4655): no designated spearfishing area in code. Monroe County (12037, Supp. 33 Upd. 3): no codified bridge diving ban.]",
+  "full": null,
+  "verified": "verbatim",
+  "scope": null,
+  "note": "Municode API searches in Chrome 7 Oct 2026: spear*; 'spear gun*' OR harpoon* OR gig*; scuba OR snorkel* OR 'skin div*' (plus diving where noted). Uncodified ordinances and resolutions are not covered.",
+  "geom": null,
+  "axes": {
+   "in_force": "n/a",
+   "subsection": "n/a",
+   "verbatim": "search results recorded as returned",
+   "url_resolves": "yes"
+  }
+ }
+]

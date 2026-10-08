@@ -35,25 +35,38 @@ so the About page's links resolve. Hostinger redeploys the `site` branch on each
 ## Rebuilding the data
 
 The raw GIS pulls (about 60 MB) are not in the repository. They are listed with their service URLs
-and SHA-256 hashes in `tools/src-2026-09-30/raw-manifest.json`; the scripts that need them read
-`raw/2026-09-30/`.
+and SHA-256 hashes in `tools/src-2026-09-30/raw-manifest.json` and, for the 7 Oct 2026 ENC, NHD and
+TIGER pulls, `tools/geometry/2026-10-07/raw-manifest.json`; the scripts that need them read
+`raw/<date>/`. The geometry scripts need shapely and pyproj.
 
 ```bash
 python3 tools/build-law.py                        # data/law.json: base registry plus the dated passes
 python3 tools/patch-zones-local-2026-09-30.py     # zones-local.json: legal review text and law ids
 python3 tools/patch-zones-local-2026-10-06.py     # zones-local.json: release text and kinds
-python3 tools/build-zones-statewide.py            # data/zones-statewide.json (needs raw/)
+python3 tools/patch-zones-local-2026-10-07.py     # zones-local.json: 7 Oct 2026 legal currency pass text
+python3 tools/patch-zones-local-geometry-2026-10-07.py  # zones-local.json: NHD canals, TIGER and NAIP positions (run after the text patch)
+python3 tools/extract-enc-2026-10-07.py           # tools/geometry/2026-10-07/enc-palmbeach.json from raw/2026-10-07/ (ENC pulls)
+python3 tools/build-zones-palmbeach.py            # data/zones-palmbeach.json from the ENC extract ('osm' argument rebuilds the old file)
+python3 tools/recompute-sites-ref-2026-10-07.py   # sites.json ref and edge against the rebuilt refuges
+python3 tools/build-zones-statewide.py            # data/zones-statewide.json (needs raw/; applies the 7 Oct patch)
+python3 tools/patch-zones-statewide-2026-10-07.py # without raw/: the same 7 Oct edits on the committed JSON
 python3 tools/build-layers-2026.py                # ENC, seabed, contours, habitat, buoys, stations, spots, species (needs raw/)
+python3 tools/patch-2026-10-07.py                 # regs.json, coverage.json, both species files: 7 Oct seasons and sweeps
+python3 tools/patch-2026-10-07-drawn.py           # regs.json, coverage.json: Hollywood and inlet zones now drawn
+python3 tools/check-text.py                       # no dashes, no permissive wording in the map's own text
 python3 tools/test-data.py
 NODE_PATH=<jsdom>/node_modules node test/smoke-test.js
 python3 build-standalone.py [--out DIR]
 ```
 
 - Never edit `data/law.json` by hand. Add a dated pass under `tools/law-updates/<date>/` or an entry
-  in the manual block of `tools/law_updates.py`.
+  in the manual block of `tools/law_updates.py`. Pass directories dated after 2026-10-06 are applied
+  automatically, oldest first, in the file order of their `pass.json`; set the `version` in
+  `tools/build-law.py` to the date of the latest currency check.
 - `zones-local.json` cannot be rebuilt from `tools/build-zones-local.py`, because its August inputs
   were not kept. The two patch scripts change text, kinds and law ids only, never coordinates.
-- `data/regs.json` and `data/coverage.json` are edited by hand.
+- `data/regs.json` and `data/coverage.json` are edited by hand, except for the dated scripted edits in
+  `tools/patch-2026-10-07.py`, which assert the old text before replacing it and are safe to rerun.
 
 ## Endpoints and traps
 

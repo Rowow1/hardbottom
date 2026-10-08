@@ -1,26 +1,25 @@
 # Application backlog
 
 Distinct from `OPEN-QUESTIONS.md`, which is the legal research queue. This is what to build. Ranked.
-Last reviewed 6 October 2026.
+Last reviewed 7 October 2026.
 
-## Blocking (before the site is unlocked)
+## Done at launch (7 October 2026)
 
-1. **Look at the map in a real browser** on a desktop and a phone, on the password-protected
-   Hostinger deployment: layout, the legend, the What's here popup and the About page.
-2. **Make the repository public** at launch, so the About page links (issues, changelog, sources)
-   resolve. Until then they return 404 for visitors.
-3. **Recompute the OpenStreetMap-derived offsets** (`zones-palmbeach.json` refuge edges and 3 nm line,
-   `sites.json` `ref` and `edge`) from the NOAA ENC coastline, which would move those files from ODbL
-   to CC BY 4.0. Optional: ODbL is a valid licence for them as they stand.
-4. **Re-read the two imagery positions** in `zones-local.json` (`ti58` John's Pass corridor, `3sis`)
-   from USGS NAIP instead of Esri imagery, and correct the `ti58` source text.
+- Site public at bottomtruth.com; repository public; search engines admitted with a sitemap.
+- Phone layout checked at 360, 390 and 820 px wide (headless Chromium) and fixed: compact header,
+  wrapping notice bar, smaller attribution.
+- OpenStreetMap-derived geometry rebuilt from NOAA ENC, USGS NHD and TIGER; the three files are now
+  CC BY 4.0. The `ti58` and `3sis` positions re-read from USGS NAIP.
+
+## Next
 
 5. **A reporting channel that does not need GitHub.** The About page sends error reports to GitHub
    issues, which only works once the repository is public and needs a GitHub account. A contact
    email would widen it.
-6. **Season dates expire.** `regs.json` and several `law.json` effect lines carry 2026 season dates
-   (red snapper, gag, amberjack, hogfish) that lapse from October 2026. Set a review date after each
-   FWC and Gulf or South Atlantic council season announcement.
+6. **Season dates expire.** `regs.json`, `species.json` and several `law.json` lines carry 2026
+   dates. The re-check calendar from the 7 Oct 2026 pass: 9, 12, 14, 15, 23 and 28 Oct 2026; 1 Nov
+   and 1 Dec 2026; 1 and 5 Jan 2027 (the main sweep, when the 2026 executive orders and temporary
+   rules lapse); then each FWC and NMFS season announcement through 2027.
 
 ## High value
 

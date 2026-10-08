@@ -1,0 +1,52 @@
+2026-10-07/research-federal | guis-compendium | updated title,effect,excerpt,verified,url,note
+2026-10-07/research-federal | nps-guis-fishing-fl | added
+2026-10-07/research-federal | cfr-36-1-4-2-4 | added
+2026-10-07/research-federal | cfr-600-725 | updated excerpt,verified,note
+2026-10-07/research-federal | cfr-622-375-a | updated  appended note
+2026-10-07/research-federal | cfr-622-224 | updated  appended note
+2026-10-07/research-federal | fknms-blueprint-2025 | added
+2026-10-07/research-federal | cfr-50-27-21 | updated  appended note
+2026-10-07/research-federal | eo-14430 | added
+2026-10-07/research-state | fr-91-63502 | added
+2026-10-07/research-state | fr-91-36545 | updated cite,title,juris,kind,url,effect,excerpt,verified,scope,note
+2026-10-07/research-state | fr-91-32360 | added
+2026-10-07/research-state | fr-91-61160 | added
+2026-10-07/research-state | cfr-622-34-b | updated effect,note
+2026-10-07/research-state | fwc-eo-26-26 | updated title,effect,excerpt,verified,note
+2026-10-07/research-state | fwc-eo-26-10 | updated effect,excerpt,verified,note
+2026-10-07/research-state | fwc-eo-26-25 | updated  appended note
+2026-10-07/research-state | fac-68c-22-007 | added
+2026-10-07/research-state | fac-68c-22-004 | added
+2026-10-07/research-state | fac-68c-22-002-11 | updated effect,scope appended note
+2026-10-07/research-state | fac-68b-24-0065 | updated scope,verified,note
+2026-10-07/research-state | fac-68b-14-009 | updated note
+2026-10-07/research-local | monroe-26-art4 | updated cite,title,url,effect,excerpt,full,verified,scope,note
+2026-10-07/research-local | pbc-13-32 | added
+2026-10-07/research-local | pbc-13-55 | updated title,note
+2026-10-07/research-local | fac-68b-3-038 | updated note
+2026-10-07/research-local | hollywood-99-03 | added
+2026-10-07/research-local | pinellas-14-97 | added
+2026-10-07/research-local | naples-42-3 | added
+2026-10-07/research-local | pbtown-74-162 | added
+2026-10-07/research-local | deerfield-50-112 | updated excerpt,full,verified,note
+2026-10-07/research-local | deerfield-50-112-beach | added
+2026-10-07/research-local | fortpierce-28-4 | updated excerpt,verified,note
+2026-10-07/research-local | lakepark-76-89 | updated excerpt,full,verified,note
+2026-10-07/research-local | sib-108-4 | updated full,note
+2026-10-07/research-local | hallandale-16-23 | updated excerpt,note
+2026-10-07/research-local | stpete-21-44 | added
+2026-10-07/research-local | neg-local-2026-10-07 | added
+2026-10-07/editorial | fac-68b-14-0039 | updated effect
+2026-10-07/editorial | fac-68b-14-0042 | updated title,effect
+2026-10-07/editorial | fac-68b-14-0043 | updated title,effect
+2026-10-07/editorial | fwc-eo-26-33 | updated title,effect
+2026-10-07/editorial | fwc-eo-26-25 | updated effect
+2026-10-07/editorial | fwc-rs-gulf-2026 | updated effect
+2026-10-07/editorial | fr-91-60334 | updated title,effect
+2026-10-07/editorial | fr-91-29920 | updated title,effect
+2026-10-07/editorial | noaa-fb26-029 | updated title,effect appended note
+2026-10-07/editorial | cfr-622-34 | updated  appended note
+2026-10-07/editorial | cfr-622-34-b | updated title,excerpt,full
+2026-10-07/editorial | pompano-91-22 | updated note
+2026-10-07/editorial | fac-68c-22 | updated  appended note
+2026-10-07/editorial | fac-68b-3-038 | updated effect

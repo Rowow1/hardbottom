@@ -1,0 +1,234 @@
+[
+ {
+  "id": "fr-91-63502",
+  "cite": "91 Fed. Reg. 63502 (6 Oct 2026); 50 C.F.R. § 622.34(d) removed",
+  "title": "Gulf federal shallow-water grouper closure beyond 20 fathoms removed, effective 2 Oct 2026",
+  "juris": "federal",
+  "kind": "cfr",
+  "url": "https://www.federalregister.gov/documents/2026/10/06/2026-20435/reef-fish-fishery-of-the-gulf-of-america-amendment-62",
+  "effect": "The 1 Feb to 31 Mar recreational closure for shallow-water grouper in Gulf federal waters seaward of the 20-fathom boundary no longer exists. The Edges (1 Jan to 30 Apr) and the gag closure (1 Jan to 31 Aug) are unchanged.",
+  "excerpt": "This final rule is effective October 2, 2026. ... In § 622.34, remove Table 4 to paragraph (d) and remove and reserve paragraph (d).",
+  "verified": "verbatim",
+  "scope": "Gulf EEZ.",
+  "note": "Checked 7 Oct 2026. Amendment 62 final rule, doc. 2026-20435. Read on federalregister.gov through WebFetch; both quoted sentences came back as exact short quotes, joined here by an ellipsis. Also revises Gulf red grouper catch limits (commercial and ACL), no recreational bag change. FWC's grouper page still shows the old closure. eCFR not re-read; it may lag.",
+  "axes": {
+   "in_force": "yes, effective 2 Oct 2026",
+   "subsection": "§ 622.34(d) removed and reserved",
+   "verbatim": "yes, two short quotes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "fr-91-36545",
+  "cite": "91 Fed. Reg. 36545 (17 Jun 2026); 50 C.F.R. § 622.34(h)",
+  "title": "Gulf federal waters: black grouper, scamp, yellowfin and yellowmouth closed 1 Jan to 30 Jun from 2027",
+  "juris": "federal",
+  "kind": "cfr",
+  "url": "https://www.federalregister.gov/documents/2026/06/17/2026-12175/reef-fish-fishery-of-the-gulf-of-america-shallow-water-grouper-management-measures",
+  "effect": "From 1 Jan 2027, recreational harvest of black grouper, scamp, yellowfin grouper and yellowmouth grouper in or from Gulf federal waters is closed 1 Jan to 30 Jun every year; bag limit zero.",
+  "excerpt": "The recreational sector for Other SWG in or from the Gulf EEZ is closed from January 1 through June 30, each year. During the closure, the bag and possession limits for Other SWG in or from the Gulf EEZ are zero.",
+  "verified": "verbatim",
+  "scope": "Gulf EEZ.",
+  "note": "Checked 7 Oct 2026 on federalregister.gov (doc. 2026-12175); DATES: 'This final rule is effective January 1, 2027.' Replaces 'from NOAA's bulletin' wording in regs.json. FWC's grouper page (7 Oct 2026) shows no closed season for these species in Gulf state waters; watch for a consistent FWC rule.",
+  "axes": {
+   "in_force": "adopted; effective 1 Jan 2027",
+   "subsection": "§ 622.34(h)",
+   "verbatim": "yes, as two short quotes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "fr-91-32360",
+  "cite": "91 Fed. Reg. 32360 (1 Jun 2026)",
+  "title": "Gulf greater amberjack: federal waters closed from 14 Oct 2026",
+  "juris": "federal",
+  "kind": "cfr",
+  "url": "https://www.federalregister.gov/documents/2026/06/01/2026-10889/fisheries-of-the-caribbean-gulf-of-america-and-south-atlantic-reef-fish-fishery-of-the-gulf-of",
+  "effect": "Recreational greater amberjack in Gulf federal waters closed from 12:01 a.m. 14 Oct 2026 to 31 Jul 2027 by temporary rule, then 1 Aug to 31 Aug 2027 by § 622.34(c).",
+  "excerpt": "This temporary rule is effective from October 14, 2026, through July 31, 2027.",
+  "verified": "verbatim",
+  "scope": "Gulf EEZ.",
+  "note": "Checked 7 Oct 2026, doc. 2026-10889. Supersedes noaa-fb26-029 (secondary) as the federal citation; keep the bulletin as a secondary source if wanted.",
+  "axes": {
+   "in_force": "yes, from 14 Oct 2026",
+   "subsection": "temporary rule under 50 C.F.R. § 622.41",
+   "verbatim": "yes, DATES sentence",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "fr-91-61160",
+  "cite": "91 Fed. Reg. 61160 (28 Sep 2026); 50 C.F.R. § 622.187(b)(2)(i)",
+  "title": "South Atlantic gag and black grouper: 2 per vessel combined, from 28 Oct 2026",
+  "juris": "federal",
+  "kind": "cfr",
+  "url": "https://www.federalregister.gov/documents/2026/09/28/2026-19801/fisheries-of-the-caribbean-gulf-of-america-and-south-atlantic-snapper-grouper-fishery-of-the-south",
+  "effect": "From 28 Oct 2026 the separate gag and black grouper vessel limits in South Atlantic federal waters are replaced by an aggregate of two gag or black grouper per vessel; the one-fish bag limit is unchanged. Not a closure.",
+  "excerpt": "This final rule is effective on October 28, 2026.",
+  "verified": "secondary",
+  "scope": "South Atlantic EEZ.",
+  "note": "Checked 7 Oct 2026. Regulatory Amendment 36, doc. 2026-19801. Only the DATES sentence was quoted exactly; the vessel-limit change is from a model summary of the rule text. Read § 622.187(b)(2)(i) on eCFR after 28 Oct before marking verbatim.",
+  "axes": {
+   "in_force": "effective 28 Oct 2026",
+   "subsection": "§ 622.187(b)(2)(i), not read verbatim",
+   "verbatim": "no",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "cfr-622-34-b",
+  "effect": "Recurring Gulf EEZ closures: greater amberjack 1 Jan to 31 Aug and 1 Nov to 31 Dec; gag 1 Jan to 31 Aug; gray triggerfish 1 Jan to end of Feb and 1 Jun to 31 Jul; from 1 Jan 2027, black grouper, scamp, yellowfin and yellowmouth 1 Jan to 30 Jun (§ 622.34(h)). The 1 Feb to 31 Mar shallow-water grouper closure beyond 20 fathoms, § 622.34(d), was removed effective 2 Oct 2026 (91 FR 63502).",
+  "note": "Re-checked 7 Oct 2026 against 91 FR 63502 and 91 FR 36545. The excerpt must drop any (d) text; re-read eCFR before republishing the excerpt.",
+  "replaces": [
+   "effect",
+   "note"
+  ],
+  "axes": {
+   "in_force": "yes",
+   "subsection": "(d) now reserved",
+   "verbatim": "excerpt needs re-read on eCFR",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "fwc-eo-26-26",
+  "title": "2026 Gulf gag: state waters closed from 1 Oct 2026 (not Monroe)",
+  "effect": "Gag closed in Gulf state waters, except all waters of Monroe County, from 12:01 a.m. 1 Oct 2026 to 31 Dec 2026; the order expires 12:01 a.m. 1 Jan 2027, after which r. 68B-14.0039(1) keeps it closed until 1 Sep 2027.",
+  "excerpt": "A recreational harvester may not harvest any gag grouper in or from state waters of the Gulf of America, except in all waters of Monroe County, or possess any gag grouper while in or on state waters of the Gulf of America, except in all waters of Monroe County, from October 1 through December 31, 2026.",
+  "verified": "verbatim",
+  "note": "Read 7 Oct 2026 from the scanned PDF as an image in the author's Chrome PDF viewer and transcribed by eye; the PDF has no text layer. Signed 5 Aug 2026.",
+  "replaces": [
+   "title",
+   "effect",
+   "excerpt",
+   "verified",
+   "note"
+  ],
+  "axes": {
+   "in_force": "yes, to 1 Jan 2027",
+   "subsection": "paragraph 1",
+   "verbatim": "yes (transcribed from image)",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "fwc-eo-26-10",
+  "effect": "Gag closed in Atlantic state waters, including all state waters of Monroe County, from 12:01 a.m. 2 Aug 2026 through 31 Dec 2026; the order expires 12:01 a.m. 1 Jan 2027, after which r. 68B-14.0039(2) keeps it closed to 30 Apr 2027. Black grouper not named.",
+  "excerpt": "In state waters of the Atlantic Ocean, including all state waters of Monroe County, the closed season for the recreational harvest and possession of gag grouper shall be from August 2, 2026, through December 31, 2026.",
+  "verified": "verbatim",
+  "note": "Read 7 Oct 2026 from the scanned PDF as an image in the author's Chrome PDF viewer and transcribed by eye. Paragraph 2 applies it 'in and on all Florida Waters of the Atlantic Ocean and all Florida Waters of Monroe County'.",
+  "replaces": [
+   "effect",
+   "excerpt",
+   "verified",
+   "note"
+  ],
+  "axes": {
+   "in_force": "yes, to 1 Jan 2027",
+   "subsection": "paragraph 1",
+   "verbatim": "yes (transcribed from image)",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "fwc-eo-26-25",
+  "note": "Re-checked 7 Oct 2026: the order expires 12:01 a.m. 1 Nov 2026 (OCR text of the scan, secondary); r. 68B-14.004(1) then keeps Gulf state waters closed 1 Nov to 31 Dec and 1 Jan to 31 Aug 2027. Federal counterpart is 91 FR 32360.",
+  "axes": {
+   "in_force": "yes, to 1 Nov 2026",
+   "subsection": "expiry paragraph",
+   "verbatim": "expiry date secondary",
+   "url_resolves": "yes"
+  },
+  "append": [
+   "note"
+  ]
+ },
+ {
+  "id": "fac-68c-22-007",
+  "cite": "Fla. Admin. Code r. 68C-22.007(1)(a)7. (as amended eff. 30 Jun 2026)",
+  "title": "Indian River County manatee zones: Vero Beach power-plant canals now Idle Speed all year, no No Entry zone",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://www.flrules.org/gateway/ruleNo.asp?id=68C-22.007",
+  "effect": "Since 30 Jun 2026 Indian River County has no manatee No Entry zone. The Vero Beach power-plant canals are Idle Speed all year, which restricts boats only and does not bar swimmers or divers.",
+  "excerpt": "7. Indian River, Vero Beach Area: Those waters of the main canal and associated waters, westerly of the general contour of the westerly shoreline of Indian River, and easterly of the flood gate located approximately 200 feet easterly of Country Club Drive; and all waters of those canals southerly of Royal Palm Boulevard, northerly of Harbor Drive South, and westerly of the general contour of the westerly shoreline of the Indian River,",
+  "full": "(a) Idle Speed Zone (Year-round); (b) Slow Speed Zone (Year-round); (c) Slow Speed Zone (November 1 through April 30)/Unregulated Remainder of Year; (d) Maximum 30 MPH Zone (Year-round). No paragraph (e) or (f).",
+  "verified": "verbatim",
+  "scope": "Indian River County.",
+  "note": "Checked 7 Oct 2026 from the adopted .doc (tid 31013148), read in the author's Chrome. Former (1)(e), 'No Entry Zone (November 15 through March 31) - Vero Beach Power Plant Area', appears in the proposed-rule document (notice 30603420) and not in the adopted text; the former exception in the Vero Beach Area idle-speed item ('excepting that area otherwise designated for seasonal regulation under paragraph (1)(e)') was deleted. Answers OPEN-QUESTIONS Q14. FWC's GIS layer (last edited 13 May 2025) still shows No Entry.",
+  "axes": {
+   "in_force": "yes, 30 Jun 2026",
+   "subsection": "(1)(a)7.; no (1)(e)",
+   "verbatim": "yes",
+   "url_resolves": "yes (rule page; .doc needs a browser)"
+  }
+ },
+ {
+  "id": "fac-68c-22-004",
+  "cite": "Fla. Admin. Code r. 68C-22.004",
+  "title": "Manatee zones must be marked; the rule does not make a zone's force depend on the marker",
+  "juris": "state",
+  "kind": "rule",
+  "url": "https://www.flrules.org/gateway/ruleNo.asp?id=68C-22.004",
+  "effect": "FWC must mark manatee zones with regulatory markers; nothing in ch. 68C-22 says a zone binds only once posted. The map treats adopted zones as binding.",
+  "excerpt": "Regulations established pursuant to Section 379.2431(2), F.S., and Rule 68C-22.001, F.A.C., shall be marked by regulatory markers that conform to Chapter 68D-23, F.A.C., Uniform Waterway Markers in Florida Waters. Where conflicting speed or operational restrictions are established by law or pursuant to law, the more restrictive shall be posted and shall apply.",
+  "verified": "verbatim",
+  "scope": "Statewide, ch. 68C-22.",
+  "note": "Checked 7 Oct 2026 (history: Amended 12-23-03). R. 68C-22.001 searched for posting, effectiveness and enforcement language: none (confirmed negative). § 379.2431(2)(s)1. ties the speeding infraction to a 'posted speed limit'; no equivalent for persons in a No Entry zone was found.",
+  "axes": {
+   "in_force": "yes",
+   "subsection": "whole rule",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "fac-68c-22-002-11",
+  "effect": "Inside a state manatee No Entry zone nobody may enter, by boat or by swimming, diving, wading or fishing, for the dates the zone is in force. The map draws 20 such polygons in 9 counties; the former Vero Beach zone in Indian River County became Idle Speed all year on 30 Jun 2026 (fac-68c-22-007) and is no longer drawn.",
+  "replaces": [
+   "effect",
+   "scope"
+  ],
+  "axes": {
+   "in_force": "yes",
+   "subsection": "(11)",
+   "verbatim": "unchanged",
+   "url_resolves": "yes"
+  },
+  "scope": "20 polygons in FWC layer State_Manatee_Protection_Zones_in_Florida/MapServer/9 where MASTER_CL = 'NE', after removing the Vero Beach polygon that the 30 Jun 2026 amendment of r. 68C-22.007 abolished. Most are power-plant warm-water canals; the largest diver-relevant one is Biscayne Bay west of Virginia Key (about 2.46 km2, all year).",
+  "note": "RESOLVED 7 Oct 2026: the adopted r. 68C-22.007 (tid 31013148) has no No Entry zone; the Vero Beach polygon (FWC OBJECTID 66) is removed from the map. Whether a zone binds before it is posted: r. 68C-22.004 requires marking but does not make a zone's force depend on it (fac-68c-22-004); treated as binding.",
+  "append": [
+   "note"
+  ]
+ },
+ {
+  "id": "fac-68b-24-0065",
+  "scope": "John Pennekamp Coral Reef State Park. Seven CPZ polygons in zones-statewide.json (penncpz-*), coordinates checked against the adopted rule text.",
+  "verified": "verbatim",
+  "note": "Checked 7 Oct 2026 against the adopted .doc (tid 30968625; history 'Amended 7-1-26'): all 35 corners of the seven zones match the drawn polygons to within 0.0002 minutes. The adopted table prints two corners without a minute mark (Mosquito Bank S.E. corner 3 longitude '80° 22.24', Three Sisters corner 4 latitude '25° 2.53'). Datum not stated. Lobster only; the park is closed to spearfishing (fs-379-2425, fac-62d-2-014). Answers OPEN-QUESTIONS Q13.",
+  "replaces": [
+   "scope",
+   "verified",
+   "note"
+  ],
+  "axes": {
+   "in_force": "yes, 1 Jul 2026",
+   "subsection": "(2)(a) table",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ },
+ {
+  "id": "fac-68b-14-009",
+  "note": "Re-checked 7 Oct 2026 against the adopted .doc (tid 31244881, effective 1 Sep 2026): subsection (1) lists the same 13 species and the trigger is still 'while aboard a vessel in or on Florida Waters'. New (4) Atlantic For-Hire Reef Fish Registry for 2026, 2027 and 2028 covers the same 13 species 'within or without Florida Waters of the Atlantic Ocean'. Exemptions (3): § 379.353(2)(a), (i), (j), (o). History: New 8-26-14, Amended 6-11-18, 7-1-20, 9-1-26. Whether a dive charter is a 'vessel for hire' under (4) is not answered by the text; ask FWC (850-487-0554). The 65-and-over licence exemption does NOT exempt you from (1).",
+  "replaces": [
+   "note"
+  ],
+  "axes": {
+   "in_force": "yes, 1 Sep 2026",
+   "subsection": "(1) to (4)",
+   "verbatim": "yes",
+   "url_resolves": "yes"
+  }
+ }
+]

@@ -1,5 +1,5 @@
 {
- "version": "2026-09-30",
+ "version": "2026-10-07",
  "disclaimer": "General information about Florida and federal fishing rules, framed per species. Not legal advice. Seasons change by executive order and temporary rule; check FWC and NOAA before each trip. Posted signage on site controls.",
  "regions_def": {
   "atlantic": "Florida state waters of the Atlantic Ocean (shore to 3 nm). For reef fish the Atlantic/Gulf line is the one in r. 68B-14.002 (83 W, 24 35 N, Rebecca Shoal, Key West, US 1 to the mainland); other chapters define their own lines, and the king mackerel rules put Monroe County with the Gulf.",
@@ -1631,7 +1631,7 @@
      "size": "None during 2026 season (EO 26-33); rule: 20 in TL",
      "bag": "1 per person per day during 2026 season (EO 26-33); rule: 2",
      "vessel": null,
-     "season": "2026: Oct 9 to Oct 22, 2026 (EO 26-33). A second season in Dec 2026 is possible if NMFS agrees.",
+     "season": "Closed outside 9 to 22 Oct 2026 (EO 26-33). FWC may announce a December 2026 season.",
      "closed": "Closed 'within or without Florida waters of the Atlantic' outside Oct 9 to 22, 2026, from 22 Sep 2026 until EO 26-33 expires at 11:59 p.m. Dec 31, 2026.",
      "notes": "The standing rules set no Atlantic state-water season (r. 68B-14.0038 covers the Gulf only); FWC showed Atlantic state waters as open before EO 26-33. Trip declaration in the FWC Atlantic Red Snapper Reporting System before each trip; State Reef Fish Angler designation; carry the EFP and trip declaration."
     },
@@ -1639,7 +1639,7 @@
      "size": "16 in TL",
      "bag": "2 per person per day; counts toward 10 snapper aggregate only if taken in state waters",
      "vessel": "Captain and crew of for-hire vessels: 0",
-     "season": "2026 (private vessels, state and federal waters): May 22 to Jul 31; Sep 1 to Oct 4; Oct 9 to 25; Oct 30 to Nov 1; Nov 7 to 8, 14 to 15, 21 to 22, 26 to 29; Dec 5 to 6, 12 to 13, 19 to 20, 25 to 27, 2026; Jan 1 to 4, 2027.",
+     "season": "Closed 5 to 8 Oct, 26 to 29 Oct, 2 to 6 Nov, 9 to 13 Nov, 16 to 20 Nov, 23 to 25 Nov, 30 Nov to 4 Dec, 7 to 11 Dec, 14 to 18 Dec, 21 to 24 Dec and 28 to 31 Dec 2026, and from 5 Jan 2027 until FWC announces the 2027 season (FWC notice under r. 68B-14.0038(1), secondary).",
      "closed": "Closed on all other days (r. 68B-14.0038(2)).",
      "notes": "Season set by FWC notice under r. 68B-14.0038(1); dates from FWC and Governor releases (secondary). Oct 12 to 15 and 19 to 22, 2026 added 23 Sep 2026."
     },
@@ -1647,7 +1647,7 @@
      "size": "None (no size in 50 C.F.R. 622.185)",
      "bag": "1 per person per day (622.187(b)(9))",
      "vessel": null,
-     "season": "2026 federal season: Oct 9 to 12:01 a.m. Oct 12, 2026 (91 FR 60334). Florida EFP trips: Oct 9 to 22, 2026.",
+     "season": "Closed outside 12:01 a.m. 9 Oct to 12:01 a.m. 12 Oct 2026 (91 FR 60334), except on Florida exempted-fishing-permit trips, which close after 22 Oct 2026.",
      "closed": "Closed outside the announced season (622.181(c)(2); 622.183(b)(5)).",
      "notes": "Florida anglers fishing under Florida's EFP declare trips with FWC; per 91 FR 60334, EFP participants may not fish the federal season."
     },
@@ -1691,7 +1691,7 @@
     "https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-announces-expanded-2026-red-snapper-seasons-and-applauds"
    ],
    "verified": "secondary",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "mutton-snapper",
@@ -2381,13 +2381,13 @@
    "sci": "Mycteroperca microlepis",
    "group": "grouper",
    "spear": "restricted",
-   "spear_note": "The reef fish gear rule does not exclude spears in state waters (r. 68B-14.005(1)(c)); no powerheads or bangsticks in state waters. Spear harvest only in the short 2026 open seasons; closed otherwise; closed on 30 Sep 2026 in the Atlantic, last open day in the Gulf.",
+   "spear_note": "The reef fish gear rule does not exclude spears in state waters (r. 68B-14.005(1)(c)); no powerheads or bangsticks in state waters. Closed in the Atlantic and all Monroe waters from 2 Aug 2026 to 30 Apr 2027, and in the Gulf from 1 Oct 2026 to 31 Aug 2027.",
    "regions": {
     "atlantic": {
      "size": "24 in TL",
      "bag": "1 gag or black grouper combined, within 3 grouper aggregate (Atlantic and all Monroe waters)",
      "vessel": "2 gag per vessel per day (federal 622.187(b)(2)(i); FWC states the same for state waters)",
-     "season": "Recurring: opens May 1. 2026: May 1 to Aug 1, 2026.",
+     "season": "Closed from 2 Aug 2026 to 30 Apr 2027. The 2027 closing date has not been set.",
      "closed": "2026: closed 12:01 a.m. Aug 2, 2026 for the rest of 2026 (EO 26-10). Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)).",
      "notes": "For-hire captain and crew may not retain (FWC)."
     },
@@ -2395,23 +2395,23 @@
      "size": "24 in TL",
      "bag": "2 per person per day, within 4 grouper aggregate (Gulf, excluding Monroe)",
      "vessel": "For-hire captain and crew: 0",
-     "season": "Rule default Sep 1 to Nov 10 (r. 68B-14.0039(1)). 2026: Sep 1 to Sep 30, 2026 (EO 26-26).",
-     "closed": "2026: closes 12:01 a.m. Oct 1, 2026.",
+     "season": "Closed from 1 Oct 2026 (EO 26-26, to 31 Dec 2026) and under the rule closed outside 1 Sep to 10 Nov (r. 68B-14.0039(1)): closed 1 Oct 2026 to 31 Aug 2027 unless FWC changes the 2027 dates.",
+     "closed": "Closed 12:01 a.m. 1 Oct 2026 to 31 Aug 2027 (EO 26-26; then r. 68B-14.0039(1)).",
      "notes": null
     },
     "keys": {
      "size": "24 in TL",
      "bag": "1 gag or black combined, within 3 grouper aggregate",
      "vessel": "2 gag per vessel per day (FWC)",
-     "season": "2026: May 1 to Aug 1, 2026.",
-     "closed": "All Monroe state waters follow the Atlantic rule: closed Jan 1 to Apr 30, and closed from Aug 2, 2026 (EO 26-10 names 'all state waters off Monroe County').",
+     "season": "Closed from 2 Aug 2026 to 30 Apr 2027.",
+     "closed": "All Monroe state waters follow the Atlantic rule: closed Jan 1 to Apr 30, and closed from Aug 2, 2026 (EO 26-10: 'including all state waters of Monroe County').",
      "notes": null
     },
     "eez_sa": {
      "size": "24 in TL",
      "bag": "1 gag or black combined, within 3 grouper/tilefish aggregate (622.187(b)(2)(i))",
      "vessel": "2 gag per vessel per day, private (622.187(b)(2)(i))",
-     "season": "2026: May 1 to Aug 1, 2026.",
+     "season": "Closed from 12:01 a.m. 2 Aug 2026 to 30 Apr 2027 (91 FR 21389; then § 622.183(b)(1)).",
      "closed": "2026: closed 12:01 a.m. Aug 2, 2026 to Jan 1, 2027 (91 FR 21389). Recurring: closed January through April (622.183(b)(1)).",
      "notes": null
     },
@@ -2419,7 +2419,7 @@
      "size": "24 in TL",
      "bag": "2 per person per day within 4 grouper aggregate (622.38)",
      "vessel": "Captain and crew of for-hire: 0",
-     "season": "2026: Sep 1 to 12:01 a.m. Oct 1, 2026 (91 FR 29920).",
+     "season": "Closed from 12:01 a.m. 1 Oct 2026 to 31 Aug 2027 (91 FR 29920; then § 622.34(e)).",
      "closed": "Recurring: closed Jan 1 to Aug 31 (622.34(e)). 2026: closed Oct 1 to Dec 31, 2026.",
      "notes": null
     }
@@ -2459,7 +2459,7 @@
     "https://regulations.justia.com/regulations/fedreg/2026/05/21/2026-10200.html"
    ],
    "verified": "secondary",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "black-grouper",
@@ -2476,7 +2476,7 @@
      "size": "24 in TL",
      "bag": "1 gag or black grouper combined, within 3 grouper aggregate (Atlantic and all Monroe waters)",
      "vessel": "2 black per vessel per day (federal 622.187(b)(2)(i); FWC states the same for state waters)",
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)). The 2026 gag closure does not include black grouper.",
      "notes": "Biscayne National Park 10-fish park aggregate may apply (r. 68B-7.004)."
     },
@@ -2492,7 +2492,7 @@
      "size": "24 in TL",
      "bag": "1 gag or black combined, within 3 grouper aggregate",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)). Applies to all Monroe waters.",
      "notes": null
     },
@@ -2500,7 +2500,7 @@
      "size": "24 in TL",
      "bag": "1 gag or black combined (622.187(b)(2)(i))",
      "vessel": "2 black per vessel per day, private",
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed January through April (622.183(b)(1)).",
      "notes": null
     },
@@ -2509,7 +2509,7 @@
      "bag": "Within 4 grouper aggregate (622.38)",
      "vessel": "Captain and crew of for-hire: 0",
      "season": "Open outside closures.",
-     "closed": "Recurring: closed Feb 1 to Mar 31 seaward of the 20-fathom line (622.34(d)). Amendment 62 proposes removing this closure (91 FR 41611, proposed Jul 2026; final status not checked). From Jan 1, 2027: closed Jan 1 to Jun 30 each year in the Gulf EEZ (Other SWG complex, 91 FR 36545).",
+     "closed": "Closed 1 Jan to 30 Jun every year from 1 Jan 2027 (§ 622.34(h), 91 FR 36545). The former 1 Feb to 31 Mar closure beyond 20 fathoms was removed effective 2 Oct 2026 (91 FR 63502).",
      "notes": null
     }
    },
@@ -2526,7 +2526,8 @@
     "cfr-622-37",
     "cfr-622-38",
     "fac-68b-14-009",
-    "fr-91-36545"
+    "fr-91-36545",
+    "fr-91-63502"
    ],
    "sources": [
     "https://www.flrules.org/gateway/ruleNo.asp?id=68B-14.0035",
@@ -2541,7 +2542,7 @@
     "https://myfwc.com/fishing/saltwater/recreational/groupers/"
    ],
    "verified": "secondary",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "red-grouper",
@@ -2558,7 +2559,7 @@
      "size": "20 in TL",
      "bag": "within 3 grouper aggregate (Atlantic and all Monroe waters)",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)).",
      "notes": "Biscayne National Park: 24 in TL (r. 68B-7.003)."
     },
@@ -2574,7 +2575,7 @@
      "size": "20 in TL",
      "bag": "Within 3 grouper aggregate",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)). Applies to all Monroe waters.",
      "notes": null
     },
@@ -2582,7 +2583,7 @@
      "size": "20 in TL",
      "bag": "Within 3 grouper/tilefish aggregate (622.187(b)(2))",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed January through April (622.183(b)(1)).",
      "notes": null
     },
@@ -2591,7 +2592,7 @@
      "bag": "2 per person per day within 4 grouper aggregate (622.38)",
      "vessel": "Captain and crew of for-hire: 0",
      "season": "Open outside closures.",
-     "closed": "Recurring: closed Feb 1 to Mar 31 seaward of the 20-fathom line (622.34(d)). Amendment 62 proposes removing this closure (91 FR 41611, proposed Jul 2026; final status not checked).",
+     "closed": "No closed season. The former 1 Feb to 31 Mar closure beyond 20 fathoms was removed effective 2 Oct 2026 (91 FR 63502).",
      "notes": null
     }
    },
@@ -2608,7 +2609,8 @@
     "cfr-622-37",
     "cfr-622-38",
     "fac-68b-14-009",
-    "fac-68b-7-003"
+    "fac-68b-7-003",
+    "fr-91-63502"
    ],
    "sources": [
     "https://www.flrules.org/gateway/ruleNo.asp?id=68B-14.0035",
@@ -2623,7 +2625,7 @@
     "https://myfwc.com/fishing/saltwater/recreational/groupers/"
    ],
    "verified": "secondary",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "scamp",
@@ -2640,7 +2642,7 @@
      "size": "20 in TL",
      "bag": "within 3 grouper aggregate (Atlantic and all Monroe waters)",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)).",
      "notes": null
     },
@@ -2656,7 +2658,7 @@
      "size": "20 in TL",
      "bag": "Within 3 grouper aggregate",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)). Applies to all Monroe waters, Gulf side included.",
      "notes": null
     },
@@ -2664,7 +2666,7 @@
      "size": "20 in TL",
      "bag": "Within 3 grouper/tilefish aggregate (622.187(b)(2))",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed January through April (622.183(b)(1)).",
      "notes": null
     },
@@ -2673,7 +2675,7 @@
      "bag": "Within 4 grouper aggregate (622.38)",
      "vessel": null,
      "season": "Open outside closures.",
-     "closed": "Recurring: closed Feb 1 to Mar 31 seaward of the 20-fathom line (622.34(d)). Amendment 62 proposes removing this closure (91 FR 41611, proposed Jul 2026; final status not checked). From Jan 1, 2027: closed Jan 1 to Jun 30 each year in the Gulf EEZ (Other SWG complex, 91 FR 36545).",
+     "closed": "Closed 1 Jan to 30 Jun every year from 1 Jan 2027 (§ 622.34(h), 91 FR 36545). The former 1 Feb to 31 Mar closure beyond 20 fathoms was removed effective 2 Oct 2026 (91 FR 63502).",
      "notes": null
     }
    },
@@ -2689,7 +2691,8 @@
     "cfr-622-34-b",
     "cfr-622-37",
     "cfr-622-38",
-    "fr-91-36545"
+    "fr-91-36545",
+    "fr-91-63502"
    ],
    "sources": [
     "https://www.flrules.org/gateway/ruleNo.asp?id=68B-14.0035",
@@ -2704,7 +2707,7 @@
     "https://myfwc.com/fishing/saltwater/recreational/groupers/"
    ],
    "verified": "secondary",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "yellowfin-grouper",
@@ -2719,7 +2722,7 @@
      "size": "20 in TL",
      "bag": "within 3 grouper aggregate (Atlantic and all Monroe waters)",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)).",
      "notes": null
     },
@@ -2735,7 +2738,7 @@
      "size": "20 in TL",
      "bag": "Within 3 grouper aggregate",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)). Applies to all Monroe waters, Gulf side included.",
      "notes": null
     },
@@ -2743,7 +2746,7 @@
      "size": "20 in TL",
      "bag": "Within 3 grouper/tilefish aggregate (622.187(b)(2))",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed January through April (622.183(b)(1)).",
      "notes": null
     },
@@ -2752,7 +2755,7 @@
      "bag": "Within 4 grouper aggregate (622.38)",
      "vessel": null,
      "season": "Open outside closures.",
-     "closed": "Recurring: closed Feb 1 to Mar 31 seaward of the 20-fathom line (622.34(d)). Amendment 62 proposes removing this closure (91 FR 41611, proposed Jul 2026; final status not checked). From Jan 1, 2027: closed Jan 1 to Jun 30 each year in the Gulf EEZ (Other SWG complex, 91 FR 36545).",
+     "closed": "Closed 1 Jan to 30 Jun every year from 1 Jan 2027 (§ 622.34(h), 91 FR 36545). The former 1 Feb to 31 Mar closure beyond 20 fathoms was removed effective 2 Oct 2026 (91 FR 63502).",
      "notes": null
     }
    },
@@ -2768,7 +2771,8 @@
     "cfr-622-34-b",
     "cfr-622-37",
     "cfr-622-38",
-    "fr-91-36545"
+    "fr-91-36545",
+    "fr-91-63502"
    ],
    "sources": [
     "https://www.flrules.org/gateway/ruleNo.asp?id=68B-14.0035",
@@ -2783,7 +2787,7 @@
     "https://myfwc.com/fishing/saltwater/recreational/groupers/"
    ],
    "verified": "secondary",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "yellowmouth-grouper",
@@ -2798,7 +2802,7 @@
      "size": "20 in TL",
      "bag": "within 3 grouper aggregate (Atlantic and all Monroe waters)",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)).",
      "notes": null
     },
@@ -2814,7 +2818,7 @@
      "size": "20 in TL",
      "bag": "Within 3 grouper aggregate",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)). Applies to all Monroe waters, Gulf side included.",
      "notes": null
     },
@@ -2822,7 +2826,7 @@
      "size": "20 in TL",
      "bag": "Within 3 grouper/tilefish aggregate (622.187(b)(2))",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed January through April (622.183(b)(1)).",
      "notes": null
     },
@@ -2831,7 +2835,7 @@
      "bag": "Within 4 grouper aggregate (622.38)",
      "vessel": null,
      "season": "Open outside closures.",
-     "closed": "Recurring: closed Feb 1 to Mar 31 seaward of the 20-fathom line (622.34(d)). Amendment 62 proposes removing this closure (91 FR 41611, proposed Jul 2026; final status not checked). From Jan 1, 2027: closed Jan 1 to Jun 30 each year in the Gulf EEZ (Other SWG complex, 91 FR 36545).",
+     "closed": "Closed 1 Jan to 30 Jun every year from 1 Jan 2027 (§ 622.34(h), 91 FR 36545). The former 1 Feb to 31 Mar closure beyond 20 fathoms was removed effective 2 Oct 2026 (91 FR 63502).",
      "notes": null
     }
    },
@@ -2847,7 +2851,8 @@
     "cfr-622-34-b",
     "cfr-622-37",
     "cfr-622-38",
-    "fr-91-36545"
+    "fr-91-36545",
+    "fr-91-63502"
    ],
    "sources": [
     "https://www.flrules.org/gateway/ruleNo.asp?id=68B-14.0035",
@@ -2862,7 +2867,7 @@
     "https://myfwc.com/fishing/saltwater/recreational/groupers/"
    ],
    "verified": "secondary",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "red-hind",
@@ -2879,7 +2884,7 @@
      "size": "None",
      "bag": "within 3 grouper aggregate (Atlantic and all Monroe waters)",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)).",
      "notes": "Biscayne National Park 10-fish park aggregate may apply (r. 68B-7.004)."
     },
@@ -2895,7 +2900,7 @@
      "size": "None",
      "bag": "Within 3 grouper aggregate",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)). Applies to all Monroe waters.",
      "notes": null
     },
@@ -2903,7 +2908,7 @@
      "size": "None",
      "bag": "Within 3 grouper/tilefish aggregate (622.187(b)(2))",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed January through April (622.183(b)(1)).",
      "notes": null
     },
@@ -2942,7 +2947,7 @@
     "https://myfwc.com/fishing/saltwater/recreational/groupers/"
    ],
    "verified": "secondary",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "rock-hind",
@@ -2957,7 +2962,7 @@
      "size": "None",
      "bag": "within 3 grouper aggregate (Atlantic and all Monroe waters)",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)).",
      "notes": "Biscayne National Park 10-fish park aggregate may apply (r. 68B-7.004)."
     },
@@ -2973,7 +2978,7 @@
      "size": "None",
      "bag": "Within 3 grouper aggregate",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)). Applies to all Monroe waters.",
      "notes": null
     },
@@ -2981,7 +2986,7 @@
      "size": "None",
      "bag": "Within 3 grouper/tilefish aggregate (622.187(b)(2))",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed January through April (622.183(b)(1)).",
      "notes": null
     },
@@ -3020,7 +3025,7 @@
     "https://myfwc.com/fishing/saltwater/recreational/groupers/"
    ],
    "verified": "secondary",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "graysby",
@@ -3035,7 +3040,7 @@
      "size": "None",
      "bag": "within 3 grouper aggregate (Atlantic and all Monroe waters)",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)).",
      "notes": "Biscayne National Park 10-fish park aggregate may apply (r. 68B-7.004)."
     },
@@ -3051,7 +3056,7 @@
      "size": "None",
      "bag": "Within 3 grouper aggregate",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)). Applies to all Monroe waters.",
      "notes": null
     },
@@ -3059,7 +3064,7 @@
      "size": "None",
      "bag": "Within 3 grouper/tilefish aggregate (622.187(b)(2))",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed January through April (622.183(b)(1)).",
      "notes": null
     },
@@ -3098,7 +3103,7 @@
     "https://myfwc.com/fishing/saltwater/recreational/groupers/"
    ],
    "verified": "secondary",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "coney",
@@ -3113,7 +3118,7 @@
      "size": "None",
      "bag": "within 3 grouper aggregate (Atlantic and all Monroe waters)",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)).",
      "notes": "Biscayne National Park 10-fish park aggregate may apply (r. 68B-7.004)."
     },
@@ -3129,7 +3134,7 @@
      "size": "None",
      "bag": "Within 3 grouper aggregate",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 each year (r. 68B-14.0039(2)). Applies to all Monroe waters.",
      "notes": null
     },
@@ -3137,7 +3142,7 @@
      "size": "None",
      "bag": "Within 3 grouper/tilefish aggregate (622.187(b)(2))",
      "vessel": null,
-     "season": "Recurring: May 1 to Dec 31. 2026: open May 1 to Dec 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed January through April (622.183(b)(1)).",
      "notes": null
     },
@@ -3176,7 +3181,7 @@
     "https://myfwc.com/fishing/saltwater/recreational/groupers/"
    ],
    "verified": "secondary",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "snowy-grouper",
@@ -3193,7 +3198,7 @@
      "size": "None",
      "bag": "Within 3 grouper aggregate",
      "vessel": "1 per vessel per day (r. 68B-14.0036(2)(f))",
-     "season": "Recurring: May 1 to Jun 30 (r. 68B-14.0039(4)). 2026: May 1 to Jun 6, 2026.",
+     "season": "Closed outside 1 May to 30 Jun every year (r. 68B-14.0039(4)); in 2026 closed from 7 Jun (EO 26-18).",
      "closed": "2026: closed 12:01 a.m. Jun 7, 2026 for the rest of 2026 (EO 26-18).",
      "notes": null
     },
@@ -3259,7 +3264,7 @@
     "https://www.federalregister.gov/documents/2026/06/02/2026-11017/fisheries-of-the-south-atlantic-2026-recreational-accountability-measure-and-closure-for-snowy"
    ],
    "verified": "secondary",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "speckled-hind",
@@ -3425,7 +3430,7 @@
      "size": "None",
      "bag": "within 3 grouper aggregate (Atlantic and all Monroe waters)",
      "vessel": null,
-     "season": "Open year-round (not in the Atlantic Jan to Apr closure list).",
+     "season": null,
      "closed": null,
      "notes": null
     },
@@ -3480,7 +3485,7 @@
     "https://myfwc.com/fishing/saltwater/recreational/groupers/"
    ],
    "verified": "secondary",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "hogfish",
@@ -3492,13 +3497,13 @@
    "sci": "Lachnolaimus maximus",
    "group": "wrasse",
    "spear": "restricted",
-   "spear_note": "The reef fish gear rule does not exclude spears in state waters (r. 68B-14.005(1)(c)); no powerheads or bangsticks in state waters. Atlantic and Keys: open May 1 to Oct 31 only. Size and bag differ north and south of 25 deg 09 min N in the Gulf.",
+   "spear_note": "The reef fish gear rule does not exclude spears in state waters (r. 68B-14.005(1)(c)); no powerheads or bangsticks in state waters. Atlantic and Keys: closed 1 Nov to 30 Apr every year. Size and bag differ north and south of 25 deg 09 min N in the Gulf.",
    "regions": {
     "atlantic": {
      "size": "16 in FL",
      "bag": "1 per person per day",
      "vessel": null,
-     "season": "Recurring: May 1 to Oct 31 (r. 68B-14.0042(1)). 2026: May 1 to Oct 31, 2026.",
+     "season": "Closed 1 Nov 2026 to 30 Apr 2027.",
      "closed": "Recurring: closed Jan 1 to Apr 30 and Nov 1 to Dec 31 (r. 68B-14.0042(2)).",
      "notes": null
     },
@@ -3514,7 +3519,7 @@
      "size": "16 in FL",
      "bag": "1 per person per day",
      "vessel": null,
-     "season": "2026: May 1 to Oct 31, 2026.",
+     "season": "Closed 1 Nov 2026 to 30 Apr 2027.",
      "closed": "Closed Jan 1 to Apr 30 and Nov 1 to Dec 31.",
      "notes": "All Keys waters are Atlantic or Gulf south of 25 deg 09 min N."
     },
@@ -3522,7 +3527,7 @@
      "size": "16 in FL off the Keys and east Florida (622.185(c))",
      "bag": "1 (622.187(b)(3)(ii))",
      "vessel": null,
-     "season": "2026: May 1 to Oct 31, 2026.",
+     "season": "Closed 1 Nov 2026 to 30 Apr 2027.",
      "closed": "Recurring: closed January through April and November through December (622.183(b)(4)).",
      "notes": null
     },
@@ -3561,7 +3566,7 @@
     "https://myfwc.com/fishing/saltwater/recreational/hogfish/"
    ],
    "verified": "secondary",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "greater-amberjack",
@@ -3579,7 +3584,7 @@
      "size": "28 in FL",
      "bag": "1 per person per day",
      "vessel": null,
-     "season": "Open Jan to Mar and May to Dec.",
+     "season": null,
      "closed": "Recurring: closed in April (r. 68B-14.004(2)).",
      "notes": null
     },
@@ -3587,15 +3592,15 @@
      "size": "34 in FL",
      "bag": "1 per person per day",
      "vessel": null,
-     "season": "2026: Sep 1 to Oct 13, 2026 (EO 26-25).",
-     "closed": "Rule: closed Jan 1 to Aug 31 and Nov 1 to Dec 31 (r. 68B-14.004(1)). 2026: closed 12:01 a.m. Oct 14, 2026 through Aug 31, 2027 (EO 26-25).",
+     "season": "Closed from 12:01 a.m. 14 Oct 2026 to 31 Aug 2027.",
+     "closed": "Rule: closed Jan 1 to Aug 31 and Nov 1 to Dec 31 (r. 68B-14.004(1)). 2026: closed 12:01 a.m. Oct 14, 2026 through Aug 31, 2027 (EO 26-25). (EO 26-25 expires 1 Nov 2026; the rule closure continues.)",
      "notes": null
     },
     "eez_sa": {
      "size": "28 in FL (622.185(c))",
      "bag": "1 (622.187(b)(1))",
      "vessel": null,
-     "season": "Open outside April.",
+     "season": null,
      "closed": "Recurring: closed Apr 1 to Apr 30 (622.183(b)(10)).",
      "notes": null
     },
@@ -3603,7 +3608,7 @@
      "size": "34 in FL (622.37)",
      "bag": "1 (622.38); captain and crew of for-hire: 0",
      "vessel": null,
-     "season": "2026: Sep 1 to 12:01 a.m. Oct 14, 2026 (NOAA FB26-029).",
+     "season": "Closed from 12:01 a.m. 14 Oct 2026 to 31 Aug 2027 (temporary rule 91 FR 32360 to 31 Jul 2027; then § 622.34(c)).",
      "closed": "Recurring rule: closed Jan 1 to Aug 31 and Nov 1 to Dec 31 (622.34(c)).",
      "notes": null
     }
@@ -3622,7 +3627,8 @@
     "cfr-622-37",
     "cfr-622-38",
     "fwc-eo-26-25",
-    "noaa-fb26-029"
+    "noaa-fb26-029",
+    "fr-91-32360"
    ],
    "sources": [
     "https://www.flrules.org/gateway/ruleNo.asp?id=68B-14.004",
@@ -3637,7 +3643,7 @@
     "https://www.fisheries.noaa.gov/bulletin/recreational-fishing-season-length-announcement-greater-amberjack-federal-waters-gulf"
    ],
    "verified": "secondary",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "lesser-amberjack",
@@ -4040,7 +4046,7 @@
      "size": "15 in FL",
      "bag": "1 per person (r. 68B-14.0036(8)(a))",
      "vessel": null,
-     "season": "Open Mar 1 to May 31 and Aug 1 to Dec 31.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to end of Feb and Jun 1 to Jul 31 (r. 68B-14.0041).",
      "notes": null
     },
@@ -4056,7 +4062,7 @@
      "size": "15 in FL (622.37)",
      "bag": "1, within 20 reef fish aggregate (622.38)",
      "vessel": null,
-     "season": "Open Mar 1 to May 31 and Aug 1 to Dec 31.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to end of Feb and Jun 1 to Jul 31 (622.34(f)).",
      "notes": null
     }
@@ -4085,7 +4091,7 @@
     "https://myfwc.com/fishing/saltwater/recreational/triggerfish/"
    ],
    "verified": "secondary",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "ocean-triggerfish",
@@ -4342,7 +4348,7 @@
      "size": "14 in TL",
      "bag": "5 per person per day",
      "vessel": null,
-     "season": "Open Dec 1 to Oct 14. 2026: open through Oct 14, 2026.",
+     "season": null,
      "closed": "Recurring: closed Oct 15 to Nov 30 each year (r. 68B-48.005(1)). 2026: Oct 15 to Nov 30, 2026.",
      "notes": null
     },
@@ -4350,7 +4356,7 @@
      "size": "14 in TL",
      "bag": "5 per person per day",
      "vessel": null,
-     "season": "Open Dec 1 to Oct 14. 2026: open through Oct 14, 2026.",
+     "season": null,
      "closed": "Recurring: closed Oct 15 to Nov 30 each year. 2026: Oct 15 to Nov 30, 2026.",
      "notes": null
     },
@@ -4382,7 +4388,7 @@
     "https://myfwc.com/fishing/saltwater/recreational/flounder/"
    ],
    "verified": "verbatim",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "black-drum",
@@ -5003,7 +5009,7 @@
      "size": "14 in TL",
      "bag": "1 per person per day",
      "vessel": null,
-     "season": "Recurring: May 1 to Jun 30 (r. 68B-14.0043(1)). 2026: May 1 to Jun 30, 2026.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 and Jul 1 to Dec 31 (r. 68B-14.0043(2)).",
      "notes": null
     },
@@ -5049,7 +5055,7 @@
     "https://myfwc.com/fishing/saltwater/recreational/red-porgy/"
    ],
    "verified": "secondary",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "jolthead-porgy",
@@ -5577,7 +5583,7 @@
      "size": "None",
      "bag": "2 per person, within 3 grouper aggregate; for-hire captain and crew 0",
      "vessel": null,
-     "season": "Recurring: May 1 to Aug 31 (r. 68B-14.0039(5)). 2026: May 1 to Aug 31, 2026.",
+     "season": null,
      "closed": "Recurring: closed Sep 1 to Apr 30.",
      "notes": null
     },
@@ -5601,7 +5607,7 @@
      "size": "None",
      "bag": "2, within 3 grouper/tilefish aggregate (622.187(b)(2)(iv))",
      "vessel": null,
-     "season": "Recurring: May 1 to Aug 31.",
+     "season": null,
      "closed": "Recurring: closed Jan 1 to Apr 30 and Sep 1 to Dec 31 (622.183(b)(7)).",
      "notes": null
     },
@@ -5629,7 +5635,7 @@
     "https://myfwc.com/fishing/saltwater/recreational/tilefish/"
    ],
    "verified": "secondary",
-   "checked": "2026-09-30"
+   "checked": "2026-10-07"
   },
   {
    "id": "spiny-lobster",

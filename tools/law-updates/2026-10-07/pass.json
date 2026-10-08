@@ -1,0 +1,11 @@
+{
+ "date": "2026-10-07",
+ "purpose": "Legal currency pass of 7 Oct 2026. research-*.json are the 'Proposed law.json entries' of the three research reports (federal, state, local), cleaned: closure-only wording where the proposal said water or gear was open or allowed, and 'append' instead of 'replaces' for notes that record a re-check. editorial.json carries the season and sweep corrections the state report gave as a table rather than as entries, and the stale-note fixes found while integrating. The 'axes' key records each research agent's four-axis check and is not copied into law.json.",
+ "order": [
+  "research-federal",
+  "research-state",
+  "research-local",
+  "editorial"
+ ],
+ "semantics": "An entry whose id is new is added whole. For an existing id, every field named in 'replaces' (or, without 'replaces', every supplied field not named in 'append') replaces the old value; every field named in 'append' is appended to the old value unless already present."
+}
